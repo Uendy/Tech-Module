@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q04 Triple Sum\bin\Debug\Q04 Triple Sum.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q04 Triple Sum\bin\Debug\Q04 Triple Sum.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q04 Triple Sum\bin\Debug\Q04 Triple Sum.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q04 Triple Sum\obj\Debug\Q04 Triple Sum.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q04 Triple Sum\obj\Debug\Q04 Triple Sum.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q04 Triple Sum\obj\Debug\Q04 Triple Sum.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q04 Triple Sum\obj\Debug\Q04 Triple Sum.pdb

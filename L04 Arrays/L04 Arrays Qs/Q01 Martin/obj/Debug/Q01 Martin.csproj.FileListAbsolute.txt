@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q01 Martin\bin\Debug\Q01 Martin.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q01 Martin\bin\Debug\Q01 Martin.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q01 Martin\bin\Debug\Q01 Martin.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q01 Martin\obj\Debug\Q01 Martin.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q01 Martin\obj\Debug\Q01 Martin.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q01 Martin\obj\Debug\Q01 Martin.pdb

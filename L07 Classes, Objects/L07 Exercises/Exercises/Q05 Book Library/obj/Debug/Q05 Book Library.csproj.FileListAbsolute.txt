@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q05 Book Library\bin\Debug\Q05 Book Library.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q05 Book Library\bin\Debug\Q05 Book Library.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q05 Book Library\bin\Debug\Q05 Book Library.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q05 Book Library\obj\Debug\Q05 Book Library.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q05 Book Library\obj\Debug\Q05 Book Library.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q05 Book Library\obj\Debug\Q05 Book Library.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q05 Book Library\obj\Debug\Q05 Book Library.pdb

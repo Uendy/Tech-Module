@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q01 P2\bin\Debug\Q01 P2.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q01 P2\bin\Debug\Q01 P2.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q01 P2\bin\Debug\Q01 P2.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q01 P2\obj\Debug\Q01 P2.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q01 P2\obj\Debug\Q01 P2.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q01 P2\obj\Debug\Q01 P2.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q01 P2\obj\Debug\Q01 P2.pdb

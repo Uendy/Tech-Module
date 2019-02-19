@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q06 Math Power\bin\Debug\Q06 Math Power.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q06 Math Power\bin\Debug\Q06 Math Power.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q06 Math Power\bin\Debug\Q06 Math Power.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q06 Math Power\obj\Debug\Q06 Math Power.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q06 Math Power\obj\Debug\Q06 Math Power.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q06 Math Power\obj\Debug\Q06 Math Power.pdb

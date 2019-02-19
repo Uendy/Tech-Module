@@ -1,0 +1,8 @@
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q02 Part 2\bin\Debug\Input.txt
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q02 Part 2\bin\Debug\Q02 Part 2.exe.config
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q02 Part 2\bin\Debug\Q02 Part 2.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q02 Part 2\bin\Debug\Q02 Part 2.pdb
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q02 Part 2\obj\Debug\Q02 Part 2.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q02 Part 2\obj\Debug\Q02 Part 2.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q02 Part 2\obj\Debug\Q02 Part 2.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q02 Part 2\obj\Debug\Q02 Part 2.pdb

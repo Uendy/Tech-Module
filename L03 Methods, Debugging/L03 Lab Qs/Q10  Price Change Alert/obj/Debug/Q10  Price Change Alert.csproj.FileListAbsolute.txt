@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q10  Price Change Alert\bin\Debug\Q10  Price Change Alert.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q10  Price Change Alert\bin\Debug\Q10  Price Change Alert.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q10  Price Change Alert\bin\Debug\Q10  Price Change Alert.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q10  Price Change Alert\obj\Debug\Q10  Price Change Alert.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q10  Price Change Alert\obj\Debug\Q10  Price Change Alert.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q10  Price Change Alert\obj\Debug\Q10  Price Change Alert.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q10  Price Change Alert\obj\Debug\Q10  Price Change Alert.csprojResolveAssemblyReference.cache

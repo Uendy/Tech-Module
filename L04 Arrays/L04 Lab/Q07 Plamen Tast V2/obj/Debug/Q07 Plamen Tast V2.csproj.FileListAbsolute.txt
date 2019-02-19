@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q07 Plamen Tast V2\bin\Debug\Q07 Plamen Tast V2.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q07 Plamen Tast V2\bin\Debug\Q07 Plamen Tast V2.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q07 Plamen Tast V2\bin\Debug\Q07 Plamen Tast V2.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q07 Plamen Tast V2\obj\Debug\Q07 Plamen Tast V2.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q07 Plamen Tast V2\obj\Debug\Q07 Plamen Tast V2.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q07 Plamen Tast V2\obj\Debug\Q07 Plamen Tast V2.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q07 Plamen Tast V2\obj\Debug\Q07 Plamen Tast V2.csprojResolveAssemblyReference.cache

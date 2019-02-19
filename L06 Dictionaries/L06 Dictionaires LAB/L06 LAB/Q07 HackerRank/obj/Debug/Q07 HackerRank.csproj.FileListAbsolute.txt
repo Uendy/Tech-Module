@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q07 HackerRank\bin\Debug\Q07 HackerRank.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q07 HackerRank\bin\Debug\Q07 HackerRank.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q07 HackerRank\bin\Debug\Q07 HackerRank.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q07 HackerRank\obj\Debug\Q07 HackerRank.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q07 HackerRank\obj\Debug\Q07 HackerRank.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q07 HackerRank\obj\Debug\Q07 HackerRank.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q07 HackerRank\obj\Debug\Q07 HackerRank.pdb

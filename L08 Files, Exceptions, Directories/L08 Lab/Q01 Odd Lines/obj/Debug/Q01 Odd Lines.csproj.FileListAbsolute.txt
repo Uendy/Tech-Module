@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q01 Odd Lines\bin\Debug\Q01 Odd Lines.exe.config
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q01 Odd Lines\bin\Debug\Q01 Odd Lines.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q01 Odd Lines\bin\Debug\Q01 Odd Lines.pdb
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q01 Odd Lines\obj\Debug\Q01 Odd Lines.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q01 Odd Lines\obj\Debug\Q01 Odd Lines.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q01 Odd Lines\obj\Debug\Q01 Odd Lines.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q01 Odd Lines\obj\Debug\Q01 Odd Lines.pdb

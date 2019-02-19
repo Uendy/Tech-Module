@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q02 Change List\bin\Debug\Q02 Change List.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q02 Change List\bin\Debug\Q02 Change List.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q02 Change List\bin\Debug\Q02 Change List.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q02 Change List\obj\Debug\Q02 Change List.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q02 Change List\obj\Debug\Q02 Change List.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q02 Change List\obj\Debug\Q02 Change List.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q02 Change List\obj\Debug\Q02 Change List.pdb

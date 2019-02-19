@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q08 Numbers Change Letters\bin\Debug\Q08 Numbers Change Letters.exe.config
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q08 Numbers Change Letters\bin\Debug\Q08 Numbers Change Letters.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q08 Numbers Change Letters\bin\Debug\Q08 Numbers Change Letters.pdb
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q08 Numbers Change Letters\obj\Debug\Q08 Numbers Change Letters.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q08 Numbers Change Letters\obj\Debug\Q08 Numbers Change Letters.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q08 Numbers Change Letters\obj\Debug\Q08 Numbers Change Letters.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q08 Numbers Change Letters\obj\Debug\Q08 Numbers Change Letters.pdb

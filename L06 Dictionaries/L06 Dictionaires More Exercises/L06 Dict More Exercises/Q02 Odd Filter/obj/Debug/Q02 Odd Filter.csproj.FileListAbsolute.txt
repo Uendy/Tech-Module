@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q02 Odd Filter\bin\Debug\Q02 Odd Filter.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q02 Odd Filter\bin\Debug\Q02 Odd Filter.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q02 Odd Filter\bin\Debug\Q02 Odd Filter.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q02 Odd Filter\obj\Debug\Q02 Odd Filter.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q02 Odd Filter\obj\Debug\Q02 Odd Filter.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q02 Odd Filter\obj\Debug\Q02 Odd Filter.pdb

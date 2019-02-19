@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q01 Count Working Days\bin\Debug\Q01 Count Working Days.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q01 Count Working Days\bin\Debug\Q01 Count Working Days.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q01 Count Working Days\bin\Debug\Q01 Count Working Days.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q01 Count Working Days\obj\Debug\Q01 Count Working Days.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q01 Count Working Days\obj\Debug\Q01 Count Working Days.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q01 Count Working Days\obj\Debug\Q01 Count Working Days.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q01 Count Working Days\obj\Debug\Q01 Count Working Days.pdb

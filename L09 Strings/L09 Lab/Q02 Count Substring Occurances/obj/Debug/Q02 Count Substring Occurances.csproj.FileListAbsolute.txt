@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Lab\Q02 Count Substring Occurances\bin\Debug\Q02 Count Substring Occurances.exe.config
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Lab\Q02 Count Substring Occurances\bin\Debug\Q02 Count Substring Occurances.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Lab\Q02 Count Substring Occurances\bin\Debug\Q02 Count Substring Occurances.pdb
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Lab\Q02 Count Substring Occurances\obj\Debug\Q02 Count Substring Occurances.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Lab\Q02 Count Substring Occurances\obj\Debug\Q02 Count Substring Occurances.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Lab\Q02 Count Substring Occurances\obj\Debug\Q02 Count Substring Occurances.pdb
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Lab\Q02 Count Substring Occurances\obj\Debug\Q02 Count Substring Occurances.csprojResolveAssemblyReference.cache

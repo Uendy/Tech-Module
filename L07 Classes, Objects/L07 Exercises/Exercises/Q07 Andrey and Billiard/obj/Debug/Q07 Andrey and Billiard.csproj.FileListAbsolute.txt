@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q07 Andrey and Billiard\bin\Debug\Q07 Andrey and Billiard.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q07 Andrey and Billiard\bin\Debug\Q07 Andrey and Billiard.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q07 Andrey and Billiard\bin\Debug\Q07 Andrey and Billiard.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q07 Andrey and Billiard\obj\Debug\Q07 Andrey and Billiard.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q07 Andrey and Billiard\obj\Debug\Q07 Andrey and Billiard.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q07 Andrey and Billiard\obj\Debug\Q07 Andrey and Billiard.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q07 Andrey and Billiard\obj\Debug\Q07 Andrey and Billiard.pdb

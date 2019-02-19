@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q04 SuperMarket Data\bin\Debug\Q04 SuperMarket Data.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q04 SuperMarket Data\bin\Debug\Q04 SuperMarket Data.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q04 SuperMarket Data\bin\Debug\Q04 SuperMarket Data.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q04 SuperMarket Data\obj\Debug\Q04 SuperMarket Data.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q04 SuperMarket Data\obj\Debug\Q04 SuperMarket Data.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q04 SuperMarket Data\obj\Debug\Q04 SuperMarket Data.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q04 SuperMarket Data\obj\Debug\Q04 SuperMarket Data.pdb

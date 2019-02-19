@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q07 Counting Numbers\bin\Debug\Q07 Counting Numbers.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q07 Counting Numbers\bin\Debug\Q07 Counting Numbers.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q07 Counting Numbers\bin\Debug\Q07 Counting Numbers.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q07 Counting Numbers\obj\Debug\Q07 Counting Numbers.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q07 Counting Numbers\obj\Debug\Q07 Counting Numbers.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q07 Counting Numbers\obj\Debug\Q07 Counting Numbers.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q07 Counting Numbers\obj\Debug\Q07 Counting Numbers.pdb

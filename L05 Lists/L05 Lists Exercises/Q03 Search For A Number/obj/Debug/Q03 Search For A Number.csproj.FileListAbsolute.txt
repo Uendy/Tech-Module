@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q03 Search For A Number\bin\Debug\Q03 Search For A Number.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q03 Search For A Number\bin\Debug\Q03 Search For A Number.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q03 Search For A Number\bin\Debug\Q03 Search For A Number.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q03 Search For A Number\obj\Debug\Q03 Search For A Number.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q03 Search For A Number\obj\Debug\Q03 Search For A Number.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q03 Search For A Number\obj\Debug\Q03 Search For A Number.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q03 Search For A Number\obj\Debug\Q03 Search For A Number.pdb

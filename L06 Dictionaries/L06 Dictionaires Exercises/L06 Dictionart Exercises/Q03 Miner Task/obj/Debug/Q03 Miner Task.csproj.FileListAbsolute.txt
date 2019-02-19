@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q03 Miner Task\bin\Debug\Q03 Miner Task.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q03 Miner Task\bin\Debug\Q03 Miner Task.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q03 Miner Task\bin\Debug\Q03 Miner Task.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q03 Miner Task\obj\Debug\Q03 Miner Task.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q03 Miner Task\obj\Debug\Q03 Miner Task.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q03 Miner Task\obj\Debug\Q03 Miner Task.pdb

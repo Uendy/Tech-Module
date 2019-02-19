@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q05 Compare Char Arrays\bin\Debug\Q05 Compare Char Arrays.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q05 Compare Char Arrays\bin\Debug\Q05 Compare Char Arrays.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q05 Compare Char Arrays\bin\Debug\Q05 Compare Char Arrays.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q05 Compare Char Arrays\obj\Debug\Q05 Compare Char Arrays.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q05 Compare Char Arrays\obj\Debug\Q05 Compare Char Arrays.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q05 Compare Char Arrays\obj\Debug\Q05 Compare Char Arrays.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q05 Compare Char Arrays\obj\Debug\Q05 Compare Char Arrays.pdb

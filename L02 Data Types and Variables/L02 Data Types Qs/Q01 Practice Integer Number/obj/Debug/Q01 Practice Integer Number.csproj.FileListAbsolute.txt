@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q01 Practice Integer Number\bin\Debug\Q01 Practice Integer Number.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q01 Practice Integer Number\bin\Debug\Q01 Practice Integer Number.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q01 Practice Integer Number\bin\Debug\Q01 Practice Integer Number.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q01 Practice Integer Number\obj\Debug\Q01 Practice Integer Number.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q01 Practice Integer Number\obj\Debug\Q01 Practice Integer Number.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q01 Practice Integer Number\obj\Debug\Q01 Practice Integer Number.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q01 Practice Integer Number\obj\Debug\Q01 Practice Integer Number.pdb

@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q03 Big Factorial\bin\Debug\Q03 Big Factorial.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q03 Big Factorial\bin\Debug\Q03 Big Factorial.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q03 Big Factorial\bin\Debug\Q03 Big Factorial.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q03 Big Factorial\obj\Debug\Q03 Big Factorial.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q03 Big Factorial\obj\Debug\Q03 Big Factorial.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q03 Big Factorial\obj\Debug\Q03 Big Factorial.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q03 Big Factorial\obj\Debug\Q03 Big Factorial.pdb

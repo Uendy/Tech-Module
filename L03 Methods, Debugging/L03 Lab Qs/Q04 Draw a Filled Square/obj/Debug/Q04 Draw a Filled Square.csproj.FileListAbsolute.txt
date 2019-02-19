@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q04 Draw a Filled Square\bin\Debug\Q04 Draw a Filled Square.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q04 Draw a Filled Square\bin\Debug\Q04 Draw a Filled Square.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q04 Draw a Filled Square\bin\Debug\Q04 Draw a Filled Square.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q04 Draw a Filled Square\obj\Debug\Q04 Draw a Filled Square.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q04 Draw a Filled Square\obj\Debug\Q04 Draw a Filled Square.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q04 Draw a Filled Square\obj\Debug\Q04 Draw a Filled Square.pdb

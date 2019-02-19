@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q13 Vowel or Digit\bin\Debug\Q13 Vowel or Digit.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q13 Vowel or Digit\bin\Debug\Q13 Vowel or Digit.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q13 Vowel or Digit\bin\Debug\Q13 Vowel or Digit.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q13 Vowel or Digit\obj\Debug\Q13 Vowel or Digit.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q13 Vowel or Digit\obj\Debug\Q13 Vowel or Digit.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q13 Vowel or Digit\obj\Debug\Q13 Vowel or Digit.pdb

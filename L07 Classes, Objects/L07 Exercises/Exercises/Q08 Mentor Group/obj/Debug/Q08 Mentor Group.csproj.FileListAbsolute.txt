@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q08 Mentor Group\bin\Debug\Q08 Mentor Group.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q08 Mentor Group\bin\Debug\Q08 Mentor Group.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q08 Mentor Group\bin\Debug\Q08 Mentor Group.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q08 Mentor Group\obj\Debug\Q08 Mentor Group.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q08 Mentor Group\obj\Debug\Q08 Mentor Group.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q08 Mentor Group\obj\Debug\Q08 Mentor Group.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Exercises\Exercises\Q08 Mentor Group\obj\Debug\Q08 Mentor Group.pdb

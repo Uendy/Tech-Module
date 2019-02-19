@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q02 Append List\bin\Debug\Q02 Append List.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q02 Append List\bin\Debug\Q02 Append List.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q02 Append List\bin\Debug\Q02 Append List.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q02 Append List\obj\Debug\Q02 Append List.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q02 Append List\obj\Debug\Q02 Append List.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q02 Append List\obj\Debug\Q02 Append List.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q02 Append List\obj\Debug\Q02 Append List.pdb

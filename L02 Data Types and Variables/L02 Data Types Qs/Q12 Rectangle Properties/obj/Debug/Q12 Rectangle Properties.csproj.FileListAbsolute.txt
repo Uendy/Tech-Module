@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q12 Rectangle Properties\bin\Debug\Q12 Rectangle Properties.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q12 Rectangle Properties\bin\Debug\Q12 Rectangle Properties.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q12 Rectangle Properties\bin\Debug\Q12 Rectangle Properties.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q12 Rectangle Properties\obj\Debug\Q12 Rectangle Properties.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q12 Rectangle Properties\obj\Debug\Q12 Rectangle Properties.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q12 Rectangle Properties\obj\Debug\Q12 Rectangle Properties.pdb

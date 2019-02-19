@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q03 Unicode Conversion\obj\Debug\Q03 Unicode Conversion.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q03 Unicode Conversion\bin\Debug\Q03 Unicode Conversion.exe.config
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q03 Unicode Conversion\bin\Debug\Q03 Unicode Conversion.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q03 Unicode Conversion\bin\Debug\Q03 Unicode Conversion.pdb
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q03 Unicode Conversion\obj\Debug\Q03 Unicode Conversion.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q03 Unicode Conversion\obj\Debug\Q03 Unicode Conversion.pdb

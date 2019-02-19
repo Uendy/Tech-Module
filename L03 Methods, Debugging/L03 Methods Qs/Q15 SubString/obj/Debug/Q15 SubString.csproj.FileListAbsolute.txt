@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q15 SubString\bin\Debug\Q15 SubString.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q15 SubString\bin\Debug\Q15 SubString.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q15 SubString\bin\Debug\Q15 SubString.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q15 SubString\obj\Debug\Q15 SubString.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q15 SubString\obj\Debug\Q15 SubString.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q15 SubString\obj\Debug\Q15 SubString.pdb

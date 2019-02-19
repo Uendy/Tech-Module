@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q10 Serbian CleanedUp\bin\Debug\Q10 Serbian CleanedUp.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q10 Serbian CleanedUp\bin\Debug\Q10 Serbian CleanedUp.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q10 Serbian CleanedUp\bin\Debug\Q10 Serbian CleanedUp.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q10 Serbian CleanedUp\obj\Debug\Q10 Serbian CleanedUp.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q10 Serbian CleanedUp\obj\Debug\Q10 Serbian CleanedUp.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q10 Serbian CleanedUp\obj\Debug\Q10 Serbian CleanedUp.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q10 Serbian CleanedUp\obj\Debug\Q10 Serbian CleanedUp.csprojResolveAssemblyReference.cache

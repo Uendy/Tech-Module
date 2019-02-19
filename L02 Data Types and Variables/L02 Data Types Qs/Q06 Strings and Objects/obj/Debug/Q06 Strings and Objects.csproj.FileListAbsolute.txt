@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q06 Strings and Objects\bin\Debug\Q06 Strings and Objects.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q06 Strings and Objects\bin\Debug\Q06 Strings and Objects.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q06 Strings and Objects\bin\Debug\Q06 Strings and Objects.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q06 Strings and Objects\obj\Debug\Q06 Strings and Objects.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q06 Strings and Objects\obj\Debug\Q06 Strings and Objects.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q06 Strings and Objects\obj\Debug\Q06 Strings and Objects.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q06 Strings and Objects\obj\Debug\Q06 Strings and Objects.csprojResolveAssemblyReference.cache

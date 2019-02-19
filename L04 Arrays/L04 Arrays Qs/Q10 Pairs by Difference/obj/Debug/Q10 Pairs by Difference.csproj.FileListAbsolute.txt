@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q10 Pairs by Difference\bin\Debug\Q10 Pairs by Difference.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q10 Pairs by Difference\bin\Debug\Q10 Pairs by Difference.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q10 Pairs by Difference\bin\Debug\Q10 Pairs by Difference.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q10 Pairs by Difference\obj\Debug\Q10 Pairs by Difference.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q10 Pairs by Difference\obj\Debug\Q10 Pairs by Difference.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q10 Pairs by Difference\obj\Debug\Q10 Pairs by Difference.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q10 Pairs by Difference\obj\Debug\Q10 Pairs by Difference.pdb

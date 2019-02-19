@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q18 Diffrent Int Sizes Refractor\bin\Debug\Q18 Diffrent Int Sizes Refractor.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q18 Diffrent Int Sizes Refractor\bin\Debug\Q18 Diffrent Int Sizes Refractor.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q18 Diffrent Int Sizes Refractor\bin\Debug\Q18 Diffrent Int Sizes Refractor.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q18 Diffrent Int Sizes Refractor\obj\Debug\Q18 Diffrent Int Sizes Refractor.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q18 Diffrent Int Sizes Refractor\obj\Debug\Q18 Diffrent Int Sizes Refractor.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q18 Diffrent Int Sizes Refractor\obj\Debug\Q18 Diffrent Int Sizes Refractor.pdb

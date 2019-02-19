@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q06 Sum Numbers P4\bin\Debug\Q06 Sum Numbers P4.exe.config
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q06 Sum Numbers P4\bin\Debug\Q06 Sum Numbers P4.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q06 Sum Numbers P4\bin\Debug\Q06 Sum Numbers P4.pdb
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q06 Sum Numbers P4\obj\Debug\Q06 Sum Numbers P4.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q06 Sum Numbers P4\obj\Debug\Q06 Sum Numbers P4.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q06 Sum Numbers P4\obj\Debug\Q06 Sum Numbers P4.pdb

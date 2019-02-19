@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q08 Logs Aggregator\bin\Debug\Q08 Logs Aggregator.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q08 Logs Aggregator\bin\Debug\Q08 Logs Aggregator.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q08 Logs Aggregator\bin\Debug\Q08 Logs Aggregator.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q08 Logs Aggregator\obj\Debug\Q08 Logs Aggregator.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q08 Logs Aggregator\obj\Debug\Q08 Logs Aggregator.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q08 Logs Aggregator\obj\Debug\Q08 Logs Aggregator.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q08 Logs Aggregator\obj\Debug\Q08 Logs Aggregator.pdb

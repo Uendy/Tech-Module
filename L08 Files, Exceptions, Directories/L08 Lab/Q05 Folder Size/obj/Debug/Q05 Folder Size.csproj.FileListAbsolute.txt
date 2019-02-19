@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q05 Folder Size\bin\Debug\Q05 Folder Size.exe.config
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q05 Folder Size\bin\Debug\Q05 Folder Size.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q05 Folder Size\bin\Debug\Q05 Folder Size.pdb
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q05 Folder Size\obj\Debug\Q05 Folder Size.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q05 Folder Size\obj\Debug\Q05 Folder Size.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q05 Folder Size\obj\Debug\Q05 Folder Size.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q05 Folder Size\obj\Debug\Q05 Folder Size.pdb

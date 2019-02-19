@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q09 Refractor Special Number\bin\Debug\Q09 Refractor Special Number.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q09 Refractor Special Number\bin\Debug\Q09 Refractor Special Number.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q09 Refractor Special Number\bin\Debug\Q09 Refractor Special Number.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q09 Refractor Special Number\obj\Debug\Q09 Refractor Special Number.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q09 Refractor Special Number\obj\Debug\Q09 Refractor Special Number.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q09 Refractor Special Number\obj\Debug\Q09 Refractor Special Number.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q09 Refractor Special Number\obj\Debug\Q09 Refractor Special Number.pdb

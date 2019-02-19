@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 More Exercises\Q08 Personal Exception\bin\Debug\Q08 Personal Exception.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 More Exercises\Q08 Personal Exception\bin\Debug\Q08 Personal Exception.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 More Exercises\Q08 Personal Exception\bin\Debug\Q08 Personal Exception.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 More Exercises\Q08 Personal Exception\obj\Debug\Q08 Personal Exception.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 More Exercises\Q08 Personal Exception\obj\Debug\Q08 Personal Exception.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 More Exercises\Q08 Personal Exception\obj\Debug\Q08 Personal Exception.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 More Exercises\Q08 Personal Exception\obj\Debug\Q08 Personal Exception.pdb

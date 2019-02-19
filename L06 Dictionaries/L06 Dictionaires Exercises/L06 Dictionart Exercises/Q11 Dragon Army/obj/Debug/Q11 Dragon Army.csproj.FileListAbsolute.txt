@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q11 Dragon Army\bin\Debug\Q11 Dragon Army.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q11 Dragon Army\bin\Debug\Q11 Dragon Army.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q11 Dragon Army\bin\Debug\Q11 Dragon Army.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q11 Dragon Army\obj\Debug\Q11 Dragon Army.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q11 Dragon Army\obj\Debug\Q11 Dragon Army.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q11 Dragon Army\obj\Debug\Q11 Dragon Army.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\Q11 Dragon Army\obj\Debug\Q11 Dragon Army.pdb

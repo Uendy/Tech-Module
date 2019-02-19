@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q05 Short Words Sorted\bin\Debug\Q05 Short Words Sorted.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q05 Short Words Sorted\bin\Debug\Q05 Short Words Sorted.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q05 Short Words Sorted\bin\Debug\Q05 Short Words Sorted.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q05 Short Words Sorted\obj\Debug\Q05 Short Words Sorted.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q05 Short Words Sorted\obj\Debug\Q05 Short Words Sorted.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q05 Short Words Sorted\obj\Debug\Q05 Short Words Sorted.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q05 Short Words Sorted\obj\Debug\Q05 Short Words Sorted.pdb

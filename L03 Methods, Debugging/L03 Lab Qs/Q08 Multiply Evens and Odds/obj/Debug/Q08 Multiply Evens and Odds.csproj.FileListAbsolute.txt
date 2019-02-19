@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q08 Multiply Evens and Odds\bin\Debug\Q08 Multiply Evens and Odds.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q08 Multiply Evens and Odds\bin\Debug\Q08 Multiply Evens and Odds.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q08 Multiply Evens and Odds\bin\Debug\Q08 Multiply Evens and Odds.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q08 Multiply Evens and Odds\obj\Debug\Q08 Multiply Evens and Odds.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q08 Multiply Evens and Odds\obj\Debug\Q08 Multiply Evens and Odds.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q08 Multiply Evens and Odds\obj\Debug\Q08 Multiply Evens and Odds.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q08 Multiply Evens and Odds\obj\Debug\Q08 Multiply Evens and Odds.pdb

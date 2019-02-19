@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q02 Sign of Integer Number\bin\Debug\Q02 Sign of Integer Number.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q02 Sign of Integer Number\bin\Debug\Q02 Sign of Integer Number.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q02 Sign of Integer Number\bin\Debug\Q02 Sign of Integer Number.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q02 Sign of Integer Number\obj\Debug\Q02 Sign of Integer Number.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q02 Sign of Integer Number\obj\Debug\Q02 Sign of Integer Number.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q02 Sign of Integer Number\obj\Debug\Q02 Sign of Integer Number.pdb

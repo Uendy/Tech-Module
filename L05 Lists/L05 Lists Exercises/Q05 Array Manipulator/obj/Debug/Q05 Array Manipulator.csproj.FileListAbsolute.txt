@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q05 Array Manipulator\bin\Debug\Q05 Array Manipulator.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q05 Array Manipulator\bin\Debug\Q05 Array Manipulator.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q05 Array Manipulator\bin\Debug\Q05 Array Manipulator.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q05 Array Manipulator\obj\Debug\Q05 Array Manipulator.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q05 Array Manipulator\obj\Debug\Q05 Array Manipulator.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q05 Array Manipulator\obj\Debug\Q05 Array Manipulator.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q05 Array Manipulator\obj\Debug\Q05 Array Manipulator.pdb

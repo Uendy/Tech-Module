@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q09 Extracting Middle\bin\Debug\Q09 Extracting Middle.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q09 Extracting Middle\bin\Debug\Q09 Extracting Middle.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q09 Extracting Middle\bin\Debug\Q09 Extracting Middle.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q09 Extracting Middle\obj\Debug\Q09 Extracting Middle.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q09 Extracting Middle\obj\Debug\Q09 Extracting Middle.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q09 Extracting Middle\obj\Debug\Q09 Extracting Middle.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q09 Extracting Middle\obj\Debug\Q09 Extracting Middle.pdb

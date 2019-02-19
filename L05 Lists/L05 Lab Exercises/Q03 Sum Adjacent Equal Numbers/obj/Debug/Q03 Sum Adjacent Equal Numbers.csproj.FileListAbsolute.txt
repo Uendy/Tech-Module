@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q03 Sum Adjacent Equal Numbers\bin\Debug\Q03 Sum Adjacent Equal Numbers.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q03 Sum Adjacent Equal Numbers\bin\Debug\Q03 Sum Adjacent Equal Numbers.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q03 Sum Adjacent Equal Numbers\bin\Debug\Q03 Sum Adjacent Equal Numbers.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q03 Sum Adjacent Equal Numbers\obj\Debug\Q03 Sum Adjacent Equal Numbers.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q03 Sum Adjacent Equal Numbers\obj\Debug\Q03 Sum Adjacent Equal Numbers.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q03 Sum Adjacent Equal Numbers\obj\Debug\Q03 Sum Adjacent Equal Numbers.pdb

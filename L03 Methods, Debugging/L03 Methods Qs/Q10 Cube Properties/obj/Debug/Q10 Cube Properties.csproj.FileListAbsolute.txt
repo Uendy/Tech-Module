@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q10 Cube Properties\bin\Debug\Q10 Cube Properties.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q10 Cube Properties\bin\Debug\Q10 Cube Properties.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q10 Cube Properties\bin\Debug\Q10 Cube Properties.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q10 Cube Properties\obj\Debug\Q10 Cube Properties.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q10 Cube Properties\obj\Debug\Q10 Cube Properties.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q10 Cube Properties\obj\Debug\Q10 Cube Properties.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q10 Cube Properties\obj\Debug\Q10 Cube Properties.pdb

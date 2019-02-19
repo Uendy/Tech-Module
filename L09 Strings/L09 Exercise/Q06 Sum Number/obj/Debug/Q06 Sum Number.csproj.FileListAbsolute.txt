@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q06 Sum Number\bin\Debug\Q06 Sum Number.exe.config
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q06 Sum Number\bin\Debug\Q06 Sum Number.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q06 Sum Number\bin\Debug\Q06 Sum Number.pdb
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q06 Sum Number\obj\Debug\Q06 Sum Number.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q06 Sum Number\obj\Debug\Q06 Sum Number.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q06 Sum Number\obj\Debug\Q06 Sum Number.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q06 Sum Number\obj\Debug\Q06 Sum Number.pdb

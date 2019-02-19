@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q02 Circle Area\bin\Debug\Q02 Circle Area.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q02 Circle Area\bin\Debug\Q02 Circle Area.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q02 Circle Area\bin\Debug\Q02 Circle Area.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q02 Circle Area\obj\Debug\Q02 Circle Area (12 precision).csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q02 Circle Area\obj\Debug\Q02 Circle Area.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q02 Circle Area\obj\Debug\Q02 Circle Area.pdb

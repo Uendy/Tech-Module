@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q06 Byte Flip\bin\Debug\Q06 Byte Flip.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q06 Byte Flip\bin\Debug\Q06 Byte Flip.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q06 Byte Flip\bin\Debug\Q06 Byte Flip.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q06 Byte Flip\obj\Debug\Q06 Byte Flip.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q06 Byte Flip\obj\Debug\Q06 Byte Flip.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q06 Byte Flip\obj\Debug\Q06 Byte Flip.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q06 Byte Flip\obj\Debug\Q06 Byte Flip.pdb

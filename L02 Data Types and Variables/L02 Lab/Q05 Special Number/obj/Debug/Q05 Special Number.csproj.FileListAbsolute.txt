@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q05 Special Number\bin\Debug\Q05 Special Number.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q05 Special Number\bin\Debug\Q05 Special Number.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q05 Special Number\bin\Debug\Q05 Special Number.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q05 Special Number\obj\Debug\Q05 Special Number.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q05 Special Number\obj\Debug\Q05 Special Number.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q05 Special Number\obj\Debug\Q05 Special Number.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q05 Special Number\obj\Debug\Q05 Special Number.pdb

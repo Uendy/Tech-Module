@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Lab\Text Filter\bin\Debug\Text Filter.exe.config
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Lab\Text Filter\bin\Debug\Text Filter.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Lab\Text Filter\bin\Debug\Text Filter.pdb
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Lab\Text Filter\obj\Debug\Text Filter.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Lab\Text Filter\obj\Debug\Text Filter.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Lab\Text Filter\obj\Debug\Text Filter.pdb

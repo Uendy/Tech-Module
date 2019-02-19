@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q07 Exchange Variable Values\bin\Debug\Q07 Exchange Variable Values.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q07 Exchange Variable Values\bin\Debug\Q07 Exchange Variable Values.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q07 Exchange Variable Values\bin\Debug\Q07 Exchange Variable Values.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q07 Exchange Variable Values\obj\Debug\Q07 Exchange Variable Values.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q07 Exchange Variable Values\obj\Debug\Q07 Exchange Variable Values.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q07 Exchange Variable Values\obj\Debug\Q07 Exchange Variable Values.pdb

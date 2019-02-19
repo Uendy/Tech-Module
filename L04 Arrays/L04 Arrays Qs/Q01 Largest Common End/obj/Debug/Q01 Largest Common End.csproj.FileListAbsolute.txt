@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q01 Largest Common End\bin\Debug\Q01 Largest Common End.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q01 Largest Common End\bin\Debug\Q01 Largest Common End.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q01 Largest Common End\bin\Debug\Q01 Largest Common End.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q01 Largest Common End\obj\Debug\Q01 Largest Common End.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q01 Largest Common End\obj\Debug\Q01 Largest Common End.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q01 Largest Common End\obj\Debug\Q01 Largest Common End.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q01 Largest Common End\obj\Debug\Q01 Largest Common End.pdb

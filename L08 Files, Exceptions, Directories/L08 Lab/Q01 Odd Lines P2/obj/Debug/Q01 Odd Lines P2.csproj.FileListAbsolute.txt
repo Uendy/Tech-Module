@@ -1,0 +1,8 @@
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q01 Odd Lines P2\bin\Debug\Q01 Odd Lines P2.exe.config
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q01 Odd Lines P2\bin\Debug\Q01 Odd Lines P2.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q01 Odd Lines P2\bin\Debug\Q01 Odd Lines P2.pdb
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q01 Odd Lines P2\obj\Debug\Q01 Odd Lines P2.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q01 Odd Lines P2\obj\Debug\Q01 Odd Lines P2.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q01 Odd Lines P2\obj\Debug\Q01 Odd Lines P2.pdb
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q01 Odd Lines P2\bin\Debug\textFile.txt
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q01 Odd Lines P2\obj\Debug\Q01 Odd Lines P2.csprojResolveAssemblyReference.cache

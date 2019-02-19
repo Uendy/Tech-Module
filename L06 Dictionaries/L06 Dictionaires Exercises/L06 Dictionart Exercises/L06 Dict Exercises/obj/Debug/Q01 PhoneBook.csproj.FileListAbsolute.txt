@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\L06 Dict Exercises\bin\Debug\L06 Dict Exercises.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\L06 Dict Exercises\bin\Debug\L06 Dict Exercises.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\L06 Dict Exercises\bin\Debug\L06 Dict Exercises.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\L06 Dict Exercises\obj\Debug\Q01 PhoneBook.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\L06 Dict Exercises\obj\Debug\Q01 PhoneBook.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\L06 Dict Exercises\obj\Debug\L06 Dict Exercises.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\L06 Dictionart Exercises\L06 Dict Exercises\obj\Debug\L06 Dict Exercises.pdb

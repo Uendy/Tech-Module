@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q09 Index of Letters\bin\Debug\Q09 Index of Letters.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q09 Index of Letters\bin\Debug\Q09 Index of Letters.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q09 Index of Letters\bin\Debug\Q09 Index of Letters.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q09 Index of Letters\obj\Debug\Q09 Index of Letters.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q09 Index of Letters\obj\Debug\Q09 Index of Letters.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q09 Index of Letters\obj\Debug\Q09 Index of Letters.pdb

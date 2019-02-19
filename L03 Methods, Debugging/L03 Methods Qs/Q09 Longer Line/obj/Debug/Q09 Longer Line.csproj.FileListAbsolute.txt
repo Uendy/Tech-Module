@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q09 Longer Line\bin\Debug\Q09 Longer Line.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q09 Longer Line\bin\Debug\Q09 Longer Line.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q09 Longer Line\bin\Debug\Q09 Longer Line.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q09 Longer Line\obj\Debug\Q09 Longer Line.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q09 Longer Line\obj\Debug\Q09 Longer Line.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q09 Longer Line\obj\Debug\Q09 Longer Line.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q09 Longer Line\obj\Debug\Q09 Longer Line.pdb

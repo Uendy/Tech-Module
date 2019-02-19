@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q04 Sieve of Eratosthenes\bin\Debug\Q04 Sieve of Eratosthenes.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q04 Sieve of Eratosthenes\bin\Debug\Q04 Sieve of Eratosthenes.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q04 Sieve of Eratosthenes\bin\Debug\Q04 Sieve of Eratosthenes.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q04 Sieve of Eratosthenes\obj\Debug\Q04 Sieve of Eratosthenes.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q04 Sieve of Eratosthenes\obj\Debug\Q04 Sieve of Eratosthenes.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q04 Sieve of Eratosthenes\obj\Debug\Q04 Sieve of Eratosthenes.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q04 Sieve of Eratosthenes\obj\Debug\Q04 Sieve of Eratosthenes.csprojResolveAssemblyReference.cache

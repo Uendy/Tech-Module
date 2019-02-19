@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q05 Sorting Numbers\bin\Debug\Q05 Sorting Numbers.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q05 Sorting Numbers\bin\Debug\Q05 Sorting Numbers.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q05 Sorting Numbers\bin\Debug\Q05 Sorting Numbers.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q05 Sorting Numbers\obj\Debug\Q05 Sorting Numbers.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q05 Sorting Numbers\obj\Debug\Q05 Sorting Numbers.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q05 Sorting Numbers\obj\Debug\Q05 Sorting Numbers.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q05 Sorting Numbers\obj\Debug\Q05 Sorting Numbers.pdb

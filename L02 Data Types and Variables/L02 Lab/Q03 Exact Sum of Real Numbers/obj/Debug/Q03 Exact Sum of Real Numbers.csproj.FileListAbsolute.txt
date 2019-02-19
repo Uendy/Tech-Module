@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q03 Exact Sum of Real Numbers\bin\Debug\Q03 Exact Sum of Real Numbers.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q03 Exact Sum of Real Numbers\bin\Debug\Q03 Exact Sum of Real Numbers.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q03 Exact Sum of Real Numbers\bin\Debug\Q03 Exact Sum of Real Numbers.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q03 Exact Sum of Real Numbers\obj\Debug\Q03 Exact Sum of Real Numbers.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q03 Exact Sum of Real Numbers\obj\Debug\Q03 Exact Sum of Real Numbers.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q03 Exact Sum of Real Numbers\obj\Debug\Q03 Exact Sum of Real Numbers.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q03 Exact Sum of Real Numbers\obj\Debug\Q03 Exact Sum of Real Numbers.pdb

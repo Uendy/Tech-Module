@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q04 Distance Between Two Points\bin\Debug\Q04 Distance Between Two Points.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q04 Distance Between Two Points\bin\Debug\Q04 Distance Between Two Points.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q04 Distance Between Two Points\bin\Debug\Q04 Distance Between Two Points.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q04 Distance Between Two Points\obj\Debug\Q04 Distance Between Two Points.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q04 Distance Between Two Points\obj\Debug\Q04 Distance Between Two Points.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q04 Distance Between Two Points\obj\Debug\Q04 Distance Between Two Points.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q04 Distance Between Two Points\obj\Debug\Q04 Distance Between Two Points.pdb

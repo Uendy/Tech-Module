@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q10 Centuries to Nanoseconds\bin\Debug\Q10 Centuries to Nanoseconds.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q10 Centuries to Nanoseconds\bin\Debug\Q10 Centuries to Nanoseconds.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q10 Centuries to Nanoseconds\bin\Debug\Q10 Centuries to Nanoseconds.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q10 Centuries to Nanoseconds\obj\Debug\Q10 Centuries to Nanoseconds.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q10 Centuries to Nanoseconds\obj\Debug\Q10 Centuries to Nanoseconds.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q10 Centuries to Nanoseconds\obj\Debug\Q10 Centuries to Nanoseconds.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q10 Centuries to Nanoseconds\obj\Debug\Q10 Centuries to Nanoseconds.csprojResolveAssemblyReference.cache

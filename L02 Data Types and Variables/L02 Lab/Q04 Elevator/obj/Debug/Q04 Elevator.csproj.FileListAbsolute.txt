@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q04 Elevator\bin\Debug\Q04 Elevator.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q04 Elevator\bin\Debug\Q04 Elevator.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q04 Elevator\bin\Debug\Q04 Elevator.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q04 Elevator\obj\Debug\Q04 Elevator.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q04 Elevator\obj\Debug\Q04 Elevator.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q04 Elevator\obj\Debug\Q04 Elevator.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q04 Elevator\obj\Debug\Q04 Elevator.pdb

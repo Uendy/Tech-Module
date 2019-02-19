@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q02 Practicing Floating Numbers\bin\Debug\Q02 Practicing Floating Numbers.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q02 Practicing Floating Numbers\bin\Debug\Q02 Practicing Floating Numbers.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q02 Practicing Floating Numbers\bin\Debug\Q02 Practicing Floating Numbers.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q02 Practicing Floating Numbers\obj\Debug\Q02 Practicing Floating Numbers.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q02 Practicing Floating Numbers\obj\Debug\Q02 Practicing Floating Numbers.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q02 Practicing Floating Numbers\obj\Debug\Q02 Practicing Floating Numbers.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q02 Practicing Floating Numbers\obj\Debug\Q02 Practicing Floating Numbers.pdb

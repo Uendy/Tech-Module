@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q05 Rounding Away From Zero\bin\Debug\Q05 Rounding Away From Zero.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q05 Rounding Away From Zero\bin\Debug\Q05 Rounding Away From Zero.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q05 Rounding Away From Zero\bin\Debug\Q05 Rounding Away From Zero.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q05 Rounding Away From Zero\obj\Debug\Q05 Rounding Away From Zero.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q05 Rounding Away From Zero\obj\Debug\Q05 Rounding Away From Zero.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q05 Rounding Away From Zero\obj\Debug\Q05 Rounding Away From Zero.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q05 Rounding Away From Zero\obj\Debug\Q05 Rounding Away From Zero.pdb

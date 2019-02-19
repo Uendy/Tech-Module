@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Lab\Q04 Palindrome\bin\Debug\Q04 Palindrome.exe.config
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Lab\Q04 Palindrome\bin\Debug\Q04 Palindrome.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Lab\Q04 Palindrome\bin\Debug\Q04 Palindrome.pdb
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Lab\Q04 Palindrome\obj\Debug\Q04 Palindrome.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Lab\Q04 Palindrome\obj\Debug\Q04 Palindrome.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Lab\Q04 Palindrome\obj\Debug\Q04 Palindrome.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Lab\Q04 Palindrome\obj\Debug\Q04 Palindrome.pdb

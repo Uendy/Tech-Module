@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q12 Master Number\bin\Debug\Q12 Master Number.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q12 Master Number\bin\Debug\Q12 Master Number.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q12 Master Number\bin\Debug\Q12 Master Number.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q12 Master Number\obj\Debug\Q12 Master Number.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q12 Master Number\obj\Debug\Q12 Master Number.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q12 Master Number\obj\Debug\Q12 Master Number.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q12 Master Number\obj\Debug\Q12 Master Number.pdb

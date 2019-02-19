@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q08 Center Point\bin\Debug\Q08 Center Point.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q08 Center Point\bin\Debug\Q08 Center Point.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q08 Center Point\bin\Debug\Q08 Center Point.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q08 Center Point\obj\Debug\Q08 Center Point.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q08 Center Point\obj\Debug\Q08 Center Point.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q08 Center Point\obj\Debug\Q08 Center Point.pdb

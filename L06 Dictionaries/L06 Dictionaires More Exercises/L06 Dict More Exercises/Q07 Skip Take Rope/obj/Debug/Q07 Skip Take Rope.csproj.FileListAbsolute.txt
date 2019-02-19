@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q07 Skip Take Rope\bin\Debug\Q07 Skip Take Rope.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q07 Skip Take Rope\bin\Debug\Q07 Skip Take Rope.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q07 Skip Take Rope\bin\Debug\Q07 Skip Take Rope.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q07 Skip Take Rope\obj\Debug\Q07 Skip Take Rope.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q07 Skip Take Rope\obj\Debug\Q07 Skip Take Rope.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q07 Skip Take Rope\obj\Debug\Q07 Skip Take Rope.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q07 Skip Take Rope\obj\Debug\Q07 Skip Take Rope.pdb

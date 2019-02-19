@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q01 Order By Age", "L07 More Exercises\Q01 Order By Age.csproj", "{D206B54E-D1A1-47CD-AC04-FE4E7F1F199D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Vehicle Catologue", "Q02 Vehicle Catologue\Q02 Vehicle Catologue.csproj", "{8299913A-D700-4E00-B4AA-0C441A0AB2CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Jarvis", "Q03 Jarvis\Q03 Jarvis.csproj", "{2A2D52EE-DE77-4B4F-8603-42DD8C1DA380}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 Punctuation Finder", "Q04 Punctuation Finder\Q04 Punctuation Finder.csproj", "{E63D9861-9592-463D-879B-628C20FD03FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q07 Play Catch", "Q07 Play Catch\Q07 Play Catch.csproj", "{221CBB5E-D507-42A8-8915-0C58836F2B58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q08 Personal Exception", "Q08 Personal Exception\Q08 Personal Exception.csproj", "{29A53DFA-1B3C-4931-9A4B-857F9F7F9628}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D206B54E-D1A1-47CD-AC04-FE4E7F1F199D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D206B54E-D1A1-47CD-AC04-FE4E7F1F199D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D206B54E-D1A1-47CD-AC04-FE4E7F1F199D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D206B54E-D1A1-47CD-AC04-FE4E7F1F199D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8299913A-D700-4E00-B4AA-0C441A0AB2CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8299913A-D700-4E00-B4AA-0C441A0AB2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8299913A-D700-4E00-B4AA-0C441A0AB2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8299913A-D700-4E00-B4AA-0C441A0AB2CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A2D52EE-DE77-4B4F-8603-42DD8C1DA380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2D52EE-DE77-4B4F-8603-42DD8C1DA380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2D52EE-DE77-4B4F-8603-42DD8C1DA380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2D52EE-DE77-4B4F-8603-42DD8C1DA380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E63D9861-9592-463D-879B-628C20FD03FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E63D9861-9592-463D-879B-628C20FD03FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E63D9861-9592-463D-879B-628C20FD03FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E63D9861-9592-463D-879B-628C20FD03FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{221CBB5E-D507-42A8-8915-0C58836F2B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221CBB5E-D507-42A8-8915-0C58836F2B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221CBB5E-D507-42A8-8915-0C58836F2B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{221CBB5E-D507-42A8-8915-0C58836F2B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29A53DFA-1B3C-4931-9A4B-857F9F7F9628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29A53DFA-1B3C-4931-9A4B-857F9F7F9628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29A53DFA-1B3C-4931-9A4B-857F9F7F9628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29A53DFA-1B3C-4931-9A4B-857F9F7F9628}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72A60E68-A87E-4085-8990-7A1CCB2A5EEC}
+	EndGlobalSection
+EndGlobal

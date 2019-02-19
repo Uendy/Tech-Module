@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q03 Immune System\bin\Debug\Q03 Immune System.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q03 Immune System\bin\Debug\Q03 Immune System.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q03 Immune System\bin\Debug\Q03 Immune System.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q03 Immune System\obj\Debug\Q03 Immune System.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q03 Immune System\obj\Debug\Q03 Immune System.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q03 Immune System\obj\Debug\Q03 Immune System.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires More Exercises\L06 Dict More Exercises\Q03 Immune System\obj\Debug\Q03 Immune System.pdb

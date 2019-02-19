@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q04 Split by Word Casing\bin\Debug\Q04 Split by Word Casing.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q04 Split by Word Casing\bin\Debug\Q04 Split by Word Casing.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q04 Split by Word Casing\bin\Debug\Q04 Split by Word Casing.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q04 Split by Word Casing\obj\Debug\Q04 Split by Word Casing.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q04 Split by Word Casing\obj\Debug\Q04 Split by Word Casing.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q04 Split by Word Casing\obj\Debug\Q04 Split by Word Casing.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lab Exercises\Q04 Split by Word Casing\obj\Debug\Q04 Split by Word Casing.pdb

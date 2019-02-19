@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q03 Sum Min Max Average\bin\Debug\Q03 Sum Min Max Average.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q03 Sum Min Max Average\bin\Debug\Q03 Sum Min Max Average.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q03 Sum Min Max Average\bin\Debug\Q03 Sum Min Max Average.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q03 Sum Min Max Average\obj\Debug\Q03 Sum Min Max Average.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q03 Sum Min Max Average\obj\Debug\Q03 Sum Min Max Average.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q03 Sum Min Max Average\obj\Debug\Q03 Sum Min Max Average.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q03 Sum Min Max Average\obj\Debug\Q03 Sum Min Max Average.pdb

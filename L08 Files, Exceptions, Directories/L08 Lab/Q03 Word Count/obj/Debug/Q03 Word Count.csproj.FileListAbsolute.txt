@@ -1,0 +1,9 @@
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q03 Word Count\bin\Debug\Input.txt
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q03 Word Count\bin\Debug\Output.txt
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q03 Word Count\bin\Debug\Q03 Word Count.exe.config
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q03 Word Count\bin\Debug\Q03 Word Count.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q03 Word Count\bin\Debug\Q03 Word Count.pdb
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q03 Word Count\obj\Debug\Q03 Word Count.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q03 Word Count\obj\Debug\Q03 Word Count.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q03 Word Count\obj\Debug\Q03 Word Count.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L08 Files, Exceptions, Directories\L08 Lab\Q03 Word Count\obj\Debug\Q03 Word Count.pdb

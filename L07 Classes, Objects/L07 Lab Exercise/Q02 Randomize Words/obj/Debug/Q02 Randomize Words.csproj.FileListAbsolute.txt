@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q02 Randomize Words\bin\Debug\Q02 Randomize Words.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q02 Randomize Words\bin\Debug\Q02 Randomize Words.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q02 Randomize Words\bin\Debug\Q02 Randomize Words.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q02 Randomize Words\obj\Debug\Q02 Randomize Words.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q02 Randomize Words\obj\Debug\Q02 Randomize Words.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q02 Randomize Words\obj\Debug\Q02 Randomize Words.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q02 Randomize Words\obj\Debug\Q02 Randomize Words.pdb

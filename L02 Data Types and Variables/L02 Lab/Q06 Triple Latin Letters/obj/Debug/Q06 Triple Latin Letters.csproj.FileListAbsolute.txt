@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q06 Triple Latin Letters\bin\Debug\Q06 Triple Latin Letters.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q06 Triple Latin Letters\bin\Debug\Q06 Triple Latin Letters.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q06 Triple Latin Letters\bin\Debug\Q06 Triple Latin Letters.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q06 Triple Latin Letters\obj\Debug\Q06 Triple Latin Letters.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q06 Triple Latin Letters\obj\Debug\Q06 Triple Latin Letters.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q06 Triple Latin Letters\obj\Debug\Q06 Triple Latin Letters.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q06 Triple Latin Letters\obj\Debug\Q06 Triple Latin Letters.pdb

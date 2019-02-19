@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q14 Integer to Hex and Binary\bin\Debug\Q14 Integer to Hex and Binary.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q14 Integer to Hex and Binary\bin\Debug\Q14 Integer to Hex and Binary.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q14 Integer to Hex and Binary\bin\Debug\Q14 Integer to Hex and Binary.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q14 Integer to Hex and Binary\obj\Debug\Q14 Integer to Hex and Binary.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q14 Integer to Hex and Binary\obj\Debug\Q14 Integer to Hex and Binary.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q14 Integer to Hex and Binary\obj\Debug\Q14 Integer to Hex and Binary.pdb

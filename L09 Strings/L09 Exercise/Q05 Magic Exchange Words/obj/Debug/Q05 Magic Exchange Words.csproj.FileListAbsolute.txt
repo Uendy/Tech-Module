@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q05 Magic Exchange Words\bin\Debug\Q05 Magic Exchange Words.exe.config
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q05 Magic Exchange Words\bin\Debug\Q05 Magic Exchange Words.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q05 Magic Exchange Words\bin\Debug\Q05 Magic Exchange Words.pdb
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q05 Magic Exchange Words\obj\Debug\Q05 Magic Exchange Words.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q05 Magic Exchange Words\obj\Debug\Q05 Magic Exchange Words.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q05 Magic Exchange Words\obj\Debug\Q05 Magic Exchange Words.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q05 Magic Exchange Words\obj\Debug\Q05 Magic Exchange Words.pdb

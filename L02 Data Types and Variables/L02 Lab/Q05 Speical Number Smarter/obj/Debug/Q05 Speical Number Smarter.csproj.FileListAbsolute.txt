@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q05 Speical Number Smarter\bin\Debug\Q05 Speical Number Smarter.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q05 Speical Number Smarter\bin\Debug\Q05 Speical Number Smarter.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q05 Speical Number Smarter\bin\Debug\Q05 Speical Number Smarter.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q05 Speical Number Smarter\obj\Debug\Q05 Speical Number Smarter.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q05 Speical Number Smarter\obj\Debug\Q05 Speical Number Smarter.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q05 Speical Number Smarter\obj\Debug\Q05 Speical Number Smarter.pdb

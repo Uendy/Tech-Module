@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q04 Char Multiplier\bin\Debug\Q04 Char Multiplier.exe.config
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q04 Char Multiplier\bin\Debug\Q04 Char Multiplier.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q04 Char Multiplier\bin\Debug\Q04 Char Multiplier.pdb
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q04 Char Multiplier\obj\Debug\Q04 Char Multiplier.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q04 Char Multiplier\obj\Debug\Q04 Char Multiplier.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q04 Char Multiplier\obj\Debug\Q04 Char Multiplier.pdb

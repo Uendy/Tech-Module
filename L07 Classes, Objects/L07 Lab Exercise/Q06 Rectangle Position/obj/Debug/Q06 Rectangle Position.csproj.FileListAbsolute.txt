@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q06 Rectangle Position\bin\Debug\Q06 Rectangle Position.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q06 Rectangle Position\bin\Debug\Q06 Rectangle Position.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q06 Rectangle Position\bin\Debug\Q06 Rectangle Position.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q06 Rectangle Position\obj\Debug\Q06 Rectangle Position.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q06 Rectangle Position\obj\Debug\Q06 Rectangle Position.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q06 Rectangle Position\obj\Debug\Q06 Rectangle Position.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 Lab Exercise\Q06 Rectangle Position\obj\Debug\Q06 Rectangle Position.pdb

@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q03  Last K Numbers Sums Sequence\bin\Debug\Q03  Last K Numbers Sums Sequence.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q03  Last K Numbers Sums Sequence\bin\Debug\Q03  Last K Numbers Sums Sequence.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q03  Last K Numbers Sums Sequence\bin\Debug\Q03  Last K Numbers Sums Sequence.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q03  Last K Numbers Sums Sequence\obj\Debug\Q03 Last K Numbers Sums Sequence.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q03  Last K Numbers Sums Sequence\obj\Debug\Q03 Last K Numbers Sums Sequence.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q03  Last K Numbers Sums Sequence\obj\Debug\Q03  Last K Numbers Sums Sequence.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q03  Last K Numbers Sums Sequence\obj\Debug\Q03  Last K Numbers Sums Sequence.pdb

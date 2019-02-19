@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q09 Selrah Shake\bin\Debug\Q09 Selrah Shake.exe.config
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q09 Selrah Shake\bin\Debug\Q09 Selrah Shake.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q09 Selrah Shake\bin\Debug\Q09 Selrah Shake.pdb
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q09 Selrah Shake\obj\Debug\Q09 Selrah Shake.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q09 Selrah Shake\obj\Debug\Q09 Selrah Shake.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q09 Selrah Shake\obj\Debug\Q09 Selrah Shake.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q09 Selrah Shake\obj\Debug\Q09 Selrah Shake.pdb

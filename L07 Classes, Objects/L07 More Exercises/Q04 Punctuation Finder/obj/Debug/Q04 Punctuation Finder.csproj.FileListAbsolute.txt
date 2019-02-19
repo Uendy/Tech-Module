@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 More Exercises\Q04 Punctuation Finder\bin\Debug\Q04 Punctuation Finder.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 More Exercises\Q04 Punctuation Finder\bin\Debug\Q04 Punctuation Finder.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 More Exercises\Q04 Punctuation Finder\bin\Debug\Q04 Punctuation Finder.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 More Exercises\Q04 Punctuation Finder\obj\Debug\Q04 Punctuation Finder.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 More Exercises\Q04 Punctuation Finder\obj\Debug\Q04 Punctuation Finder.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 More Exercises\Q04 Punctuation Finder\obj\Debug\Q04 Punctuation Finder.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 More Exercises\Q04 Punctuation Finder\obj\Debug\Q04 Punctuation Finder.pdb

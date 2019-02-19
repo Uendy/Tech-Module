@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q01 Centuries to Minutes\bin\Debug\Q01 Centuries to Minutes.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q01 Centuries to Minutes\bin\Debug\Q01 Centuries to Minutes.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q01 Centuries to Minutes\bin\Debug\Q01 Centuries to Minutes.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q01 Centuries to Minutes\obj\Debug\Q01 Centuries to Minutes.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q01 Centuries to Minutes\obj\Debug\Q01 Centuries to Minutes.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q01 Centuries to Minutes\obj\Debug\Q01 Centuries to Minutes.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Lab\Q01 Centuries to Minutes\obj\Debug\Q01 Centuries to Minutes.pdb

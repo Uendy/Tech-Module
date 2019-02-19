@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q15 Fast Prime Checker Refraction\bin\Debug\Q15 Fast Prime Checker Refraction.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q15 Fast Prime Checker Refraction\bin\Debug\Q15 Fast Prime Checker Refraction.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q15 Fast Prime Checker Refraction\bin\Debug\Q15 Fast Prime Checker Refraction.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q15 Fast Prime Checker Refraction\obj\Debug\Q15 Fast Prime Checker Refraction.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q15 Fast Prime Checker Refraction\obj\Debug\Q15 Fast Prime Checker Refraction.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q15 Fast Prime Checker Refraction\obj\Debug\Q15 Fast Prime Checker Refraction.pdb

@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 More Exercises\Q02 Vehicle Catologue\bin\Debug\Q02 Vehicle Catologue.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 More Exercises\Q02 Vehicle Catologue\bin\Debug\Q02 Vehicle Catologue.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 More Exercises\Q02 Vehicle Catologue\bin\Debug\Q02 Vehicle Catologue.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 More Exercises\Q02 Vehicle Catologue\obj\Debug\Q02 Vehicle Catologue.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 More Exercises\Q02 Vehicle Catologue\obj\Debug\Q02 Vehicle Catologue.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 More Exercises\Q02 Vehicle Catologue\obj\Debug\Q02 Vehicle Catologue.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L07 Classes, Objects\L07 More Exercises\Q02 Vehicle Catologue\obj\Debug\Q02 Vehicle Catologue.csprojResolveAssemblyReference.cache

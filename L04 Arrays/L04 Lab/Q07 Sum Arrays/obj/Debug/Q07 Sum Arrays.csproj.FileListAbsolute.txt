@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q07 Sum Arrays\obj\Debug\Q07 Sum Arrays.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q07 Sum Arrays\obj\Debug\Q07 Sum Arrays.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q07 Sum Arrays\bin\Debug\Q07 Sum Arrays.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q07 Sum Arrays\bin\Debug\Q07 Sum Arrays.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q07 Sum Arrays\bin\Debug\Q07 Sum Arrays.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q07 Sum Arrays\obj\Debug\Q07 Sum Arrays.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q07 Sum Arrays\obj\Debug\Q07 Sum Arrays.pdb

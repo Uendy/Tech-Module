@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q09 Debug Code Holiday 2 Cities\bin\Debug\Q09 Debug Code Holiday 2 Cities.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q09 Debug Code Holiday 2 Cities\bin\Debug\Q09 Debug Code Holiday 2 Cities.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q09 Debug Code Holiday 2 Cities\bin\Debug\Q09 Debug Code Holiday 2 Cities.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q09 Debug Code Holiday 2 Cities\obj\Debug\Q09 Debug Code Holiday 2 Cities.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q09 Debug Code Holiday 2 Cities\obj\Debug\Q09 Debug Code Holiday 2 Cities.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q09 Debug Code Holiday 2 Cities\obj\Debug\Q09 Debug Code Holiday 2 Cities.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q09 Debug Code Holiday 2 Cities\obj\Debug\Q09 Debug Code Holiday 2 Cities.pdb

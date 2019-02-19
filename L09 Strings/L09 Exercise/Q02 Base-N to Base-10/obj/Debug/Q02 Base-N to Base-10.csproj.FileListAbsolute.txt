@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q02 Base-N to Base-10\bin\Debug\Q02 Base-N to Base-10.exe.config
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q02 Base-N to Base-10\bin\Debug\Q02 Base-N to Base-10.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q02 Base-N to Base-10\bin\Debug\Q02 Base-N to Base-10.pdb
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q02 Base-N to Base-10\obj\Debug\Q02 Base-N to Base-10.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q02 Base-N to Base-10\obj\Debug\Q02 Base-N to Base-10.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q02 Base-N to Base-10\obj\Debug\Q02 Base-N to Base-10.pdb

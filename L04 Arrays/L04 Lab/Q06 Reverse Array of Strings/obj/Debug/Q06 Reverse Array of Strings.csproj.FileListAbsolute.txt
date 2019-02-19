@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q06 Reverse Array of Strings\bin\Debug\Q06 Reverse Array of Strings.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q06 Reverse Array of Strings\bin\Debug\Q06 Reverse Array of Strings.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q06 Reverse Array of Strings\bin\Debug\Q06 Reverse Array of Strings.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q06 Reverse Array of Strings\obj\Debug\Q06 Reverse Array of Strings.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q06 Reverse Array of Strings\obj\Debug\Q06 Reverse Array of Strings.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Lab\Q06 Reverse Array of Strings\obj\Debug\Q06 Reverse Array of Strings.pdb

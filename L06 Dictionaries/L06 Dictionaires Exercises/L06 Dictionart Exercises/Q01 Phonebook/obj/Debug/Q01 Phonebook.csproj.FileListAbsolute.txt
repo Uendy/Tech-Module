@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\Q01 Phonebook\Q01 Phonebook\bin\Debug\Q01 Phonebook.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\Q01 Phonebook\Q01 Phonebook\bin\Debug\Q01 Phonebook.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\Q01 Phonebook\Q01 Phonebook\bin\Debug\Q01 Phonebook.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\Q01 Phonebook\Q01 Phonebook\obj\Debug\Q01 Phonebook.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\Q01 Phonebook\Q01 Phonebook\obj\Debug\Q01 Phonebook.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\Q01 Phonebook\Q01 Phonebook\obj\Debug\Q01 Phonebook.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires Exercises\Q01 Phonebook\Q01 Phonebook\obj\Debug\Q01 Phonebook.pdb

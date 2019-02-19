@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q07 Multiplying Big Numbers\bin\Debug\Q07 Multiplying Big Numbers.exe.config
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q07 Multiplying Big Numbers\bin\Debug\Q07 Multiplying Big Numbers.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q07 Multiplying Big Numbers\bin\Debug\Q07 Multiplying Big Numbers.pdb
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q07 Multiplying Big Numbers\obj\Debug\Q07 Multiplying Big Numbers.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q07 Multiplying Big Numbers\obj\Debug\Q07 Multiplying Big Numbers.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q07 Multiplying Big Numbers\obj\Debug\Q07 Multiplying Big Numbers.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Exercise\Q07 Multiplying Big Numbers\obj\Debug\Q07 Multiplying Big Numbers.pdb

@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q06 Sum Reversed Numbers\bin\Debug\Q06 Sum Reversed Numbers.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q06 Sum Reversed Numbers\bin\Debug\Q06 Sum Reversed Numbers.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q06 Sum Reversed Numbers\bin\Debug\Q06 Sum Reversed Numbers.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q06 Sum Reversed Numbers\obj\Debug\Q06 Sum Reversed Numbers.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q06 Sum Reversed Numbers\obj\Debug\Q06 Sum Reversed Numbers.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q06 Sum Reversed Numbers\obj\Debug\Q06 Sum Reversed Numbers.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L05 Lists\L05 Lists Exercises\Q06 Sum Reversed Numbers\obj\Debug\Q06 Sum Reversed Numbers.pdb

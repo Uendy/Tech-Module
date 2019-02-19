@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q11 Convert Speed Units\bin\Debug\Q11 Convert Speed Units.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q11 Convert Speed Units\bin\Debug\Q11 Convert Speed Units.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q11 Convert Speed Units\bin\Debug\Q11 Convert Speed Units.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q11 Convert Speed Units\obj\Debug\Q11 Convert Speed Units.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q11 Convert Speed Units\obj\Debug\Q11 Convert Speed Units.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q11 Convert Speed Units\obj\Debug\Q11 Convert Speed Units.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q11 Convert Speed Units\obj\Debug\Q11 Convert Speed Units.csprojResolveAssemblyReference.cache

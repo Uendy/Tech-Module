@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q14 Factorial Trailing Zeroes\bin\Debug\Q14 Factorial Trailing Zeroes.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q14 Factorial Trailing Zeroes\bin\Debug\Q14 Factorial Trailing Zeroes.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q14 Factorial Trailing Zeroes\bin\Debug\Q14 Factorial Trailing Zeroes.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q14 Factorial Trailing Zeroes\obj\Debug\Q14 Factorial Trailing Zeroes.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q14 Factorial Trailing Zeroes\obj\Debug\Q14 Factorial Trailing Zeroes.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Methods Qs\Q14 Factorial Trailing Zeroes\obj\Debug\Q14 Factorial Trailing Zeroes.pdb

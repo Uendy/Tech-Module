@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q17 Build Part of ASCII Table\bin\Debug\Q17 Build Part of ASCII Table.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q17 Build Part of ASCII Table\bin\Debug\Q17 Build Part of ASCII Table.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q17 Build Part of ASCII Table\bin\Debug\Q17 Build Part of ASCII Table.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q17 Build Part of ASCII Table\obj\Debug\Q17 Build Part of ASCII Table.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q17 Build Part of ASCII Table\obj\Debug\Q17 Build Part of ASCII Table.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q17 Build Part of ASCII Table\obj\Debug\Q17 Build Part of ASCII Table.pdb

@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q04 Largest Three Numbers\bin\Debug\Q04 Largest Three Numbers.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q04 Largest Three Numbers\bin\Debug\Q04 Largest Three Numbers.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q04 Largest Three Numbers\bin\Debug\Q04 Largest Three Numbers.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q04 Largest Three Numbers\obj\Debug\Q04 Largest Three Numbers.csprojResolveAssemblyReference.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q04 Largest Three Numbers\obj\Debug\Q04 Largest Three Numbers.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q04 Largest Three Numbers\obj\Debug\Q04 Largest Three Numbers.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L06 Dictionaries\L06 Dictionaires LAB\L06 LAB\Q04 Largest Three Numbers\obj\Debug\Q04 Largest Three Numbers.pdb

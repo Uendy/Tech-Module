@@ -1,0 +1,6 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q03 Practice Strings and Chars\bin\Debug\Q03 Practice Strings and Chars.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q03 Practice Strings and Chars\bin\Debug\Q03 Practice Strings and Chars.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q03 Practice Strings and Chars\bin\Debug\Q03 Practice Strings and Chars.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q03 Practice Strings and Chars\obj\Debug\Q03 Practice Strings and Chars.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q03 Practice Strings and Chars\obj\Debug\Q03 Practice Strings and Chars.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q03 Practice Strings and Chars\obj\Debug\Q03 Practice Strings and Chars.pdb

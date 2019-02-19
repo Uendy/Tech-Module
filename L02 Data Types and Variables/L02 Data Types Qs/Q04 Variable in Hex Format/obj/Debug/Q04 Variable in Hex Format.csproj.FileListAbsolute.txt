@@ -1,0 +1,7 @@
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q04 Variable in Hex Format\bin\Debug\Q04 Variable in Hex Format.exe.config
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q04 Variable in Hex Format\bin\Debug\Q04 Variable in Hex Format.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q04 Variable in Hex Format\bin\Debug\Q04 Variable in Hex Format.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q04 Variable in Hex Format\obj\Debug\Q04 Variable in Hex Format.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q04 Variable in Hex Format\obj\Debug\Q04 Variable in Hex Format.exe
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q04 Variable in Hex Format\obj\Debug\Q04 Variable in Hex Format.pdb
+C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L02 Data Types and Variables\L02 Data Types Qs\Q04 Variable in Hex Format\obj\Debug\Q04 Variable in Hex Format.csprojResolveAssemblyReference.cache
