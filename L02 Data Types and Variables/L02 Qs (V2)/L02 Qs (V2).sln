@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q17 Print Part of ASCII", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q18 Different Size Int", "Q18 Different Size Int\Q18 Different Size Int.csproj", "{18C29A0A-3731-4D74-9A74-6B7907CB82C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q19 Thea the Photographer", "Q19 Thea the Photographer\Q19 Thea the Photographer.csproj", "{0AB139FD-36F3-4A97-949B-DF660C279774}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{18C29A0A-3731-4D74-9A74-6B7907CB82C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18C29A0A-3731-4D74-9A74-6B7907CB82C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18C29A0A-3731-4D74-9A74-6B7907CB82C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB139FD-36F3-4A97-949B-DF660C279774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB139FD-36F3-4A97-949B-DF660C279774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB139FD-36F3-4A97-949B-DF660C279774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB139FD-36F3-4A97-949B-DF660C279774}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
