@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q16 Comparing Floats", "Q16
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q17 Print Part of ASCII", "Q17 Print Part of ASCII\Q17 Print Part of ASCII.csproj", "{AF3AB66A-3BC2-4879-AE67-15EE88E3778A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q18 Different Size Int", "Q18 Different Size Int\Q18 Different Size Int.csproj", "{18C29A0A-3731-4D74-9A74-6B7907CB82C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{AF3AB66A-3BC2-4879-AE67-15EE88E3778A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF3AB66A-3BC2-4879-AE67-15EE88E3778A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF3AB66A-3BC2-4879-AE67-15EE88E3778A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C29A0A-3731-4D74-9A74-6B7907CB82C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C29A0A-3731-4D74-9A74-6B7907CB82C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C29A0A-3731-4D74-9A74-6B7907CB82C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C29A0A-3731-4D74-9A74-6B7907CB82C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
