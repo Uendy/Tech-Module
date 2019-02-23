@@ -4,6 +4,8 @@ public class Program
 {
     public static void Main()
     {
+        // check any and all questions here: https://judge.softuni.bg/Contests/Practice/Index/1205#0
+
         //You have a water tank with capacity of 255 liters.
         //On the next n lines, you will receive liters of water, which you have to pour in your tank. 
         //If the capacity is not enough, print “Insufficient capacity!” and continue reading the next line. 
