@@ -5,3 +5,10 @@ C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Deb
 C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q03 Printing a Triangle\obj\Debug\Q03 Printing a Triangle.csproj.CoreCompileInputs.cache
 C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q03 Printing a Triangle\obj\Debug\Q03 Printing a Triangle.exe
 C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L03 Methods, Debugging\L03 Lab Qs\Q03 Printing a Triangle\obj\Debug\Q03 Printing a Triangle.pdb
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\Tech-Module\L03 Methods, Debugging\L03 Lab Qs\Q03 Printing a Triangle\bin\Debug\Q03 Printing a Triangle.exe.config
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\Tech-Module\L03 Methods, Debugging\L03 Lab Qs\Q03 Printing a Triangle\bin\Debug\Q03 Printing a Triangle.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\Tech-Module\L03 Methods, Debugging\L03 Lab Qs\Q03 Printing a Triangle\bin\Debug\Q03 Printing a Triangle.pdb
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\Tech-Module\L03 Methods, Debugging\L03 Lab Qs\Q03 Printing a Triangle\obj\Debug\Q03 Printing a Triangle.csprojAssemblyReference.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\Tech-Module\L03 Methods, Debugging\L03 Lab Qs\Q03 Printing a Triangle\obj\Debug\Q03 Printing a Triangle.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\Tech-Module\L03 Methods, Debugging\L03 Lab Qs\Q03 Printing a Triangle\obj\Debug\Q03 Printing a Triangle.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\Tech-Module\L03 Methods, Debugging\L03 Lab Qs\Q03 Printing a Triangle\obj\Debug\Q03 Printing a Triangle.pdb
