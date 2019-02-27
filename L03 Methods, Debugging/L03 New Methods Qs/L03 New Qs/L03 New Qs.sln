@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Vowels Count", "Q02 Vow
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Char in Range", "Q03 Char in Range\Q03 Char in Range.csproj", "{0A61A0C9-CBCB-4B33-9232-F8A80964103F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 Valid Password", "Q04 Valid Password\Q04 Valid Password.csproj", "{6C44F361-C433-44CE-BEBF-4A63B6289E50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0A61A0C9-CBCB-4B33-9232-F8A80964103F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A61A0C9-CBCB-4B33-9232-F8A80964103F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A61A0C9-CBCB-4B33-9232-F8A80964103F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C44F361-C433-44CE-BEBF-4A63B6289E50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C44F361-C433-44CE-BEBF-4A63B6289E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C44F361-C433-44CE-BEBF-4A63B6289E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C44F361-C433-44CE-BEBF-4A63B6289E50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
