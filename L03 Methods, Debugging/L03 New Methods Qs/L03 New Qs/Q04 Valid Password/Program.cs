@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-
 public class Program
 {
     public static void Main()
@@ -64,14 +62,14 @@ public class Program
                 Console.WriteLine("Password must be between 6 and 10 characters");
             }
 
-            if (minTwoDigits == false)
-            {
-                Console.WriteLine("Password must have at least 2 digits");
-            }
-
             if (onlyCorrectChars == false)
             {
                 Console.WriteLine("Password must consist only of letters and digits");
+            }
+
+            if (minTwoDigits == false)
+            {
+                Console.WriteLine("Password must have at least 2 digits");
             }
         }
     }
