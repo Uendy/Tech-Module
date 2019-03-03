@@ -5,3 +5,9 @@ C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 A
 C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q02 Rotate and Sum\obj\Debug\Q02 Rotate and Sum.csproj.CoreCompileInputs.cache
 C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q02 Rotate and Sum\obj\Debug\Q02 Rotate and Sum.exe
 C:\Users\Alexb\Documents\SOFT UNI WORK\Programming Fundamentals\L04 Arrays\L04 Arrays Qs\Q02 Rotate and Sum\obj\Debug\Q02 Rotate and Sum.pdb
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\Tech-Module\L04 Arrays\L04 Arrays Qs\Q02 Rotate and Sum\bin\Debug\Q02 Rotate and Sum.exe.config
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\Tech-Module\L04 Arrays\L04 Arrays Qs\Q02 Rotate and Sum\bin\Debug\Q02 Rotate and Sum.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\Tech-Module\L04 Arrays\L04 Arrays Qs\Q02 Rotate and Sum\bin\Debug\Q02 Rotate and Sum.pdb
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\Tech-Module\L04 Arrays\L04 Arrays Qs\Q02 Rotate and Sum\obj\Debug\Q02 Rotate and Sum.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\Tech-Module\L04 Arrays\L04 Arrays Qs\Q02 Rotate and Sum\obj\Debug\Q02 Rotate and Sum.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\Tech-Module\L04 Arrays\L04 Arrays Qs\Q02 Rotate and Sum\obj\Debug\Q02 Rotate and Sum.pdb
