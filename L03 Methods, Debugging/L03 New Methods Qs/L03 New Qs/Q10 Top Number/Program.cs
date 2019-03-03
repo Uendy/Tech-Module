@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-
 public class Program
 {
     public static void Main()
@@ -17,8 +15,6 @@ public class Program
 
     public static void IsTopNumber(int input)
     {
-        //var listOfTopNumbers = new List<int>();
-
         for (int num = 0; num <= input; num++)
         {
             var inputAsCharArr = num.ToString().ToCharArray();
