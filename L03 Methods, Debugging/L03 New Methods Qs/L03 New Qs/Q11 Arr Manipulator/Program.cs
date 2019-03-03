@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 public class Program
 {
@@ -24,7 +25,7 @@ public class Program
         //o If there are not enough elements to satisfy the count, print as many as you can.If there are zero even/odd elements, print an empty array “[]”
         //•	end – stop taking input and print the final state of the array
 
-        var array = Console.ReadLine().Split(',').Select(int.Parse).ToArray();
+        var array = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
 
         string input = Console.ReadLine();
 
@@ -63,19 +64,58 @@ public class Program
                     break;
 
                 case "min":
-                    //
+                    switch (arrOfInput[1])
+                    {
+                        case "even":
+                            var evenIndexs = new List<int>();
+                            for (int index = 0; index <= array.Count(); index += 2)
+                            {
+                                evenIndexs.Add(array[index]);
+                            }
+                            Console.WriteLine(evenIndexs.Min());
+                            break;
+
+                        case "odd":
+                            var oddIndexs = new List<int>();
+                            for (int index = 1; index < array.Count(); index += 2)
+                            {
+                                oddIndexs.Add(array[index]);
+                            }
+                            Console.WriteLine(oddIndexs.Min());
+                            break;
+                    }
                     break;
 
                 case "max":
-                    //
+                    switch (arrOfInput[1])
+                    {
+                        case "even":
+                            var evenIndexs = new List<int>();
+                            for (int index = 0; index <= array.Count(); index += 2)
+                            {
+                                evenIndexs.Add(array[index]);
+                            }
+                            Console.WriteLine(evenIndexs.Max());
+                            break;
+
+                        case "odd":
+                            var oddIndexs = new List<int>();
+                            for (int index = 1; index < array.Count(); index += 2)
+                            {
+                                oddIndexs.Add(array[index]);
+                            }
+                            Console.WriteLine(oddIndexs.Max());
+                            break;
+                    }
                     break;
 
                 case "first":
-                    //
+                    int firstCount = int.Parse(arrOfInput[1]);
+
                     break;
 
                 case "last":
-                    //
+                    int lastCount = int.Parse(arrOfInput[1]);
                     break;
 
                 default:
