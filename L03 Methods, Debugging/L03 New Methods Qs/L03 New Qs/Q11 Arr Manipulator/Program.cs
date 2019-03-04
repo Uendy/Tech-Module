@@ -67,21 +67,37 @@ public class Program
                     switch (arrOfInput[1])
                     {
                         case "even":
-                            var evenIndexs = new List<int>();
+                            var evenIndexs = new Dictionary<int, int>(); // key = value, value = index
                             for (int index = 0; index <= array.Count(); index += 2)
                             {
-                                evenIndexs.Add(array[index]);
+                                evenIndexs[array[index]] = index;
                             }
-                            Console.WriteLine(evenIndexs.Min());
+                            var lowestEvenKey = evenIndexs.Keys.Min();
+                            if (evenIndexs.ContainsKey(lowestEvenKey))
+                            {
+                                Console.WriteLine(evenIndexs[lowestEvenKey]);
+                            }
+                            else
+                            {
+                                Console.WriteLine("No matches");
+                            }
                             break;
 
                         case "odd":
-                            var oddIndexs = new List<int>();
+                            var oddIndexs = new Dictionary<int, int>();
                             for (int index = 1; index < array.Count(); index += 2)
                             {
-                                oddIndexs.Add(array[index]);
+                                oddIndexs[array[index]] = index;
                             }
-                            Console.WriteLine(oddIndexs.Min());
+                            var lowestOddKey = oddIndexs.Keys.Min();
+                            if (oddIndexs.ContainsKey(lowestOddKey))
+                            {
+                                Console.WriteLine(oddIndexs[lowestOddKey]);
+                            }
+                            else
+                            {
+                                Console.WriteLine("No matches");
+                            }
                             break;
                     }
                     break;
@@ -90,7 +106,7 @@ public class Program
                     switch (arrOfInput[1])
                     {
                         case "even":
-                            var evenIndexs = new List<int>();
+                            var evenIndexs = new Dictionary<int, int>();
                             for (int index = 0; index <= array.Count(); index += 2)
                             {
                                 evenIndexs.Add(array[index]);
@@ -126,4 +142,5 @@ public class Program
             input = Console.ReadLine();
         }
     }
+
 }
