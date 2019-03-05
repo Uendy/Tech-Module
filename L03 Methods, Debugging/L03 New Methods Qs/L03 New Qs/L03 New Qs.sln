@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q10 Top Number", "Q10 Top N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q11 Arr Manipulator", "Q11 Arr Manipulator\Q11 Arr Manipulator.csproj", "{1E7BDFC1-1934-44B7-9A1F-FF5D63C87451}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q11 Arr Part 2", "Q11 Arr Manip Part 2\Q11 Arr Part 2.csproj", "{2115CA7B-A14D-4252-B8B2-2EC2B86C53D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{1E7BDFC1-1934-44B7-9A1F-FF5D63C87451}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E7BDFC1-1934-44B7-9A1F-FF5D63C87451}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E7BDFC1-1934-44B7-9A1F-FF5D63C87451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2115CA7B-A14D-4252-B8B2-2EC2B86C53D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2115CA7B-A14D-4252-B8B2-2EC2B86C53D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2115CA7B-A14D-4252-B8B2-2EC2B86C53D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2115CA7B-A14D-4252-B8B2-2EC2B86C53D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
