@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-
 public class Program
 {
     public static void Main()
@@ -37,15 +34,15 @@ public class Program
             switch (inputArr[0])
             {
                 case "exchange":
-                    int shiftBy = int.Parse(inputArr[1]);
+                    int splitPoint = int.Parse(inputArr[1]);
 
-                    if (shiftBy > array.Length)
+                    if (splitPoint > array.Length)
                     {
                         Console.WriteLine("Invalid index");
                     }
                     else
                     {
-                        array = ExchangeMethod(array, shiftBy);
+                        array = ExchangeMethod(array, splitPoint);
                     }
                     break;
 
@@ -64,49 +61,82 @@ public class Program
                     break;
 
                 case "max":
-                    //
+
+                    switch (inputArr[1])
+                    {
+                        case "odd":
+                            MaxOdd(array);
+                            break;
+
+                        case "even":
+                            MaxEven(array);
+                            break;
+                    }
                     break;
 
                 case "first":
                     int firstCount = int.Parse(inputArr[1]);
+                    if (firstCount > array.Length)
+                    {
+                        Console.WriteLine("Invalid count");
+                        break;
+                    }
+
+                    string sequence = inputArr[2]; // even or odd
+                    switch (sequence)
+                    {
+                        case "odd":
+                            FirstOddFinder(array, firstCount);
+                            break;
+
+                        case "even":
+                            FirstEvenFinder(array, firstCount);
+                                break;
+                    }
 
                     break;
 
                 case "last":
                     int lastCount = int.Parse(inputArr[1]);
+                    if (lastCount > array.Length)
+                    {
+                        Console.WriteLine("Invalid count");
+                        break;
+                    }
+
+                    string evenOrOdd = inputArr[2];
+                    switch (evenOrOdd)
+                    {
+                        case "even":
+                            LastEvenFinder(array, lastCount);
+                            break;
+
+                        case "odd":
+                            LastOddFinder(array, lastCount);
+                            break;
+                        default:
+                            break;
+                    }
                     break;
             }
 
             input = Console.ReadLine();
         }
 
-        var sb = new StringBuilder();
-        foreach (var num in array)
-        {
-            sb.Append(num + " ");
-        }
-        var output = sb.ToString();
-        Console.WriteLine(output);
+        // "end"
+        var output = string.Join(", ", array);
+        Console.WriteLine($"[{output}]");
     }
-    public static int[] ExchangeMethod(int[] array, int shiftBy)
+    public static int[] ExchangeMethod(int[] array, int splitPoint)
     {
-        int[] temporaryArr = new int[array.Length];
+        splitPoint += 1; // since it is the index number
 
-        for (int index = 0; index < array.Length; index++)
-        {
-            int actualIndex = index + shiftBy;
-            if (actualIndex >= array.Length)
-            {
-                actualIndex -= array.Length;
-                temporaryArr[actualIndex] = array[index];
-            }
-            else
-            {
-                temporaryArr[actualIndex] = array[index];
-            }
-        }
+        var first = array.Take(splitPoint);
+        var second = array.Skip(splitPoint);
 
-        return temporaryArr;
+        var temptArr = second.Concat(first).ToArray();
+
+        return temptArr;
     }
 
     public static void MinOdd(int[] array)
@@ -162,6 +192,133 @@ public class Program
         else
         {
             Console.WriteLine("No matches");
+        }
+    }
+
+    public static void MaxOdd(int[] array)
+    {
+        int highestOdd = int.MinValue;
+        int highestOddIndex = int.MinValue;
+
+        foreach (var num in array)
+        {
+            bool isOdd = num % 2 != 0;
+            if (isOdd == true)
+            {
+                if (num >= highestOdd)
+                {
+                    highestOdd = num;
+                    highestOddIndex = array.ToList().IndexOf(num);
+                }
+            }
+        }
+
+        if (highestOddIndex != int.MinValue)
+        {
+            Console.WriteLine(highestOddIndex);
+        }
+        else
+        { 
+            Console.WriteLine("No matches");
+        }
+    }
+
+    public static void MaxEven(int[] array)
+    {
+        int highestEven = int.MinValue;
+        int highestEvenIndex = int.MinValue;
+
+        foreach (var num in array)
+        {
+            bool isEven = num % 2 == 0;
+            if (isEven == true)
+            {
+                if (num >= highestEven)
+                {
+                    highestEven = num;
+                    highestEvenIndex = array.ToList().IndexOf(num);
+                }
+            }
+        }
+
+        if (highestEvenIndex != int.MinValue)
+        {
+            Console.WriteLine(highestEvenIndex);
+        }
+        else
+        {
+            Console.WriteLine("No matches");
+        }
+    }
+
+    public static void FirstEvenFinder(int[] array, int firstCount)
+    {
+        var listOfFirstEven = array.ToList()
+            .Where(x => x % 2 == 0).Take(firstCount);
+
+        if (listOfFirstEven.Count() != 0)
+        {
+            string output = string.Join(", ", listOfFirstEven);
+            Console.WriteLine($"[{output}]");
+        }
+        else
+        {
+            Console.WriteLine("[]"); // not sure if what they want, line 27://// If there are zero even/odd elements, print an empty array “[]”
+        }
+    }
+
+    public static void FirstOddFinder(int[] array, int firstCount)
+    {
+        var listOfFirstOdd = array.ToList()
+           .Where(x => x % 2 != 0).Take(firstCount);
+
+        if (listOfFirstOdd.Count() != 0)
+        {
+            string output = string.Join(", ", listOfFirstOdd);
+            Console.WriteLine($"[{output}]");
+        }
+        else
+        {
+            Console.WriteLine("[]"); // not sure if what they want, line 27://// If there are zero even/odd elements, print an empty array “[]”
+        }
+
+    }
+
+    public static void LastEvenFinder(int[] array, int lastCount)
+    {
+        var listOfLastEven = array.ToList()
+           .Where(x => x % 2 == 0)
+           .Reverse() // using .Reverse() x2, since .TakeLast() was removed
+           .Take(lastCount)
+           .Reverse();
+
+        if (listOfLastEven.Count() != 0)
+        {
+            string output = string.Join(", ", listOfLastEven);
+            Console.WriteLine($"[{output}]");
+        }
+        else
+        {
+            Console.WriteLine("[]"); 
+        }
+    }
+
+    public static void LastOddFinder(int[] array, int lastCount)
+    {
+        var listOfLastOdd = array.ToList()
+           .Where(x => x % 2 != 0)
+           .Reverse() // using .Reverse() x2, since .TakeLast() was removed
+           .Take(lastCount)
+           .Reverse();
+
+        if (listOfLastOdd.Count() != 0)
+        {
+            string output = string.Join(", ", listOfLastOdd);
+            Console.WriteLine($"[{output}]");
+        }
+        else
+        {
+            Console.WriteLine("[]");
         }
     }
 }
