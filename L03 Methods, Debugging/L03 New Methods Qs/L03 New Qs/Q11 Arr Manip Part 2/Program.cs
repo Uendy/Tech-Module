@@ -36,7 +36,7 @@ public class Program
                 case "exchange":
                     int splitPoint = int.Parse(inputArr[1]);
 
-                    if (splitPoint > array.Length)
+                    if (splitPoint > array.Length - 1)
                     {
                         Console.WriteLine("Invalid index");
                     }
@@ -91,7 +91,7 @@ public class Program
 
                         case "even":
                             FirstEvenFinder(array, firstCount);
-                                break;
+                            break;
                     }
 
                     break;
@@ -144,15 +144,17 @@ public class Program
         int lowestOdd = int.MaxValue;
         int lowestOddIndex = int.MaxValue;
 
-        foreach (var num in array)
+        for (int index = 0; index < array.Length; index++)
         {
-            bool isOdd = num % 2 != 0;
+            int currentNum = array[index];
+
+            bool isOdd = currentNum % 2 != 0;
             if (isOdd == true)
             {
-                if (num <= lowestOdd)
+                if (currentNum <= lowestOdd)
                 {
-                    lowestOdd = num;
-                    lowestOddIndex = array.ToList().IndexOf(num);
+                    lowestOdd = currentNum;
+                    lowestOddIndex = index;
                 }
             }
         }
@@ -172,15 +174,16 @@ public class Program
         int lowestEven = int.MaxValue;
         int lowestEvenIndex = int.MaxValue;
 
-        foreach (var num in array)
+        for (int index = 0; index < array.Length; index++)
         {
-            bool isEven = num % 2 == 0;
+            int currentNum = array[index];
+            bool isEven = currentNum % 2 == 0;
             if (isEven == true)
             {
-                if (num <= lowestEven)
+                if (currentNum >= lowestEven)
                 {
-                    lowestEven = num;
-                    lowestEvenIndex = array.ToList().IndexOf(num);
+                    lowestEven = currentNum;
+                    lowestEvenIndex = index;
                 }
             }
         }
@@ -200,15 +203,16 @@ public class Program
         int highestOdd = int.MinValue;
         int highestOddIndex = int.MinValue;
 
-        foreach (var num in array)
+        for (int index = 0; index < array.Length; index++)
         {
-            bool isOdd = num % 2 != 0;
+            int curretNum = array[index];
+            bool isOdd = curretNum % 2 != 0;
             if (isOdd == true)
             {
-                if (num >= highestOdd)
+                if (curretNum >= highestOdd)
                 {
-                    highestOdd = num;
-                    highestOddIndex = array.ToList().IndexOf(num);
+                    highestOdd = curretNum;
+                    highestOddIndex = index;
                 }
             }
         }
@@ -218,7 +222,7 @@ public class Program
             Console.WriteLine(highestOddIndex);
         }
         else
-        { 
+        {
             Console.WriteLine("No matches");
         }
     }
@@ -228,18 +232,20 @@ public class Program
         int highestEven = int.MinValue;
         int highestEvenIndex = int.MinValue;
 
-        foreach (var num in array)
+        for (int index = 0; index < array.Length; index++)
         {
-            bool isEven = num % 2 == 0;
+            int currentNum = array[index];
+            bool isEven = currentNum % 2 == 0;
             if (isEven == true)
             {
-                if (num >= highestEven)
+                if (currentNum >= highestEven)
                 {
-                    highestEven = num;
-                    highestEvenIndex = array.ToList().IndexOf(num);
+                    highestEven = currentNum;
+                    highestEvenIndex = index;
                 }
             }
         }
+
 
         if (highestEvenIndex != int.MinValue)
         {
@@ -299,7 +305,7 @@ public class Program
         }
         else
         {
-            Console.WriteLine("[]"); 
+            Console.WriteLine("[]");
         }
     }
 
