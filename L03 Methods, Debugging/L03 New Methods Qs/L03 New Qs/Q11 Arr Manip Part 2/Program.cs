@@ -36,7 +36,7 @@ public class Program
                 case "exchange":
                     int splitPoint = int.Parse(inputArr[1]);
 
-                    if (splitPoint > array.Length - 1)
+                    if (splitPoint > array.Length - 1 || splitPoint < 0)
                     {
                         Console.WriteLine("Invalid index");
                     }
@@ -76,7 +76,7 @@ public class Program
 
                 case "first":
                     int firstCount = int.Parse(inputArr[1]);
-                    if (firstCount > array.Length)
+                    if (firstCount < 0 || firstCount > array.Length)
                     {
                         Console.WriteLine("Invalid count");
                         break;
@@ -98,7 +98,7 @@ public class Program
 
                 case "last":
                     int lastCount = int.Parse(inputArr[1]);
-                    if (lastCount > array.Length)
+                    if (lastCount < 0 || lastCount > array.Length)
                     {
                         Console.WriteLine("Invalid count");
                         break;
@@ -180,7 +180,7 @@ public class Program
             bool isEven = currentNum % 2 == 0;
             if (isEven == true)
             {
-                if (currentNum >= lowestEven)
+                if (currentNum <= lowestEven)
                 {
                     lowestEven = currentNum;
                     lowestEvenIndex = index;
