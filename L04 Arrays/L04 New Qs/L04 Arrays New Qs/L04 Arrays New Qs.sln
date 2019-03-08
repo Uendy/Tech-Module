@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q01 Train", "Q01 Train\Q01 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Common Elements", "Q02 Common Elements\Q02 Common Elements.csproj", "{35F68CA4-624F-4E4F-8C43-E9ED1798C2E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Zig Zag Arrays", "Q03 Zig Zag Arrays\Q03 Zig Zag Arrays.csproj", "{93BC50ED-937C-489A-86F2-933A83CEDE38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{35F68CA4-624F-4E4F-8C43-E9ED1798C2E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35F68CA4-624F-4E4F-8C43-E9ED1798C2E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35F68CA4-624F-4E4F-8C43-E9ED1798C2E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93BC50ED-937C-489A-86F2-933A83CEDE38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93BC50ED-937C-489A-86F2-933A83CEDE38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93BC50ED-937C-489A-86F2-933A83CEDE38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93BC50ED-937C-489A-86F2-933A83CEDE38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

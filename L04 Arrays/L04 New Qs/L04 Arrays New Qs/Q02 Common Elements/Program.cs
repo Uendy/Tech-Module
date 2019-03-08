@@ -15,18 +15,15 @@ public class Program
 
         string commonElements = string.Empty;
 
-        foreach (var currentString in firstArray)
+        foreach (var currentString in secondArray)
         {
-            bool commonElement = secondArray.Contains(currentString);
+            bool commonElement = firstArray.Contains(currentString);
             if (commonElement == true)
             {
                 commonElements = string.Concat(commonElements, currentString + ' ');
             }
         }
 
-        var commonEsArr = commonElements.Split(' ');
-        var output = string.Join(" ", commonEsArr.Reverse());
-
-        Console.WriteLine(output);
+        Console.WriteLine(commonElements);
     }
 }
