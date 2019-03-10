@@ -7,7 +7,7 @@
     <ProjectGuid>{F3E1A127-DA80-4E10-9ABA-0CD4234E3FFD}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q05_Top_Integer</RootNamespace>
-    <AssemblyName>Q05_Top_Integer</AssemblyName>
+    <AssemblyName>Q05 Top Integer</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
