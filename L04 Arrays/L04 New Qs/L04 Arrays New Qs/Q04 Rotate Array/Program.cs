@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 public class Program
 {
@@ -25,17 +24,16 @@ public class Program
         {
             if (index - numberOfRotations < 0)
             {
-                temporaryArray[index] = array[array.Count() - numberOfRotations - 1 - index];
+                temporaryArray[array.Count() - numberOfRotations + index] = array[index];
             }
             else
             {
-                temporaryArray[index] = array[index - numberOfRotations];
+                temporaryArray[index - numberOfRotations] = array[index];
             }
 
-            //array = temporaryArray.ToArray();
             index++;
         }
 
-        Console.WriteLine(string.Join(" ", array));
+        Console.WriteLine(string.Join(" ", temporaryArray));
     }
 }
