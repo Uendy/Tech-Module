@@ -21,7 +21,7 @@ public class Program
             var currentNumber = array[index];
             bool isTopNumber = true;
 
-            if (index == array.Length - 1)
+            if (index == array.Length - 1) // since the last number will always be added
             {
                 listOfTopNumbers.Add(currentNumber);
             }
@@ -31,7 +31,7 @@ public class Program
                 {
                     var checkedNumber = array[i];
 
-                    bool theCheck = currentNumber >= checkedNumber;
+                    bool theCheck = currentNumber > checkedNumber;
                     if (theCheck == false)
                     {
                         isTopNumber = false;
