@@ -7,7 +7,7 @@
     <ProjectGuid>{3FA3CB2D-B44F-4078-B9EB-D7EA614CAF5F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q09_Kamino_Factory</RootNamespace>
-    <AssemblyName>Q09_Kamino_Factory</AssemblyName>
+    <AssemblyName>Q09 Kamino Factory</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
