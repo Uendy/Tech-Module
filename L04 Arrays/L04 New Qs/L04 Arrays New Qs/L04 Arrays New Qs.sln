@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q09 Kamino Factory", "Q09 K
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q09 V2", "Q09 V2\Q09 V2.csproj", "{BC8AF837-66EA-4A59-A5A2-3D4810194492}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q10 LadyBugs", "Q10 LadyBugs\Q10 LadyBugs.csproj", "{CD2B1FF9-5474-4EA3-A1F2-467793D87ECC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{BC8AF837-66EA-4A59-A5A2-3D4810194492}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC8AF837-66EA-4A59-A5A2-3D4810194492}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC8AF837-66EA-4A59-A5A2-3D4810194492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD2B1FF9-5474-4EA3-A1F2-467793D87ECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD2B1FF9-5474-4EA3-A1F2-467793D87ECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD2B1FF9-5474-4EA3-A1F2-467793D87ECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD2B1FF9-5474-4EA3-A1F2-467793D87ECC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
