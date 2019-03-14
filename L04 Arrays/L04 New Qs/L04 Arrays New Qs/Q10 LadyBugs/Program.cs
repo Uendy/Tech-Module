@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 public class Program
 {
@@ -67,9 +66,10 @@ public class Program
                 while (isTaken == true)
                 {
                     currentIndex++;
+                    outsideArray = array.Length - 1 < currentIndex;
                     if (outsideArray == true)
                     {
-                        //array[initialIndex] = false;
+                        array[initialIndex] = false;
                         break;
                     }
                     isTaken = array[currentIndex] == true;
@@ -84,11 +84,23 @@ public class Program
             else // left
             {
                 int currentIndex = initialIndex + moves;
+                bool outsideArray = array.Length - 1 < currentIndex;
+                if (outsideArray == true)
+                {
+                    break;
+                }
 
                 bool isTaken = array[currentIndex] == true;
                 while (isTaken == true)
                 {
                     currentIndex--;
+                    outsideArray = array.Length - 1 < currentIndex;
+                    if (outsideArray == true)
+                    {
+                        array[initialIndex] = false;
+                        break;
+                    }
+                    isTaken = array[currentIndex] == true;
                 }
 
                 bool outSideArray = 0 > currentIndex;
