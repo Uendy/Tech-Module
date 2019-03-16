@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q09 V2", "Q09 V2\Q09 V2.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q10 LadyBugs", "Q10 LadyBugs\Q10 LadyBugs.csproj", "{CD2B1FF9-5474-4EA3-A1F2-467793D87ECC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q10 V2", "Q10 V2\Q10 V2.csproj", "{6B98538C-92A5-4CF9-A37A-44BC9C7B9F9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{CD2B1FF9-5474-4EA3-A1F2-467793D87ECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD2B1FF9-5474-4EA3-A1F2-467793D87ECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD2B1FF9-5474-4EA3-A1F2-467793D87ECC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B98538C-92A5-4CF9-A37A-44BC9C7B9F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B98538C-92A5-4CF9-A37A-44BC9C7B9F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B98538C-92A5-4CF9-A37A-44BC9C7B9F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B98538C-92A5-4CF9-A37A-44BC9C7B9F9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
