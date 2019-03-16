@@ -24,7 +24,7 @@ public class Program
         var array = new int[sizeOfArray];
 
         var initialIndexs = Console.ReadLine() // get initial ladybug indexs
-        .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+        .Split(' ')
         .Select(int.Parse)
         .ToArray();
 
@@ -40,19 +40,19 @@ public class Program
         string command = Console.ReadLine();
         while (command != "end")
         {
-            var inputTokens = command.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
+            var inputTokens = command.Split(' ').ToArray();
+
             var startIndex = int.Parse(inputTokens[0]);
             string direction = inputTokens[1];
             var moves = int.Parse(inputTokens[2]);
 
-            bool outsideArray = startIndex >= sizeOfArray || array[startIndex] == 0 || startIndex < 0;
+            bool outsideArray = startIndex >= sizeOfArray || startIndex < 0;
             if (outsideArray == true)
             {
                 command = Console.ReadLine();
                 continue;
             }
-
-            if (moves == 0)
+            if (array[startIndex] == 0)
             {
                 command = Console.ReadLine();
                 continue;
@@ -61,55 +61,27 @@ public class Program
             array[startIndex] = 0;
             if (direction == "right")
             {
-                int currentIndex = startIndex + moves;
+                startIndex += moves;
 
-                bool keepGoing = true;
-                while (keepGoing == true)
+                while (startIndex < sizeOfArray && array[startIndex] == 1)
                 {
-                    if (currentIndex >= sizeOfArray || currentIndex < 0)
-                    {
-                        keepGoing = false;
-                    }
-                    else
-                    {
-                        bool indexTaken = array[currentIndex] != 0;
-                        if (indexTaken == true) //taken
-                        {
-                            currentIndex += moves;
-                        }
-                        else
-                        {
-                            array[currentIndex] = 1;
-                            keepGoing = false;
-                        }
-                    }
+                    startIndex += moves;
+                }
+                if (startIndex < sizeOfArray)
+                {
+                    array[startIndex] = 1;
                 }
             }
             else // left 
             {
-                int currentIndex = startIndex - moves;
-
-                bool keepGoing = true;
-                while (keepGoing == true)
+                startIndex -= moves;
+                while (startIndex >= 0 && array[startIndex] == 1)
                 {
-                    if (currentIndex < 0 || currentIndex >= sizeOfArray)
-                    {
-                        keepGoing = false;
-                    }
-                    else
-                    {
-                        bool indexTaken = array[currentIndex] != 0;
-                        if (indexTaken == true)
-                        {
-                            currentIndex -= moves;
-                        }
-                        else
-                        {
-                            array[currentIndex] = 1;
-                            keepGoing = false;
-                        }
-                    }
-
+                    startIndex -= moves;
+                }
+                if (startIndex >= 0)
+                {
+                    array[startIndex] = 1;
                 }
             }
 
