@@ -7,7 +7,7 @@
     <ProjectGuid>{05491B30-2C0E-44D1-AF67-B6D4413B8D45}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q01_V2</RootNamespace>
-    <AssemblyName>Q01_V2</AssemblyName>
+    <AssemblyName>Q01 V2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -1,13 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 public class Program
 {
     public static void Main()
     {
         //Read two arrays of words and find the length of the largest common end (left or right).
-        var firstArray = Console.ReadLine().Split(' ').ToArray();
-        var secondArray = Console.ReadLine().Split(' ').ToArray();
+        var firstArray = Console.ReadLine()
+            .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+            .ToArray();
+        var secondArray = Console.ReadLine()
+            .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+            .ToArray();
 
         bool commonAtStart = firstArray[0] == secondArray[0];
         if (commonAtStart == true)
