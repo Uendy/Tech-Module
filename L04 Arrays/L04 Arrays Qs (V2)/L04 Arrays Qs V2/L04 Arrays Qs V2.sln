@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q01 Largest Common End", "Q
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q01 V2", "Q01 V2\Q01 V2.csproj", "{05491B30-2C0E-44D1-AF67-B6D4413B8D45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Rotate and Sum", "Q02 Rotate and Sum\Q02 Rotate and Sum.csproj", "{B757A430-6CEB-4997-8840-CCD04468E2B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{05491B30-2C0E-44D1-AF67-B6D4413B8D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05491B30-2C0E-44D1-AF67-B6D4413B8D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05491B30-2C0E-44D1-AF67-B6D4413B8D45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B757A430-6CEB-4997-8840-CCD04468E2B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B757A430-6CEB-4997-8840-CCD04468E2B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B757A430-6CEB-4997-8840-CCD04468E2B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B757A430-6CEB-4997-8840-CCD04468E2B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

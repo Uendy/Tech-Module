@@ -4,6 +4,7 @@ public class LargestCommonEnd
 {
     public static void Main()
     {
+        //Read two arrays of words and find the length of the largest common end (left or right).
         string[] firstArray = Console.ReadLine().Split().ToArray();
         string[] secondArray = Console.ReadLine().Split().ToArray();
 
