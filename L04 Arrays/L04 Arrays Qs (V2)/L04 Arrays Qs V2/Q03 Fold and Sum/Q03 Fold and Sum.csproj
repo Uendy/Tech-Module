@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8BEEBC67-5B15-40DB-86A8-8DFC78D5F398}</ProjectGuid>
+    <ProjectGuid>{A279EE31-3CD2-44F5-A618-489EF9C4E990}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Q02_Rotate_V2</RootNamespace>
-    <AssemblyName>Q02 Rotate V2</AssemblyName>
+    <RootNamespace>Q03_Fold_and_Sum</RootNamespace>
+    <AssemblyName>Q03 Fold and Sum</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
