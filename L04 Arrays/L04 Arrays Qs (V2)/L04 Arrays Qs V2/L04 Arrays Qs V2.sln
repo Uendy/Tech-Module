@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Fold and Sum", "Q03 Fol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 Sieve of Eratosthes", "Q04 Sieve of Eratosthes\Q04 Sieve of Eratosthes.csproj", "{386EF588-FE59-46F2-8D5B-A18C6E83B64B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 V2", "Q04 V2\Q04 V2.csproj", "{8F6E3EE7-5763-4C3E-9705-0974F6FF17E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{386EF588-FE59-46F2-8D5B-A18C6E83B64B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{386EF588-FE59-46F2-8D5B-A18C6E83B64B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{386EF588-FE59-46F2-8D5B-A18C6E83B64B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F6E3EE7-5763-4C3E-9705-0974F6FF17E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F6E3EE7-5763-4C3E-9705-0974F6FF17E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F6E3EE7-5763-4C3E-9705-0974F6FF17E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F6E3EE7-5763-4C3E-9705-0974F6FF17E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
