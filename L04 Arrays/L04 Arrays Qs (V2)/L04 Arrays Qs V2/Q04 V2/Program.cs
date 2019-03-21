@@ -12,7 +12,7 @@ public class Program
         // 4.Repeat for the next smallest p < n.
 
         int maxNum = int.Parse(Console.ReadLine());
-        var initialPrimes = new int[] { 2, 3, 5, 7 };
+        var initialPrimes = new int[] { 2, 3, 5, 7};
 
         var array = new bool[maxNum + 1]; // all are false
         array[0] = true;
