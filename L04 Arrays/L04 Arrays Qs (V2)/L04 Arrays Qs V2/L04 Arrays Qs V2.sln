@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 V2", "Q04 V2\Q04 V2.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q05 Compare Char Arrays", "Q05 Compare Char Arrays\Q05 Compare Char Arrays.csproj", "{0B271F54-BAB3-4354-B746-2397981838E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q06 Max Seq of elements", "Q06 Max Seq of elements\Q06 Max Seq of elements.csproj", "{79D29CA2-4060-4BFC-B5A7-3E63B572CABA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{0B271F54-BAB3-4354-B746-2397981838E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B271F54-BAB3-4354-B746-2397981838E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B271F54-BAB3-4354-B746-2397981838E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79D29CA2-4060-4BFC-B5A7-3E63B572CABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D29CA2-4060-4BFC-B5A7-3E63B572CABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D29CA2-4060-4BFC-B5A7-3E63B572CABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D29CA2-4060-4BFC-B5A7-3E63B572CABA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
