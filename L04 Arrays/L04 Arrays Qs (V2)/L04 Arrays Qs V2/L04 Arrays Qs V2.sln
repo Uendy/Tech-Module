@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q06 Max Seq of elements", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q07 Max seq of ++ elems", "Q07 Max seq of ++ elems\Q07 Max seq of ++ elems.csproj", "{C678578F-5338-41CC-A87F-243653E3B7B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q07 V2", "Q07 V2\Q07 V2.csproj", "{EE92791A-6A4C-4684-8182-3F0FAF00D5C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{C678578F-5338-41CC-A87F-243653E3B7B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C678578F-5338-41CC-A87F-243653E3B7B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C678578F-5338-41CC-A87F-243653E3B7B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE92791A-6A4C-4684-8182-3F0FAF00D5C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE92791A-6A4C-4684-8182-3F0FAF00D5C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE92791A-6A4C-4684-8182-3F0FAF00D5C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE92791A-6A4C-4684-8182-3F0FAF00D5C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
