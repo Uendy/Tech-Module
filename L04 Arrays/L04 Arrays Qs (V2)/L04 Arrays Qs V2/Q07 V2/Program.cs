@@ -32,7 +32,7 @@ public class Program
                 listOfCurrentSeq.Add(currentNum);
                 currentLength++;
 
-                bool lastElement = index == array.Length - 2;
+                bool lastElement = index == array.Length - 2; // to also add the last elem.
                 if (lastElement == true)
                 {
                     var maxSeqLength = listOfMaxSeq.Count();
