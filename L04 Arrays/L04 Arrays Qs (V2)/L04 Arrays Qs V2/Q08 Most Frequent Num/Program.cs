@@ -30,7 +30,7 @@ public class Program
         }
 
         int bestKey = 0;
-        int max = 0;
+        int max = int.MinValue;
 
         foreach (var keyNum in listOfKeys) // finds the bestKey + if two values are even will choose leftmost one
         {
@@ -38,7 +38,7 @@ public class Program
             if (currentValue > max)
             {
                 bestKey = keyNum;
-                max = keyNum;
+                max = dictOfNums[keyNum];
             }
         }
 
