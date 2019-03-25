@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q08 Most Frequent Num", "Q0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q09 Index of Letters", "Q09 Index of Letters\Q09 Index of Letters.csproj", "{4D6FE620-09D7-44AA-A51C-67866E54FAD2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q10 Pairs by difference", "Q10 Pairs by difference\Q10 Pairs by difference.csproj", "{A3988AAB-2CA8-4307-8E9D-C266DD297337}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{4D6FE620-09D7-44AA-A51C-67866E54FAD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D6FE620-09D7-44AA-A51C-67866E54FAD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D6FE620-09D7-44AA-A51C-67866E54FAD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3988AAB-2CA8-4307-8E9D-C266DD297337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3988AAB-2CA8-4307-8E9D-C266DD297337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3988AAB-2CA8-4307-8E9D-C266DD297337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3988AAB-2CA8-4307-8E9D-C266DD297337}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
