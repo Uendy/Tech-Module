@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q09 Index of Letters", "Q09
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q10 Pairs by difference", "Q10 Pairs by difference\Q10 Pairs by difference.csproj", "{A3988AAB-2CA8-4307-8E9D-C266DD297337}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q11 Equal Sums", "Q11 Equal Sums\Q11 Equal Sums.csproj", "{C3C92331-B828-4150-ACAE-08ACC163EF60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{A3988AAB-2CA8-4307-8E9D-C266DD297337}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3988AAB-2CA8-4307-8E9D-C266DD297337}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3988AAB-2CA8-4307-8E9D-C266DD297337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3C92331-B828-4150-ACAE-08ACC163EF60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3C92331-B828-4150-ACAE-08ACC163EF60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3C92331-B828-4150-ACAE-08ACC163EF60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3C92331-B828-4150-ACAE-08ACC163EF60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
