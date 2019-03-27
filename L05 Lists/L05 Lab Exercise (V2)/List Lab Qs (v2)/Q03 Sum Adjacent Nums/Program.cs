@@ -8,17 +8,19 @@ public class Program
         //	After two numbers are summed, the obtained result could be equal to some of its neighbors and should be summed as well (see the examples below).
         //	Always sum the leftmost two equal neighbors(if several couples of equal neighbors are available).
 
-        var list = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
+        var list = Console.ReadLine().Split(' ').Select(double.Parse).ToList();
 
         bool keepGoing = true;
         while (keepGoing == true)
         {
             for (int index = 0; index < list.Count() - 1; index++)
             {
-                int currentNum = list[index];
-                int nextNum = list[index + 1];
+                double currentNum = list[index];
+                double nextNum = list[index + 1];
 
                 bool adjacent = currentNum == nextNum;
+                bool noMoreAdjacent = list.Count() - 2 == index;
+
                 if (adjacent == true)
                 {
                     int indexOfCurrentNum = list.IndexOf(currentNum);
@@ -26,13 +28,18 @@ public class Program
 
                     list.RemoveAt(indexOfCurrentNum);
                     list[indexOfNextNum] += currentNum;
+
+                    if (noMoreAdjacent == true)
+                    {
+                        keepGoing = false;
+                    }
                     break;
                 }
 
-                bool noMoreAdjacent = list.Count() - 2 == index;
                 if (noMoreAdjacent == true)
                 {
                     keepGoing = false;
+                    break;
                 }
             }
         }
