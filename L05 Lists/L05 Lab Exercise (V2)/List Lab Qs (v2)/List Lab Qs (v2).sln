@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q01 Rmv Neg and Rev", "Q01 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Append Index", "Q02 Append Index\Q02 Append Index.csproj", "{C2A24371-D69C-4FE4-83C1-26C7F7A3DE54}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Sum Adjacent Nums", "Q03 Sum Adjacent Nums\Q03 Sum Adjacent Nums.csproj", "{2E710799-F77B-4C16-961F-B9252FFC5B31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C2A24371-D69C-4FE4-83C1-26C7F7A3DE54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2A24371-D69C-4FE4-83C1-26C7F7A3DE54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2A24371-D69C-4FE4-83C1-26C7F7A3DE54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E710799-F77B-4C16-961F-B9252FFC5B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E710799-F77B-4C16-961F-B9252FFC5B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E710799-F77B-4C16-961F-B9252FFC5B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E710799-F77B-4C16-961F-B9252FFC5B31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
