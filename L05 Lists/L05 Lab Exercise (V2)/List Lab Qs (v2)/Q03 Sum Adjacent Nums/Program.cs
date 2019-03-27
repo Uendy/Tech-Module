@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 public class Program
 {
@@ -27,7 +26,6 @@ public class Program
 
                     list.RemoveAt(indexOfCurrentNum);
                     list[indexOfNextNum] += currentNum;
-                    //list.RemoveAt(indexOfNextNum);
                     break;
                 }
 
