@@ -9,37 +9,25 @@ public class Program
         //	Always sum the leftmost two equal neighbors(if several couples of equal neighbors are available).
 
         var list = Console.ReadLine().Split(' ').Select(double.Parse).ToList();
-
-        bool keepGoing = true;
-        while (keepGoing == true)
+        if (list.Count() == 1)
         {
-            for (int index = 0; index < list.Count() - 1; index++)
+            Console.WriteLine(list[0]);
+            Environment.Exit(0);
+        }
+        var list;
+        bool keepCycling = true;
+        while (keepCycling == true)
+        {
+            keepCycling = false;
+
+            for (int index = 0; index < list.Count - 1; index++)
             {
-                double currentNum = list[index];
-                double nextNum = list[index + 1];
-
-                bool adjacent = currentNum == nextNum;
-                bool noMoreAdjacent = list.Count() - 2 == index;
-
-                if (adjacent == true)
+                bool checkEqualNumber = list[index] == list[index + 1];
+                if (checkEqualNumber == true)
                 {
-                    int indexOfCurrentNum = list.IndexOf(currentNum);
-                    int indexOfNextNum = list.IndexOf(nextNum);
-
-                    list.RemoveAt(indexOfCurrentNum);
-                    list[indexOfNextNum] += currentNum;
-
-                    if (noMoreAdjacent == true)
-                    {
-                        keepGoing = false;
-                    }
-                    break;
-                }
-
-                if (noMoreAdjacent == true)
-                {
-                    keepGoing = false;
-                    break;
+                    list[index + 1] = list[index] + list[index + 1];
+                    list.RemoveAt(index);
+                    keepCycling = true;
                 }
             }
         }
