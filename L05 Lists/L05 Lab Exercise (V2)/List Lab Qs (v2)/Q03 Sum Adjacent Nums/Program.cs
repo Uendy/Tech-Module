@@ -9,18 +9,13 @@ public class Program
         //	Always sum the leftmost two equal neighbors(if several couples of equal neighbors are available).
 
         var list = Console.ReadLine().Split(' ').Select(double.Parse).ToList();
-        if (list.Count() == 1)
-        {
-            Console.WriteLine(list[0]);
-            Environment.Exit(0);
-        }
-        var list;
+        
         bool keepCycling = true;
         while (keepCycling == true)
         {
             keepCycling = false;
 
-            for (int index = 0; index < list.Count - 1; index++)
+            for (int index = 0; index < list.Count() - 1; index++)
             {
                 bool checkEqualNumber = list[index] == list[index + 1];
                 if (checkEqualNumber == true)
