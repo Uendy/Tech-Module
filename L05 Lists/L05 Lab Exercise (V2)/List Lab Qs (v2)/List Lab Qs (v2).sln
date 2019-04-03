@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q05 Sort Numbers", "Q05 Sor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q06 Square Numbers", "Q06 Square Numbers\Q06 Square Numbers.csproj", "{FB3B30BB-9798-44CE-B0EE-644ACAB2A25F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q07 Count Numbers", "Q07 Count Numbers\Q07 Count Numbers.csproj", "{74CFB973-D939-4E00-98DA-702411EA1379}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{FB3B30BB-9798-44CE-B0EE-644ACAB2A25F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB3B30BB-9798-44CE-B0EE-644ACAB2A25F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB3B30BB-9798-44CE-B0EE-644ACAB2A25F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74CFB973-D939-4E00-98DA-702411EA1379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74CFB973-D939-4E00-98DA-702411EA1379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74CFB973-D939-4E00-98DA-702411EA1379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74CFB973-D939-4E00-98DA-702411EA1379}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
