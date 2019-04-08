@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 public class Program
 {
     public static void Main()
@@ -17,9 +16,9 @@ public class Program
         }
 
         listOfProducts.Sort();
-        for (int index = 1; index < numberOfInputs + 1; index++)
+        for (int index = 0; index < numberOfInputs; index++)
         {
-            Console.WriteLine($"{index}.{listOfProducts[index - 1]}");
+            Console.WriteLine($"{index + 1}.{listOfProducts[index]}");
         }
     }
 }
