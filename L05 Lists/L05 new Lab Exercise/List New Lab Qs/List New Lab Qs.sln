@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 List of Products", "Q04
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q06 List Manipul Basics", "Q06 List Manipul Basics\Q06 List Manipul Basics.csproj", "{D971A173-E1C6-4840-8992-E7F7F3EBB6D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q07 List Manip Advanced", "Q07 List Manip Advanced\Q07 List Manip Advanced.csproj", "{3728150D-B9E2-4FED-BB1F-B1A90DE5E672}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D971A173-E1C6-4840-8992-E7F7F3EBB6D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D971A173-E1C6-4840-8992-E7F7F3EBB6D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D971A173-E1C6-4840-8992-E7F7F3EBB6D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3728150D-B9E2-4FED-BB1F-B1A90DE5E672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3728150D-B9E2-4FED-BB1F-B1A90DE5E672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3728150D-B9E2-4FED-BB1F-B1A90DE5E672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3728150D-B9E2-4FED-BB1F-B1A90DE5E672}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
