@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Merging Lists", "Q03 Me
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 List of Products", "Q04 List of Products\Q04 List of Products.csproj", "{BE0AB919-5B55-4D90-B89D-72C780975CE6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q06 List Manipul Basics", "Q06 List Manipul Basics\Q06 List Manipul Basics.csproj", "{D971A173-E1C6-4840-8992-E7F7F3EBB6D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{BE0AB919-5B55-4D90-B89D-72C780975CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE0AB919-5B55-4D90-B89D-72C780975CE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE0AB919-5B55-4D90-B89D-72C780975CE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D971A173-E1C6-4840-8992-E7F7F3EBB6D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D971A173-E1C6-4840-8992-E7F7F3EBB6D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D971A173-E1C6-4840-8992-E7F7F3EBB6D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D971A173-E1C6-4840-8992-E7F7F3EBB6D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
