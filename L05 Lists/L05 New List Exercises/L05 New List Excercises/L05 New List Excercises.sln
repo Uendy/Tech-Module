@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q01 Train", "Q01 Train\Q01 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Change List", "Q02 Change List\Q02 Change List.csproj", "{645A1747-8CA0-4F01-A1DB-315CB4F6474B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 House Party", "Q03 House Party\Q03 House Party.csproj", "{06325795-E72F-47C5-810F-C592046C6D32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{645A1747-8CA0-4F01-A1DB-315CB4F6474B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{645A1747-8CA0-4F01-A1DB-315CB4F6474B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{645A1747-8CA0-4F01-A1DB-315CB4F6474B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06325795-E72F-47C5-810F-C592046C6D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06325795-E72F-47C5-810F-C592046C6D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06325795-E72F-47C5-810F-C592046C6D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06325795-E72F-47C5-810F-C592046C6D32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
