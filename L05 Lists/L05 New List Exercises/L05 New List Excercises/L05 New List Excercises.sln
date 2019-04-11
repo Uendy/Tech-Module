@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 List Operation", "Q04 L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q05 Bomb Numbers", "Q05 Bomb Numbers\Q05 Bomb Numbers.csproj", "{162749F5-0E53-4752-AFAC-9191AAE224A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q05 V2", "Q05 V2\Q05 V2.csproj", "{6CCD0073-4D49-4221-B47D-F061DD45DCA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{162749F5-0E53-4752-AFAC-9191AAE224A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{162749F5-0E53-4752-AFAC-9191AAE224A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{162749F5-0E53-4752-AFAC-9191AAE224A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CCD0073-4D49-4221-B47D-F061DD45DCA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CCD0073-4D49-4221-B47D-F061DD45DCA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CCD0073-4D49-4221-B47D-F061DD45DCA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CCD0073-4D49-4221-B47D-F061DD45DCA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

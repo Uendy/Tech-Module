@@ -14,12 +14,13 @@ public class Program
 
         var arrayOfNums = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
         var bombNum = arrayOfNums[0];
-        int indexOfBomb = list.IndexOf(bombNum);
+        //int indexOfBomb = list.IndexOf(bombNum);
         var blastRadius = arrayOfNums[1];
 
         while (list.Contains(bombNum))
         {
             //defuse left of bomb
+            int indexOfBomb = list.IndexOf(bombNum);
             bool blowsUpSafely = indexOfBomb <= list.Count() - 1 - blastRadius; // maybe not -1 
             if (blowsUpSafely == true)
             {
