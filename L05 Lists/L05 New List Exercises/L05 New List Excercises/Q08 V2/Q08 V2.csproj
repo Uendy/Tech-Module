@@ -7,7 +7,7 @@
     <ProjectGuid>{484F71E7-1776-46A5-BC93-2816C2898D8F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q08_V2</RootNamespace>
-    <AssemblyName>Q08_V2</AssemblyName>
+    <AssemblyName>Q08 V2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

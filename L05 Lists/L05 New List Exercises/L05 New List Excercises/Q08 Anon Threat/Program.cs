@@ -69,7 +69,6 @@ public class Program
 
                 int range = endIndex + 1 - startIndex;
                 list.RemoveRange(startIndex, range);
-
                 list.Insert(startIndex, mergedString);
             }
             else if (commandTokens[0] == "divide")
