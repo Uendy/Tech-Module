@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q05 V2", "Q05 V2\Q05 V2.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q06 Card Game", "Q06 Card Game\Q06 Card Game.csproj", "{F1D11431-A71D-454E-A311-58660ED5C07B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q07 Append List", "Q07 Append Lis\Q07 Append List.csproj", "{9082A7A4-F397-4CF7-ACCD-EDFA0B2F426F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{F1D11431-A71D-454E-A311-58660ED5C07B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1D11431-A71D-454E-A311-58660ED5C07B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1D11431-A71D-454E-A311-58660ED5C07B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9082A7A4-F397-4CF7-ACCD-EDFA0B2F426F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9082A7A4-F397-4CF7-ACCD-EDFA0B2F426F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9082A7A4-F397-4CF7-ACCD-EDFA0B2F426F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9082A7A4-F397-4CF7-ACCD-EDFA0B2F426F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

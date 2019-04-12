@@ -37,17 +37,15 @@ public class Program
                 secondHand.Add(secondPlayerCard);
                 secondHand.Add(firstPlayerCard);
             }
-            //else //If both players’ cards have the same values - no one wins, and the two cards must be removed from the decks
-            //{
-                firstHand.RemoveAt(0);
-                secondHand.RemoveAt(0);
-            //}
+
+            firstHand.RemoveAt(0);
+            secondHand.RemoveAt(0);
 
 
             bool emptyHand = firstHand.Count() == 0 || secondHand.Count() == 0;
             if (emptyHand == true)
             {
-                keepGoing = false; 
+                keepGoing = false;
             }
         }
 
