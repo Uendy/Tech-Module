@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q08 Anon Threat", "Q08 Anon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q08 V2", "Q08 V2\Q08 V2.csproj", "{484F71E7-1776-46A5-BC93-2816C2898D8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q09 Pkmon Dont go", "Q09 Pkmon Dont go\Q09 Pkmon Dont go.csproj", "{55427A8A-FB24-407F-B82D-CE6F1D3C6A9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{484F71E7-1776-46A5-BC93-2816C2898D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{484F71E7-1776-46A5-BC93-2816C2898D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{484F71E7-1776-46A5-BC93-2816C2898D8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55427A8A-FB24-407F-B82D-CE6F1D3C6A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55427A8A-FB24-407F-B82D-CE6F1D3C6A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55427A8A-FB24-407F-B82D-CE6F1D3C6A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55427A8A-FB24-407F-B82D-CE6F1D3C6A9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
