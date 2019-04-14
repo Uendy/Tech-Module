@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q08 V2", "Q08 V2\Q08 V2.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q09 Pkmon Dont go", "Q09 Pkmon Dont go\Q09 Pkmon Dont go.csproj", "{55427A8A-FB24-407F-B82D-CE6F1D3C6A9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q10 SoftUni Plan", "Q10 SoftUni Plan\Q10 SoftUni Plan.csproj", "{B173BA9E-4AD6-4EDF-B7A8-CDF7A020B7BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{55427A8A-FB24-407F-B82D-CE6F1D3C6A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55427A8A-FB24-407F-B82D-CE6F1D3C6A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55427A8A-FB24-407F-B82D-CE6F1D3C6A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B173BA9E-4AD6-4EDF-B7A8-CDF7A020B7BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B173BA9E-4AD6-4EDF-B7A8-CDF7A020B7BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B173BA9E-4AD6-4EDF-B7A8-CDF7A020B7BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B173BA9E-4AD6-4EDF-B7A8-CDF7A020B7BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
