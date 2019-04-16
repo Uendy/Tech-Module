@@ -46,7 +46,10 @@ public class Program
                     if (!alreadyExists)
                     {
                         int index = int.Parse(commandTokens[2]);
-                        course.Insert(index, courseName);
+                        if (index >= 0 && index < course.Count())
+                        {
+                            course.Insert(index, courseName);
+                        }
                     }
                     break;
 
