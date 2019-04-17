@@ -5,6 +5,8 @@ public class Program
 {
     public static void Main()
     {
+        // check any questions here: https://judge.softuni.bg/Contests/Practice/Index/209#0
+
         //Write a program that receives some info from the console about people and their phone numbers. 
         //Each entry should have just one name and one number(both of them strings). 
 
