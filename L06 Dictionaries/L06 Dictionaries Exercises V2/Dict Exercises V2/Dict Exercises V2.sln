@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q01 Phonebook", "Q01 Phonebook\Q01 Phonebook.csproj", "{79F1CA51-B771-44F7-9FB0-5D32CC99BF14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 PB Update", "Q02 PB Update\Q02 PB Update.csproj", "{135F31BB-A224-4F79-8461-91BF09DA62BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79F1CA51-B771-44F7-9FB0-5D32CC99BF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F1CA51-B771-44F7-9FB0-5D32CC99BF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F1CA51-B771-44F7-9FB0-5D32CC99BF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F1CA51-B771-44F7-9FB0-5D32CC99BF14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{135F31BB-A224-4F79-8461-91BF09DA62BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{135F31BB-A224-4F79-8461-91BF09DA62BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{135F31BB-A224-4F79-8461-91BF09DA62BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{135F31BB-A224-4F79-8461-91BF09DA62BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CE8CA25-3148-47A2-A585-34A33257EBBC}
+	EndGlobalSection
+EndGlobal
