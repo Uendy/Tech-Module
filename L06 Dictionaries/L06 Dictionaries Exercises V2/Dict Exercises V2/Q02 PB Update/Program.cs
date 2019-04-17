@@ -30,8 +30,9 @@ public class Program
                 foreach (var item in phoneBook.Keys)
                 {
                     Console.WriteLine($"{item} -> {phoneBook[item]}");
-                    continue;
                 }
+
+                continue;
             }
 
             string name = string.Empty;
