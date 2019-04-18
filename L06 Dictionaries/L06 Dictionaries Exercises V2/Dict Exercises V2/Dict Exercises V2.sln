@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 PB Update", "Q02 PB Upd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Miner Task", "Q03 Miner Task\Q03 Miner Task.csproj", "{B98587B0-4CCD-42A4-8C81-898530D1D272}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 Fix Emails", "Q04 Fix Emails\Q04 Fix Emails.csproj", "{44E87365-B093-49CF-9A6C-DE9116B848C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q05 Card Hands", "Q05 Card Hands\Q05 Card Hands.csproj", "{833A647F-2868-494D-98F2-EE63A864DEB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{B98587B0-4CCD-42A4-8C81-898530D1D272}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B98587B0-4CCD-42A4-8C81-898530D1D272}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B98587B0-4CCD-42A4-8C81-898530D1D272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44E87365-B093-49CF-9A6C-DE9116B848C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E87365-B093-49CF-9A6C-DE9116B848C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E87365-B093-49CF-9A6C-DE9116B848C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E87365-B093-49CF-9A6C-DE9116B848C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{833A647F-2868-494D-98F2-EE63A864DEB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{833A647F-2868-494D-98F2-EE63A864DEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{833A647F-2868-494D-98F2-EE63A864DEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{833A647F-2868-494D-98F2-EE63A864DEB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

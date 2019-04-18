@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{44E87365-B093-49CF-9A6C-DE9116B848C5}</ProjectGuid>
+    <ProjectGuid>{833A647F-2868-494D-98F2-EE63A864DEB2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Q04_Fix_Emails</RootNamespace>
-    <AssemblyName>Q04 Fix Emails</AssemblyName>
+    <RootNamespace>Q05_Card_Hands</RootNamespace>
+    <AssemblyName>Q05 Card Hands</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
