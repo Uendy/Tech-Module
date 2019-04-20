@@ -18,7 +18,7 @@ public class Program
         //Finally print out the total value each player has in his hand in the format:
         //•	{ personName}: { value}
 
-        var dictOfCards = new Dictionary<string, int>();
+        var dictOfCards = new Dictionary<string, List<string>>();
 
         while (true)
         {
@@ -37,22 +37,24 @@ public class Program
             string separator = ", ";
             var hand = inputTokens[1].Split(new string[] { separator }, StringSplitOptions.RemoveEmptyEntries).ToList();
 
-            int handTotal = HandCalculator(hand);
+            //int handTotal = HandCalculator(hand);
 
             bool newPlayer = !dictOfCards.ContainsKey(name);
             if (newPlayer == true)
             {
-                dictOfCards[name] = handTotal;
+                dictOfCards[name] = new List<string>();
+                dictOfCards[name].AddRange(hand);
             }
             else
             {
-                dictOfCards[name] += handTotal;
+                dictOfCards[name].AddRange(hand);
             }
         }
 
         foreach (var item in dictOfCards.Keys)
         {
-            Console.WriteLine($"{item}: {dictOfCards[item]}");
+            int handTotal = HandCalculator(dictOfCards[item]);
+            Console.WriteLine($"{item}: {handTotal}");
         }
     }
 
