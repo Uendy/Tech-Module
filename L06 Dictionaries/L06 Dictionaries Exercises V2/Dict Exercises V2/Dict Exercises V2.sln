@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 Fix Emails", "Q04 Fix E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q05 Card Hands", "Q05 Card Hands\Q05 Card Hands.csproj", "{833A647F-2868-494D-98F2-EE63A864DEB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q06 User Logs", "Q06 User Logs\Q06 User Logs.csproj", "{325723E0-519D-4BCD-9E06-F46F5BE88611}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q06 V2", "Q06 V2\Q06 V2.csproj", "{B36CDFD3-F0D5-40DC-8756-362EA30F560F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{833A647F-2868-494D-98F2-EE63A864DEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{833A647F-2868-494D-98F2-EE63A864DEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{833A647F-2868-494D-98F2-EE63A864DEB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{325723E0-519D-4BCD-9E06-F46F5BE88611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{325723E0-519D-4BCD-9E06-F46F5BE88611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{325723E0-519D-4BCD-9E06-F46F5BE88611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{325723E0-519D-4BCD-9E06-F46F5BE88611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B36CDFD3-F0D5-40DC-8756-362EA30F560F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36CDFD3-F0D5-40DC-8756-362EA30F560F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36CDFD3-F0D5-40DC-8756-362EA30F560F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36CDFD3-F0D5-40DC-8756-362EA30F560F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

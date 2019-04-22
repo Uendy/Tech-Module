@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{325723E0-519D-4BCD-9E06-F46F5BE88611}</ProjectGuid>
+    <ProjectGuid>{B36CDFD3-F0D5-40DC-8756-362EA30F560F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Q06_User_Logs</RootNamespace>
-    <AssemblyName>Q06 User Logs</AssemblyName>
+    <RootNamespace>Q06_V2</RootNamespace>
+    <AssemblyName>Q06 V2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
