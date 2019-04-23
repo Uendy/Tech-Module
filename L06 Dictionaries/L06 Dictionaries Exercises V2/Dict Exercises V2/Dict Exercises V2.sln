@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q06 User Logs", "Q06 User L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q06 V2", "Q06 V2\Q06 V2.csproj", "{B36CDFD3-F0D5-40DC-8756-362EA30F560F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q07 Pop Cntrol", "Q07 Pop Cntrol\Q07 Pop Cntrol.csproj", "{297BEFB6-A312-46A2-B6F6-3B6FB6EABB80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{B36CDFD3-F0D5-40DC-8756-362EA30F560F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B36CDFD3-F0D5-40DC-8756-362EA30F560F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B36CDFD3-F0D5-40DC-8756-362EA30F560F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{297BEFB6-A312-46A2-B6F6-3B6FB6EABB80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{297BEFB6-A312-46A2-B6F6-3B6FB6EABB80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{297BEFB6-A312-46A2-B6F6-3B6FB6EABB80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{297BEFB6-A312-46A2-B6F6-3B6FB6EABB80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
