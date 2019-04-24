@@ -20,7 +20,7 @@ public class Program
         //Order the IPs alphabetically.In our example, the output should be the following:
         //•	alex: 62[10.10.17.33, 212.50.118.81]
         //•	peter: 303[10.10.17.34, 10.10.17.35, 192.168.0.11]
-
+        var listOfUsers = new List<string>();
         var usersAndIps = new SortedDictionary<string, List<string>>();
         var usersAndTotal = new Dictionary<string, int>();
 
@@ -32,9 +32,10 @@ public class Program
             string user = inputTokens[1];
             int value = int.Parse(inputTokens[2]);
 
-            bool newUser = !usersAndIps.ContainsKey(user);
+            bool newUser = !listOfUsers.Contains(user);
             if (newUser)
             {
+                listOfUsers.Add(user);
                 usersAndIps[user] = new List<string>();
                 usersAndIps[user].Add(iPAdrress);
                 usersAndTotal[user] = value;
@@ -46,9 +47,9 @@ public class Program
             }
         }
 
-        foreach (var item in usersAndIps.Keys) // removing repeat string adressess
+        foreach (var user in listOfUsers) // removing repeat string adressess and order values
         {
-            usersAndIps[item] = usersAndIps[item].Distinct().OrderByDescending(x => x).ToList();
+            usersAndIps[user] = usersAndIps[user].Distinct().OrderBy(x => x).ToList();
         }
         
         foreach (var item in usersAndIps.Keys)
