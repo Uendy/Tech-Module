@@ -16,6 +16,51 @@ public class Program
         //the cities should be ordered by the same criterion.
         //If two countries / cities have the same population, keep them in the order in which they were entered.
 
+        var register = new Dictionary<string, Dictionary<string, long>>();
 
+        while (true)
+        {
+            string input = Console.ReadLine();
+            if (input == "report")
+            {
+                break;
+            }
+
+            var inputTokens = input.Split('|').ToArray();
+
+            var country = inputTokens[1];
+            var city = inputTokens[0];
+            var population = int.Parse(inputTokens[2]);
+
+
+            bool containsCountry = register.ContainsKey(country);
+            if (containsCountry == false)
+            {
+                register.Add(country, new Dictionary<string, long>());
+                register[country].Add(city, population);
+            }
+
+            else
+            {
+                register[country].Add(city, population);
+            }
+        }
+
+        var mergeDict = new Dictionary<string, long>();
+
+        foreach (var item in register)
+        {
+            mergeDict[item.Key] = item.Value.Values.Sum();
+        }
+
+        foreach (var item in mergeDict.OrderByDescending(x => x.Value))
+        {
+            Console.WriteLine($"{item.Key} (total population: {item.Value})");
+
+            foreach (var index in register[item.Key].OrderByDescending(x => x.Value))
+            {
+                Console.WriteLine($"=>{index.Key}: {index.Value}");
+            }
+        }
     }
 }
