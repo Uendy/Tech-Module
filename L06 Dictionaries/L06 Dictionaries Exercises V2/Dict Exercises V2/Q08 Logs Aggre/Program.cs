@@ -54,7 +54,7 @@ public class Program
         
         foreach (var item in usersAndIps.Keys)
         {
-            string outPut = string.Join(" ", usersAndIps[item]);
+            string outPut = string.Join(", ", usersAndIps[item]);
             Console.WriteLine($"{item}: {usersAndTotal[item]} [{outPut}]");
         }
     }
