@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q07 Pop Cntrol", "Q07 Pop C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q08 Logs Aggre", "Q08 Logs Aggre\Q08 Logs Aggre.csproj", "{7341AF3C-08BF-43A4-A53F-AF9DD99D6926}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q09 Leg Farm", "Q09 Leg Farm\Q09 Leg Farm.csproj", "{920D7FF8-9798-43A8-96E3-AB7EA16C886E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{7341AF3C-08BF-43A4-A53F-AF9DD99D6926}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7341AF3C-08BF-43A4-A53F-AF9DD99D6926}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7341AF3C-08BF-43A4-A53F-AF9DD99D6926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{920D7FF8-9798-43A8-96E3-AB7EA16C886E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{920D7FF8-9798-43A8-96E3-AB7EA16C886E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{920D7FF8-9798-43A8-96E3-AB7EA16C886E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{920D7FF8-9798-43A8-96E3-AB7EA16C886E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
