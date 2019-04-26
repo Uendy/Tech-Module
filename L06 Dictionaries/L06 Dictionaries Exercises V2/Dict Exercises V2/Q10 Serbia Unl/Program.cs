@@ -78,6 +78,7 @@ public class Program
             }
         }
 
+        //printing 
         foreach (var venue in venueSingerRevenue.Keys)
         {
             Console.WriteLine(venue);
