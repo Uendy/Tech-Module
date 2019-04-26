@@ -19,6 +19,13 @@ public class Program
         //SKIP THOSE: Ceca @Belgrade125 12378, Ceca @Belgrade12312 123
         //The singer and town name may consist of one to three words. 
 
+        //TODO: fix the last outer for-each cycle
+        //ToDo: If two singers have made the same amount of money, keep them in the order in which they were entered. 
+
+        var venueSingerRevenue = new Dictionary<string, Dictionary<string, long>>();
+        //outerDict: key == venue value == innerDict
+        //innerDict: key == artist value == revenue
+
         while (true)
         {
             string input = Console.ReadLine();
@@ -52,6 +59,32 @@ public class Program
 
             //getting all the venue names
             string venue = string.Join(" ", inputTokens).Replace("@", "");
+
+            //inserting all the values into the dictionary venueSingerRevenue
+            bool newVenue = !venueSingerRevenue.ContainsKey(venue);
+            if (newVenue)
+            {
+                venueSingerRevenue[venue] = new Dictionary<string, long>();
+            }
+
+            bool newArtist = !venueSingerRevenue[venue].ContainsKey(singer);
+            if (newArtist)
+            {
+                venueSingerRevenue[venue][singer] = ticketRevenue;
+            }
+            else
+            {
+                venueSingerRevenue[venue][singer] += ticketRevenue;
+            }
+        }
+
+        foreach (var venue in venueSingerRevenue.Keys)
+        {
+            Console.WriteLine(venue);
+            foreach (var artist in venueSingerRevenue[venue].OrderByDescending(x => x.Value))
+            {
+                Console.WriteLine($"#  {artist.Key} -> {artist.Value}");
+            }
         }
     }
 }
