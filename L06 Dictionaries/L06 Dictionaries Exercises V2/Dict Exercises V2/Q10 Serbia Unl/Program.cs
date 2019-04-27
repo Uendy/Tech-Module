@@ -35,7 +35,7 @@ public class Program
             }
 
             var inputTokens = input.Split(' ').ToList();
-            if (inputTokens.Count() < 4 || !input.Contains('@')) //SKIP THOSE
+            if (inputTokens.Count() < 4 || !input.Contains(" @")) //SKIP THOSE
             {
                 continue;
             }
@@ -44,14 +44,29 @@ public class Program
             var singerNames = input.Split('@').First().Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries).ToList();
             var singer = string.Join(" ", singerNames);
 
-            inputTokens = inputTokens.Except(singerNames).ToList();
+            foreach (var name in singerNames)
+            {
+                inputTokens.Remove(name);
+            }
+            //inputTokens = inputTokens.RemoveAll(x => x.SelectMany(singerNames)).ToList();// the problem
 
             //getting the ticket details
             inputTokens.Reverse();
 
             var ticketDetails = inputTokens.Take(2).ToArray();
-            int ticketCount = int.Parse(ticketDetails[0]);
-            int ticketPrice = int.Parse(ticketDetails[1]);
+            long ticketCount = 0;
+            long ticketPrice = 0;
+
+            bool succesfullyParse = false;
+            if (long.TryParse(ticketDetails[1], out ticketPrice) && long.TryParse(ticketDetails[0], out ticketCount))
+            {
+                succesfullyParse = true;
+            }
+
+            if (succesfullyParse == false)
+            {
+                continue;
+            }
             long ticketRevenue = ticketPrice * ticketCount;
 
             inputTokens = inputTokens.Except(ticketDetails).ToList();
@@ -65,16 +80,19 @@ public class Program
             if (newVenue)
             {
                 venueSingerRevenue[venue] = new Dictionary<string, long>();
-            }
-
-            bool newArtist = !venueSingerRevenue[venue].ContainsKey(singer);
-            if (newArtist)
-            {
-                venueSingerRevenue[venue][singer] = ticketRevenue;
+                venueSingerRevenue[venue].Add(singer, ticketRevenue);
             }
             else
             {
-                venueSingerRevenue[venue][singer] += ticketRevenue;
+                bool newArtist = !venueSingerRevenue[venue].ContainsKey(singer);
+                if (newArtist)
+                {
+                    venueSingerRevenue[venue].Add(singer, ticketRevenue);
+                }
+                else
+                {
+                    venueSingerRevenue[venue][singer] += ticketRevenue;
+                }
             }
         }
 
