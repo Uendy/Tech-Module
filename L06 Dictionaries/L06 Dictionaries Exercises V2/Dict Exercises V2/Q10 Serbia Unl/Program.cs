@@ -82,9 +82,9 @@ public class Program
         foreach (var venue in venueSingerRevenue.Keys)
         {
             Console.WriteLine(venue);
-            foreach (var artist in venueSingerRevenue[venue].OrderByDescending(x => x.Value))
+            foreach (var kvp in venueSingerRevenue[venue].OrderByDescending(x => x.Value))
             {
-                Console.WriteLine($"#  {artist.Key} -> {artist.Value}");
+                Console.WriteLine($"#  {kvp.Key} -> {kvp.Value}");
             }
         }
     }
