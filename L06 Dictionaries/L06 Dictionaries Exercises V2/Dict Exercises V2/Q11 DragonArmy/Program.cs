@@ -23,7 +23,7 @@ public class Program
         //If the same dragon is added a second time, the new stats should overwrite the previous ones.
         //Two dragons are considered equal if they match by both name and type.
 
-        var dragonsCollection = new Dictionary<string, SortedDictionary<string, object>>();
+        var dragonsCollection = new Dictionary<string, SortedDictionary<string, Dragon>>();
         //outerDict: key = DragonType, value = innerDict
         //innerDict: key = DragonName, value = the actual dragon (object)
 
@@ -61,7 +61,7 @@ public class Program
             bool newType = !dragonsCollection.ContainsKey(type);
             if (newType)
             {
-                dragonsCollection[type] = new SortedDictionary<string, object>();
+                dragonsCollection[type] = new SortedDictionary<string, Dragon>();
             }
 
             // make the dragon object
@@ -81,49 +81,49 @@ public class Program
         //Printing
 
 
-        foreach (var type in dragonsCollection.Keys)
+        foreach (var type in dragonsCollection.Keys) //Printing and determening aggregate stats
         {
             double averageDamage = 0.0;
-            double averageHealth = 0.0;
-            double averageArmor = 0.0;
-
             var listOfDamage = new List<int>();
             foreach (var name in dragonsCollection[type].Keys)
             {
                 var currentDragon = dragonsCollection[type][name];
-                //listOfDamage.Add(currentDragon.Health);
-                //listOfDamage.Add(dragonsCollection[type][name][Health]);
+                int currentDamage = currentDragon.Damage;
+                listOfDamage.Add(currentDamage);
             }
+            averageDamage = listOfDamage.Average();
 
+
+            double averageHealth = 0.0;
+            var listOfHealth = new List<int>();
+            foreach (var name in dragonsCollection[type].Keys)
+            {
+                var currentDragon = dragonsCollection[type][name];
+                var currentHealth = currentDragon.Health;
+                listOfHealth.Add(currentHealth);
+            }
+            averageHealth = listOfHealth.Average();
+
+            double averageArmor = 0.0;
+            var listOfArmor = new List<int>();
+            foreach (var name in dragonsCollection[type].Keys)
+            {
+                var currentDragon = dragonsCollection[type][name];
+                var currentArmor = currentDragon.Armor;
+                listOfArmor.Add(currentArmor);
+            }
+            averageArmor = listOfArmor.Average();
+
+            Console.WriteLine($"{type}::({averageDamage:f2}/{averageHealth:f2}/{averageArmor:f2})");
+
+            foreach (var dragon in dragonsCollection[type].Keys)
+            {
+                
+                Console.WriteLine($"-{dragon} -> " +
+                    $"damage: {dragonsCollection[type][dragon].Damage}," +
+                    $" health: {dragonsCollection[type][dragon].Health}," +
+                    $" armor: {dragonsCollection[type][dragon].Armor}");
+            }
         }
-        //    averageDamage = listOfDamage.Average();
-
-        //    var listOfHealth = new List<int>(dragonsCollection[type].Values.Count);
-        //    foreach (var name in dragonsCollection[type].Keys)
-        //    {
-        //        listOfHealth.Add(dragonsCollection[type][name][1]);
-        //    }
-        //    averageHealth = listOfHealth.Average();
-
-        //    var listOfArmor = new List<int>(dragonsCollection[type].Values.Count);
-        //    foreach (var name in dragonsCollection[type].Keys)
-        //    {
-        //        listOfArmor.Add(dragonsCollection[type][name][2]);
-        //    }
-        //    averageArmor = listOfArmor.Average();
-
-        //    Console.WriteLine($"{type}::({averageDamage:f2}/{averageHealth:f2}/{averageArmor:f2})");
-
-        //    foreach (var dragon in dragonsCollection[type].OrderBy(x => x.Key))
-        //    {
-        //        Console.WriteLine($"-{dragon.Key} -> damage: {dragonsCollection[type][dragon].z}, health: {dragon.Value[1]}, armor: {dragon.Value[2]}");
-        //    }
-        //}
-
-
-        //foreach (var type in dragonsCollection.Keys)
-        //{
-        //    Console.WriteLine($"{type}::({dragonsCollection[type].Values}/{}/{})");
-        //}
     }
 }
