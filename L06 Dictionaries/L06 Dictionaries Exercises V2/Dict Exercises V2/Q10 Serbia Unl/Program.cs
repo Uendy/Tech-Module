@@ -48,7 +48,6 @@ public class Program
             {
                 inputTokens.Remove(name);
             }
-            //inputTokens = inputTokens.RemoveAll(x => x.SelectMany(singerNames)).ToList();// the problem
 
             //getting the ticket details
             inputTokens.Reverse();

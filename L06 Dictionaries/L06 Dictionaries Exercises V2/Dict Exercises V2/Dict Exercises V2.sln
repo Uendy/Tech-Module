@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q09 Leg Farm", "Q09 Leg Far
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q10 Serbia Unl", "Q10 Serbia Unl\Q10 Serbia Unl.csproj", "{A60E70C1-AEAC-4BC5-9688-F07ECFD423E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q11 DragonArmy", "Q11 DragonArmy\Q11 DragonArmy.csproj", "{7A40AE4B-4610-49CC-BC9F-E6C946ECDF5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{A60E70C1-AEAC-4BC5-9688-F07ECFD423E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A60E70C1-AEAC-4BC5-9688-F07ECFD423E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A60E70C1-AEAC-4BC5-9688-F07ECFD423E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A40AE4B-4610-49CC-BC9F-E6C946ECDF5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A40AE4B-4610-49CC-BC9F-E6C946ECDF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A40AE4B-4610-49CC-BC9F-E6C946ECDF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A40AE4B-4610-49CC-BC9F-E6C946ECDF5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
