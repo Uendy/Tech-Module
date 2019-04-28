@@ -79,5 +79,51 @@ public class Program
 
         //ToDo: average for each type
         //Printing
+
+
+        foreach (var type in dragonsCollection.Keys)
+        {
+            double averageDamage = 0.0;
+            double averageHealth = 0.0;
+            double averageArmor = 0.0;
+
+            var listOfDamage = new List<int>();
+            foreach (var name in dragonsCollection[type].Keys)
+            {
+                var currentDragon = dragonsCollection[type][name];
+                //listOfDamage.Add(currentDragon.Health);
+                //listOfDamage.Add(dragonsCollection[type][name][Health]);
+            }
+
+        }
+        //    averageDamage = listOfDamage.Average();
+
+        //    var listOfHealth = new List<int>(dragonsCollection[type].Values.Count);
+        //    foreach (var name in dragonsCollection[type].Keys)
+        //    {
+        //        listOfHealth.Add(dragonsCollection[type][name][1]);
+        //    }
+        //    averageHealth = listOfHealth.Average();
+
+        //    var listOfArmor = new List<int>(dragonsCollection[type].Values.Count);
+        //    foreach (var name in dragonsCollection[type].Keys)
+        //    {
+        //        listOfArmor.Add(dragonsCollection[type][name][2]);
+        //    }
+        //    averageArmor = listOfArmor.Average();
+
+        //    Console.WriteLine($"{type}::({averageDamage:f2}/{averageHealth:f2}/{averageArmor:f2})");
+
+        //    foreach (var dragon in dragonsCollection[type].OrderBy(x => x.Key))
+        //    {
+        //        Console.WriteLine($"-{dragon.Key} -> damage: {dragonsCollection[type][dragon].z}, health: {dragon.Value[1]}, armor: {dragon.Value[2]}");
+        //    }
+        //}
+
+
+        //foreach (var type in dragonsCollection.Keys)
+        //{
+        //    Console.WriteLine($"{type}::({dragonsCollection[type].Values}/{}/{})");
+        //}
     }
 }

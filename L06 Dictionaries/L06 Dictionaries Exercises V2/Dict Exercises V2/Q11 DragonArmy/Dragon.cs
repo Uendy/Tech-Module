@@ -1,16 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-public class Dragon
+﻿public class Dragon
 {
+    public Dragon(string name, string type, int health, int damage, int armor)
+    {
+        Type = type;
+        Name = name;
+        Health = health;
+        Damage = damage;
+        Armor = armor;
+    }
+
     public string Type { get; set; }
 
     public string Name { get; set; }
 
-    public int Health = 250;
+    public int Health { get; set; }
 
-    public int Damage = 45;
+    public int Damage { get; set; }
 
-    public int Armor = 10;
+    public int Armor { get; set; }
 }
