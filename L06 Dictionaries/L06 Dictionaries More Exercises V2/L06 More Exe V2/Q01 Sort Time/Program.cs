@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 public class Program
 {
@@ -11,7 +10,9 @@ public class Program
         //Example: 06:55, 02:30, 23:11 -> 02:30, 06:55, 21:11
 
         var listOfTimes = Console.ReadLine().Split(' ').ToList();
+
         listOfTimes = listOfTimes.OrderBy(x => x).ToList();
+
         string outPut = string.Join(", ", listOfTimes);
         Console.WriteLine(outPut);
     }
