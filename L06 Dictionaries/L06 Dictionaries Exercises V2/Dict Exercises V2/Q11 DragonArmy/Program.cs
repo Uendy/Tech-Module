@@ -36,23 +36,20 @@ public class Program
             string type = dragonInfoTokens[0];
             string name = dragonInfoTokens[1];
 
-            int health = 0;
-            bool healthParsed = int.TryParse(dragonInfoTokens[2], out health);
-            if (health == 0)
-            {
-                health = 250;
-            }
-
-            int damage = 0;
-            bool damageParsed = int.TryParse(dragonInfoTokens[3], out damage);
-            if (damage == 0)
+            bool damageParsed = int.TryParse(dragonInfoTokens[2], out int damage);
+            if (damageParsed == false)
             {
                 damage = 45;
             }
 
-            int armor = 0;
-            bool armorParsed = int.TryParse(dragonInfoTokens[4], out armor);
-            if (armor == 0)
+            bool healthParsed = int.TryParse(dragonInfoTokens[3], out int health);
+            if (healthParsed == false)
+            {
+                health = 250;
+            }
+
+            bool armorParsed = int.TryParse(dragonInfoTokens[4], out int armor);
+            if (armorParsed == false)
             {
                 armor = 10;
             }
@@ -76,9 +73,6 @@ public class Program
 
             dragonsCollection[type][name] = currentDragon;
         }
-
-        //ToDo: average for each type
-        //Printing
 
 
         foreach (var type in dragonsCollection.Keys) //Printing and determening aggregate stats
@@ -114,6 +108,8 @@ public class Program
             }
             averageArmor = listOfArmor.Average();
 
+
+            //printing
             Console.WriteLine($"{type}::({averageDamage:f2}/{averageHealth:f2}/{averageArmor:f2})");
 
             foreach (var dragon in dragonsCollection[type].Keys)
