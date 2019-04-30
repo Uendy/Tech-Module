@@ -90,11 +90,7 @@ public class Program
             {
                 currentHealth += (int)regainedHealth;
             }
-
-
         }
-
         Console.WriteLine($"Final Health: {currentHealth}");
-
     }
 }
