@@ -46,7 +46,13 @@ public class Program
             var commandTokens = Console.ReadLine().Split(' ').ToList();
 
             string command = commandTokens[0];
-            string user = commandTokens[1];
+            string userName = commandTokens[1];
+            if (driversAndLicense.ContainsKey(userName)) //already has a car in parking
+            {
+                Console.WriteLine($"ERROR: already registered with plate number {driversAndLicense[userName]}");
+                continue;
+            }
+
 
             if (command == "register")
             {
@@ -68,19 +74,49 @@ public class Program
 
                 if (exactLength && allCapitalLetters && middleFourAreDigits)
                 {
-                    Console.WriteLine("YES");
+                    bool newDriver = !driversAndLicense.ContainsKey(userName);
+                    if (newDriver)
+                    {
+                        bool triesAnAlreadyRegisteredCar = driversAndLicense.ContainsValue(license);
+                        if (triesAnAlreadyRegisteredCar)
+                        {
+                            Console.WriteLine($"ERROR: license plate {license} is busy");
+                            continue;
+                        }
+                        else // all checks passed -> you can log the driver and car into the system
+                        {
+                            driversAndLicense[userName] = license;
+                            Console.WriteLine($"{userName} registered {license} successfully");
+                        }
+                    }
                 }
-                else
+                else //invalid license
                 {
-                    continue;
+                    Console.WriteLine($"ERROR: invalid license plate {license}");
                 }
             }
             else //unregister
             {
+                bool isUserRegistered = driversAndLicense.ContainsKey(userName);
+                if (!isUserRegistered)
+                {
+                    Console.WriteLine($"ERROR: user {userName} not found");
+                }
+                else // found the user and removing him from database
+                {
+                    driversAndLicense.Remove(userName);
+                    Console.WriteLine($"user {userName} unregistered successfully");
+                }
 
 
             }
 
+        }
+
+        //printing all drivers and their license plates
+        foreach (var driver in driversAndLicense.Keys)
+        {
+            Console.WriteLine($"{driver} => {driversAndLicense[driver]}");
         }
 
     }
