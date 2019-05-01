@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 ImmuneSys", "Q03 Immune
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 SuperMart", "Q04 SuperMart\Q04 SuperMart.csproj", "{8EB8A046-7233-4DA2-9A1D-01D949B5AC4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q05 ParkValid", "Q05 ParkValid\Q05 ParkValid.csproj", "{E775EF92-8DDF-45AD-9562-EDD1658EB937}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8EB8A046-7233-4DA2-9A1D-01D949B5AC4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EB8A046-7233-4DA2-9A1D-01D949B5AC4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EB8A046-7233-4DA2-9A1D-01D949B5AC4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E775EF92-8DDF-45AD-9562-EDD1658EB937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E775EF92-8DDF-45AD-9562-EDD1658EB937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E775EF92-8DDF-45AD-9562-EDD1658EB937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E775EF92-8DDF-45AD-9562-EDD1658EB937}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
