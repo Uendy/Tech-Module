@@ -47,15 +47,15 @@ public class Program
 
             string command = commandTokens[0];
             string userName = commandTokens[1];
-            if (driversAndLicense.ContainsKey(userName)) //already has a car in parking
-            {
-                Console.WriteLine($"ERROR: already registered with plate number {driversAndLicense[userName]}");
-                continue;
-            }
-
 
             if (command == "register")
             {
+                if (driversAndLicense.ContainsKey(userName))
+                {
+                    Console.WriteLine($"ERROR: already registered with plate number {driversAndLicense[userName]}");
+                    continue;
+                }
+
                 string license = commandTokens[2];
                 bool exactLength = license.Length == 8;
 
