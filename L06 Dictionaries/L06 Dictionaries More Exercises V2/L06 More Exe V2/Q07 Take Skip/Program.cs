@@ -67,10 +67,14 @@ public class Program
 
         //iterate through otherList with Skip and Take
         string outPut = string.Empty;
-        for (int index = 0; index < listToSkip.Count(); index++)
+        for (int index = 0; index < listToSkip.Count(); index++) // what if skip.Count() != take.Count()?
         {
-            string res = new string(otherList.Skip(listToSkip[index]).Take(listToTake[index]).ToArray());
-            outPut += res;
+            string result = new string(otherList.Take(listToTake[index]).ToArray()); 
+            if (otherList.Count() > listToSkip[index] + listToTake[index]) 
+            {
+                otherList.RemoveRange(0, listToSkip[index] + listToTake[index]); // removing all skipped and taken
+            }
+            outPut += result;
         }
 
         Console.WriteLine(outPut);
