@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 public class Program
 {
+    //https://judge.softuni.bg/Contests/Practice/Index/174#0 - check any answers here and get the question sheet
     public static void Main()
     {
         //Read a list of real numbers and print them in ascending order along with their number of occurrences.
@@ -28,7 +29,7 @@ public class Program
 
         foreach (var num in numbersAndOccurances.Keys)
         {
-            Console.WriteLine($"{num} -> {numbersAndOccurances[num]} times");
+            Console.WriteLine($"{num} -> {numbersAndOccurances[num]}");
         }
     }
 }
