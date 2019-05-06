@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Sum Min Max Avrge", "Q0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 Top 3 Num", "Q04 Top 3 Num\Q04 Top 3 Num.csproj", "{99CB2FB7-EF8A-4B67-A76C-281BB341C967}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q05 Short Word Sorted", "Q05 Short Word Sorted\Q05 Short Word Sorted.csproj", "{3CA145B5-7417-4892-AF18-D4E2D8E1E8C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{99CB2FB7-EF8A-4B67-A76C-281BB341C967}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99CB2FB7-EF8A-4B67-A76C-281BB341C967}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99CB2FB7-EF8A-4B67-A76C-281BB341C967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CA145B5-7417-4892-AF18-D4E2D8E1E8C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA145B5-7417-4892-AF18-D4E2D8E1E8C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA145B5-7417-4892-AF18-D4E2D8E1E8C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA145B5-7417-4892-AF18-D4E2D8E1E8C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

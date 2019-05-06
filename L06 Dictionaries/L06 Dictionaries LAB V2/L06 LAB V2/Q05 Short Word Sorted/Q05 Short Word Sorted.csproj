@@ -7,7 +7,7 @@
     <ProjectGuid>{3CA145B5-7417-4892-AF18-D4E2D8E1E8C7}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q05_Short_Word_Sorted</RootNamespace>
-    <AssemblyName>Q05_Short_Word_Sorted</AssemblyName>
+    <AssemblyName>Q05 Short Word Sorted</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
