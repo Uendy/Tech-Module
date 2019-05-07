@@ -7,7 +7,7 @@
     <ProjectGuid>{569DC6AB-FB1F-44EB-BE11-A8D21E02EFE8}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q06_Fold_And_Sum</RootNamespace>
-    <AssemblyName>Q06_Fold_And_Sum</AssemblyName>
+    <AssemblyName>Q06 Fold And Sum</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

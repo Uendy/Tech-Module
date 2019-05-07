@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 Top 3 Num", "Q04 Top 3 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q05 Short Word Sorted", "Q05 Short Word Sorted\Q05 Short Word Sorted.csproj", "{3CA145B5-7417-4892-AF18-D4E2D8E1E8C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q06 Fold And Sum", "Q06 Fold And Sum\Q06 Fold And Sum.csproj", "{569DC6AB-FB1F-44EB-BE11-A8D21E02EFE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3CA145B5-7417-4892-AF18-D4E2D8E1E8C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CA145B5-7417-4892-AF18-D4E2D8E1E8C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CA145B5-7417-4892-AF18-D4E2D8E1E8C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{569DC6AB-FB1F-44EB-BE11-A8D21E02EFE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{569DC6AB-FB1F-44EB-BE11-A8D21E02EFE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{569DC6AB-FB1F-44EB-BE11-A8D21E02EFE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{569DC6AB-FB1F-44EB-BE11-A8D21E02EFE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

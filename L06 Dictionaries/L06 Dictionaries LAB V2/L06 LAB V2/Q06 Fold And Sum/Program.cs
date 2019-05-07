@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 public class Program
 {
@@ -16,6 +15,7 @@ public class Program
 
         var topRow = rowLeft.Concat(rowRight).ToArray();
         var botRow = arr.Skip(k).Take(2 * k).ToArray();
+
         var sumArr = topRow.Select((x, index) => x + botRow[index]);
         Console.WriteLine(string.Join(" ", sumArr));
     }
