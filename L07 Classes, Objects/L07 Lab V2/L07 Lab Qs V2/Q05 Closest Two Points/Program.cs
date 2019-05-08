@@ -54,7 +54,7 @@ public class Program
 
         // Printing
         Console.WriteLine($"{smallestDiff:f3}");
-        Console.WriteLine(listOfPoints[indexOfFirstPoint]);
-        Console.WriteLine(listOfPoints[indexOfSecondPoint]);
+        Console.WriteLine($"{listOfPoints[indexOfFirstPoint].X} \n {listOfPoints[indexOfFirstPoint].Y}");
+        Console.WriteLine($"{listOfPoints[indexOfSecondPoint].X} \n {listOfPoints[indexOfSecondPoint].Y}");
     }
 }
