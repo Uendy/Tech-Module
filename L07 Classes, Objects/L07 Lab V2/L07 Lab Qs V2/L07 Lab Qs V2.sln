@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q05 Closest Two Points", "Q
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q06 Rectangle Position", "Q06 Rectangle Position\Q06 Rectangle Position.csproj", "{560F7005-E328-4C51-8D89-7615D6ED8FB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q07 Sales Report", "Q07 Sales Report\Q07 Sales Report.csproj", "{4B780CA7-321C-466F-AFCB-3BFEC3E643D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{560F7005-E328-4C51-8D89-7615D6ED8FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{560F7005-E328-4C51-8D89-7615D6ED8FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{560F7005-E328-4C51-8D89-7615D6ED8FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B780CA7-321C-466F-AFCB-3BFEC3E643D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B780CA7-321C-466F-AFCB-3BFEC3E643D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B780CA7-321C-466F-AFCB-3BFEC3E643D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B780CA7-321C-466F-AFCB-3BFEC3E643D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
