@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q01 V2", "Q01 V2\Q01 V2.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Randomize Words", "Q02 Randomize Words\Q02 Randomize Words.csproj", "{E3D93F01-EFCE-4686-B4A6-796F1FC8ED74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 V2", "Q02 V2\Q02 V2.csproj", "{22911813-1A17-4CF3-AE20-B0BD348DA2FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E3D93F01-EFCE-4686-B4A6-796F1FC8ED74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3D93F01-EFCE-4686-B4A6-796F1FC8ED74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3D93F01-EFCE-4686-B4A6-796F1FC8ED74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22911813-1A17-4CF3-AE20-B0BD348DA2FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22911813-1A17-4CF3-AE20-B0BD348DA2FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22911813-1A17-4CF3-AE20-B0BD348DA2FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22911813-1A17-4CF3-AE20-B0BD348DA2FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
