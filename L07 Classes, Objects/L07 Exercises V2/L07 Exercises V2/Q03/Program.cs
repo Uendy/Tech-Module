@@ -15,31 +15,35 @@ public class Program
         //first Circle Input
         var firstCircleInput = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
         var firstCircle = new Circle();
-        var firstPoint = new Circle.Point();
-
-        firstPoint.X = firstCircleInput[0];
-        firstPoint.Y = firstCircleInput[1];
+        var firstPoint = new Point() { X = firstCircleInput[0], Y = firstCircleInput[1]};
         firstCircle.Radius = firstCircleInput[2];
 
         //2nd Circle input
-        var inputPartsOfSecond = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+        var secondCircleInput = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
 
-        var secondPoint = new Circle.Point();
-        secondPoint.X = inputPartsOfSecond[0];
-        secondPoint.Y = inputPartsOfSecond[1];
+        var secondPoint = new Point() { X = };
+        secondPoint.X = secondCircleInput[0];
+        secondPoint.Y = secondCircleInput[1];
 
         var secondCircle = new Circle();
-        secondCircle.Radius = inputPartsOfSecond[2];
+        secondCircle.Radius = secondCircleInput[2];
 
 
         // calculate distance between 2 point and see if circ + circ2 is bigger or smaller than distance
+        double distanceBetweenPoints = DifferenceCalculator(firstPoint, secondPoint);
+
+        //final check
+        bool areIntersected = firstCircle.Radius + secondCircle.Radius >= distanceBetweenPoints;
+        Console.WriteLine(areIntersected ? "Yes" : "No");
+    }
+
+    public static double DifferenceCalculator(Point firstPoint, Point secondPoint)
+    {
+        double distanceBetweenPoints = 0.0;
         int xDiff = firstPoint.X - Math.Abs(secondPoint.X);
         int yDiff = firstPoint.Y - Math.Abs(secondPoint.Y);
         double cSquared = Math.Pow(xDiff, 2) + Math.Pow(yDiff, 2);
-        double distanceBetweenPoints = Math.Sqrt(cSquared);
-
-        bool areIntersected = firstCircle.Radius + secondCircle.Radius >= distanceBetweenPoints;
-        Console.WriteLine(areIntersected ? "Yes" : "No");
-
+        distanceBetweenPoints = Math.Sqrt(cSquared);
+        return distanceBetweenPoints;
     }
 }
