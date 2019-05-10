@@ -42,6 +42,7 @@ public class Program
             Library.ListOfBooks.Add(Book);
         }
 
+        //Sort by : descending by price and then by author’s name lexicographically.
         authorAndPrice = authorAndPrice.OrderByDescending(x => x.Value).ThenBy(x => x.Key).ToDictionary(x => x.Key, y => y.Value);
 
         foreach (var author in authorAndPrice.Keys)
