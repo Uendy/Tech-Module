@@ -41,7 +41,6 @@ public class Program
             if (newStudent)
             {
                 currentStudent.Name = name;
-                inputTokens.Remove(name); // remove the name, leaving only the dates (if any)
                 currentStudent.Comments = new List<string>();
                 currentStudent.DatesAttended = new List<DateTime>();
             }
@@ -49,6 +48,7 @@ public class Program
             {
                 currentStudent = listOfStudents.First(x => x.Name == name);
             }
+            inputTokens.Remove(name); // remove the name, leaving only the dates (if any)
 
             if (inputTokens.Count() != 0)
             {
@@ -58,8 +58,10 @@ public class Program
                     inputTokens.RemoveAt(0);
                 }
             }
-
-            listOfStudents.Add(currentStudent);
+            if (newStudent)
+            {
+                listOfStudents.Add(currentStudent);
+            }
         }
 
         while (true) // to add any comments
