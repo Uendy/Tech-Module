@@ -29,7 +29,7 @@ public class Program
 
         var teams = new List<Team>();
 
-        int numberOfTeams = int.Parse(Console.ReadLine()); //making of teams that pass every check
+        int numberOfTeams = int.Parse(Console.ReadLine()); 
         for (int i = 0; i < numberOfTeams; i++)
         {
             var inputTokens = Console.ReadLine().Split('-').ToArray();
@@ -81,15 +81,14 @@ public class Program
                 continue;
             }
 
-            bool inAnotherTeam = teams.Exists(x => x.Members.Exists(y => y == memberName)) ||
-                teams.Exists(x => x.Creator == memberName);
+            bool inAnotherTeam = teams.Any(x => x.Members.Contains(memberName)) || teams.Any(y => y.Creator == memberName);
             if (inAnotherTeam)
             {
                 Console.WriteLine($"Member {memberName} cannot join team {desiredTeam}!");
                 continue;
             }
 
-            var currentTeam = teams.Find(x => x.Name == desiredTeam);
+            var currentTeam = teams.First(x => x.Name == desiredTeam);
             currentTeam.Members.Add(memberName);
         }
 
