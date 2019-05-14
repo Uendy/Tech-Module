@@ -6,6 +6,8 @@ public class Program
 {
     public static void Main()
     {
+        //the task:
+        #region
         //At the Software University we often organize programming courses for beginners in different towns. 
         //We usually run a registration form and after the registration finishes, we distribute the students into study groups.
         //Groups have different sizes in each town.
@@ -40,6 +42,7 @@ public class Program
         //o	…
         //o   Town2 => email1, email2, …
         //o	…
+        #endregion 
 
         var towns = new List<Town>();
 
@@ -61,17 +64,45 @@ public class Program
                 InputNewStudent(input, towns.Last().Students);
             }
         }
+
+        //sorting students in each town
+        foreach (var town in towns)
+        {
+            town.Students = town.Students.OrderBy(x => x.RegistryDate).ThenBy(y => y.Name).ThenBy(z => z.Email).ToList();
+        }
+
+        //sorting the groups in each town
+        towns = SortGroupsInTowns(towns);
+
+        //printing totals
+        Console.WriteLine($"Created {towns.Sum(x => x.Groups.Count())} groups in {towns.Count()} towns:");
+
+        //printing specifics: town, then groups, then students
+        foreach (var town in towns.OrderBy(x => x.Name))
+        {
+            foreach (var group in town.Groups)
+            {
+                Console.Write($"{town.Name} => ");
+                string outPutOfEmails = string.Join(", ", group.Students.Select(x => x.Email).ToList());
+                Console.WriteLine(outPutOfEmails);
+            }
+
+        }
     }
 
-    public static List<Town> InputNewTown(string input, List<Town> towns) {
+    public static List<Town> InputNewTown(string input, List<Town> towns)
+    {
 
         string separator = "=>";
-        var inputTokens = input.Split(new string[] { separator, " "}, StringSplitOptions.RemoveEmptyEntries).ToArray();
+        var inputTokens = input.Split(new string[] { separator}, StringSplitOptions.RemoveEmptyEntries).ToArray();
 
-        string townName = inputTokens[0];
-        int groupSeats = int.Parse(inputTokens[1]);
+        string townName = inputTokens[0].Trim();
 
-        var town = new Town() {
+        var seatAsString = inputTokens[1].Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries ).ToArray();
+        int groupSeats = int.Parse(seatAsString[0]);
+
+        var town = new Town()
+        {
             Name = townName,
             Size = groupSeats,
             Students = new List<Student>(),
@@ -83,7 +114,8 @@ public class Program
         return towns;
     }
 
-    public static List<Student> InputNewStudent(string input, List<Student> Students) {
+    public static List<Student> InputNewStudent(string input, List<Student> Students)
+    {
 
         var inputTokens = input.Split('|').ToArray();
         string name = inputTokens[0].Trim();
@@ -92,7 +124,8 @@ public class Program
         string[] formats = { "dd-MMM-yyyy", "d-MMM-yyyy" };
         var registered = DateTime.ParseExact(inputTokens[2].Trim(), formats, CultureInfo.InvariantCulture, DateTimeStyles.None);
 
-        var student = new Student() {
+        var student = new Student()
+        {
             Name = name,
             Email = email,
             RegistryDate = registered
@@ -101,5 +134,40 @@ public class Program
         Students.Add(student);
 
         return Students;
+    }
+
+    public static List<Town> SortGroupsInTowns(List<Town> towns) {
+        foreach (var town in towns)
+        {
+            var group = new Group()
+            {
+                Students = new List<Student>()
+            };
+
+            foreach (var student in town.Students)
+            {
+                bool newGroupNeeded = group.Students.Count() >= town.Size;
+                if (newGroupNeeded)
+                {
+                    town.Groups.Add(group);
+
+                    group = new Group()
+                    {
+                        Students = new List<Student>()
+                    };
+                    group.Students.Add(student);
+                }
+                else
+                {
+                    group.Students.Add(student);
+                }
+            }
+
+            if (group.Students.Count() != 5) // group has not yet been added
+            {
+                town.Groups.Add(group);
+            }
+        }
+        return towns;
     }
 }
