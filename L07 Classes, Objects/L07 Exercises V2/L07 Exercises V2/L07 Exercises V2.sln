@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q08 Mentor Group", "Q08 Men
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q09 Teamwork Projct", "Q09 Teamwork Projct\Q09 Teamwork Projct.csproj", "{9607BABB-9B24-4C73-9A7E-00056A6E8DED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q10 Student Group", "Q10 Student Group\Q10 Student Group.csproj", "{1CCB8D52-AA94-4F90-886B-E3D3BCBEE43E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{9607BABB-9B24-4C73-9A7E-00056A6E8DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9607BABB-9B24-4C73-9A7E-00056A6E8DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9607BABB-9B24-4C73-9A7E-00056A6E8DED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CCB8D52-AA94-4F90-886B-E3D3BCBEE43E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CCB8D52-AA94-4F90-886B-E3D3BCBEE43E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CCB8D52-AA94-4F90-886B-E3D3BCBEE43E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CCB8D52-AA94-4F90-886B-E3D3BCBEE43E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
