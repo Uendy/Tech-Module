@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Q01_Order_By_Age
+﻿public class Person
 {
-    class Person
-    {
-    }
+    public string Name { get; set; }
+    public string ID { get; set; }
+    public int Age { get; set; }
 }

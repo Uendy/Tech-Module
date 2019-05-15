@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{125EA335-B1C4-41BD-B589-8C17C93C9B80}</ProjectGuid>
+    <ProjectGuid>{FD45E4C4-A641-4C2C-BB2C-D1739295D229}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Q01_Order_By_Age</RootNamespace>
-    <AssemblyName>Q01 Order By Age</AssemblyName>
+    <RootNamespace>Q02_Car_Cataloge</RootNamespace>
+    <AssemblyName>Q02 Car Cataloge</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vehicle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

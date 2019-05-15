@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q01 Order By Age", "Q01 Order By Age\Q01 Order By Age.csproj", "{125EA335-B1C4-41BD-B589-8C17C93C9B80}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Car Cataloge", "Q02 Car Cataloge\Q02 Car Cataloge.csproj", "{FD45E4C4-A641-4C2C-BB2C-D1739295D229}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{125EA335-B1C4-41BD-B589-8C17C93C9B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{125EA335-B1C4-41BD-B589-8C17C93C9B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{125EA335-B1C4-41BD-B589-8C17C93C9B80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD45E4C4-A641-4C2C-BB2C-D1739295D229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD45E4C4-A641-4C2C-BB2C-D1739295D229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD45E4C4-A641-4C2C-BB2C-D1739295D229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD45E4C4-A641-4C2C-BB2C-D1739295D229}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
