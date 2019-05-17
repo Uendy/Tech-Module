@@ -39,7 +39,7 @@ public class Program
             }
 
             var inputTokens = input.Split(' ').ToArray();
-            if (inputTokens[0] == "Car" || inputTokens[0] == "car")
+            if (inputTokens[0].ToLower() == "car")
             {
                 var car = new Car()
                 {
@@ -107,6 +107,5 @@ public class Program
         {
             Console.WriteLine($"Trucks have average horsepower of: {trucks.Average(x => x.Horsepower):f2}.");
         }
-
     }
 }
