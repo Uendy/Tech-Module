@@ -43,7 +43,9 @@ public class Program
 
         var robot = new Robot();
         var arms = new List<Arm>();
+        robot.Arms = arms;
         var legs = new List<Leg>();
+        robot.Legs = legs;
 
         long maxCapacity = long.Parse(Console.ReadLine());
         robot.Capacity = maxCapacity;
@@ -125,11 +127,13 @@ public class Program
                         {
                             robot.Arms[0] = arm;
                         }
-                        //TODO: check next line too
-                        else if (robot.Arms.Max(x => x.Energy > arm.Energy)) //find the only less effiecnt one
+
+                        var worseArm = robot.Arms.OrderByDescending(x => x.Energy).First(); // return less efficient arm
+                        bool oneIsLessEfficient = worseArm.Energy > arm.Energy;
+                        if (oneIsLessEfficient) //find the only less effiecnt one
                         {
-                            //TODO: find the Max and change him with arm
-                            robot.Arms.Max = arm;
+                            var newArms = robot.Arms.Single(x => { x.Energy = worseArm.Energy; return arm; });
+                            robot.Arms = newArms.ToList();
                         }
                     }
 
