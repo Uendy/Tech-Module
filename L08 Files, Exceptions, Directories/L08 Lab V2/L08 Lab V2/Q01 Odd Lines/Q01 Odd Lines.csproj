@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{65AD3B23-A077-44CA-9045-E4904CC04CFD}</ProjectGuid>
+    <ProjectGuid>{9F266E75-DA27-468C-BAEF-397317F1C53E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q01_Odd_Lines</RootNamespace>
     <AssemblyName>Q01 Odd Lines</AssemblyName>
@@ -50,7 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="input.txt" />
+    <Content Include="InputText.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

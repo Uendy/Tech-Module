@@ -1,5 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Linq;
 using System.IO;
 public class Program
 {
@@ -7,30 +7,17 @@ public class Program
     {
         //Write a program that reads a text file and writes its every odd line in another file. Line numbers starts from 0. 
 
-        var fileInput = "input.txt";
+        var file = "InputText.txt";
 
-        var lines = File.ReadAllLines(fileInput);
+        var lines = File.ReadAllLines(file);
 
-        var arrayOfOutput = new List<string>();
+        var oddLines = new List<string>();
 
-        for (int indexOfLine = 1; indexOfLine < fileInput.Length; indexOfLine += 2)
+        for (int i = 1; i < lines.Count(); i+=2) // skip every 2nd
         {
-            arrayOfOutput.Add(lines[indexOfLine]);
+            oddLines.Add(lines[i]);
         }
 
-        if (!File.Exists("fileOutput.txt"))
-        {
-            File.Create("fileOutput.txt");
-        }
-        var fileOutput = "fileOutput.txt";
-
-        File.WriteAllLines(fileOutput, arrayOfOutput);
-
-        var output = File.ReadAllLines(fileOutput);
-
-        foreach (var line in output)
-        {
-            Console.WriteLine(line);
-        }
+        File.WriteAllLines("result.txt", oddLines);
     }
 }
