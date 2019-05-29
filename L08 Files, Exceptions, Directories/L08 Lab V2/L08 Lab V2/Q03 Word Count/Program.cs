@@ -17,21 +17,15 @@ public class Program
 
         var searchedWords = File.ReadAllText(wordsFile.ToLower()).Split(' ');
 
-        var inputWordsCaseInsensitive = File.ReadAllText(inputFile.ToLower())
-            .Split(new[] { ' ', ',', '.', '!', '?', '-', '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
-
-        var inputWordsCaseSensitive = new List<string>();
-        foreach (var word in inputWordsCaseInsensitive)
-        {
-            var lowerCaseWord = word.ToLower();
-            inputWordsCaseSensitive.Add(lowerCaseWord);
-        }
+        var inputWords = File.ReadAllText(inputFile.ToLower())
+            .Split(new[] { ' ', ',', '.', '!', '?', '-', '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries)
+            .Select(x => x.ToLower());
 
         var wordCount = new Dictionary<string, int>();
 
-        foreach (var word in inputWordsCaseSensitive)
+        foreach (var word in inputWords)
         {
-            bool isSearchedWord = searchedWords.Contains(word.ToLower());
+            bool isSearchedWord = searchedWords.Contains(word);
             if (isSearchedWord)
             {
                 bool newWord = !wordCount.ContainsKey(word);
@@ -45,6 +39,15 @@ public class Program
                 }
             }
         }
+
+        //Kenov Solution:
+        //  var sortedDictionary = wordCount
+        //      .OrderByDescending(kvp => kvp.Value)
+        //      .Select(kvp => $"{kvp.Key} - {kvp.Value}")
+        //      .ToArray();
+        //  File.WriteAllLines("result.txt", sortedDictionary);
+
+
         // sort dictionary descending
         wordCount = wordCount.OrderByDescending(x => x.Value).ToDictionary(x => x.Key, y => y.Value);
 
@@ -56,8 +59,7 @@ public class Program
 
         var outPut = sb.ToString();
 
-        var outPutFile = "outPutText.txt";
+        var outPutFile = "result.txt";
         File.WriteAllText(outPutFile, outPut);
-
     }
 }
