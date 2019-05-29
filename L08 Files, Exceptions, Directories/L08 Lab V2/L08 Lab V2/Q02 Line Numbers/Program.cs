@@ -13,9 +13,6 @@ public class Program
 
         var lines = File.ReadAllLines(file);
 
-        //File.WriteAllText("resultText.txt", string.Empty); //to clear it if already exists
-        //var outPut = "resultText.txt";
-
         var numberedLines = new List<string>();
 
         for (int index = 0; index < lines.Count(); index++)
