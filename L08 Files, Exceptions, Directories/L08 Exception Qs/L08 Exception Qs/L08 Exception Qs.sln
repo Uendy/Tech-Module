@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q01 Sum Line", "Q01 Sum Line\Q01 Sum Line.csproj", "{2D021621-0847-4659-B146-6CD40F484A99}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Sum Byte", "Q02 Sum Byte\Q02 Sum Byte.csproj", "{1A77C81B-4812-4C28-87DD-1E631A3DB13F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2D021621-0847-4659-B146-6CD40F484A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D021621-0847-4659-B146-6CD40F484A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D021621-0847-4659-B146-6CD40F484A99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A77C81B-4812-4C28-87DD-1E631A3DB13F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A77C81B-4812-4C28-87DD-1E631A3DB13F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A77C81B-4812-4C28-87DD-1E631A3DB13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A77C81B-4812-4C28-87DD-1E631A3DB13F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
