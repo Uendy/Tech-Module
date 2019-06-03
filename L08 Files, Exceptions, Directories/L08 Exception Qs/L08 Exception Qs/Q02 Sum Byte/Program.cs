@@ -10,11 +10,21 @@ public class Program
 
         string inputName = "inputText.txt";
 
-        var inputLines = new string[0];
-
         if (File.Exists(inputName))
         {
-             inputLines = File.ReadAllLines(inputName);
+            var inputLines = File.ReadAllLines(inputName);
+
+            long sum = 0;
+
+            foreach (var line in inputLines)
+            {
+                foreach (var charecter in line.ToCharArray())
+                {
+                    sum += charecter;
+                }
+            }
+
+            Console.WriteLine(sum);
         }
         else
         {
@@ -22,16 +32,5 @@ public class Program
             Environment.Exit(0);
         }
 
-        long sum = 0;
-
-        foreach (var line in inputLines)
-        {
-            foreach (var charecter in line.ToCharArray())
-            {
-                sum += charecter;
-            }
-        }
-
-        Console.WriteLine(sum);
     }
 }
