@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q01 Sum Line", "Q01 Sum Lin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Sum Byte", "Q02 Sum Byte\Q02 Sum Byte.csproj", "{1A77C81B-4812-4C28-87DD-1E631A3DB13F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 All Caps", "Q03 All Caps\Q03 All Caps.csproj", "{6E45F6F3-5765-469C-9D97-DAEBE33B410E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1A77C81B-4812-4C28-87DD-1E631A3DB13F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A77C81B-4812-4C28-87DD-1E631A3DB13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A77C81B-4812-4C28-87DD-1E631A3DB13F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E45F6F3-5765-469C-9D97-DAEBE33B410E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E45F6F3-5765-469C-9D97-DAEBE33B410E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E45F6F3-5765-469C-9D97-DAEBE33B410E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E45F6F3-5765-469C-9D97-DAEBE33B410E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
