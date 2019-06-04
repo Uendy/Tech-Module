@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 All Caps", "Q03 All Cap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 Chr Type", "Q04 Chr Type\Q04 Chr Type.csproj", "{DD49FAC0-409C-402E-935E-0A99564A4E20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q05 Line Num", "Q05 Line Num\Q05 Line Num.csproj", "{F73E90F2-4E2F-43D3-8E87-976EA0DA3878}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DD49FAC0-409C-402E-935E-0A99564A4E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD49FAC0-409C-402E-935E-0A99564A4E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD49FAC0-409C-402E-935E-0A99564A4E20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F73E90F2-4E2F-43D3-8E87-976EA0DA3878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F73E90F2-4E2F-43D3-8E87-976EA0DA3878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F73E90F2-4E2F-43D3-8E87-976EA0DA3878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F73E90F2-4E2F-43D3-8E87-976EA0DA3878}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
