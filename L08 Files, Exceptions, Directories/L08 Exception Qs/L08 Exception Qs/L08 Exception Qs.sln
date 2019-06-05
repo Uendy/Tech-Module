@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 Chr Type", "Q04 Chr Typ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q05 Line Num", "Q05 Line Num\Q05 Line Num.csproj", "{F73E90F2-4E2F-43D3-8E87-976EA0DA3878}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q06 Count", "Q06 Count\Q06 Count.csproj", "{8DC9B987-711A-4A59-B345-0052E2ACB935}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F73E90F2-4E2F-43D3-8E87-976EA0DA3878}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F73E90F2-4E2F-43D3-8E87-976EA0DA3878}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F73E90F2-4E2F-43D3-8E87-976EA0DA3878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DC9B987-711A-4A59-B345-0052E2ACB935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC9B987-711A-4A59-B345-0052E2ACB935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC9B987-711A-4A59-B345-0052E2ACB935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC9B987-711A-4A59-B345-0052E2ACB935}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
