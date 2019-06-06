@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q05 Line Num", "Q05 Line Nu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q06 Count", "Q06 Count\Q06 Count.csproj", "{8DC9B987-711A-4A59-B345-0052E2ACB935}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q07 Merger", "Q07 Merger\Q07 Merger.csproj", "{4AA4DD96-74B6-40EE-B913-7293CAD768DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{8DC9B987-711A-4A59-B345-0052E2ACB935}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DC9B987-711A-4A59-B345-0052E2ACB935}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DC9B987-711A-4A59-B345-0052E2ACB935}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AA4DD96-74B6-40EE-B913-7293CAD768DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AA4DD96-74B6-40EE-B913-7293CAD768DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AA4DD96-74B6-40EE-B913-7293CAD768DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AA4DD96-74B6-40EE-B913-7293CAD768DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
