@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q07 Merger", "Q07 Merger\Q0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q08 Find Siz", "Q08 Find Siz\Q08 Find Siz.csproj", "{88108448-4704-439E-B0A8-DC1E339EA650}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP HighScore", "SP HighScore\SP HighScore.csproj", "{172A6430-F112-42D9-82E3-C1E5F95386BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{88108448-4704-439E-B0A8-DC1E339EA650}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88108448-4704-439E-B0A8-DC1E339EA650}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88108448-4704-439E-B0A8-DC1E339EA650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{172A6430-F112-42D9-82E3-C1E5F95386BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172A6430-F112-42D9-82E3-C1E5F95386BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172A6430-F112-42D9-82E3-C1E5F95386BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172A6430-F112-42D9-82E3-C1E5F95386BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
