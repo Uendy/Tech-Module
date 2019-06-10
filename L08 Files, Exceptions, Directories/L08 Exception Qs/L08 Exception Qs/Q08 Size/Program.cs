@@ -10,8 +10,10 @@ public class Program
         //Write a program that traverses a folder and calculates its size in bytes. 
         //Use Folder Exercises Resources in Resources.
 
-        var totalSize = Directory.GetFiles("dir").Select(f => new FileInfo(f)).Sum(f => f.Length);
+        var totalSize = Directory.GetFiles("FindMySize").Select(f => new FileInfo(f)).Sum(f => f.Length);
         Console.WriteLine(totalSize);
+
+        //I couldnt read them as I was looking for files where I had directories
 
         if (Directory.Exists("dir"))
         {
