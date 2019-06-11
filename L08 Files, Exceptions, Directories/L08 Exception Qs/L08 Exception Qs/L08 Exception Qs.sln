@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP HighScore", "SP HighScor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q08 Size", "Q08 Size\Q08 Size.csproj", "{CE76BF05-5F8A-4103-8DA9-210408C1438E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SB Dir Recur", "SB Dir Recur\SB Dir Recur.csproj", "{9330D086-75F6-480E-AB06-83F47D5BC13D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{CE76BF05-5F8A-4103-8DA9-210408C1438E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE76BF05-5F8A-4103-8DA9-210408C1438E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE76BF05-5F8A-4103-8DA9-210408C1438E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9330D086-75F6-480E-AB06-83F47D5BC13D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9330D086-75F6-480E-AB06-83F47D5BC13D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9330D086-75F6-480E-AB06-83F47D5BC13D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9330D086-75F6-480E-AB06-83F47D5BC13D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
