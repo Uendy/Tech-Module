@@ -21,7 +21,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP HighScore", "SP HighScor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q08 Size", "Q08 Size\Q08 Size.csproj", "{CE76BF05-5F8A-4103-8DA9-210408C1438E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SB Dir Recur", "SB Dir Recur\SB Dir Recur.csproj", "{9330D086-75F6-480E-AB06-83F47D5BC13D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP Dir Recur", "SB Dir Recur\SP Dir Recur.csproj", "{9330D086-75F6-480E-AB06-83F47D5BC13D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q09 Copy JPG", "Q09 Copy JPG\Q09 Copy JPG.csproj", "{B9A6A960-6CD7-4465-B65D-E67215EC6571}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP Friends", "SP Friends\SP Friends.csproj", "{223AE2C8-3D28-4666-91E9-A55813D24CF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{9330D086-75F6-480E-AB06-83F47D5BC13D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9330D086-75F6-480E-AB06-83F47D5BC13D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9330D086-75F6-480E-AB06-83F47D5BC13D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9A6A960-6CD7-4465-B65D-E67215EC6571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A6A960-6CD7-4465-B65D-E67215EC6571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A6A960-6CD7-4465-B65D-E67215EC6571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A6A960-6CD7-4465-B65D-E67215EC6571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{223AE2C8-3D28-4666-91E9-A55813D24CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{223AE2C8-3D28-4666-91E9-A55813D24CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{223AE2C8-3D28-4666-91E9-A55813D24CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{223AE2C8-3D28-4666-91E9-A55813D24CF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
