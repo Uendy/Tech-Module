@@ -34,8 +34,8 @@ namespace SP_Friends
                 listOfFriends.Add(currentFriend);
             }
 
-            Console.WriteLine("Would you like to add a new friend? => input = \"Add\"");
-            Console.WriteLine("Would you like to update an existing friends last conversation date => input = \"Update\"");
+            Console.WriteLine("Add a new friend? => input = \"Add\"");
+            Console.WriteLine("Update an existing friends last conversation date => input = \"Update\"");
 
             string input = Console.ReadLine();
 
@@ -52,10 +52,8 @@ namespace SP_Friends
 
             //}
             //To DO:
-            //Add new friend
             //check who is most critical to talk to and order them on top
             //update someones last convo date
-
             // Return all the updated data into the text file
 
             Console.ReadKey();
@@ -65,11 +63,23 @@ namespace SP_Friends
         {
             var newFriend = new Friend();
 
+            // get friends name
             Console.Write("Please input your friend's name: ");
             string newFriendName = Console.ReadLine().Trim();
 
+            //get last convo date + catch any bugs
             Console.Write("Input date of last conversation (format dd-MM-yyyy): ");
             string lastConversationDate = Console.ReadLine();
+
+            var lastConvo = new DateTime();
+            bool succesfullyParsedDate = DateTime.TryParse(lastConversationDate, out lastConvo);
+            while (succesfullyParsedDate != true)
+            {
+                Console.WriteLine("Invalid Date!");
+                Console.Write("Input last conversationd date again: ");
+                lastConversationDate = Console.ReadLine();
+                succesfullyParsedDate = DateTime.TryParse(lastConversationDate, out lastConvo);
+            }
 
             Console.WriteLine("Input how often you would like to talk (in days): ");
             int daysInBetween = 0;
@@ -80,26 +90,13 @@ namespace SP_Friends
             catch (Exception)
             {
                 Console.WriteLine("Invalid number!");
-                Console.WriteLine("Please input a valid number: ");
+                Console.Write("Please input a valid number: ");
                 daysInBetween = int.Parse(Console.ReadLine());
             }
 
 
             newFriend.Name = newFriendName;
-
-            var lastConvo = new DateTime();
-            bool succesfullyParsedDate = DateTime.TryParse(lastConversationDate, out lastConvo);
-            if (succesfullyParsedDate)
-            {
-                newFriend.LastTalk = lastConvo;
-            }
-            else
-            {
-                Console.WriteLine("Invalid Date!");
-                Console.Write("Input last conversationd date again: ");
-                lastConvo = DateTime.Parse(Console.ReadLine());
-                newFriend.LastTalk = lastConvo;
-            }
+            newFriend.LastTalk = lastConvo;
             newFriend.TalkFrequency = daysInBetween;
 
             return newFriend;
