@@ -24,25 +24,21 @@ namespace SP_Friends
             Console.WriteLine("Add a new friend? => input = \"Add\"");
             Console.WriteLine("Update an existing friends last conversation date => input = \"Update\"");
 
-            string input = Console.ReadLine();
+            string input = Console.ReadLine().ToLower();
 
-            if (input == "Add")
+            if (input == "add")
             {
                 listOfFriends.Add(AddNewFriend());
             }
-            else if (input == "Update")
+            else if (input == "update")
             {
-                // change 
+                UpdateFriend(listOfFriends);
             }
             //else
 
 
             ////To DO:
-            //check who is most critical to talk to and order them on top
-            //update someones last convo date
             // Return all the updated data into the text file
-            // the actual calendar that keeps ticking 
-
             Console.ReadKey();
         }
 
@@ -67,6 +63,7 @@ namespace SP_Friends
             return listOfFriends;
         }
 
+        ////Split and order friends to give a clear view of who needs to be contacted now and how can wait, then print
         public static void PrintFeed(List<Friend> listOfFriends)
         {
             var listOfCriticalFriends = new List<Friend>();
@@ -99,9 +96,16 @@ namespace SP_Friends
             Console.WriteLine(new string('-', 60));
 
             //printing the not critical friends
-
+            listOfFineFriends = listOfFineFriends.OrderBy(f => f.DaysUntilTalk).ToList();
+            Console.WriteLine("Upcoming friends you should talk to:");
+            foreach (var friend in listOfFineFriends)
+            {
+                Console.WriteLine($"{friend.Name} is {friend.DaysUntilTalk.TotalDays} days away from desired correspondence");
+            }
+            Console.WriteLine(new string('-', 60));
         }
 
+        //// Add new Friend to listOfFriends
         public static Friend AddNewFriend()
         {
             var newFriend = new Friend();
@@ -141,7 +145,49 @@ namespace SP_Friends
             newFriend.LastTalk = lastConvo;
             newFriend.TalkFrequency = TimeSpan.FromDays(daysInBetween);
 
+            Console.Write($"Added new friend!");
+            string outputInfo = $"{newFriend.Name}'s last conversation" +
+                $" {newFriend.LastTalk.ToString("dd-MM-yyyy", CultureInfo.InvariantCulture)}" +
+                $" and desired talk frequency of {newFriend.TalkFrequency.Days} days.";
+            Console.WriteLine(outputInfo);
+
             return newFriend;
+        }
+
+        //// input a friends name and change when your last talk was
+        public static List<Friend> UpdateFriend(List<Friend> listOfFriends)
+        {
+            Console.Write("Which person would you like to update? ");
+            string searchedFriend = Console.ReadLine();
+
+            bool friendExists = listOfFriends.Any(f => f.Name == searchedFriend);
+            while (!friendExists)
+            {
+                Console.WriteLine("Name not contained in list of friends!");
+                Console.Write("Please input a correct name: ");
+                searchedFriend = Console.ReadLine();
+                friendExists = listOfFriends.Any(f => f.Name == searchedFriend);
+            }
+
+            var currentFriend = listOfFriends.Find(f => f.Name == searchedFriend);
+            Console.WriteLine("Bastard found!");
+
+            Console.Write("Input last conversation (in dd-MM-yyyy format please): ");
+            string newLastConvo = Console.ReadLine();
+            bool validDateTime = DateTime.TryParse(newLastConvo, out DateTime LastConvo);
+            while (!validDateTime)
+            {
+                Console.WriteLine("Inputed date was invalid!");
+                Console.Write("Please use correct format (dd-MM-yyyy): ");
+                newLastConvo = Console.ReadLine();
+                validDateTime = DateTime.TryParse(newLastConvo, out LastConvo);
+            }
+
+            currentFriend.LastTalk = LastConvo;
+            Console.WriteLine($"Updated {currentFriend.Name}'s last conversation to" +
+                $" {currentFriend.LastTalk.ToString("dd-MM-yyyy", CultureInfo.InvariantCulture)}");
+
+            return listOfFriends;
         }
     }
 }
