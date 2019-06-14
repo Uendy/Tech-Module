@@ -18,21 +18,7 @@ namespace SP_Friends
 
             var fileContents = File.ReadAllLines(fileName);
 
-            //unpack all friend info from text file to list
-
-            var listOfFriends = new List<Friend>();
-            foreach (var line in fileContents)
-            {
-                var lineTokens = line.Split(' ');
-                var currentFriend = new Friend()
-                {
-                    Name = lineTokens[0],
-                    LastTalk = DateTime.ParseExact(lineTokens[1], "dd-MM-yyyy", CultureInfo.InvariantCulture),
-                    TalkFrequency = int.Parse(lineTokens[2])
-                };
-
-                listOfFriends.Add(currentFriend);
-            }
+            var listOfFriends = FileToList(fileContents);
 
             Console.WriteLine("Add a new friend? => input = \"Add\"");
             Console.WriteLine("Update an existing friends last conversation date => input = \"Update\"");
@@ -48,15 +34,35 @@ namespace SP_Friends
 
             }
             //else
-            //{
 
-            //}
-            //To DO:
+
+            ////To DO:
             //check who is most critical to talk to and order them on top
             //update someones last convo date
             // Return all the updated data into the text file
 
             Console.ReadKey();
+        }
+
+        ////unpack all friend info from text file to list
+        public static List<Friend> FileToList(string[] fileContents) 
+        {
+            var listOfFriends = new List<Friend>();
+
+            foreach (var line in fileContents)
+            {
+                var lineTokens = line.Split(' ');
+                var currentFriend = new Friend()
+                {
+                    Name = lineTokens[0],
+                    LastTalk = DateTime.ParseExact(lineTokens[1], "dd-MM-yyyy", CultureInfo.InvariantCulture),
+                    TalkFrequency = int.Parse(lineTokens[2])
+                };
+
+                listOfFriends.Add(currentFriend);
+            }
+
+            return listOfFriends;
         }
 
         public static Friend AddNewFriend()
@@ -81,19 +87,18 @@ namespace SP_Friends
                 succesfullyParsedDate = DateTime.TryParse(lastConversationDate, out lastConvo);
             }
 
-            Console.WriteLine("Input how often you would like to talk (in days): ");
-            int daysInBetween = 0;
-            try
-            {
-                daysInBetween = int.Parse(Console.ReadLine());
-            }
-            catch (Exception)
+            //get desired frequency of reminders + catch any bugs
+            Console.Write("Input how often you would like to talk (in days): ");
+            string daysInBetweenString = Console.ReadLine();
+            bool successfullyParse = int.TryParse(daysInBetweenString, out int daysInBetween);
+            while (successfullyParse != true || daysInBetween <= 0)
             {
                 Console.WriteLine("Invalid number!");
                 Console.Write("Please input a valid number: ");
-                daysInBetween = int.Parse(Console.ReadLine());
-            }
+                daysInBetweenString = Console.ReadLine();
+                succesfullyParsedDate = int.TryParse(daysInBetweenString, out daysInBetween);
 
+            }
 
             newFriend.Name = newFriendName;
             newFriend.LastTalk = lastConvo;
