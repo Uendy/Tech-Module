@@ -22,7 +22,8 @@ namespace SP_Friends
             PrintFeed(listOfFriends);
 
             Console.WriteLine("Add a new friend? => input = \"Add\"");
-            Console.WriteLine("Update an existing friends last conversation date => input = \"Update\"");
+            Console.WriteLine("Update an existing friends last conversation date? => input = \"Update\"");
+            Console.WriteLine("To remove a friend? => input = \"Remove\"");
 
             string input = Console.ReadLine().ToLower();
 
@@ -34,12 +35,17 @@ namespace SP_Friends
             {
                 UpdateFriend(listOfFriends);
             }
-            //else
+            else if (input == "remove")
+            {
+                RemovePerson(listOfFriends);
+            }
+            else
+            {
+                Console.WriteLine("Invalid Command!");
+                Console.WriteLine("Restart program to try again.");
+            }
 
-
-            ////To DO:
-            // Return all the updated data into the text file
-            Console.ReadKey();
+            RewriteFile(listOfFriends, fileName);
         }
 
         ////unpack all friend info from text file to list
@@ -145,7 +151,7 @@ namespace SP_Friends
             newFriend.LastTalk = lastConvo;
             newFriend.TalkFrequency = TimeSpan.FromDays(daysInBetween);
 
-            Console.Write($"Added new friend!");
+            Console.WriteLine($"Added new friend:");
             string outputInfo = $"{newFriend.Name}'s last conversation" +
                 $" {newFriend.LastTalk.ToString("dd-MM-yyyy", CultureInfo.InvariantCulture)}" +
                 $" and desired talk frequency of {newFriend.TalkFrequency.Days} days.";
@@ -157,7 +163,7 @@ namespace SP_Friends
         //// input a friends name and change when your last talk was
         public static List<Friend> UpdateFriend(List<Friend> listOfFriends)
         {
-            Console.Write("Which person would you like to update? ");
+            Console.Write("Which friend would you like to update? ");
             string searchedFriend = Console.ReadLine();
 
             bool friendExists = listOfFriends.Any(f => f.Name == searchedFriend);
@@ -188,6 +194,44 @@ namespace SP_Friends
                 $" {currentFriend.LastTalk.ToString("dd-MM-yyyy", CultureInfo.InvariantCulture)}");
 
             return listOfFriends;
+        }
+
+        ////Remove a person from the list of friends:
+        public static List<Friend> RemovePerson(List<Friend> listOfFriends)
+        {
+            Console.Write("Which person would you like to remove?: ");
+            string person = Console.ReadLine();
+
+            bool personExists = listOfFriends.Any(p => p.Name == person);
+            while (!personExists)
+            {
+                Console.WriteLine("This person does not exist in list of friends!");
+                Console.Write("Please input a valid name: ");
+                person = Console.ReadLine();
+                personExists = listOfFriends.Any(p => p.Name == person);
+            }
+
+            var currentPerson = listOfFriends.Find(p => p.Name == person);
+            listOfFriends.Remove(currentPerson);
+            Console.WriteLine($"Person removed from list of freinds: {currentPerson.Name}");
+
+            return listOfFriends;
+        }
+
+        ////Rewrite file with new info:
+        public static void RewriteFile(List<Friend> listOfFriends, string fileName)
+        {
+            var sb = new StringBuilder();
+            foreach (var friend in listOfFriends)
+            {
+                string currentLine = $"{friend.Name} " +
+                    $"{friend.LastTalk.ToString("dd-MM-yyyy", CultureInfo.InvariantCulture)} " +
+                    $"{friend.TalkFrequency.Days}";
+                sb.AppendLine(currentLine);
+            }
+
+            var outputString = sb.ToString();
+            File.WriteAllText(fileName, outputString);
         }
     }
 }
