@@ -19,6 +19,7 @@ namespace SP_Friends
             var fileContents = File.ReadAllLines(fileName);
 
             var listOfFriends = FileToList(fileContents);
+            PrintFeed(listOfFriends);
 
             Console.WriteLine("Add a new friend? => input = \"Add\"");
             Console.WriteLine("Update an existing friends last conversation date => input = \"Update\"");
@@ -31,7 +32,7 @@ namespace SP_Friends
             }
             else if (input == "Update")
             {
-
+                // change 
             }
             //else
 
@@ -40,6 +41,7 @@ namespace SP_Friends
             //check who is most critical to talk to and order them on top
             //update someones last convo date
             // Return all the updated data into the text file
+            // the actual calendar that keeps ticking 
 
             Console.ReadKey();
         }
@@ -56,13 +58,48 @@ namespace SP_Friends
                 {
                     Name = lineTokens[0],
                     LastTalk = DateTime.ParseExact(lineTokens[1], "dd-MM-yyyy", CultureInfo.InvariantCulture),
-                    TalkFrequency = int.Parse(lineTokens[2])
+                    TalkFrequency = TimeSpan.FromDays(double.Parse(lineTokens[2])),
                 };
 
                 listOfFriends.Add(currentFriend);
             }
 
             return listOfFriends;
+        }
+
+        public static void PrintFeed(List<Friend> listOfFriends)
+        {
+            var listOfCriticalFriends = new List<Friend>();
+            var listOfFineFriends = new List<Friend>();
+
+            foreach (var friend in listOfFriends)
+            {
+                friend.DaysUntilTalk = DateTime.Today.Subtract(friend.LastTalk);
+
+                friend.NeedToTalk = friend.DaysUntilTalk >= friend.TalkFrequency;
+
+                if (friend.NeedToTalk == true)
+                {
+                    listOfCriticalFriends.Add(friend);
+                }
+                else
+                {
+                    listOfFineFriends.Add(friend);
+                }
+            }
+
+            //printing the critical friends
+            listOfCriticalFriends = listOfCriticalFriends.OrderByDescending(f => f.DaysUntilTalk).ToList();
+            Console.WriteLine("Friends you haven't caught up with:");
+            foreach (var friend in listOfCriticalFriends)
+            {
+                Console.WriteLine($"{friend.Name} is {friend.DaysUntilTalk.TotalDays} days overdue," +
+                    $" haven't talked since {friend.LastTalk.ToString("dd-MM-yyyy", CultureInfo.InvariantCulture)}");
+            }
+            Console.WriteLine(new string('-', 60));
+
+            //printing the not critical friends
+
         }
 
         public static Friend AddNewFriend()
@@ -97,12 +134,12 @@ namespace SP_Friends
                 Console.Write("Please input a valid number: ");
                 daysInBetweenString = Console.ReadLine();
                 succesfullyParsedDate = int.TryParse(daysInBetweenString, out daysInBetween);
-
             }
+
 
             newFriend.Name = newFriendName;
             newFriend.LastTalk = lastConvo;
-            newFriend.TalkFrequency = daysInBetween;
+            newFriend.TalkFrequency = TimeSpan.FromDays(daysInBetween);
 
             return newFriend;
         }
