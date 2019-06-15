@@ -5,3 +5,10 @@ C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strin
 C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Lab\Q01 String Reversed\obj\Debug\Q01 String Reversed.csproj.CoreCompileInputs.cache
 C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Lab\Q01 String Reversed\obj\Debug\Q01 String Reversed.exe
 C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\L09 Strings\L09 Lab\Q01 String Reversed\obj\Debug\Q01 String Reversed.pdb
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\Tech-Module\L09 Strings\L09 Lab\Q01 String Reversed\bin\Debug\Q01 String Reversed.exe.config
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\Tech-Module\L09 Strings\L09 Lab\Q01 String Reversed\bin\Debug\Q01 String Reversed.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\Tech-Module\L09 Strings\L09 Lab\Q01 String Reversed\bin\Debug\Q01 String Reversed.pdb
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\Tech-Module\L09 Strings\L09 Lab\Q01 String Reversed\obj\Debug\Q01 String Reversed.csprojAssemblyReference.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\Tech-Module\L09 Strings\L09 Lab\Q01 String Reversed\obj\Debug\Q01 String Reversed.csproj.CoreCompileInputs.cache
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\Tech-Module\L09 Strings\L09 Lab\Q01 String Reversed\obj\Debug\Q01 String Reversed.exe
+C:\Users\Alexb\Documents\Programming\SOFT UNI\Programming Fundamentals\Tech-Module\L09 Strings\L09 Lab\Q01 String Reversed\obj\Debug\Q01 String Reversed.pdb
