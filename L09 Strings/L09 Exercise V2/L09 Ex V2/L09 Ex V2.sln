@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q01 Convert Bases", "Q01 Convert Bases\Q01 Convert Bases.csproj", "{D64F359C-2470-48F3-98AC-499E03CE59E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Convert Bases 2", "Q02 Convert Bases 2\Q02 Convert Bases 2.csproj", "{89A7E749-EA1D-4E6A-99E9-6A4BB9DDC99B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Unicode Char", "Q03 Unicode Char\Q03 Unicode Char.csproj", "{A8FA302B-3A88-4D47-8A8B-D43E0DFA8B4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{D64F359C-2470-48F3-98AC-499E03CE59E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D64F359C-2470-48F3-98AC-499E03CE59E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D64F359C-2470-48F3-98AC-499E03CE59E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A7E749-EA1D-4E6A-99E9-6A4BB9DDC99B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A7E749-EA1D-4E6A-99E9-6A4BB9DDC99B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A7E749-EA1D-4E6A-99E9-6A4BB9DDC99B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A7E749-EA1D-4E6A-99E9-6A4BB9DDC99B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8FA302B-3A88-4D47-8A8B-D43E0DFA8B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8FA302B-3A88-4D47-8A8B-D43E0DFA8B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8FA302B-3A88-4D47-8A8B-D43E0DFA8B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8FA302B-3A88-4D47-8A8B-D43E0DFA8B4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
