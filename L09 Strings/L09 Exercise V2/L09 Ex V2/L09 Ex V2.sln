@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Convert Bases 2", "Q02 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Unicode Char", "Q03 Unicode Char\Q03 Unicode Char.csproj", "{A8FA302B-3A88-4D47-8A8B-D43E0DFA8B4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 Char Multiplier", "Q04 Char Multiplier\Q04 Char Multiplier.csproj", "{18E424A4-2D40-4EBF-90B7-A5921ED6459E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A8FA302B-3A88-4D47-8A8B-D43E0DFA8B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8FA302B-3A88-4D47-8A8B-D43E0DFA8B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8FA302B-3A88-4D47-8A8B-D43E0DFA8B4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18E424A4-2D40-4EBF-90B7-A5921ED6459E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E424A4-2D40-4EBF-90B7-A5921ED6459E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E424A4-2D40-4EBF-90B7-A5921ED6459E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E424A4-2D40-4EBF-90B7-A5921ED6459E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
