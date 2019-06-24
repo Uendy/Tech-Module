@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.421
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q01 Convert Bases", "Q01 Convert Bases\Q01 Convert Bases.csproj", "{D64F359C-2470-48F3-98AC-499E03CE59E8}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Unicode Char", "Q03 Unicode Char\Q03 Unicode Char.csproj", "{A8FA302B-3A88-4D47-8A8B-D43E0DFA8B4A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 Char Multiplier", "Q04 Char Multiplier\Q04 Char Multiplier.csproj", "{18E424A4-2D40-4EBF-90B7-A5921ED6459E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q05 Magic Change Words", "Q05 Magic Change Words\Q05 Magic Change Words.csproj", "{46D16F39-7700-4329-AEBF-5213DB639714}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{18E424A4-2D40-4EBF-90B7-A5921ED6459E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18E424A4-2D40-4EBF-90B7-A5921ED6459E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18E424A4-2D40-4EBF-90B7-A5921ED6459E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46D16F39-7700-4329-AEBF-5213DB639714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46D16F39-7700-4329-AEBF-5213DB639714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46D16F39-7700-4329-AEBF-5213DB639714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46D16F39-7700-4329-AEBF-5213DB639714}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
