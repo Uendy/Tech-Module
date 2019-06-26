@@ -80,7 +80,6 @@ public class Program
                 currentNumber -= 10;
                 if (index + 1 != longer.Length) //carryOneOver On Next Index
                 {
-                    //listOfDigits[index + 1] += currentNumber;
                     listOfDigits[index] = currentNumber;
                     carryOneOver = true;
                     continue;
