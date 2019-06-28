@@ -37,9 +37,11 @@ public class Program
 
         foreach (var set in input)
         {
+            //find the surrounding chars
             char firstLetter = set.First();
             char lastLetter = set.Last();
 
+            //Find the middle digits
             int numberOfDigits = set.Length - 2;
             string digits = set.Substring(1, numberOfDigits);
 
