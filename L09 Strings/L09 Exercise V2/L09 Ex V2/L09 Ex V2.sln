@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q06 Sum Big Nums", "Q06 Sum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q07 Multiply Big Nums", "Q07 Multiply Big Nums\Q07 Multiply Big Nums.csproj", "{8C7C896B-8C76-47FD-BB4E-A7BC60B576DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q08 Letters Change Nums", "Q08 Letters Change Nums\Q08 Letters Change Nums.csproj", "{46A3F24A-449F-450E-9062-715224DCF525}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{8C7C896B-8C76-47FD-BB4E-A7BC60B576DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C7C896B-8C76-47FD-BB4E-A7BC60B576DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C7C896B-8C76-47FD-BB4E-A7BC60B576DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46A3F24A-449F-450E-9062-715224DCF525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46A3F24A-449F-450E-9062-715224DCF525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46A3F24A-449F-450E-9062-715224DCF525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46A3F24A-449F-450E-9062-715224DCF525}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
