@@ -5,6 +5,8 @@ public class Program
 {
     public static void Main()
     {
+        // the task:
+        #region
         //Nakov likes Math. But he also likes the English alphabet a lot. 
         //He invented a game with numbers and letters from the English alphabet. 
         //The game was simple. You get a string consisting of a number between two letters.
@@ -30,10 +32,11 @@ public class Program
         //Similarly for the second string s is lowercase and its position is 19 so we multiply it with the number(17 * 19 = 323).
         //Then we have Uppercase G with position 7, so we subtract it from the resulted number(323 – 7 = 316).
         //Finally we sum the 2 results and we get 14 + 316 = 330;
+        #endregion
 
-        var input = Console.ReadLine().Split(' ').ToList();
+        var input = Console.ReadLine().Split(new[] {' '}, StringSplitOptions.RemoveEmptyEntries).ToList();
 
-        double sum = 0.00;
+        var listToSum = new List<double>();
 
         foreach (var set in input)
         {
@@ -46,7 +49,47 @@ public class Program
             string digits = set.Substring(1, numberOfDigits);
 
             int num = int.Parse(digits);
+
+            double currentNum = 0.00;
+
+            //first letter manipulation 
+            bool firstLowerCase = IsLowerCase(firstLetter); 
+            if (firstLowerCase)
+            {
+                currentNum += num * (firstLetter - 96);
+            }
+            else // upperCase
+            {
+                currentNum += (double)num / (firstLetter - 64);
+            }
+
+            //second letter manipulation
+            bool lastLowerCase = IsLowerCase(lastLetter);
+            if (lastLowerCase)
+            {
+                currentNum += lastLetter - 96;
+            }
+            else //last letter is upper case
+            {
+                currentNum -= lastLetter - 64;
+            }
+
+            listToSum.Add(currentNum);
         }
 
+        double sum = listToSum.Sum();
+        Console.WriteLine($"{sum:f2}");
+
+    }
+    //// find if a letter is upper or lower case
+    public static bool IsLowerCase(char currentLetter)
+    {
+        bool isLowerCase = false;
+
+        if (currentLetter >= 'a' && currentLetter <= 'z')
+        {
+            isLowerCase = true;
+        }
+        return isLowerCase;
     }
 }
