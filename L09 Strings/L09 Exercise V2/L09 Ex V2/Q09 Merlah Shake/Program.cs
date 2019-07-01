@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 public class Program
 {
     public static void Main()
@@ -17,5 +14,35 @@ public class Program
         //you print “Shaked it.” on the console.Otherwise you print “No shake.”, 
         //the remains of the main string, and you end the program.See the examples for more info.
 
+        var input = Console.ReadLine();
+        var pattern = Console.ReadLine();
+
+        while (true)
+        {
+            var firstOccurance = input.IndexOf(pattern);
+            var lastOccurance = input.LastIndexOf(pattern);
+
+            bool iscontained = firstOccurance != -1 && lastOccurance != -1 && firstOccurance != lastOccurance && pattern.Length != 0;
+            if (iscontained == true)
+            {
+                input = input.Remove(lastOccurance, pattern.Length);
+                input = input.Remove(firstOccurance, pattern.Length);
+
+                var removedIndex = pattern.Length / 2;
+                pattern = pattern.Remove(removedIndex, 1);
+                Console.WriteLine("Shaked it.");
+            }
+            else
+            {
+                EndingRemarks(input);
+            }
+        }
+    }
+
+    static void EndingRemarks(string text)
+    {
+        Console.WriteLine("No shake.");
+        Console.WriteLine(text);
+        Environment.Exit(0);
     }
 }
