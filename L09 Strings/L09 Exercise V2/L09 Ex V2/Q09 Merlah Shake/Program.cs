@@ -15,21 +15,21 @@ public class Program
         //the remains of the main string, and you end the program.See the examples for more info.
 
         var input = Console.ReadLine();
-        var pattern = Console.ReadLine();
+        var substring = Console.ReadLine();
 
         while (true)
         {
-            var firstOccurance = input.IndexOf(pattern);
-            var lastOccurance = input.LastIndexOf(pattern);
+            var firstOccurance = input.IndexOf(substring);
+            var lastOccurance = input.LastIndexOf(substring);
 
-            bool iscontained = firstOccurance != -1 && lastOccurance != -1 && firstOccurance != lastOccurance && pattern.Length != 0;
+            bool iscontained = firstOccurance != -1 && lastOccurance != -1 && firstOccurance != lastOccurance && substring.Length != 0;
             if (iscontained == true)
             {
-                input = input.Remove(lastOccurance, pattern.Length);
-                input = input.Remove(firstOccurance, pattern.Length);
+                input = input.Remove(lastOccurance, substring.Length);
+                input = input.Remove(firstOccurance, substring.Length);
 
-                var removedIndex = pattern.Length / 2;
-                pattern = pattern.Remove(removedIndex, 1);
+                var removedIndex = substring.Length / 2;
+                substring = substring.Remove(removedIndex, 1);
                 Console.WriteLine("Shaked it.");
             }
             else
