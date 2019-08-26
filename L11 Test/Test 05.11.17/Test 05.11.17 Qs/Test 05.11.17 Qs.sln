@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q01 Anonymous Downsite", "Q
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Anonymous Threat", "Anonymous Threat\Q02 Anonymous Threat.csproj", "{B6785FDB-09FA-4F0E-84BF-05C34724DDCB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 V2", "Q02 V2\Q02 V2.csproj", "{2558D9BC-C0C7-47C9-95DD-4BEF759AB3D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B6785FDB-09FA-4F0E-84BF-05C34724DDCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6785FDB-09FA-4F0E-84BF-05C34724DDCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6785FDB-09FA-4F0E-84BF-05C34724DDCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2558D9BC-C0C7-47C9-95DD-4BEF759AB3D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2558D9BC-C0C7-47C9-95DD-4BEF759AB3D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2558D9BC-C0C7-47C9-95DD-4BEF759AB3D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2558D9BC-C0C7-47C9-95DD-4BEF759AB3D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

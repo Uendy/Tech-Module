@@ -51,6 +51,13 @@ public class Program
 
         string input = Console.ReadLine();
 
+        bool isEmpty = string.IsNullOrEmpty(input);
+        if (isEmpty)
+        {
+            Console.WriteLine(input);
+            Environment.Exit(0);
+        }
+
         var inputTokens = input.Split(' ').ToArray();
         var tokens = new List<string>(inputTokens);
 
@@ -64,6 +71,13 @@ public class Program
             {
                 int startIndex = int.Parse(commandTokens[1]);
                 int endIndex = int.Parse(commandTokens[2]);
+
+                bool negativeIndex = startIndex < 0 || endIndex < 0;
+                if (negativeIndex)
+                {
+                    command = Console.ReadLine();
+                    continue;
+                }
 
                 //checking if end index is above cut off and if so bringing it down to the max
                 bool afterFinalIndex = endIndex > tokens.Count();
@@ -102,7 +116,7 @@ public class Program
 
                 for (int innerIndex = 0; innerIndex < arraySize; innerIndex += partitionSize)
                 {
-                    bool finalIndex = innerIndex + partitions > arraySize;
+                    bool finalIndex = listOfSubStrings.Count() == partitions - 1;// 11-> 3/3/3 then the final one 
                     if (finalIndex)
                     {
                         bool evenSplit = arraySize % partitions == 0;
