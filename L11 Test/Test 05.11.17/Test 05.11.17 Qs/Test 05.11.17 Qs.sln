@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Anonymous Vox", "Q03 An
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 V2", "Q03 V2\Q03 V2.csproj", "{2B285E49-7F27-495F-8E55-65232692182B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 Anonymous Cache", "Q04 Anonymous Cache\Q04 Anonymous Cache.csproj", "{7D9E3F63-97FE-46FB-A8DE-51387DAEB7AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2B285E49-7F27-495F-8E55-65232692182B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B285E49-7F27-495F-8E55-65232692182B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B285E49-7F27-495F-8E55-65232692182B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D9E3F63-97FE-46FB-A8DE-51387DAEB7AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D9E3F63-97FE-46FB-A8DE-51387DAEB7AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D9E3F63-97FE-46FB-A8DE-51387DAEB7AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D9E3F63-97FE-46FB-A8DE-51387DAEB7AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
