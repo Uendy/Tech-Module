@@ -104,7 +104,10 @@ public class Program
         long topDataSize = 0;
         string topDataSet = string.Empty;
 
-        //LINQ in a nested dict is really hard
+        //LINQ  KeyValuePair<string, Dictionary<string, long>> result = data
+        //       .OrderByDescending(ds => ds.Value.Sum(d => d.Value)) //SUMMING EVERYTHING
+        //       .First();
+
         foreach (var dataSet in overAll.Keys)
         {
             long currentDataSizeTotal = 0;
