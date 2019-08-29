@@ -36,8 +36,6 @@ public class Program
 
         float totalCost = 0;
 
-        //int trashedKeyboardTimes = 0;
-
         for (int i = 2; i <= lostGames; i++)
         {
             bool headsetTrashed = BreakHeadset(i); // every second game -> headset
@@ -57,7 +55,7 @@ public class Program
             {
                 totalCost += keyboardCost;
 
-                bool display = BreakDisplay(i);
+                bool display = BreakDisplay(i); // evey 2nd keyboard break -> display
                 if (display)
                 {
                     totalCost += displayCost;
