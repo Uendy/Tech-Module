@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Memory View", "Q02 Memo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Tseam Account", "Q03 Tseam Account\Q03 Tseam Account.csproj", "{09B55EE3-309E-474C-BD38-ACC91899711F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 MOBA Challanger", "Q04 MOBA Challanger\Q04 MOBA Challanger.csproj", "{503BF550-B6D7-4D2B-838D-54A958B9AFF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{09B55EE3-309E-474C-BD38-ACC91899711F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09B55EE3-309E-474C-BD38-ACC91899711F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09B55EE3-309E-474C-BD38-ACC91899711F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{503BF550-B6D7-4D2B-838D-54A958B9AFF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{503BF550-B6D7-4D2B-838D-54A958B9AFF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{503BF550-B6D7-4D2B-838D-54A958B9AFF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{503BF550-B6D7-4D2B-838D-54A958B9AFF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
