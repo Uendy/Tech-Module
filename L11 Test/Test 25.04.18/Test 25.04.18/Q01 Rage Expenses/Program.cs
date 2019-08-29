@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 public class Program
 {
-    public static void Main(string[] args)
+    public static void Main()
     {
         //link to check questions: https://judge.softuni.bg/Contests/Practice/Index/996#0
 
@@ -38,17 +36,17 @@ public class Program
 
         float totalCost = 0;
 
-        int trashedKeyboardTimes = 0;
+        //int trashedKeyboardTimes = 0;
 
         for (int i = 2; i <= lostGames; i++)
         {
-            bool headsetTrashed = i % 2 == 0; // every second game -> headset
+            bool headsetTrashed = BreakHeadset(i); // every second game -> headset
             if (headsetTrashed)
             {
                 totalCost += headsetCost;
             }
 
-            bool mouseTrashed = i % 3 == 0; // every third game -> mouse
+            bool mouseTrashed = BreakMouse(i); // every third game -> mouse
             if (mouseTrashed)
             {
                 totalCost += mouseCost;
@@ -58,17 +56,30 @@ public class Program
             if (keyboardTrashed)
             {
                 totalCost += keyboardCost;
-                trashedKeyboardTimes++;
-            }
 
-            bool display = keyboardTrashed && trashedKeyboardTimes == 2; // every 2nd time the keyboard is trashed -> display
-            if (display)
-            {
-                totalCost += displayCost;
-                trashedKeyboardTimes = 0;
+                bool display = BreakDisplay(i);
+                if (display)
+                {
+                    totalCost += displayCost;
+                }
             }
         }
 
         Console.WriteLine($"Rage expenses: {totalCost:f2} lv.");
+    }
+
+    public static bool BreakHeadset(int i)
+    {
+        return i % 2 == 0;
+    }
+    public static bool BreakMouse(int i)
+    {
+        return i % 3 == 0;
+    }
+
+    public static bool BreakDisplay(int i)
+    {
+        i /= 2;
+        return BreakHeadset(i) && BreakMouse(i);
     }
 }
