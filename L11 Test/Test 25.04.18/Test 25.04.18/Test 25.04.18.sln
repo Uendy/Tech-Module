@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q01 Rage Expenses", "Q01 Ra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Memory View", "Q02 Memory View\Q02 Memory View.csproj", "{D748977D-7776-4364-9520-868DA826CA50}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Tseam Account", "Q03 Tseam Account\Q03 Tseam Account.csproj", "{09B55EE3-309E-474C-BD38-ACC91899711F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D748977D-7776-4364-9520-868DA826CA50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D748977D-7776-4364-9520-868DA826CA50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D748977D-7776-4364-9520-868DA826CA50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09B55EE3-309E-474C-BD38-ACC91899711F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B55EE3-309E-474C-BD38-ACC91899711F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B55EE3-309E-474C-BD38-ACC91899711F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B55EE3-309E-474C-BD38-ACC91899711F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
