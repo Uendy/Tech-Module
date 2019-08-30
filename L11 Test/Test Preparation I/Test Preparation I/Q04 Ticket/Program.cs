@@ -46,7 +46,7 @@ public class Program
         }
     }
 
-    
+    // put the whole thing in a method to allow myself easier access to break the nested loops
     public static string MatchTickets(string ticket, char[] winningSymbols)
     {
         string outPut = "invalid ticket";
