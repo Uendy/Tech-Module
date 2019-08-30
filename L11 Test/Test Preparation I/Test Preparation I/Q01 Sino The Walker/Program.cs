@@ -4,6 +4,9 @@ public class Program
 {
     public static void Main()
     {
+        //check questions at:https://judge.softuni.bg/Contests/Practice/Index/445#0
+
+        #region
         //You will receive the time that Sino leaves SoftUni, the steps taken and time for each step in seconds. 
         //You need to print the exact time that he will arrive at home in the format specified.
 
@@ -19,10 +22,11 @@ public class Program
         //•	If hours, minutes or seconds are a single digit number, add a zero in front.
         //•	If, for example, hours are equal to zero, print a 00 in their place.The same is true for minutes or seconds.
         //•	Time of day starts at 00:00:00 and ends at 23:59:59
+        #endregion
 
         string timeFormat = "HH:mm:ss";
 
-        var startTime = DateTime.ParseExact(startInput, "HH:mm:ss", CultureInfo.InvariantCulture);
+        var startTime = DateTime.ParseExact(Console.ReadLine(), timeFormat, CultureInfo.InvariantCulture);
 
         int numberOfSteps = int.Parse(Console.ReadLine());
         int timePerStep = int.Parse(Console.ReadLine());
@@ -31,6 +35,6 @@ public class Program
 
         var arrivalTime = startTime.AddSeconds(totalTime);
 
-        Console.WriteLine($"Time Arrival: {arrivalTime.ToString("HH:mm:ss")}");
+        Console.WriteLine($"Time Arrival: {arrivalTime.ToString(timeFormat)}");
     }
 }
