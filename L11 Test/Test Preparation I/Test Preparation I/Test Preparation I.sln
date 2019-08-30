@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q01 V2", "Q01 V2\Q01 V2.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 SU Karaoke", "Q02 SU Karaoke\Q02 SU Karaoke.csproj", "{EE9F9892-4C15-4BD3-99EF-D9D867BE36E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Rally", "Q03 Rally\Q03 Rally.csproj", "{084490D0-ED26-4A06-8EC8-964FF2BCE51D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{EE9F9892-4C15-4BD3-99EF-D9D867BE36E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE9F9892-4C15-4BD3-99EF-D9D867BE36E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE9F9892-4C15-4BD3-99EF-D9D867BE36E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{084490D0-ED26-4A06-8EC8-964FF2BCE51D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{084490D0-ED26-4A06-8EC8-964FF2BCE51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{084490D0-ED26-4A06-8EC8-964FF2BCE51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{084490D0-ED26-4A06-8EC8-964FF2BCE51D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -74,7 +74,7 @@ public class Program
 
         foreach (var currentSinger in result)
         {
-            sb.AppendLine($"{currentSinger.Name}: {currentSinger.Awards.Distinct().Count()}");
+            sb.AppendLine($"{currentSinger.Name}: {currentSinger.Awards.Distinct().Count()} awards");
             foreach (var award in currentSinger.Awards.Distinct().OrderBy(x => x))
             {
                 sb.AppendLine($"--{award}");
