@@ -4,7 +4,6 @@ public class Program
     public static void Main()
     {
         //check questions here: https://judge.softuni.bg/Contests/Practice/Index/454#0
-
         #region
         //Every year a charity marathon takes place in your town in which all major companies are obliged to make donations depending,
         //on the total kilometers ran by runners in a number of days. And this year you have been chosen to create the software for it.
@@ -27,38 +26,21 @@ public class Program
         //•	On the sixth line you will get the amount of money donated per kilometer
         #endregion
 
-        int days = int.Parse(Console.ReadLine());
-        int runners = int.Parse(Console.ReadLine());
-        int laps = int.Parse(Console.ReadLine());
-        int trackLength = int.Parse(Console.ReadLine());
-        int capacity = int.Parse(Console.ReadLine());
+        double days = double.Parse(Console.ReadLine());
+        double runners = double.Parse(Console.ReadLine());
+        double laps = double.Parse(Console.ReadLine());
+        double trackLength = double.Parse(Console.ReadLine());
+        double capacity = double.Parse(Console.ReadLine());
         double moneyPerKM = double.Parse(Console.ReadLine());
 
-        double moneyRaised = 0;
+        var totalRunners = Math.Min(runners, capacity * days);
 
-        for (int day = 1; day <= days; day++)
-        {
-            int currentRunners = runners;
-            bool aboveCapacity = currentRunners > capacity;
-            if (aboveCapacity)
-            {
-                currentRunners = capacity;
-                runners -= capacity;
-            }
+        var totalMeters = totalRunners * laps * trackLength;
 
-            long totalDistancePerRunner = laps * trackLength;
+        var totalKiloMeters = totalMeters / 1000;
 
-            long totalInM = currentRunners * totalDistancePerRunner;
+        var moneyRaised = totalKiloMeters * moneyPerKM;
 
-            long totalInKM = totalInM / 1000;
-
-            moneyRaised += totalInKM * moneyPerKM;
-
-        }
-
-        double result = Math.Round(moneyRaised, 2);
-
-        Console.WriteLine($"Money raised: {result:f2}");
-
+        Console.WriteLine($"Money raised: {moneyRaised:f2}");
     }
 }
