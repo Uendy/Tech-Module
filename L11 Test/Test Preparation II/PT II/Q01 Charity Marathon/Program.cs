@@ -55,7 +55,10 @@ public class Program
             moneyRaised += totalInKM * moneyPerKM;
 
         }
-        Console.WriteLine($"Money raised: {moneyRaised:f2}");
+
+        double result = Math.Round(moneyRaised, 2);
+
+        Console.WriteLine($"Money raised: {result:f2}");
 
     }
 }
