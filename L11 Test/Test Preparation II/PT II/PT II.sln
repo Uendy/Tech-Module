@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q01 Charity Marathon", "Q01
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Ladybug", "Q02 Ladybug\Q02 Ladybug.csproj", "{29CC6191-88A9-463B-B0C5-1D22374A976F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Nether Realm", "Q03 Nether Realm\Q03 Nether Realm.csproj", "{AF2AACCA-1A12-41BC-9D6B-7C18C3B0F55D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{29CC6191-88A9-463B-B0C5-1D22374A976F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29CC6191-88A9-463B-B0C5-1D22374A976F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29CC6191-88A9-463B-B0C5-1D22374A976F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF2AACCA-1A12-41BC-9D6B-7C18C3B0F55D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF2AACCA-1A12-41BC-9D6B-7C18C3B0F55D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF2AACCA-1A12-41BC-9D6B-7C18C3B0F55D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF2AACCA-1A12-41BC-9D6B-7C18C3B0F55D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
