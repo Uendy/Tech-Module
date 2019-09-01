@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 public class Program
 {
     public static void Main()
     {
+        #region
         //Mighty battle is coming. In the stormy nether realms, demons are fighting against each other for supremacy in a duel from which only one will survive. 
 
         //Your job, however is not so exciting.You are assigned to sign in all the participants in the nether realm's mighty battle's demon book,
@@ -24,10 +26,12 @@ public class Program
 
         //You will get all demons on a single line, separated by commas and zero or more blank spaces.
         //Sort them in alphabetical order and print their names along their health and damage.
+        #endregion
+
 
         var listOfDemons = new List<Demon>();
 
-        var inputedDemons = Console.ReadLine().Split(',').ToArray();
+        var inputedDemons = Console.ReadLine().Split(new[] { ',', ' '}, StringSplitOptions.RemoveEmptyEntries).ToArray();
         foreach (var demon in inputedDemons)
         {
             var newDemon = new Demon();
@@ -63,32 +67,30 @@ public class Program
         var nameAsArray = demon.ToCharArray();
 
         //the simple arythmetics
+
+        var sb = new StringBuilder(); // recive only the numbers and the decimal places and negative signs
         for (int index = 0; index < nameAsArray.Count(); index++)
         {
-            bool isNotDigit = !char.IsDigit(nameAsArray[index]);
-            if (isNotDigit)
+            bool wanted = char.IsDigit(nameAsArray[index]) || nameAsArray[index] == '-' || nameAsArray[index] == '.';
+            if (wanted)
             {
-                continue;
+                sb.Append(nameAsArray[index]);
             }
-
-            double currentNum = double.Parse(nameAsArray[index].ToString());
-
-            if (index >= 1)
+            else
             {
-                bool isNegative = nameAsArray[index - 1] == '-';
-                if (isNegative)
-                {
-                    damage -= currentNum;
-                    continue;
-                }
+                sb.Append('X');
             }
-            damage += currentNum;
         }
 
-        //multiplication and division
-        //int multiplications = 0;
-        //int divisions = 0;
+        var sbAsString = sb.ToString();
 
+        var importantInfo = sbAsString.Split(new[] {'X'}, StringSplitOptions.RemoveEmptyEntries).ToArray().Select(double.Parse).ToArray();
+        foreach (var num in importantInfo)
+        {
+            damage += num;
+        }
+
+        //see how many multiplications or divions you will need
         int operations = 0;
 
         for (int index = 0; index < demon.Length; index++)
@@ -105,9 +107,18 @@ public class Program
 
         if (operations > 0) // muttiply
         {
-
+            for (int i = operations; i >= 1; i--)
+            {
+                damage *= 2;
+            }
         }
-        else if(operations < 0) // divide
+        else if (operations < 0) // divide
+        {
+            for (int i = operations; i >= 1; i--)
+            {
+                damage /= 2;
+            }
+        }
 
         return damage;
     }
@@ -115,7 +126,7 @@ public class Program
 
     //The sum of the asci codes of all characters (excluding numbers (0-9), arithmetic symbols ('+', '-', '*', '/'),
     //delimiter dot ('.')) gives a demon's total health. 
-    public static int CalculateHealth(string demon) 
+    public static int CalculateHealth(string demon)
     {
         int health = 0;
 
