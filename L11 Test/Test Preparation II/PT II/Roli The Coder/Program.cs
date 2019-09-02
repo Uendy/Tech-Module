@@ -29,7 +29,7 @@ public class Program
         var tracker = new Dictionary<string, Concert>();
 
         string input = Console.ReadLine();
-        while (input != "Time for Code")
+        while (input.ToLower() != "time for code")
         {
             bool invalidInput = !input.Contains("#");
             if (invalidInput)
