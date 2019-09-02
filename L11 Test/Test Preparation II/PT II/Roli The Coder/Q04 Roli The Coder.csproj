@@ -7,7 +7,7 @@
     <ProjectGuid>{311AD676-B1EB-4AED-B7B1-D975ECCCD350}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Roli_The_Coder</RootNamespace>
-    <AssemblyName>Roli_The_Coder</AssemblyName>
+    <AssemblyName>Roli The Coder</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Concert.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
