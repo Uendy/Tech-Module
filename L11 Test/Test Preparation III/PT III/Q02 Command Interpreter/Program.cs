@@ -23,14 +23,15 @@ public class Program
         //After you’re done, print the resulting array in the following format: "[arr0, arr1, …, arrN-1]".
         //The examples should help you understand the task better.
         #endregion
+        //they are strings not ints
 
-        var array = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
+        var array = Console.ReadLine().Split(' ').ToList();
 
-        string commandLine = Console.ReadLine().ToLower();
+        string commandLine = Console.ReadLine();
 
         while (commandLine != "end")
         {
-            var commandTokens = commandLine.Split(' ').ToArray();
+            var commandTokens = commandLine.ToLower().Split(' ').ToArray();
 
             var command = commandTokens[0];
 
@@ -41,26 +42,96 @@ public class Program
                     break;
 
                 case "sort":
-
+                    SortSubArray(array, commandTokens);
                     break;
 
-                case "rollLeft":
-                    
+                case "rollleft":
+                    CommandRollLeft(array, commandTokens);
                     break;
 
-                case "rollRight":
-
+                case "rollright":
+                    CommandRollRight(array, commandTokens);
                     break;
             }
 
             commandLine = Console.ReadLine();
         }
 
-        string outPut = string.Join(" ", array);
-        Console.WriteLine(outPut);
+        string outPut = string.Join(", ", array);
+        Console.WriteLine($"[{outPut}]");
     }
 
-    public static void ReverseSubArray(List<int> array, string[] commandTokens)
+    public static void CommandRollRight(List<string> array, string[] commandTokens)
+    {
+        long shiftBy = long.Parse(commandTokens[1]);
+        shiftBy %= array.Count();
+
+        var temporaryList = new List<string>(array);
+
+        for (int index = 0; index < array.Count(); index++)
+        {
+            string currentString = array[index];
+
+            int newIndex = index + (int)shiftBy;
+
+            bool completeShift = newIndex > array.Count() - 1; // move rightmost index to first position
+            if (completeShift)
+            {
+                newIndex -= array.Count();
+            }
+
+            temporaryList[newIndex] = currentString;
+        }
+
+        array.Clear();
+        array.InsertRange(0, temporaryList);
+    }
+
+    public static void CommandRollLeft(List<string> array, string[] commandTokens)
+    {
+        long shiftBy = long.Parse(commandTokens[1]);
+        shiftBy %= array.Count();
+
+        var temporaryList = new List<string>(array);
+
+        for (int index = array.Count() - 1; index >= 0; index--)
+        {
+            string currentString = array[index];
+
+            int newIndex = index - (int)shiftBy;
+
+            bool completeShift = newIndex < 0; // leftmost index moves to last position 
+            if (completeShift)
+            {
+                newIndex += array.Count();
+            }
+
+            temporaryList[newIndex] = currentString;
+        }
+
+        array.Clear();
+        array.InsertRange(0, temporaryList);
+    }
+
+    public static void SortSubArray(List<string> array, string[] commandTokens)
+    {
+        int startIndex = int.Parse(commandTokens[2]);
+        int count = int.Parse(commandTokens[4]);
+
+        bool validIndex = IndexValidator(array, startIndex) && IndexValidator(array, startIndex + count);
+        if (!validIndex)
+        {
+            Console.WriteLine("Invalid input parameters.");
+            return;
+        }
+
+        var sortedSubArray = array.GetRange(startIndex, count).Select(x => x).OrderBy(x => x).ToList();
+
+        array.RemoveRange(startIndex, count);
+        array.InsertRange(startIndex, sortedSubArray);
+    }
+
+    public static void ReverseSubArray(List<string> array, string[] commandTokens)
     {
         int startIndex = int.Parse(commandTokens[2]);
         int count = int.Parse(commandTokens[4]);
@@ -78,7 +149,7 @@ public class Program
         array.InsertRange(startIndex, newSubArray);
     }
 
-    public static bool IndexValidator(List<int> array, int checkedIndex)
+    public static bool IndexValidator(List<string> array, int checkedIndex)
     {
         bool validIndex = checkedIndex >= 0 && checkedIndex < array.Count();
 
