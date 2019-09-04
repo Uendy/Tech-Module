@@ -34,11 +34,11 @@ public class Program
         {
             var pricePerCapsule = decimal.Parse(Console.ReadLine());
             var date = DateTime.ParseExact(Console.ReadLine(), dateFormat, CultureInfo.InvariantCulture);
-            int numberOfCapsules = int.Parse(Console.ReadLine());
+            long numberOfCapsules = long.Parse(Console.ReadLine());
 
             int daysInMonth = DateTime.DaysInMonth(date.Year, date.Month);
 
-            decimal capsulesInMonth = daysInMonth * numberOfCapsules;
+            long capsulesInMonth = daysInMonth * numberOfCapsules;
 
             decimal totalForMonth = capsulesInMonth * pricePerCapsule;
 
