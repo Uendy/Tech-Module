@@ -23,9 +23,7 @@ public class Program
         //After you’re done, print the resulting array in the following format: "[arr0, arr1, …, arrN-1]".
         //The examples should help you understand the task better.
         #endregion
-        //they are strings not ints
-
-        var array = Console.ReadLine().Split(' ').ToList();
+        var array = Console.ReadLine().Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToList();
 
         string commandLine = Console.ReadLine();
 
@@ -64,7 +62,13 @@ public class Program
     public static void CommandRollRight(List<string> array, string[] commandTokens)
     {
         long shiftBy = long.Parse(commandTokens[1]);
-        shiftBy %= array.Count();
+        //shiftBy %= array.Count();
+        bool validInput = IndexValidator(array, shiftBy);
+        if (validInput == false)
+        {
+            Console.WriteLine("Invalid input parameters.");
+            return;
+        }
 
         var temporaryList = new List<string>(array);
 
@@ -90,7 +94,13 @@ public class Program
     public static void CommandRollLeft(List<string> array, string[] commandTokens)
     {
         long shiftBy = long.Parse(commandTokens[1]);
-        shiftBy %= array.Count();
+        //shiftBy %= array.Count();
+        bool validInput = IndexValidator(array, shiftBy);
+        if (validInput == false)
+        {
+            Console.WriteLine("Invalid input parameters.");
+            return;
+        }
 
         var temporaryList = new List<string>(array);
 
@@ -149,7 +159,7 @@ public class Program
         array.InsertRange(startIndex, newSubArray);
     }
 
-    public static bool IndexValidator(List<string> array, int checkedIndex)
+    public static bool IndexValidator(List<string> array, long checkedIndex)
     {
         bool validIndex = checkedIndex >= 0 && checkedIndex < array.Count();
 
