@@ -5,6 +5,9 @@ public class Program
 {
     public static void Main()
     {
+        //either that I dont check all 3: startIndex, count, startIndex + count (check the bottom lines)
+        // or my rollLeft and rollRight are wrong
+
         var array = Console.ReadLine().Trim().Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToList();
 
         string input = Console.ReadLine();
@@ -44,12 +47,13 @@ public class Program
     {
         long shiftBy = long.Parse(inputTokens[1]);
         shiftBy %= array.Count();
-        bool validInput = IndexValidator(array, shiftBy);
-        if (validInput == false)
+        if (shiftBy < 0)
         {
             Console.WriteLine("Invalid input parameters.");
             return;
         }
+
+        shiftBy %= array.Count();
 
         var temporaryArray = new List<string>(array);
 
@@ -74,15 +78,16 @@ public class Program
     public static void CommandRollLeft(List<string> array, List<string> inputTokens)
     {
         long shiftBy = long.Parse(inputTokens[1]);
-        shiftBy %= array.Count(); 
-        bool validInput = IndexValidator(array, shiftBy);
-        if (validInput == false)
+
+        if (shiftBy < 0)
         {
             Console.WriteLine("Invalid input parameters.");
             return;
         }
 
-        var temporaryArray = new List<string>(array); 
+        shiftBy %= array.Count();
+
+        var temporaryArray = new List<string>(array);
 
         for (int index = array.Count() - 1; index >= 0; index--)
         {
@@ -101,6 +106,7 @@ public class Program
         array.Clear();
         array.InsertRange(0, temporaryArray);
     }
+
 
     public static void SortSubArray(List<string> array, List<string> inputTokens)
     {
@@ -138,10 +144,21 @@ public class Program
         array.InsertRange(startIndex, newSubArray);
     }
 
-    public static bool IndexValidator(List<string> array, long currentIndex)
+    public static bool IndexValidator(List<string> array, int currentIndex)
     {
         bool isValid = currentIndex >= 0 && currentIndex < array.Count();
 
         return isValid;
     }
+
+    //either that I dont check all 3: startIndex, count, startIndex + count
+    //public static bool isValid(List<string> array, int startIndex, int count)
+    //{
+    //    if(startIndex >= 0 && startIndex < Array.Count() && count >= 0 && (startIndex + count) < array.Count())
+    //      {
+    //      return true;
+    //      }
+    //     return false;
+
+
 }
