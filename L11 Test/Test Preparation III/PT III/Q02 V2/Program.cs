@@ -10,7 +10,7 @@ public class Program
         string input = Console.ReadLine();
         while (input != "end")
         {
-            var inputTokens = input.Split(' ').ToList();
+            var inputTokens = input.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToList();
 
             string command = inputTokens[0];
 
@@ -114,7 +114,7 @@ public class Program
             return;
         }
 
-        var newSubArray = array.GetRange(startIndex, count).Select(x => x).OrderBy(x => x).ToList();
+        var newSubArray = array.Skip(startIndex).Take(count).OrderBy(x => x).ToList();
 
         array.RemoveRange(startIndex, count);
         array.InsertRange(startIndex, newSubArray);
@@ -132,7 +132,7 @@ public class Program
             return;
         }
 
-        var newSubArray = array.GetRange(startIndex, count).Select(x => x).Reverse().ToList();
+        var newSubArray = array.Skip(startIndex).Take(count).Reverse().ToList();
 
         array.RemoveRange(startIndex, count);
         array.InsertRange(startIndex, newSubArray);
