@@ -23,13 +23,14 @@ public class Program
         //After you’re done, print the resulting array in the following format: "[arr0, arr1, …, arrN-1]".
         //The examples should help you understand the task better.
         #endregion
-        var array = Console.ReadLine().Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToList();
+
+        var array = Console.ReadLine().Trim().Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToList();
 
         string commandLine = Console.ReadLine();
 
         while (commandLine != "end")
         {
-            var commandTokens = commandLine.ToLower().Split(' ').ToArray();
+            var commandTokens = commandLine.ToLower().Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
 
             var command = commandTokens[0];
 
@@ -146,7 +147,7 @@ public class Program
         int startIndex = int.Parse(commandTokens[2]);
         int count = int.Parse(commandTokens[4]);
 
-        bool validIndex = IndexValidator(array, startIndex) && IndexValidator(array, startIndex + count);
+        bool validIndex = IndexValidator(array, startIndex) && IndexValidator(array, startIndex + count); // should be + count - 1
         if (!validIndex)
         {
             Console.WriteLine("Invalid input parameters.");
