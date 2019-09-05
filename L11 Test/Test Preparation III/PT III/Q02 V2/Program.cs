@@ -42,8 +42,14 @@ public class Program
 
     public static void CommandRollRight(List<string> array, List<string> inputTokens)
     {
-        int shiftBy = int.Parse(inputTokens[1]);
-        shiftBy %= array.Count(); 
+        long shiftBy = long.Parse(inputTokens[1]);
+        shiftBy %= array.Count();
+        bool validInput = IndexValidator(array, shiftBy);
+        if (validInput == false)
+        {
+            Console.WriteLine("Invalid input parameters.");
+            return;
+        }
 
         var temporaryArray = new List<string>(array);
 
@@ -51,7 +57,7 @@ public class Program
         {
             var currentString = array[index];
 
-            int newIndex = index + shiftBy;
+            int newIndex = index + (int)shiftBy;
             bool isInside = IndexValidator(array, newIndex);
             if (!isInside)
             {
@@ -67,16 +73,22 @@ public class Program
 
     public static void CommandRollLeft(List<string> array, List<string> inputTokens)
     {
-        int shiftBy = int.Parse(inputTokens[1]);
+        long shiftBy = long.Parse(inputTokens[1]);
         shiftBy %= array.Count(); 
-        
+        bool validInput = IndexValidator(array, shiftBy);
+        if (validInput == false)
+        {
+            Console.WriteLine("Invalid input parameters.");
+            return;
+        }
+
         var temporaryArray = new List<string>(array); 
 
         for (int index = array.Count() - 1; index >= 0; index--)
         {
             var currentString = array[index];
 
-            int newIndex = index - shiftBy;
+            int newIndex = index - (int)shiftBy;
             bool isInside = IndexValidator(array, newIndex);
             if (!isInside)
             {
@@ -126,7 +138,7 @@ public class Program
         array.InsertRange(startIndex, newSubArray);
     }
 
-    public static bool IndexValidator(List<string> array, int currentIndex)
+    public static bool IndexValidator(List<string> array, long currentIndex)
     {
         bool isValid = currentIndex >= 0 && currentIndex < array.Count();
 
