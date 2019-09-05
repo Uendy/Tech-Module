@@ -29,6 +29,7 @@ public class Program
                     break;
 
                 case "rollRight":
+                    CommandRollRight(array, inputTokens);
                     break;
             }
 
@@ -39,16 +40,54 @@ public class Program
         Console.WriteLine($"[{outPut}]");
     }
 
+    public static void CommandRollRight(List<string> array, List<string> inputTokens)
+    {
+        int shiftBy = int.Parse(inputTokens[1]);
+        shiftBy %= array.Count(); 
+
+        var temporaryArray = new List<string>(array);
+
+        for (int index = 0; index < array.Count(); index++)
+        {
+            var currentString = array[index];
+
+            int newIndex = index + shiftBy;
+            bool isInside = IndexValidator(array, newIndex);
+            if (!isInside)
+            {
+                newIndex -= array.Count();
+            }
+
+            temporaryArray[newIndex] = currentString;
+        }
+
+        array.Clear();
+        array.InsertRange(0, temporaryArray);
+    }
+
     public static void CommandRollLeft(List<string> array, List<string> inputTokens)
     {
         int shiftBy = int.Parse(inputTokens[1]);
+        shiftBy %= array.Count(); 
+        
+        var temporaryArray = new List<string>(array); 
 
         for (int index = array.Count() - 1; index >= 0; index--)
         {
             var currentString = array[index];
 
+            int newIndex = index - shiftBy;
+            bool isInside = IndexValidator(array, newIndex);
+            if (!isInside)
+            {
+                newIndex += array.Count();
+            }
 
+            temporaryArray[newIndex] = currentString;
         }
+
+        array.Clear();
+        array.InsertRange(0, temporaryArray);
     }
 
     public static void SortSubArray(List<string> array, List<string> inputTokens)
@@ -56,7 +95,7 @@ public class Program
         int startIndex = int.Parse(inputTokens[2]);
         int count = int.Parse(inputTokens[4]);
 
-        bool validIndexs = IndexValidator(array, startIndex) && IndexValidator(array, startIndex + count);
+        bool validIndexs = IndexValidator(array, startIndex) && IndexValidator(array, startIndex + count - 1);
         if (!validIndexs)
         {
             Console.WriteLine("Invalid input parameters.");
@@ -67,8 +106,6 @@ public class Program
 
         array.RemoveRange(startIndex, count);
         array.InsertRange(startIndex, newSubArray);
-
-        Console.WriteLine(string.Join(" ", array));
     }
 
     public static void ReverseSubArray(List<string> array, List<string> inputTokens)
@@ -76,7 +113,7 @@ public class Program
         int startIndex = int.Parse(inputTokens[2]);
         int count = int.Parse(inputTokens[4]);
 
-        bool validIndexs = IndexValidator(array, startIndex) && IndexValidator(array, startIndex + count);
+        bool validIndexs = IndexValidator(array, startIndex) && IndexValidator(array, startIndex + count - 1);
         if (!validIndexs)
         {
             Console.WriteLine("Invalid input parameters.");
