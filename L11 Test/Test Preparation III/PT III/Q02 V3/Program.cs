@@ -4,7 +4,7 @@ using System.Linq;
 public class Program
 {
     public static void Main()
-    {
+    { 
         var array = Console.ReadLine().Trim().Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToList();
 
         string input = Console.ReadLine();
@@ -42,12 +42,43 @@ public class Program
 
     public static void CommandRollRight(List<string> array, List<string> inputTokens)
     {
-        throw new NotImplementedException();
+        int shiftBy = int.Parse(inputTokens[1]);
+        shiftBy %= array.Count();
+
+        if (shiftBy < 0)
+        {
+            Console.WriteLine("Invalid input parameters.");
+            return;
+        }
+
+        shiftBy %= array.Count();
+
+        for (int i = 0; i < shiftBy; i++)
+        {
+            string element = array[array.Count - 1];
+            array.RemoveAt(array.Count - 1);
+            array.Insert(0, element);
+        }
     }
 
     public static void CommandRollLeft(List<string> array, List<string> inputTokens)
     {
-        throw new NotImplementedException();
+        int shiftBy = int.Parse(inputTokens[1]);
+
+        if (shiftBy < 0)
+        {
+            Console.WriteLine("Invalid input parameters.");
+            return;
+        }
+
+        shiftBy %= array.Count();
+
+        for (int i = 0; i < shiftBy; i++)
+        {
+            string element = array[0];
+            array.RemoveAt(0);
+            array.Add(element);
+        }
     }
 
     public static void SortSubArray(List<string> array, List<string> inputTokens)
@@ -55,7 +86,7 @@ public class Program
         int startIndex = int.Parse(inputTokens[2]);
         int count = int.Parse(inputTokens[4]);
 
-        if (IsValid(array, startIndex, count - 1))
+        if (IsValid(array, startIndex, count)) // I had it as count - 1 and it was failing tests and I didnt do start + count <= array.Count();
         {
             var newSubArray = array.Skip(startIndex).Take(count).OrderBy(x => x).ToList();
 
@@ -69,7 +100,7 @@ public class Program
         int startIndex = int.Parse(inputTokens[2]);
         int count = int.Parse(inputTokens[4]);
 
-        if (IsValid(array, startIndex, count - 1)) // see if this -1 is legit
+        if (IsValid(array, startIndex, count)) 
         {
             var newSubArray = array.Skip(startIndex).Take(count).Reverse().ToList();
 
@@ -80,11 +111,11 @@ public class Program
 
     public static bool IsValid(List<string> array, int startIndex, int count)
     {
-        if (startIndex >= 0 && startIndex < array.Count() && count >= 0 && (startIndex + count) < array.Count())
+        if (startIndex >= 0 && startIndex < array.Count() && count >= 0 && (startIndex + count) <= array.Count())
         {
             return true;
         }
-        Console.WriteLine("Ivalid input parameters.");
+        Console.WriteLine("Invalid input parameters.");
         return false;
     }
 }
