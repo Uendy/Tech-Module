@@ -43,6 +43,7 @@ public class Program
     public static void CommandRollRight(List<string> array, List<string> inputTokens)
     {
         int shiftBy = int.Parse(inputTokens[1]);
+
         shiftBy %= array.Count();
 
         if (shiftBy < 0)
@@ -50,8 +51,6 @@ public class Program
             Console.WriteLine("Invalid input parameters.");
             return;
         }
-
-        shiftBy %= array.Count();
 
         for (int i = 0; i < shiftBy; i++)
         {
@@ -65,13 +64,13 @@ public class Program
     {
         int shiftBy = int.Parse(inputTokens[1]);
 
+        shiftBy %= array.Count();
+
         if (shiftBy < 0)
         {
             Console.WriteLine("Invalid input parameters.");
             return;
         }
-
-        shiftBy %= array.Count();
 
         for (int i = 0; i < shiftBy; i++)
         {
