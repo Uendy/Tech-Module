@@ -7,7 +7,7 @@
     <ProjectGuid>{CF7E2C9D-4510-4006-ADF4-FC58D4D3D7FD}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q03_Rage_Quit</RootNamespace>
-    <AssemblyName>Q03_Rage_Quit</AssemblyName>
+    <AssemblyName>Q03 Rage Quit</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
