@@ -7,6 +7,9 @@ public class Program
 {
     public static void Main()
     {
+        // what if you split by the digits?, but what about double digits?
+
+        #region
         //Every gamer knows what rage - quitting means.It’s basically when you’re just not good enough and you blame everybody else for losing a game.
         //You press the CAPS LOCK key on the keyboard and flood the chat with gibberish to show your frustration.
 
@@ -20,11 +23,11 @@ public class Program
 
         //The strings and numbers will not be separated by anything. The input will always start with a string and for each string there will be a corresponding number.
         //The entire input will be given on a single line; Chochko is too lazy to make your job easier.
+        #endregion
 
         string input = Console.ReadLine().ToUpper();
         var asCharArray = input.ToCharArray().ToList();
 
-        var uniqueChars = new List<char>();
         var stringSegments = new Dictionary<string, int>();
 
         int lastIndexOfDigit = 0;
@@ -32,51 +35,44 @@ public class Program
         for (int index = 0; index < asCharArray.Count(); index++)
         {
             var currentChar = asCharArray[index];
-            bool isDigit = char.IsDigit(currentChar);
-            if (isDigit)
+            bool isntDigit = !char.IsDigit(currentChar);
+            if (isntDigit)
             {
-                //the substring that will be printed
-                int count = index - lastIndexOfDigit;
-                var currentRange = asCharArray.GetRange(lastIndexOfDigit, count).ToArray();
-                var currentString = new string(currentRange);
-
-                //how manyTimes to print  
-                bool lastIndex = index == asCharArray.Count() - 1; //dealing with the problem if it is over 9
-                if (!lastIndex)
-                {
-                    bool doubleDigitNumber = char.IsDigit(asCharArray[index + 1]);
-                    if (doubleDigitNumber)
-                    {
-                        var currentNumberAsArray = asCharArray.GetRange(index, 2).ToArray();
-                        var currentNumberAsString = new string(currentNumberAsArray);
-                        var currentNumber = int.Parse(currentNumberAsString);
-
-                        lastIndexOfDigit = index + 2; 
-                        stringSegments[currentString] = currentNumber;
-
-                        index += 1;
-                        continue;
-                    }
-                }
-                var currentDigit = currentChar.ToString();
-                lastIndexOfDigit = index + 1;
-                int printTimes = int.Parse(currentDigit);
-
-                stringSegments[currentString] = printTimes;
-
                 continue;
             }
 
-            bool newChar = !uniqueChars.Contains(currentChar); // new char to be added to unique chars count
-            if (newChar)
+            //the substring that will be printed
+            int count = index - lastIndexOfDigit;
+            var currentRange = asCharArray.GetRange(lastIndexOfDigit, count).ToArray();
+            var currentString = new string(currentRange);
+
+            //how manyTimes to print  
+            bool lastIndex = index == asCharArray.Count() - 1; //dealing with the problem if it is over 9
+            if (!lastIndex)
             {
-                uniqueChars.Add(currentChar);
+                bool doubleDigitNumber = char.IsDigit(asCharArray[index + 1]);
+                if (doubleDigitNumber)
+                {
+                    var currentNumberAsArray = asCharArray.GetRange(index, 2).ToArray();
+                    var currentNumberAsString = new string(currentNumberAsArray);
+                    var currentNumber = int.Parse(currentNumberAsString);
+
+                    lastIndexOfDigit = index + 2;
+                    stringSegments[currentString] = currentNumber;
+
+                    index += 1;
+                    continue;
+                }
             }
+            // else if its between 0 and 9
+            var currentDigit = currentChar.ToString();
+            lastIndexOfDigit = index + 1;
+            int printTimes = int.Parse(currentDigit);
+
+            stringSegments[currentString] = printTimes;
         }
 
         //printing
-        Console.WriteLine($"Unique symbols used: {uniqueChars.Count()}");
-
         var sb = new StringBuilder();
         foreach (var kvp in stringSegments) //getting each segment (kvp.Key) print N time (kvp.Value)
         {
@@ -87,6 +83,7 @@ public class Program
         }
 
         string output = sb.ToString();
+        Console.WriteLine($"Unique symbols used: {output.Distinct().Count()}");
         Console.WriteLine(output);
     }
 }
