@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 V3", "Q02 V3\Q02 V3.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Rage Quit", "Q03 Rage Quit\Q03 Rage Quit.csproj", "{CF7E2C9D-4510-4006-ADF4-FC58D4D3D7FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 V2", "Q03 V2\Q03 V2.csproj", "{53943960-F699-4232-99A3-66797B6DC865}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{CF7E2C9D-4510-4006-ADF4-FC58D4D3D7FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF7E2C9D-4510-4006-ADF4-FC58D4D3D7FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF7E2C9D-4510-4006-ADF4-FC58D4D3D7FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53943960-F699-4232-99A3-66797B6DC865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53943960-F699-4232-99A3-66797B6DC865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53943960-F699-4232-99A3-66797B6DC865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53943960-F699-4232-99A3-66797B6DC865}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
