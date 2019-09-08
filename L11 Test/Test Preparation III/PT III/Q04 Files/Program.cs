@@ -28,6 +28,7 @@ public class Program
         //•	If there aren't any movies that correspond to the query, print "No".
         #endregion
 
+        //The chosen data structure archetecture
         //var dict = new Dict<string, Dict<string, Dict<string, long>>>
         //outer dict : key == root <string>, value == extension <string>                             OuterDict <root, extentsion>
         //medium dict : key == extension <string> (also outerDict value), value = file <string>      MediumDict <extension, file>
@@ -70,5 +71,39 @@ public class Program
             // if new or old, you get the newest version of the fileSize of the file
             middleDIct[fileAndExtension] = fileSize;
         }
+
+        //search, sort and print
+        string query = Console.ReadLine();
+        var searchTokens = query.Split(' ').ToArray();
+
+        string searchExtension = searchTokens[0];
+        string searchRoot = searchTokens[2];
+
+        foreach (var outerKey in dict.Keys)
+        {
+            bool rootExists = outerKey == searchRoot;
+            if (rootExists)
+            {
+                var mediumDict = dict[outerKey];
+
+                foreach (var mediumKey in mediumDict.Keys)
+                {
+                    bool extensionExists = mediumKey == searchExtension;
+                    if (extensionExists)
+                    {
+                        var innerDict = mediumDict[mediumKey];
+
+                        var resultDict = innerDict.OrderByDescending(x => x.Value).ThenBy(x => x.Key);
+                        foreach (var kvp in resultDict)
+                        {
+                            Console.WriteLine($"{kvp.Key} - {kvp.Value} KB");
+                        }
+                        Environment.Exit(0);
+                    }
+                }
+
+            }
+        }
+        Console.WriteLine("No");
     }
 }
