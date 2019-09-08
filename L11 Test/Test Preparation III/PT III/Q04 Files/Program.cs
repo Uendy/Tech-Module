@@ -27,5 +27,48 @@ public class Program
         //•	Files should be printed in the given format "filename.extension - filesize KB".
         //•	If there aren't any movies that correspond to the query, print "No".
         #endregion
+
+        //var dict = new Dict<string, Dict<string, Dict<string, long>>>
+        //outer dict : key == root <string>, value == extension <string>                             OuterDict <root, extentsion>
+        //medium dict : key == extension <string> (also outerDict value), value = file <string>      MediumDict <extension, file>
+        //inner dict : key (also mediumDict value) == file <string>, value == filesize <long> in KB  InnerDict <file, fileSize>
+
+        var dict = new Dictionary<string, Dictionary<string, Dictionary<string, long>>>();
+
+        int numberOfInputs = int.Parse(Console.ReadLine());
+
+        for (int i = 0; i < numberOfInputs; i++)
+        {
+            string input = Console.ReadLine();
+
+            var fileSizeSplit = input.Split(';').ToArray();
+            long fileSize = long.Parse(fileSizeSplit[1]);
+
+            var tokensSplit = fileSizeSplit[0].Split('\\').ToArray();
+            string root = tokensSplit[0];
+
+            var fileAndExtension = tokensSplit.Last();
+            string extension = fileAndExtension.Split('.').ToArray().Last();
+
+
+            bool newRoot = !dict.ContainsKey(root);
+            if (newRoot)
+            {
+                dict[root] = new Dictionary<string, Dictionary<string, long>>();
+            }
+
+            var outerDict = dict[root]; 
+
+            bool newExtension = !outerDict.ContainsKey(extension);
+            if (newExtension)
+            {
+                outerDict[extension] = new Dictionary<string, long>();
+            }
+
+            var middleDIct = outerDict[extension];
+
+            // if new or old, you get the newest version of the fileSize of the file
+            middleDIct[fileAndExtension] = fileSize;
+        }
     }
 }
