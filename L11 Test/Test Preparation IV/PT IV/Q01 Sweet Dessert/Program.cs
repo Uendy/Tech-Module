@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
 public class Program
 {
     public static void Main()
     {
+        #region
         //Ivancho and his girlfriend are throwing a party. She plans to cook her favorite dessert.She asks Ivancho to buy the needed products. 
         //The number of desserts depends on how many people will be coming. 
         //She can prepare the dessert in portions of 6.If there are 5 guests coming, she will still cook 6 portions, 10 guests – cook 12.
@@ -30,6 +28,7 @@ public class Program
         //•	If the calculated price of the products is more than the money Ivancho has:
         //o “Ivancho will have to withdraw money -he will need { neededMoney}lv more.”
         //•	All prices must be rounded to two digits after the decimal point.
+        #endregion
 
         //getting input values
         double cash = double.Parse(Console.ReadLine());
@@ -41,24 +40,22 @@ public class Program
         double kiloOfBerriesPrice = double.Parse(Console.ReadLine());
 
 
-        //finding portions needed and their respective prices and total price
+        //finding portions needed and their respective prices and total price // Ill use double instead of decimal even though its about money.
         double neededPortions = Math.Ceiling((double)guestCount / 6);
 
-        double totalBananaPrice = bananaPrice * 2 * neededPortions; // see if you need brackets
-        double totalEggPrice = eggPrice * 4 * neededPortions;
-        double totalBerryPrice = kiloOfBerriesPrice * 0.2 * neededPortions;
+        double pricePerPortion = 2 * bananaPrice + 4 * eggPrice + 0.2 * kiloOfBerriesPrice;
 
-        double totalCost = totalBananaPrice + totalEggPrice + totalBerryPrice;
+        double totalCost = neededPortions * pricePerPortion;
 
         // seeing if its enough and printing
         if (totalCost <= cash)
         {
-            Console.WriteLine($"Ivancho has enough money - it would cost: {totalCost:f2}lv.");
+            Console.WriteLine($"Ivancho has enough money - it would cost {totalCost:f2}lv.");
         }
         else // not enough money
         {
             double difference = totalCost - cash;
-            Console.WriteLine($"Ivancho will need to withdraw money - he will need: {difference:f2}lv more.");
+            Console.WriteLine($"Ivancho will have to withdraw money - he will need {difference:f2}lv more.");
         }
     }
 }
