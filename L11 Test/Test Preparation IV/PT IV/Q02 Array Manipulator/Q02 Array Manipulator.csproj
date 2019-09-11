@@ -7,7 +7,7 @@
     <ProjectGuid>{01C107A3-2E85-43DE-B684-448D84D0A314}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q02_Array_Manipulator</RootNamespace>
-    <AssemblyName>Q02_Array_Manipulator</AssemblyName>
+    <AssemblyName>Q02 Array Manipulator</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
