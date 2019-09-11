@@ -48,6 +48,9 @@ public class Program
                     MaxMethod(array, commandTokens);
                     break;
 
+                case "min":
+                    MinMethod(array, commandTokens);
+                    break;
 
                 default:
                     break;
@@ -60,6 +63,40 @@ public class Program
         Console.WriteLine(outPut);
     }
 
+    private static void MinMethod(List<int> array, List<string> commandTokens)
+    {
+        string symmetry = commandTokens[1];
+
+        if (symmetry == "even")
+        {
+            var evenList = array.Where(x => x % 2 == 0).ToList();
+
+            MinEvenOddMethod(evenList, array);
+        }
+        else //odd
+        {
+            var oddList = array.Where(x => x % 2 != 0).ToList();
+
+            MinEvenOddMethod(oddList, array);
+        }
+
+    }
+
+    private static void MinEvenOddMethod(List<int> currentList, List<int> array)
+    {
+        bool emptyList = currentList.Count() == 0;
+        if (emptyList)
+        {
+            Console.WriteLine("No matches");
+            return;
+        }
+
+        var min = currentList.Min();
+
+        var indexOfMin = array.IndexOf(min);
+        Console.WriteLine(indexOfMin);
+    }
+
     public static void MaxMethod(List<int> array, List<string> commandTokens)
     {
         string symmetry = commandTokens[1];
@@ -67,17 +104,17 @@ public class Program
         {
             var evenList = array.Where(x => x % 2 == 0).ToList();
 
-            MaxEvenOddMethod(evenList);
+            MaxEvenOddMethod(evenList, array);
         }
         else //odd
         {
             var oddList = array.Where(x => x % 2 != 0).ToList();
 
-            MaxEvenOddMethod(oddList);
+            MaxEvenOddMethod(oddList, array);
         }
     }
 
-    public static void MaxEvenOddMethod(List<int> currentList)
+    public static void MaxEvenOddMethod(List<int> currentList, List<int> array)
     {
         bool emptyList = currentList.Count() == 0;
         if (emptyList)
@@ -88,7 +125,7 @@ public class Program
 
         var max = currentList.Max();
 
-        var indexOfMax = currentList.IndexOf(max);
+        var indexOfMax = array.IndexOf(max);
         Console.WriteLine(indexOfMax);
     }
 
