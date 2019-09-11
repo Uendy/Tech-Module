@@ -32,7 +32,7 @@ public class Program
 
         var array = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
 
-        string commandLine = Console.ReadLine();
+        string commandLine = Console.ReadLine().ToLower();
         while (commandLine != "end")
         {
             var commandTokens = commandLine.Split(' ').ToList();
@@ -40,18 +40,56 @@ public class Program
             string command = commandTokens[0];
             switch (command)
             {
-                case "Exchange":
+                case "exchange":
                 array = ExchangeMethod(array, commandTokens);
                         break;
+
+                case "max":
+                    MaxMethod(array, commandTokens);
+                    break;
+
+
                 default:
                     break;
             }
 
-            commandLine = Console.ReadLine();
+            commandLine = Console.ReadLine().ToLower();
         }
 
         string outPut = string.Join(" ", array);
         Console.WriteLine(outPut);
+    }
+
+    public static void MaxMethod(List<int> array, List<string> commandTokens)
+    {
+        string symmetry = commandTokens[1];
+        if (symmetry == "even")
+        {
+            var evenList = array.Where(x => x % 2 == 0).ToList();
+
+            MaxEvenOddMethod(evenList);
+        }
+        else //odd
+        {
+            var oddList = array.Where(x => x % 2 != 0).ToList();
+
+            MaxEvenOddMethod(oddList);
+        }
+    }
+
+    public static void MaxEvenOddMethod(List<int> currentList)
+    {
+        bool emptyList = currentList.Count() == 0;
+        if (emptyList)
+        {
+            Console.WriteLine("No matches");
+            return;
+        }
+
+        var max = currentList.Max();
+
+        var indexOfMax = currentList.IndexOf(max);
+        Console.WriteLine(indexOfMax);
     }
 
     public static List<int> ExchangeMethod(List<int> array, List<string> commandTokens)
