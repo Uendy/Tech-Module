@@ -66,8 +66,8 @@ public class Program
             commandLine = Console.ReadLine().ToLower();
         }
 
-        string outPut = string.Join(" ", array);
-        Console.WriteLine(outPut);
+        string outPut = string.Join(", ", array);
+        Console.WriteLine($"[{outPut}]");
     }
 
     public static void FindLast(List<int> array, List<string> commandTokens)
@@ -115,8 +115,8 @@ public class Program
 
         int remaining = currentList.Count() - count;
         var last = currentList.Skip(remaining).Take(count).ToList();
-        var output = string.Join(" ", last);
-        Console.WriteLine(output);
+        var output = string.Join(", ", last);
+        Console.WriteLine($"[{output}]");
     }
 
     public static void FindFirst(List<int> array, List<string> commandTokens)
@@ -163,8 +163,8 @@ public class Program
         }
 
         var first = currentList.Take(count).ToList();
-        var output = string.Join(" ", first);
-        Console.WriteLine(output);
+        var output = string.Join(", ", first);
+        Console.WriteLine($"[{output}]");
     }
 
     public static void FindMin(List<int> array, List<string> commandTokens)
@@ -235,9 +235,9 @@ public class Program
 
     public static List<int> ExchangeMethod(List<int> array, List<string> commandTokens)
     {
-        int index = int.Parse(commandTokens[1]);
+        int index = int.Parse(commandTokens[1]) + 1; // ??splits the array after! the given index, and exchanges the places of the two resulting sub-arrays. E.g. [1, 2, 3, 4, 5] -> exchange 2 -> result: [4, 5, 1, 2, 3]
 
-        bool inside = index >= 0 && index < array.Count();
+        bool inside = index >= 0 && index <= array.Count(); 
         if (!inside)
         {
             Console.WriteLine("Invalid index");
