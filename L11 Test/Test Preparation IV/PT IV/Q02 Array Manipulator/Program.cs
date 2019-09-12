@@ -59,7 +59,7 @@ public class Program
                     break;
 
                 case "last":
-
+                    FindLast(array, commandTokens);
                     break;
             }
 
@@ -68,6 +68,55 @@ public class Program
 
         string outPut = string.Join(" ", array);
         Console.WriteLine(outPut);
+    }
+
+    public static void FindLast(List<int> array, List<string> commandTokens)
+    {
+        int count = int.Parse(commandTokens[1]);
+        string symmetry = commandTokens[2];
+
+        if (symmetry == "even")
+        {
+            var evenList = array.Where(x => x % 2 == 0).ToList();
+
+            FindLastEvenOrOdd(array, evenList, count);
+        }
+        else // odd
+        {
+            var oddList = array.Where(x => x % 2 != 0).ToList();
+
+            FindLastEvenOrOdd(array, oddList, count);
+        }
+    }
+
+    public static void FindLastEvenOrOdd(List<int> array, List<int> currentList, int count)
+    {
+        bool aboveIndex = array.Count() < count; //If the count is greater than the array length, print “Invalid count”
+        if (aboveIndex)
+        {
+            Console.WriteLine("Invalid count");
+            return;
+        }
+
+        bool zero = currentList.Count() == 0;
+        if (zero)
+        {
+            Console.WriteLine("[]");
+            return;
+        }
+
+        bool notEnough = currentList.Count() < count; //If there are not enough elements to satisfy the count, print as many as you can.
+        if (notEnough)
+        {
+            string wholeList = string.Join(" ", currentList);
+            Console.WriteLine(wholeList);
+            return;
+        }
+
+        int remaining = currentList.Count() - count;
+        var last = currentList.Skip(remaining).Take(count).ToList();
+        var output = string.Join(" ", last);
+        Console.WriteLine(output);
     }
 
     public static void FindFirst(List<int> array, List<string> commandTokens)
@@ -91,7 +140,7 @@ public class Program
 
     public static void FindFirstEvenOrOdd(List<int> array, List<int> currentList, int count)
     {
-        bool aboveIndex = currentList.Count() > count;
+        bool aboveIndex = array.Count() < count; //If the count is greater than the array length, print “Invalid count”
         if (aboveIndex)
         {
             Console.WriteLine("Invalid count");
@@ -105,7 +154,7 @@ public class Program
             return;
         }
 
-        bool notEnough = currentList.Count() < count; // check if correct
+        bool notEnough = currentList.Count() < count; //If there are not enough elements to satisfy the count, print as many as you can.
         if (notEnough)
         {
             string wholeList = string.Join(" ", currentList);
@@ -113,8 +162,8 @@ public class Program
             return;
         }
 
-        var desiredOutput = currentList.Take(count).ToList();
-        var output = string.Join(" ", desiredOutput);
+        var first = currentList.Take(count).ToList();
+        var output = string.Join(" ", first);
         Console.WriteLine(output);
     }
 
