@@ -30,6 +30,8 @@ public class Program
         //•	end – stop taking input and print the final state of the array
         #endregion
 
+        //ToDo FirstMethod
+
         var array = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
 
         string commandLine = Console.ReadLine().ToLower();
@@ -45,14 +47,19 @@ public class Program
                         break;
 
                 case "max":
-                    MaxMethod(array, commandTokens);
+                    FindMax(array, commandTokens);
                     break;
 
                 case "min":
-                    MinMethod(array, commandTokens);
+                    FindMin(array, commandTokens);
                     break;
 
-                default:
+                case "first":
+                    FindFirst(array, commandTokens);
+                    break;
+
+                case "last":
+
                     break;
             }
 
@@ -63,7 +70,55 @@ public class Program
         Console.WriteLine(outPut);
     }
 
-    private static void MinMethod(List<int> array, List<string> commandTokens)
+    public static void FindFirst(List<int> array, List<string> commandTokens)
+    {
+        int count = int.Parse(commandTokens[1]);
+        string symmetry = commandTokens[2];
+
+        if (symmetry == "even")
+        {
+            var evenList = array.Where(x => x % 2 == 0).ToList();
+
+            FindFirstEvenOrOdd(array, evenList, count);
+        }
+        else // odd
+        {
+            var oddList = array.Where(x => x % 2 != 0).ToList();
+
+            FindFirstEvenOrOdd(array, oddList, count);
+        }
+    }
+
+    public static void FindFirstEvenOrOdd(List<int> array, List<int> currentList, int count)
+    {
+        bool aboveIndex = currentList.Count() > count;
+        if (aboveIndex)
+        {
+            Console.WriteLine("Invalid count");
+            return;
+        }
+
+        bool zero = currentList.Count() == 0;
+        if (zero)
+        {
+            Console.WriteLine("[]");
+            return;
+        }
+
+        bool notEnough = currentList.Count() < count; // check if correct
+        if (notEnough)
+        {
+            string wholeList = string.Join(" ", currentList);
+            Console.WriteLine(wholeList);
+            return;
+        }
+
+        var desiredOutput = currentList.Take(count).ToList();
+        var output = string.Join(" ", desiredOutput);
+        Console.WriteLine(output);
+    }
+
+    public static void FindMin(List<int> array, List<string> commandTokens)
     {
         string symmetry = commandTokens[1];
 
@@ -82,7 +137,7 @@ public class Program
 
     }
 
-    private static void MinEvenOddMethod(List<int> currentList, List<int> array)
+    public static void MinEvenOddMethod(List<int> currentList, List<int> array)
     {
         bool emptyList = currentList.Count() == 0;
         if (emptyList)
@@ -97,7 +152,7 @@ public class Program
         Console.WriteLine(indexOfMin);
     }
 
-    public static void MaxMethod(List<int> array, List<string> commandTokens)
+    public static void FindMax(List<int> array, List<string> commandTokens)
     {
         string symmetry = commandTokens[1];
         if (symmetry == "even")
