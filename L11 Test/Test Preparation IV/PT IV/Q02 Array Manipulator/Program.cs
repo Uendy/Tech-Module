@@ -108,8 +108,8 @@ public class Program
         bool notEnough = currentList.Count() < count; //If there are not enough elements to satisfy the count, print as many as you can.
         if (notEnough)
         {
-            string wholeList = string.Join(" ", currentList);
-            Console.WriteLine(wholeList);
+            string wholeList = string.Join(", ", currentList);
+            Console.WriteLine($"[{wholeList}]");
             return;
         }
 
@@ -157,8 +157,8 @@ public class Program
         bool notEnough = currentList.Count() < count; //If there are not enough elements to satisfy the count, print as many as you can.
         if (notEnough)
         {
-            string wholeList = string.Join(" ", currentList);
-            Console.WriteLine(wholeList);
+            string wholeList = string.Join(", ", currentList);
+            Console.WriteLine($"[{wholeList}]");
             return;
         }
 
@@ -235,19 +235,19 @@ public class Program
 
     public static List<int> ExchangeMethod(List<int> array, List<string> commandTokens)
     {
-        int index = int.Parse(commandTokens[1]) + 1; // ??splits the array after! the given index, and exchanges the places of the two resulting sub-arrays. E.g. [1, 2, 3, 4, 5] -> exchange 2 -> result: [4, 5, 1, 2, 3]
+        int index = int.Parse(commandTokens[1]); // ??splits the array after! the given index, and exchanges the places of the two resulting sub-arrays. E.g. [1, 2, 3, 4, 5] -> exchange 2 -> result: [4, 5, 1, 2, 3]
 
-        bool inside = index >= 0 && index <= array.Count(); 
+        bool inside = index >= 0 && index < array.Count(); 
         if (!inside)
         {
             Console.WriteLine("Invalid index");
             return array;
         }
 
-        var newEnd = array.GetRange(0, index);
-        array.RemoveRange(0, index);
-        array = array.Concat(newEnd).ToList();
+        var leftPart = array.Take(index + 1);
+        var rightPart = array.Skip(index + 1);
 
-        return array;
+        var exchanged = rightPart.Concat(leftPart).ToList();
+        return exchanged;
     }
 }
