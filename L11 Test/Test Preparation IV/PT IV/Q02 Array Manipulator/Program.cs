@@ -73,9 +73,9 @@ public class Program
     public static void FindLast(List<int> array, List<string> commandTokens)
     {
         int count = int.Parse(commandTokens[1]);
-        string symmetry = commandTokens[2];
+        string parity = commandTokens[2];
 
-        if (symmetry == "even")
+        if (parity == "even")
         {
             var evenList = array.Where(x => x % 2 == 0).ToList();
 
@@ -122,9 +122,9 @@ public class Program
     public static void FindFirst(List<int> array, List<string> commandTokens)
     {
         int count = int.Parse(commandTokens[1]);
-        string symmetry = commandTokens[2];
+        string parity = commandTokens[2];
 
-        if (symmetry == "even")
+        if (parity == "even")
         {
             var evenList = array.Where(x => x % 2 == 0).ToList();
 
@@ -169,9 +169,9 @@ public class Program
 
     public static void FindMin(List<int> array, List<string> commandTokens)
     {
-        string symmetry = commandTokens[1];
+        string parity = commandTokens[1];
 
-        if (symmetry == "even")
+        if (parity == "even")
         {
             var evenList = array.Where(x => x % 2 == 0).ToList();
 
@@ -203,8 +203,8 @@ public class Program
 
     public static void FindMax(List<int> array, List<string> commandTokens)
     {
-        string symmetry = commandTokens[1];
-        if (symmetry == "even")
+        string parity = commandTokens[1];
+        if (parity == "even")
         {
             var evenList = array.Where(x => x % 2 == 0).ToList();
 
@@ -235,7 +235,7 @@ public class Program
 
     public static List<int> ExchangeMethod(List<int> array, List<string> commandTokens)
     {
-        int index = int.Parse(commandTokens[1]); // ??splits the array after! the given index, and exchanges the places of the two resulting sub-arrays. E.g. [1, 2, 3, 4, 5] -> exchange 2 -> result: [4, 5, 1, 2, 3]
+        int index = int.Parse(commandTokens[1]); 
 
         bool inside = index >= 0 && index < array.Count(); 
         if (!inside)

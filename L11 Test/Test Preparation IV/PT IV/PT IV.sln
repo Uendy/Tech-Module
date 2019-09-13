@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q01 Sweet Dessert", "Q01 Sw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Array Manipulator", "Q02 Array Manipulator\Q02 Array Manipulator.csproj", "{01C107A3-2E85-43DE-B684-448D84D0A314}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 V2", "Q02 V2\Q02 V2.csproj", "{4E708438-FC80-44F9-A910-F3730EB26904}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{01C107A3-2E85-43DE-B684-448D84D0A314}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01C107A3-2E85-43DE-B684-448D84D0A314}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01C107A3-2E85-43DE-B684-448D84D0A314}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E708438-FC80-44F9-A910-F3730EB26904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E708438-FC80-44F9-A910-F3730EB26904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E708438-FC80-44F9-A910-F3730EB26904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E708438-FC80-44F9-A910-F3730EB26904}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
