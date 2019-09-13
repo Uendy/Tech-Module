@@ -29,8 +29,8 @@ public class Program
 
         string encryptionKey = Console.ReadLine();
 
-        string input = Console.ReadLine().ToUpper();
-        while (input != "FINAL")
+        string input = Console.ReadLine();
+        while (input != "final")
         {
             var inputTokens = input.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
 
@@ -84,7 +84,23 @@ public class Program
             listOfTeams.Remove(secondTeam);
             listOfTeams.Add(secondTeam);
 
-            input = Console.ReadLine().ToUpper();
+            input = Console.ReadLine();
+        }
+
+        //ordering and printing
+        var standings = listOfTeams.OrderByDescending(x => x.Points).ThenBy(x => x.Name).ToList();
+        Console.WriteLine("League standings:");
+        for (int index = 0; index < standings.Count(); index++)
+        {
+            var currentTeam = standings[index];
+            Console.WriteLine($"{index + 1}. {currentTeam.Name} {currentTeam.Points}");
+        }
+
+        var topScorers = listOfTeams.OrderByDescending(x => x.Goals).ThenBy(x => x.Name).Take(3).ToList();
+        Console.WriteLine("Top 3 scored goals:");
+        foreach (var team in topScorers)
+        {
+            Console.WriteLine($"- {team.Name} -> {team.Goals}");
         }
     }
 
@@ -96,7 +112,7 @@ public class Program
 
         char[] charArray = currentTeam.ToCharArray();
         Array.Reverse(charArray);
-        currentTeam = new string(charArray);
+        currentTeam = new string(charArray).ToUpper();
 
         return currentTeam;
     }
