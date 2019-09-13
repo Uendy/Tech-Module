@@ -7,7 +7,7 @@
     <ProjectGuid>{FBAE6E51-61E1-465C-9779-EF44A7122504}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q03_Football_League</RootNamespace>
-    <AssemblyName>Q03_Football_League</AssemblyName>
+    <AssemblyName>Q03 Football League</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Team.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

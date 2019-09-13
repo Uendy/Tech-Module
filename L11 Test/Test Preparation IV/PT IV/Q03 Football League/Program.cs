@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 public class Program
 {
     public static void Main()
     {
+        #region
         //You will be given information about results of football matches. Create a standings table by points.
         //For win the team gets 3 points, for loss – 0 and for draw – 1.Also find the top 3 teams with most scored goals in descending order.
         //If two or more teams are with same goals scored or same points order them by name in ascending order.
@@ -23,15 +23,81 @@ public class Program
         //•	On the next lines until you receive “final” you will get lines in format:
         //{ encrypted teamA} { encrypted teamB} { teamA score}:{ teamB score}
         //•	Team scores will be integer numbers in the range[0...231]
+        #endregion
+
+        var listOfTeams = new List<Team>();
 
         string encryptionKey = Console.ReadLine();
-        // make a class Team
 
         string input = Console.ReadLine().ToUpper();
         while (input != "FINAL")
         {
+            var inputTokens = input.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
+
+            string firstTeamName = DecypherTeamName(encryptionKey, inputTokens[0]);
+            string secondTeamName = DecypherTeamName(encryptionKey, inputTokens[1]);
+
+            var firstTeam = new Team();
+            firstTeam.Name = firstTeamName;
+            bool firstExists = listOfTeams.Any(x => x.Name == firstTeamName);
+            if (firstExists)
+            {
+                 firstTeam = listOfTeams.Find(x => x.Name == firstTeamName);
+            }
+
+            var secondTeam = new Team();
+            secondTeam.Name = secondTeamName;
+            bool secondExists = listOfTeams.Any(x => x.Name == secondTeamName);
+            if (secondExists)
+            {
+                secondTeam = listOfTeams.Find(x => x.Name == secondTeamName);
+            }
+
+            var score = inputTokens[2].Split(':').Select(int.Parse).ToArray();
+            if (score[0] == score[1]) // draw
+            {
+                firstTeam.Goals += score[0];
+                firstTeam.Points += 1;
+
+                secondTeam.Goals += score[0];
+                secondTeam.Points += 1;
+            }
+            else if (score[0] > score[1]) // 1 wins
+            {
+                firstTeam.Goals += score[0];
+                firstTeam.Points += 3;
+
+                secondTeam.Goals += score[1];
+            }
+            else //2 wins
+            {
+                firstTeam.Goals += score[0];
+
+                secondTeam.Goals += score[1];
+                secondTeam.Points += 3;
+            }
+
+            //update them
+            listOfTeams.Remove(firstTeam);
+            listOfTeams.Add(firstTeam);
+
+            listOfTeams.Remove(secondTeam);
+            listOfTeams.Add(secondTeam);
 
             input = Console.ReadLine().ToUpper();
         }
+    }
+
+    public static string DecypherTeamName(string encryptionKey, string currentTeam)
+    {
+        int pos1 = currentTeam.IndexOf(encryptionKey) + encryptionKey.Length;
+        int pos2 = currentTeam.Substring(pos1).IndexOf(encryptionKey);
+        currentTeam = currentTeam.Substring(pos1, pos2);
+
+        char[] charArray = currentTeam.ToCharArray();
+        Array.Reverse(charArray);
+        currentTeam = new string(charArray);
+
+        return currentTeam;
     }
 }

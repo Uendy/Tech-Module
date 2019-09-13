@@ -202,7 +202,7 @@ public class Program
         bool isInside = index >= 0 && index < array.Count();
         if (!isInside)
         {
-            Console.WriteLine("Invalid index.");
+            Console.WriteLine("Invalid index");
             return array;
         }
 

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Array Manipulator", "Q0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 V2", "Q02 V2\Q02 V2.csproj", "{4E708438-FC80-44F9-A910-F3730EB26904}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Football League", "Q03 Football League\Q03 Football League.csproj", "{FBAE6E51-61E1-465C-9779-EF44A7122504}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4E708438-FC80-44F9-A910-F3730EB26904}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E708438-FC80-44F9-A910-F3730EB26904}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E708438-FC80-44F9-A910-F3730EB26904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBAE6E51-61E1-465C-9779-EF44A7122504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBAE6E51-61E1-465C-9779-EF44A7122504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBAE6E51-61E1-465C-9779-EF44A7122504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBAE6E51-61E1-465C-9779-EF44A7122504}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
