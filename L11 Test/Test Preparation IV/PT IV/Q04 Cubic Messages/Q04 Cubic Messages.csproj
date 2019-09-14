@@ -7,7 +7,7 @@
     <ProjectGuid>{B537EEAA-AB6B-47BA-995D-C556B067F558}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q04_Cubic_Messages</RootNamespace>
-    <AssemblyName>Q04_Cubic_Messages</AssemblyName>
+    <AssemblyName>Q04 Cubic Messages</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
