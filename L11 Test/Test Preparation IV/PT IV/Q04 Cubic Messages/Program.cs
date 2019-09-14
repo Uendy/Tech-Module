@@ -77,8 +77,39 @@ public class Program
                 }
             }
 
+            //get the core
+            var core = asArray.ToList().GetRange(coreIndex, decrypter);
+
+            //get both sides
+
+            string leftSide = GetSide(digitsBeforeCore, core);
+
+            string rightSide = GetSide(digitsAfterCore, core);
+
+            //print
+
             input = Console.ReadLine();
         }
+    }
+
+    public static string GetSide(List<int> digitsPlace, List<char> core)
+    {
+        var sideArray = new List<char>();
+        foreach (var digit in digitsPlace)
+        {
+            bool insideArray = digit >= 0 && digit < core.Count();
+            if (insideArray)
+            {
+                sideArray.Add(core[digit]);
+            }
+            else
+            {
+                sideArray.Add(' ');
+            }
+        }
+        string side = string.Join("", sideArray);
+
+        return side;
     }
 
     public static List<int> CheckDigitsBeforeCore(bool[] digitArray, int coreIndex, char[] asArray) //	Has only digits before itself in the encrypted line
