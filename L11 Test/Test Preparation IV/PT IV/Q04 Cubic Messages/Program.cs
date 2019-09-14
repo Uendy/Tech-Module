@@ -79,14 +79,15 @@ public class Program
 
             //get the core
             var core = asArray.ToList().GetRange(coreIndex, decrypter);
+            var fullCore = string.Join("", core);
 
             //get both sides
-
             string leftSide = GetSide(digitsBeforeCore, core);
 
             string rightSide = GetSide(digitsAfterCore, core);
 
-            //print
+            //printing
+            Console.WriteLine($"{fullCore} == {leftSide}{rightSide}");
 
             input = Console.ReadLine();
         }
