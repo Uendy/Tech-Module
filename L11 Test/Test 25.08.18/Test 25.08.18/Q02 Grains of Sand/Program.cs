@@ -82,21 +82,23 @@ public class Program
     {
         int value = int.Parse(commandTokens[1]);
         bool numHigherThanValue = list.Any(x => x >= value);
+
+        int incrament = 0;
+
         if (numHigherThanValue)
         {
             var higherValue = list.Find(x => x >= value);
 
-            while (list.Contains(higherValue))
-            {
-                int indexOfValue = list.IndexOf(higherValue);
-                list[indexOfValue] += higherValue;
-            }
-
+            incrament = higherValue;
         }
         else
         {
-            int lastValue = list.Last();
-            list = list.Select(x => x + lastValue).ToList();
+            incrament = list.Last();
+        }
+
+        for (int index = 0; index < list.Count(); index++)
+        {
+            list[index] += incrament;
         }
 
         return list;
