@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Grains of Sand", "Q02 G
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Post Office", "Q03 Post Office\Q03 Post Office.csproj", "{BEE0BD65-7963-417F-A3CB-6A12A43C6261}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 Iron Girder", "Q04 Iron Girder\Q04 Iron Girder.csproj", "{C93CB8ED-D384-4561-8A53-3B81ED32CB6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{BEE0BD65-7963-417F-A3CB-6A12A43C6261}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEE0BD65-7963-417F-A3CB-6A12A43C6261}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEE0BD65-7963-417F-A3CB-6A12A43C6261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C93CB8ED-D384-4561-8A53-3B81ED32CB6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C93CB8ED-D384-4561-8A53-3B81ED32CB6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C93CB8ED-D384-4561-8A53-3B81ED32CB6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C93CB8ED-D384-4561-8A53-3B81ED32CB6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

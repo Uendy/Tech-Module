@@ -34,18 +34,42 @@ public class Program
             string townName = inputTokens[0];
 
             var otherInfo = inputTokens[1].Split(new[] { "->" }, StringSplitOptions.RemoveEmptyEntries).ToList();
+
+            int passangers = int.Parse(otherInfo[1]);
             string command = otherInfo[0];
             if (command == "ambush")
             {
+                bool townExists = townAndPassangers.ContainsKey(townName);
+                if (townExists)
+                {
+                    townAndTime[townName] = 0;
+                    townAndPassangers[townName] -= passangers;
+                }
 
                 input = Console.ReadLine();
+                continue;
             }
 
-            int passangers = int.Parse(otherInfo[1]);
+            int time = int.Parse(otherInfo[0]);
+
+            bool newTown = !townAndPassangers.ContainsKey(townName);
+            if (newTown)
+            {
+                townAndPassangers[townName] = 0;
+                townAndTime[townName] = 0;
+            }
+
+            townAndPassangers[townName] += passangers;
+            bool fasterTime = townAndTime[townName] >= 0 && townAndTime[townName] > time;
+            if (fasterTime)
+            {
+                townAndPassangers[townName] = time;
+            }
 
             input = Console.ReadLine();
         }
 
         //Order and print
+        var resultTime = townAndTime.Where(x => x.Value != 0).OrderBy(x => x.Value); // cant order by from 2 different dicts, so do it with a Class Town
     }
 }
