@@ -44,7 +44,7 @@ public class Program
             var indexOfSymbol = firstPart.IndexOf(symbol);
             var indexOfSecondSymbol = firstPart.IndexOf(symbol, indexOfSymbol + 1); // could crash if symbol is on last index
 
-            bool notEnoughSymbols = indexOfSymbol == -1 || indexOfSecondSymbol == -1;
+            bool notEnoughSymbols = indexOfSymbol == -1 || indexOfSecondSymbol == -1; // not atleast 2 of them so onto nexy symbol
             if (notEnoughSymbols)
             {
                 continue;
@@ -65,7 +65,7 @@ public class Program
                 }
             }
 
-            if (!onlyLetters)
+            if (!onlyLetters) // range is more than just Capital Latin Letters, so onto next symbols
             {
                 continue;
             }
@@ -80,14 +80,14 @@ public class Program
         //Length less than 10 will always have a padding zero, you don't need to check that.
         var secondPart = parts[1];
 
-        var secAsArray = secondPart.ToList();
+        var secondArray = secondPart.ToList();
 
         //var capitalAndLength = new Dictionary<char, int>(); // could have 2 with the same starting letter (key)
         var capitalAndLength = new List<int[]>();
-        int indexOfColon = secAsArray.IndexOf(':');
+        int indexOfColon = secondArray.IndexOf(':');
         while (indexOfColon != -1)
         {
-            var dataRange = secAsArray.GetRange(indexOfColon - 2, 5); // find the : and check if they have digits on both sides
+            var dataRange = secondArray.GetRange(indexOfColon - 2, 5); // find the : and check if they have digits on both sides
 
             dataRange.Remove(':');
 
@@ -103,7 +103,7 @@ public class Program
 
             if (!isValid)
             {
-                indexOfColon = secAsArray.IndexOf(':', indexOfColon + 1);
+                indexOfColon = secondArray.IndexOf(':', indexOfColon + 1);
                 continue;
             }
 
@@ -111,30 +111,15 @@ public class Program
             var leftSide = new string(dataRange.Take(2).ToArray()).ToString();
             int codeASCII = int.Parse(leftSide);
 
-            char capital = (char)int.Parse(leftSide);
-            bool presentInFirstLetters = firstLetters.Contains(capital);
-            if (!presentInFirstLetters)
-            {
-                indexOfColon = secAsArray.IndexOf(':', indexOfColon + 1);
-                continue;
-            }
-
-            var rightSide = new string(dataRange.Skip(2).ToArray()).ToString();
+            var rightSide = new string(dataRange.Skip(2).ToArray()).ToString();// check not needed:  bool rightLength = wordLength >= 1 && wordLength <= 20;
             int wordLength = int.Parse(rightSide);
-            bool rightLength = wordLength >= 1 && wordLength <= 20;
-            if (!rightLength)
-            {
-                indexOfColon = secAsArray.IndexOf(':', indexOfColon + 1);
-                continue;
-            }
 
             var currentData = new int[] { codeASCII, wordLength };
             capitalAndLength.Add(currentData);
 
-            indexOfColon = secAsArray.IndexOf(':', indexOfColon + 1);
+            indexOfColon = secondArray.IndexOf(':', indexOfColon + 1);
         }
 
-        var distinctData = capitalAndLength.Distinct().ToList();
         //Part 3
         //The third part of the message are words separated by spaces.
         //Those words have to start with Capital letter[A…Z] equal to the ascii code and have exactly the length for each capital letter you have found in the second part.
@@ -146,10 +131,10 @@ public class Program
 
         var outPut = new List<string>();
 
-        foreach (var cap in firstLetters)
+        foreach (var cap in firstLetters) // they have to be in the order of the firstLetters List
         {
 
-            foreach (var currentData in capitalAndLength)
+            foreach (var currentData in capitalAndLength) // matching capitalLetter from firstLetter to capital letter in (char)capitalAndLength[0]
             {
                 int capitalAsInt = currentData[0];
                 char capital = (char)capitalAsInt;
@@ -157,7 +142,7 @@ public class Program
                 if (capitalMatch)
                 {
                     var size = currentData[1];
-                    var matches = thirdPartArray.Where(x => x.First() == capital).ToList(); // +1 as size dosent account for the capital letter infront
+                    var matches = thirdPartArray.Where(x => x.First() == capital).ToList(); // all matches for the capital letter in the thirdPartArray
 
                     foreach (var word in matches)
                     {
