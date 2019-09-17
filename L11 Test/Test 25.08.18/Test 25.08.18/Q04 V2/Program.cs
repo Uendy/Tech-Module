@@ -24,7 +24,7 @@ public class Program
                 {
                     var currentTown = towns.Find(x => x.Name == townName);
                     currentTown.Time = 0;
-                    currentTown.Passangers -= passangers;
+                    currentTown.Passengers -= passangers;
                 }
 
                 input = Console.ReadLine();
@@ -39,7 +39,7 @@ public class Program
             if (newTown)
             {
                 townArrived.Name = townName;
-                townArrived.Passangers = 0;
+                townArrived.Passengers = 0;
                 townArrived.Time = 0;
             }
             else // find old town and update
@@ -47,17 +47,27 @@ public class Program
                 townArrived = towns.Find(x => x.Name == townName);
             }
 
-            //TODO: UPDATE
-            //townAndPassangers[townName] += passangers;
-            //bool fasterTime = townAndTime[townName] >= 0 && townAndTime[townName] > time;
-            //if (fasterTime)
-            //{
-            //    townAndPassangers[townName] = time;
-            //}
+            bool fasterTime = townArrived.Time <= 0 || townArrived.Time > time;
+            if (fasterTime)
+            {
+                townArrived.Time = time;
+            }
 
+            townArrived.Passengers += passangers;
+
+            if (newTown)
+            {
+                towns.Add(townArrived);
+            }
             input = Console.ReadLine();
         }
 
         //Order and Print
+        var result = towns.Where(x => x.Time != 0).OrderBy(x => x.Time).ThenBy(x => x.Name).ToList();
+
+        foreach (var town in result)
+        {
+            Console.WriteLine($"{town.Name} -> Time: {town.Time} -> Passengers: {town.Passengers}");
+        }
     }
 }
