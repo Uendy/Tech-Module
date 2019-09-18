@@ -48,6 +48,6 @@ public class Program
             total += currentBonus;
         }
 
-        Console.WriteLine($"Total money earned for {days} days: {total:f2}.");
+        Console.WriteLine($"Total money earned for {days} days: {total:f2}");
     }
 }
