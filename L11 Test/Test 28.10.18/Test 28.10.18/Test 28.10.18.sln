@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Chat Logger", "Q02 Chat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Chore Wars", "Q03 Chore Wars\Q03 Chore Wars.csproj", "{C5BEF433-2BF6-4109-B873-EFA0B7B380EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 MeTube Statistics", "Q04 MeTube Statistics\Q04 MeTube Statistics.csproj", "{B21B6851-A035-489A-B481-EDB302CF288C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C5BEF433-2BF6-4109-B873-EFA0B7B380EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5BEF433-2BF6-4109-B873-EFA0B7B380EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5BEF433-2BF6-4109-B873-EFA0B7B380EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B21B6851-A035-489A-B481-EDB302CF288C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B21B6851-A035-489A-B481-EDB302CF288C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B21B6851-A035-489A-B481-EDB302CF288C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B21B6851-A035-489A-B481-EDB302CF288C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
