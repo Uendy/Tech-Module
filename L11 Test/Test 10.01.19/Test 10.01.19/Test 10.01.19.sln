@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q01 Santa's Cookie", "Q01 Santa's Cookie\Q01 Santa's Cookie.csproj", "{48C502E9-2421-469F-ACD1-BA8C417A7CAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48C502E9-2421-469F-ACD1-BA8C417A7CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C502E9-2421-469F-ACD1-BA8C417A7CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C502E9-2421-469F-ACD1-BA8C417A7CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C502E9-2421-469F-ACD1-BA8C417A7CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB9685F4-EC89-467A-87D8-7F509E558110}
+	EndGlobalSection
+EndGlobal
