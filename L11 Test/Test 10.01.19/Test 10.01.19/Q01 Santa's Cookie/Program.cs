@@ -64,5 +64,4 @@ public class Program
 
         Console.WriteLine($"Total boxes: {boxes}");
     }
-    }
 }
