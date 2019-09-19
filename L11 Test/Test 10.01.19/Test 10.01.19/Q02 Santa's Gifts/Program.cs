@@ -67,6 +67,12 @@ public class Program
 
     public static int DropGift(List<int> houses, int index, int houseNumber, int currentIndex)
     {
+        bool isInside = index >= 0 && index < houses.Count();
+        if (!isInside)
+        {
+            return currentIndex;
+        }
+
         houses.Insert(index, houseNumber);
         currentIndex = index;
 
@@ -93,7 +99,7 @@ public class Program
 
     public static int MoveBack(List<int> houses, int currentIndex, int spacesBack)
     {
-        bool isInsideArray = currentIndex - spacesBack >= 0;
+        bool isInsideArray = currentIndex - spacesBack >= 0 && spacesBack < houses.Count();
         if (!isInsideArray)
         {
             return currentIndex;
@@ -107,7 +113,7 @@ public class Program
 
     public static int MoveForward(List<int> houses, int currentIndex, int spaces)
     {
-        bool isInsideArray = currentIndex + spaces < houses.Count();
+        bool isInsideArray = currentIndex + spaces < houses.Count() && spaces > 0;
         if (!isInsideArray)
         {
             return currentIndex;
