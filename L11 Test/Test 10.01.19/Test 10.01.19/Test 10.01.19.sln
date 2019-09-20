@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Santa's Gifts", "Q02 Sa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Santa's Helper", "Q03 Santa's Helper\Q03 Santa's Helper.csproj", "{221248BD-CCCB-48BC-ABC8-B7E5206C7117}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 V2", "Q03 V2\Q03 V2.csproj", "{768192A8-AC49-418A-BB2D-05F68D196E03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{221248BD-CCCB-48BC-ABC8-B7E5206C7117}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{221248BD-CCCB-48BC-ABC8-B7E5206C7117}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{221248BD-CCCB-48BC-ABC8-B7E5206C7117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{768192A8-AC49-418A-BB2D-05F68D196E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{768192A8-AC49-418A-BB2D-05F68D196E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{768192A8-AC49-418A-BB2D-05F68D196E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{768192A8-AC49-418A-BB2D-05F68D196E03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
