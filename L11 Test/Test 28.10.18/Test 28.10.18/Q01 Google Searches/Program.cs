@@ -3,6 +3,9 @@ public class Program
 {
     public static void Main()
     {
+        //Check Q01 and Q02 here: https://judge.softuni.bg/Contests/Practice/Index/1320#0
+        //Check Q03 and Q04 here: https://judge.softuni.bg/Contests/Practice/Index/1321#0
+
         //You will be given several lines of input and you must calculate how much money Google makes from user searches.
         //On the first line you will receive total days. On the second line you will receive the number of users (n) that make google searches for a single day.
         //Then, you will receive the money Google makes from a single search of a user. On the next n lines you will get the words that each user has in his search. 
