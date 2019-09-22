@@ -3,6 +3,9 @@ public class Program
 {
     public static void Main()
     {
+        //Check Questions 01 & 02 here: https://judge.softuni.bg/Contests/Practice/Index/1443#0
+        //Check Questions 03 & 04 here: https://judge.softuni.bg/Contests/Practice/Index/1444#0
+
         //You will receive the amount of batches – n that you need to bake. For every batch you will receive ingredients:  flour, sugar and cocoa in grams, each on a new line.
         //You need to calculate how many boxes of cookies you get for every batch with the given ingredients and total boxes of cookies for all batches.
         //To calculate the number of boxes per batch you need to divide total cookies per bake by cookies per box (see the table below).
