@@ -3,6 +3,8 @@ public class Program
 {
     public static void Main()
     {
+        //Check Questions here: https://judge.softuni.bg/Contests/Practice/Index/456#0
+
         #region
         //Ivancho and his girlfriend are throwing a party. She plans to cook her favorite dessert.She asks Ivancho to buy the needed products. 
         //The number of desserts depends on how many people will be coming. 
