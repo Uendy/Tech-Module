@@ -5,6 +5,8 @@ public class Program
 {
     public static void Main()
     {
+        // Check Q01 to Q04: https://judge.softuni.bg/Contests/Practice/Index/455#0
+
         #region
         //You will be given a series of strings on a single line, separated by one or more whitespaces.
         //These represent the collection you’ll be working with.
