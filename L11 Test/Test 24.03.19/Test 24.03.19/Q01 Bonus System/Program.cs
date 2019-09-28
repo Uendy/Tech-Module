@@ -3,6 +3,9 @@ public class Program
 {
     public static void Main()
     {
+        //check the questions here: https://judge.softuni.bg/Contests/Practice/Index/1597#0
+
+        #region
         // SoftUni has a bonus system for its students. The bonus is being calculated in a certain way and your task is to automatize this process.
         // Create a program that calculates bonus points for each student, for a certain course.On the first line, you are going to receive the count of the students for this course.On the second line, you will receive the count of the lectures in the course.Every course has an additional bonus.You are going to receive it on the third line.On the next lines, you will be receiving the count of attendances for each student. 
         //The bonus is calculated with the following formula:
@@ -18,7 +21,9 @@ public class Program
         //•	There will never be students with equal bonuses.
 
         //Output
-        //•	Print the maximum bonus points along with the attendances of the given student, rounded to the nearest bigger number, scored by a student in this course in the format described above.
+        //•	Print the maximum bonus points along with the attendances of the given student, rounded to the nearest bigger number,
+        //scored by a student in this course in the format described above.
+        #endregion
 
         int students = int.Parse(Console.ReadLine());
         int lectures = int.Parse(Console.ReadLine());
@@ -42,6 +47,6 @@ public class Program
 
         }
 
-        Console.WriteLine($"“The maximum bonus score for this course is {maxBonus}. The student has attended {maxAttendance} lectures.”");
+        Console.WriteLine($"The maximum bonus score for this course is {maxBonus}.The student has attended {maxAttendance} lectures.");
     }
 }
