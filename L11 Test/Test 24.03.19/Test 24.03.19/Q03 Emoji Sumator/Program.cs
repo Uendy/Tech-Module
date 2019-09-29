@@ -43,7 +43,7 @@ public class Program
         var specialEmoji = sb.ToString();
 
         //get the regex right and find any matches
-        string pattern = @"\s:[a-z]{4,}:(\s|\,|\.|\!|\?)";
+        string pattern = @"(?<=[\s])(:[a-z]{4,}:)(?=[\s,.!?])"; //@"\s:[a-z]{4,}:(\s|\,|\.|\!|\?)";
         var regex = new Regex(pattern);
         var matches = regex.Matches(text);
 
@@ -55,13 +55,13 @@ public class Program
 
         foreach (Match match in matches)
         {
-            var matchAsString = match.ToString();
+            var matchAsString = match.ToString().Trim();
             listOfExtendedEmojis.Add(matchAsString);
 
             var emojiOnly = emojiRegex.Match(matchAsString); // removes anything but the letters we need to calculate sum
             var emoji = emojiOnly.ToString();
 
-            listOfExtendedEmojis.Add(emoji);
+            listOfReducedEmojis.Add(emoji);
 
             int currentSum = 0; //getting the ASCII value of the emoji
             var emojiCharArray = emoji.ToCharArray();
@@ -75,10 +75,13 @@ public class Program
         }
 
         //printing 
-        string emojiOutput = string.Join(",", listOfExtendedEmojis);
-        Console.WriteLine($"Emojis found: {emojiOutput}");
+        if (listOfExtendedEmojis.Count() >= 1)
+        {
+            string emojiOutput = string.Join(", ", listOfExtendedEmojis);
+            Console.WriteLine($"Emojis found: {emojiOutput}");
+        }
 
-        bool isSpecial = listOfExtendedEmojis.Contains(specialEmoji); //If any of the valid emoji names is equal to the special emoji code and if it is – multiply the total emoji power by 2
+        bool isSpecial = listOfReducedEmojis.Contains(specialEmoji); //If any of the valid emoji names is equal to the special emoji code and if it is – multiply the total emoji power by 2
         if (isSpecial)
         {
             sum *= 2;
