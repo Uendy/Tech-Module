@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q01 Bonus System", "Q01 Bon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Nascar", "Q02 Nascar\Q02 Nascar.csproj", "{654E0C26-AE56-4412-BE4C-3A203AE235F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Emoji Sumator", "Q03 Emoji Sumator\Q03 Emoji Sumator.csproj", "{9C3A6610-A571-417A-9E68-DB031AD71E9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{654E0C26-AE56-4412-BE4C-3A203AE235F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{654E0C26-AE56-4412-BE4C-3A203AE235F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{654E0C26-AE56-4412-BE4C-3A203AE235F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C3A6610-A571-417A-9E68-DB031AD71E9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C3A6610-A571-417A-9E68-DB031AD71E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C3A6610-A571-417A-9E68-DB031AD71E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C3A6610-A571-417A-9E68-DB031AD71E9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
