@@ -5,6 +5,7 @@ public class Program
 {
     public static void Main()
     {
+        #region
         //Create a program that lists the results from the International SoftUniada Competition. You will be receiving input lines in the following format:
         // “{ countryName} -> { contestantName} -> { contestantPoints}”
 
@@ -22,6 +23,7 @@ public class Program
         //{ country}: { totalPointsForCountry}
         //-- { contestantName} -> { contestantTotalPoints}
         //-- { contestantName} -> { contestantTotalPoints}
+        #endregion
 
         var countries = new List<Country>();
         var participants = new List<string>(); //Each of the contestants are allowed to compete for only one country.
@@ -61,15 +63,27 @@ public class Program
             if (inYourTeam) // add him to your team
             {
                 currentCountry.CoderAndPoints[participant] += points;
+                currentCountry.TotalPoints += points;
             }
 
-            bool cheater = !inAnyTeam && currentCountry.CoderAndPoints.Keys.Count() == 0; //you have added this country but it cheated by using another countries coder.
+            bool cheater = !inYourTeam && currentCountry.CoderAndPoints.Keys.Count() == 0; //you have added this country but it cheated by using another countries coder.
             if (cheater)                                                                  // if It has no coders we delete it
             {
                 countries.Remove(currentCountry);
             }
 
             input = Console.ReadLine();
+        }
+
+        //order by total points in descending order
+        var rankings = countries.OrderByDescending(x => x.TotalPoints).ToList();
+        foreach (var country in rankings)
+        {
+            Console.WriteLine($"{country.Name}: {country.TotalPoints}");
+            foreach (var coder in country.CoderAndPoints)
+            {
+                Console.WriteLine($"-- {coder.Key} -> {coder.Value}"); // key = name, value = points
+            }
         }
     }
 }
