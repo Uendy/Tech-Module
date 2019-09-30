@@ -7,7 +7,7 @@
     <ProjectGuid>{ACBB918D-73D0-4DAA-96B9-B6B9533BF298}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q04_Inter_Softuniada</RootNamespace>
-    <AssemblyName>Q04_Inter_Softuniada</AssemblyName>
+    <AssemblyName>Q04 Inter Softuniada</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Country.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
