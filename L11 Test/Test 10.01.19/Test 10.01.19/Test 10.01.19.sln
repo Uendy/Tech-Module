@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 V2", "Q03 V2\Q03 V2.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 Santa's New List", "Q04 Santa's New List\Q04 Santa's New List.csproj", "{5E20E486-E42C-4017-B247-180375F4D18C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 V3 Regex", "Q03 V3 Regex\Q03 V3 Regex.csproj", "{14CE6369-0AC5-4F06-82F9-CE6CB2D5D1ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5E20E486-E42C-4017-B247-180375F4D18C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E20E486-E42C-4017-B247-180375F4D18C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E20E486-E42C-4017-B247-180375F4D18C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14CE6369-0AC5-4F06-82F9-CE6CB2D5D1ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14CE6369-0AC5-4F06-82F9-CE6CB2D5D1ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14CE6369-0AC5-4F06-82F9-CE6CB2D5D1ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14CE6369-0AC5-4F06-82F9-CE6CB2D5D1ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

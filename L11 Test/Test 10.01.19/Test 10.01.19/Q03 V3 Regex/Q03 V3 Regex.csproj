@@ -7,7 +7,7 @@
     <ProjectGuid>{14CE6369-0AC5-4F06-82F9-CE6CB2D5D1ED}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q03_V3_Regex</RootNamespace>
-    <AssemblyName>Q03_V3_Regex</AssemblyName>
+    <AssemblyName>Q03 V3 Regex</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
