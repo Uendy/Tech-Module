@@ -10,6 +10,9 @@ public class Program
         //A valid full name consists of two words, each word starts with a capital letter and contains only lowercase letters afterwards; 
         //each word should be at least two letters long; the two words should be separated by a single space. 
 
+        //Invalid ex: I I, ivan ivanov, Ivan ivanov, ivan Ivanov, IVan Ivanov, Ivan IvAnov, Ivan	  Ivanov
+        //match ex: Ivan Ivanov, Pencho Slavchev
+
         string text = Console.ReadLine();
 
         string pattern = @"\b[A-Z][a-z]{2,}\s[A-Z][a-z]{2,}";
