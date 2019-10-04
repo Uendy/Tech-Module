@@ -1,16 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 
-namespace Q01_Reverse_String
+public class Program
 {
-    class Program
+    public static void Main()
     {
-        static void Main(string[] args)
-        {
-            //Check questions here: https://judge.softuni.bg/Contests/Practice/Index/320#0
-        }
+        //Check questions here: https://judge.softuni.bg/Contests/Practice/Index/320#0
+
+        string input = Console.ReadLine();
+
+        var result = new string(input.Reverse().ToArray());
+
+        Console.WriteLine(result);
     }
 }

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q01 Match Full Name", "Q01 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Match Phone", "Q02 Match Phone\Q02 Match Phone.csproj", "{6162D73E-3B78-47BE-A85E-807785C2805C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q07 Replace Tag", "Q07 Replace Tag\Q07 Replace Tag.csproj", "{A707E62C-B282-45A0-845D-81B358C7C1F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6162D73E-3B78-47BE-A85E-807785C2805C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6162D73E-3B78-47BE-A85E-807785C2805C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6162D73E-3B78-47BE-A85E-807785C2805C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A707E62C-B282-45A0-845D-81B358C7C1F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A707E62C-B282-45A0-845D-81B358C7C1F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A707E62C-B282-45A0-845D-81B358C7C1F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A707E62C-B282-45A0-845D-81B358C7C1F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

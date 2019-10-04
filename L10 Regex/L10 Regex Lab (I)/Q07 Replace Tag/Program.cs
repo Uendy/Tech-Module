@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 public class Program
 {
-    public static string Main()
+    public static void Main()
     {
         //Write a program that replaces in a HTML document given as string all the tags <a href=…>…</a> with corresponding tags [URL href=…>…[/URL].
         //Read an input, until you receive “end” command. Print the result on the console. 
@@ -20,7 +20,7 @@ public class Program
         //</ul>
         // </li> </ul>
 
-        var text = "< ul > < li > < a href = ""http://softuni.bg"" > SoftUni </ a > </ li > </ ul > end";
+        var text = "< ul > < li > < a href = ""http://softuni.bg" > SoftUni </ a > </ li > </ ul > end
 
 
     }
