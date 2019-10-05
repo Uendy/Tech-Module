@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L10 Regex (II)", "L10 Regex (II)\L10 Regex (II).csproj", "{FF885B32-B86C-42B4-9E10-D54CEFB24563}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF885B32-B86C-42B4-9E10-D54CEFB24563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF885B32-B86C-42B4-9E10-D54CEFB24563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF885B32-B86C-42B4-9E10-D54CEFB24563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF885B32-B86C-42B4-9E10-D54CEFB24563}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C51923AF-8F1C-4062-8EF7-A08CE01B68CF}
+	EndGlobalSection
+EndGlobal
