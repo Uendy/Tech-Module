@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Extracting", "Q02 Extra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Camera View", "Q03 Camera View\Q03 Camera View.csproj", "{19565AA9-F43A-4676-BD86-02DF3EADE310}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 Weather", "Q04 Weather\Q04 Weather.csproj", "{72A5EFD9-2C40-43BA-AB56-77DCE1AA7DBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{19565AA9-F43A-4676-BD86-02DF3EADE310}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19565AA9-F43A-4676-BD86-02DF3EADE310}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19565AA9-F43A-4676-BD86-02DF3EADE310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72A5EFD9-2C40-43BA-AB56-77DCE1AA7DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A5EFD9-2C40-43BA-AB56-77DCE1AA7DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A5EFD9-2C40-43BA-AB56-77DCE1AA7DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A5EFD9-2C40-43BA-AB56-77DCE1AA7DBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
