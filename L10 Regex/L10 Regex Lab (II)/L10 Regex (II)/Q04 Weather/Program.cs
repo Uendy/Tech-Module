@@ -33,13 +33,14 @@ public class Program
             bool isMatch = regex.IsMatch(input);
             if (isMatch)
             {
-                string town = new string(input.Take(2).ToArray()); // town name
+                var match = regex.Match(input).Value;
+                string town = new string(match.Take(2).ToArray()); // town name
 
-                var decimalFound = decimalRegex.Match(input).Value; // getting the weather temp from the input using the decimalRegex
+                var decimalFound = decimalRegex.Match(match).Value; // getting the weather temp from the input using the decimalRegex
                 var tempreture = Math.Round(double.Parse(decimalFound),2);
 
                 //get rid of the town and decimal part, then split from the unconsequential ending part and take the [0] part
-                var remainingParts = input.Replace(town, "").Replace(decimalFound, "").Split(new[] { '|' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
+                var remainingParts = match.Replace(town, "").Replace(decimalFound, "").Split(new[] { '|' }, StringSplitOptions.RemoveEmptyEntries).ToArray();
                 string forecast = remainingParts[0];
 
                 bool newTown = !towns.Any(x => x.Name == town);
