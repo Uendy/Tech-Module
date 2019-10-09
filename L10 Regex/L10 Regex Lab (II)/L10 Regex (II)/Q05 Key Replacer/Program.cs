@@ -33,5 +33,9 @@ public class Program
             }
             Console.WriteLine();
         }
+        else
+        {
+            Console.WriteLine("Empty result");
+        }
     }
 }
