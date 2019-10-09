@@ -17,9 +17,38 @@ public class Program
         string key = Console.ReadLine();
         string text = Console.ReadLine();
 
+        string startPattern = @"^[A-Za-z]+[\<\|\\]";
+        var startRegex = new Regex(startPattern);
+
+        string endPattern = @"[\<\|\\][A-Za-z]+$";
+        var endRegex = new Regex(endPattern);
+
+        string fullpattern = @"^[A-Za-z]+[\<\|\\].+[\<\|\\][A-Za-z]+$";
+        var regex = new Regex(fullpattern);
+
         var keyWords = new List<string>();
 
+        var matches = regex.Matches(text);
+        foreach (Match match in matches)
+        {
+            string removedStart = startRegex.Replace(text, "");
+            string result = endRegex.Replace(text, ""); // removes the end, leaving only the important data
+
+            bool notEmpty = result.Length > 0;
+            if (notEmpty)
+            {
+                keyWords.Add(result);
+            }
+        }
+
         string outPut = string.Join("", keyWords);
-        Console.WriteLine(outPut);
+        if (outPut == string.Empty)
+        {
+            Console.WriteLine("Empty result");
+        }
+        else
+        {
+            Console.WriteLine(outPut);
+        }
     }
 }

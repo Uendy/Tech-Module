@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Camera View", "Q03 Came
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 Weather", "Q04 Weather\Q04 Weather.csproj", "{72A5EFD9-2C40-43BA-AB56-77DCE1AA7DBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q05 Key Replacer", "Q05 Key Replacer\Q05 Key Replacer.csproj", "{B0FFD901-9A6F-43E0-A69B-71D395E7400E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{72A5EFD9-2C40-43BA-AB56-77DCE1AA7DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72A5EFD9-2C40-43BA-AB56-77DCE1AA7DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72A5EFD9-2C40-43BA-AB56-77DCE1AA7DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0FFD901-9A6F-43E0-A69B-71D395E7400E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0FFD901-9A6F-43E0-A69B-71D395E7400E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0FFD901-9A6F-43E0-A69B-71D395E7400E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0FFD901-9A6F-43E0-A69B-71D395E7400E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

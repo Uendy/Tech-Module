@@ -7,7 +7,7 @@
     <ProjectGuid>{B0FFD901-9A6F-43E0-A69B-71D395E7400E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q05_Key_Replacer</RootNamespace>
-    <AssemblyName>Q05_Key_Replacer</AssemblyName>
+    <AssemblyName>Q05 Key Replacer</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
