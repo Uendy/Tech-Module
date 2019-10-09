@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text.RegularExpressions;
 public class Program
 {
@@ -14,41 +12,26 @@ public class Program
         //When you extract both keys search for them in the text string and extract every string, which is between them. 
         //Concatenate all collected strings and print the result.If the result string is empty print “Empty result”.
 
-        string key = Console.ReadLine();
+        string key = Console.ReadLine(); // why havent I used the key?
         string text = Console.ReadLine();
 
-        string startPattern = @"^[A-Za-z]+[\<\|\\]";
-        var startRegex = new Regex(startPattern);
+        string patern = $@"^([a-zA-Z]+)[\|\<\\](.+)[\|\<\\]([a-zA-Z]+)$";
+        Regex regex = new Regex(patern);
 
-        string endPattern = @"[\<\|\\][A-Za-z]+$";
-        var endRegex = new Regex(endPattern);
+        Match match = regex.Match(key);
+        string start = match.Groups[1].Value;
+        string end = match.Groups[3].Value;
 
-        string fullpattern = @"^[A-Za-z]+[\<\|\\].+[\<\|\\][A-Za-z]+$";
-        var regex = new Regex(fullpattern);
+        string wordPattern = $@"{start}(?!{end})(.*?){end}";
+        MatchCollection matchCollection = Regex.Matches(text, wordPattern);
 
-        var keyWords = new List<string>();
-
-        var matches = regex.Matches(text);
-        foreach (Match match in matches)
+        if (matchCollection.Count > 0)
         {
-            string removedStart = startRegex.Replace(text, "");
-            string result = endRegex.Replace(text, ""); // removes the end, leaving only the important data
-
-            bool notEmpty = result.Length > 0;
-            if (notEmpty)
+            foreach (Match item in matchCollection)
             {
-                keyWords.Add(result);
+                Console.Write(item.Groups[1].Value);
             }
-        }
-
-        string outPut = string.Join("", keyWords);
-        if (outPut == string.Empty)
-        {
-            Console.WriteLine("Empty result");
-        }
-        else
-        {
-            Console.WriteLine(outPut);
+            Console.WriteLine();
         }
     }
 }
