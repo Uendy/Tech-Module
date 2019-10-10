@@ -7,5 +7,10 @@ public class Program
         var shifted = input >> 1;
         Console.WriteLine(shifted & 1);
 
+        //checking quickly if a num is odd
+        //if (number & 1)
+        //{
+        //    // It's odd 
+        //}
     }
 }
