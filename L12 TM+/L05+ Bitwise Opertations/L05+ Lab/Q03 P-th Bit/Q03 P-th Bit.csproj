@@ -7,7 +7,7 @@
     <ProjectGuid>{FC721318-CEA7-43E2-B0BD-E46BEFECF1A9}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q03_P_th_Bit</RootNamespace>
-    <AssemblyName>Q03_P_th_Bit</AssemblyName>
+    <AssemblyName>Q03 P-th Bit</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

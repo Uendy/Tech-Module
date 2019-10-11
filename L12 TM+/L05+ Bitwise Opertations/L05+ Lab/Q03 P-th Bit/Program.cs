@@ -11,15 +11,20 @@ public class Program
         //Input   Output
         // 2145 
         //   5      1
-        
+
         //  512
         //   0      0
-          
+
         //  111
         //   8      0
-        
+
         //  255
         //   7      1
 
+        int num = int.Parse(Console.ReadLine());
+        int position = int.Parse(Console.ReadLine());
+
+        num = num >> position;
+        Console.WriteLine(num & 1);
     }
 }
