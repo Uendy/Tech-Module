@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 V2", "Q02 V2\Q02 V2.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 P-th Bit", "Q03 P-th Bit\Q03 P-th Bit.csproj", "{FC721318-CEA7-43E2-B0BD-E46BEFECF1A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 Bit Destroyer", "Q04 Bit Destroyer\Q04 Bit Destroyer.csproj", "{D92E3367-AFB5-43EA-BDCF-27CB27078E9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{FC721318-CEA7-43E2-B0BD-E46BEFECF1A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC721318-CEA7-43E2-B0BD-E46BEFECF1A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC721318-CEA7-43E2-B0BD-E46BEFECF1A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D92E3367-AFB5-43EA-BDCF-27CB27078E9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92E3367-AFB5-43EA-BDCF-27CB27078E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92E3367-AFB5-43EA-BDCF-27CB27078E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92E3367-AFB5-43EA-BDCF-27CB27078E9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
