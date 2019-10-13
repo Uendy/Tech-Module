@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 P-th Bit", "Q03 P-th Bi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 Bit Destroyer", "Q04 Bit Destroyer\Q04 Bit Destroyer.csproj", "{D92E3367-AFB5-43EA-BDCF-27CB27078E9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q05 Odd Times", "Q05 Odd Times\Q05 Odd Times.csproj", "{5169E9B2-3E4E-4DBB-B761-5F060695FA61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{D92E3367-AFB5-43EA-BDCF-27CB27078E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D92E3367-AFB5-43EA-BDCF-27CB27078E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D92E3367-AFB5-43EA-BDCF-27CB27078E9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5169E9B2-3E4E-4DBB-B761-5F060695FA61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5169E9B2-3E4E-4DBB-B761-5F060695FA61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5169E9B2-3E4E-4DBB-B761-5F060695FA61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5169E9B2-3E4E-4DBB-B761-5F060695FA61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
