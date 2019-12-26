@@ -1,7 +1,9 @@
-p{
-    color: turquoise;
+ul{
+    border: 0.5px solid crimson;
 }
 
-*{
-    font-style: italic;    
+li{
+    border-width: 1px;
+    border-style: solid;
+    border-color: slategrey;
 }
