@@ -2,6 +2,10 @@ ul{
     border: 0.5px solid crimson;
 }
 
+span{
+    text-decoration: underline;
+}
+
 li{
     border-width: 1px;
     border-style: solid;
