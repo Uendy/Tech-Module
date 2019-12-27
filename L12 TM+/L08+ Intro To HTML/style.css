@@ -11,3 +11,10 @@ li{
     border-style: solid;
     border-color: slategrey;
 }
+
+.header{
+    display: inline-block;
+}
+.header:hover{
+    text-decoration: underline;
+}
