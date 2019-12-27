@@ -15,6 +15,9 @@ li{
 .header{
     display: inline-block;
 }
-.header:hover{
+.header{
+    text-decoration:none;    
+}
+#a.header:hover{
     text-decoration: underline;
 }
