@@ -1,23 +1,11 @@
-ul{
-    border: 0.5px solid crimson;
-}
-
 span{
     text-decoration: underline;
 }
 
-li{
-    border-width: 1px;
-    border-style: solid;
-    border-color: slategrey;
-}
-
-.header{
+.header li{
     display: inline-block;
 }
-.header{
-    text-decoration:none;    
-}
-#a.header:hover{
-    text-decoration: underline;
+
+.header:hover{
+    text-decoration: underline;   
 }
