@@ -6,6 +6,10 @@ span{
     display: inline-block;
 }
 
-.header:hover{
+.header li{
+    text-decoration: none;
+}
+
+.header li:hover{
     text-decoration: underline;   
 }
