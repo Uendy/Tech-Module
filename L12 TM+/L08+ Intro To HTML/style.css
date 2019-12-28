@@ -1,3 +1,7 @@
+.header li *{
+    text-decoration: none;
+}
+
 span{
     text-decoration: underline;
 }
@@ -6,9 +10,6 @@ span{
     display: inline-block;
 }
 
-.header li{
-    text-decoration: none;
-}
 
 .header li:hover{
     text-decoration: underline;   
