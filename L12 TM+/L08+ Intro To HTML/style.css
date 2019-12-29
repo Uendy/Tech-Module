@@ -8,9 +8,11 @@ span{
 
 .header li{
     display: inline-block;
+    margin-left: 20px;
+    font-size: large;
 }
 
 
-.header li:hover{
+.header li a:hover{
     text-decoration: underline;   
 }
