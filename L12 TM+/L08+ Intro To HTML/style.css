@@ -2,6 +2,10 @@
     text-decoration: none;
 }
 
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 span{
     text-decoration: underline;
 }
