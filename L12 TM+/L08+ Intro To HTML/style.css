@@ -3,7 +3,8 @@
 }
 
 *{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: monospace;
+    padding-left: 75px;
 }
 
 span{
@@ -25,4 +26,13 @@ span{
 .header li a:hover{
     text-decoration: underline;   
     background-color: beige;
+}
+
+li {
+    margin: 4px 0px;
+    list-style: none;
+}
+
+.not-header li:hover{
+    margin-left: 5px;
 }
