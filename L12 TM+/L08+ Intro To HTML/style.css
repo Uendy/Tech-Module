@@ -14,10 +14,8 @@ span{
 
 
 .header a{
-    border: 1px solid black; 
     padding: 4px;
-    color: crimson;
-
+    border: 3px solid beige;
 }
 
 .header li a:hover{
