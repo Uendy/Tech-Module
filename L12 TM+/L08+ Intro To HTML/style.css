@@ -41,3 +41,11 @@ li {
     margin: 5px 0px 5px 10px;
     font-weight: bold;
 }
+
+.not-header *{
+    display: inline-flex; 
+}
+
+.not-header li *{
+    display: inline;
+}
