@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{415E4251-E222-4E61-ACD6-E212B42E133B}</ProjectGuid>
+    <ProjectGuid>{5117BA77-55AA-4746-A768-EB7EE8F02521}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Q02_Practice_Float</RootNamespace>
-    <AssemblyName>Q02 Practice Float</AssemblyName>
+    <RootNamespace>Q03_Practice_Others</RootNamespace>
+    <AssemblyName>Q03 Practice Others</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

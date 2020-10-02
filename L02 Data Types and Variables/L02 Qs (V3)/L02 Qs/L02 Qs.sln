@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q01 Practice Integer Numbers", "Q01 Practice Integer Numbers\Q01 Practice Integer Numbers.csproj", "{537C2EE2-D486-41AD-9031-12EEFD80FD19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Practice Float", "Q02 Practice Float\Q02 Practice Float.csproj", "{415E4251-E222-4E61-ACD6-E212B42E133B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Practice Others", "Q03 Practice Others\Q03 Practice Others.csproj", "{5117BA77-55AA-4746-A768-EB7EE8F02521}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{537C2EE2-D486-41AD-9031-12EEFD80FD19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{537C2EE2-D486-41AD-9031-12EEFD80FD19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{537C2EE2-D486-41AD-9031-12EEFD80FD19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{415E4251-E222-4E61-ACD6-E212B42E133B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415E4251-E222-4E61-ACD6-E212B42E133B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415E4251-E222-4E61-ACD6-E212B42E133B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415E4251-E222-4E61-ACD6-E212B42E133B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5117BA77-55AA-4746-A768-EB7EE8F02521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5117BA77-55AA-4746-A768-EB7EE8F02521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5117BA77-55AA-4746-A768-EB7EE8F02521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5117BA77-55AA-4746-A768-EB7EE8F02521}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
