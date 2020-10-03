@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Practice Float", "Q02 P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Practice Others", "Q03 Practice Others\Q03 Practice Others.csproj", "{5117BA77-55AA-4746-A768-EB7EE8F02521}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 Hexdec Conversion", "Q04 Hexdec Conversion\Q04 Hexdec Conversion.csproj", "{1C41E83F-1F47-4079-88DF-CA41D8A11240}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5117BA77-55AA-4746-A768-EB7EE8F02521}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5117BA77-55AA-4746-A768-EB7EE8F02521}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5117BA77-55AA-4746-A768-EB7EE8F02521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C41E83F-1F47-4079-88DF-CA41D8A11240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C41E83F-1F47-4079-88DF-CA41D8A11240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C41E83F-1F47-4079-88DF-CA41D8A11240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C41E83F-1F47-4079-88DF-CA41D8A11240}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
