@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q05 BooleanConversion", "Q0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q06 String and Object", "Q06 String and Object\Q06 String and Object.csproj", "{C1F16B0A-C789-4843-B8CE-AB39D2477237}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q07 Exchange Values", "Q07 Exchange Values\Q07 Exchange Values.csproj", "{642D9223-9444-4D76-B42E-8E8C7ACA05B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{C1F16B0A-C789-4843-B8CE-AB39D2477237}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1F16B0A-C789-4843-B8CE-AB39D2477237}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1F16B0A-C789-4843-B8CE-AB39D2477237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{642D9223-9444-4D76-B42E-8E8C7ACA05B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{642D9223-9444-4D76-B42E-8E8C7ACA05B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{642D9223-9444-4D76-B42E-8E8C7ACA05B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{642D9223-9444-4D76-B42E-8E8C7ACA05B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
