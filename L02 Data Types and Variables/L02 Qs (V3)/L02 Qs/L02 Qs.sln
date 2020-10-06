@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 Hexdec Conversion", "Q0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q05 BooleanConversion", "Q05 BooleanConversion\Q05 BooleanConversion.csproj", "{CF300DC3-9E46-43F5-BD6E-56F1577D5795}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q06 String and Object", "Q06 String and Object\Q06 String and Object.csproj", "{C1F16B0A-C789-4843-B8CE-AB39D2477237}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{CF300DC3-9E46-43F5-BD6E-56F1577D5795}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF300DC3-9E46-43F5-BD6E-56F1577D5795}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF300DC3-9E46-43F5-BD6E-56F1577D5795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1F16B0A-C789-4843-B8CE-AB39D2477237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1F16B0A-C789-4843-B8CE-AB39D2477237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1F16B0A-C789-4843-B8CE-AB39D2477237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1F16B0A-C789-4843-B8CE-AB39D2477237}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
