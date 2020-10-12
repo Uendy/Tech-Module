@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q08 Employee Data", "Q08 Em
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q09 Reversed Chars", "Q09 Reversed Chars\Q09 Reversed Chars.csproj", "{B4402953-22B3-4F64-8849-23FDE6840CEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q10 Time Conversion", "Q10 Time Conversion\Q10 Time Conversion.csproj", "{C5E191AF-A0FC-4C53-AA04-9680918A4919}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{B4402953-22B3-4F64-8849-23FDE6840CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4402953-22B3-4F64-8849-23FDE6840CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4402953-22B3-4F64-8849-23FDE6840CEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5E191AF-A0FC-4C53-AA04-9680918A4919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5E191AF-A0FC-4C53-AA04-9680918A4919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5E191AF-A0FC-4C53-AA04-9680918A4919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5E191AF-A0FC-4C53-AA04-9680918A4919}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
