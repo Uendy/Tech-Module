@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q11 Convert Speed", "Q11 Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q12 Rect Properties", "Q12 Rect Properties\Q12 Rect Properties.csproj", "{51A509A2-9C4E-4915-BDC8-B9FB0A304E0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q13 Vowel or Digit", "Q13 Vowel or Digit\Q13 Vowel or Digit.csproj", "{74FE34BD-39F9-46FF-929F-60F986F1735A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{51A509A2-9C4E-4915-BDC8-B9FB0A304E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51A509A2-9C4E-4915-BDC8-B9FB0A304E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51A509A2-9C4E-4915-BDC8-B9FB0A304E0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74FE34BD-39F9-46FF-929F-60F986F1735A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74FE34BD-39F9-46FF-929F-60F986F1735A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74FE34BD-39F9-46FF-929F-60F986F1735A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74FE34BD-39F9-46FF-929F-60F986F1735A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
