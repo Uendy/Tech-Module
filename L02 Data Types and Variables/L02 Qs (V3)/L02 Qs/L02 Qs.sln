@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q12 Rect Properties", "Q12 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q13 Vowel or Digit", "Q13 Vowel or Digit\Q13 Vowel or Digit.csproj", "{74FE34BD-39F9-46FF-929F-60F986F1735A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q14 Int to Bin + Hex", "Q14 Int to Bin + Hex\Q14 Int to Bin + Hex.csproj", "{67DE720C-6810-4057-B68E-6211DC1D0278}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{74FE34BD-39F9-46FF-929F-60F986F1735A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74FE34BD-39F9-46FF-929F-60F986F1735A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74FE34BD-39F9-46FF-929F-60F986F1735A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67DE720C-6810-4057-B68E-6211DC1D0278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67DE720C-6810-4057-B68E-6211DC1D0278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67DE720C-6810-4057-B68E-6211DC1D0278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67DE720C-6810-4057-B68E-6211DC1D0278}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
