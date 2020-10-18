@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{02AF7EE1-9CD8-49CD-9550-5857AC048F99}</ProjectGuid>
+    <ProjectGuid>{E7776731-7479-4792-9B23-548904657C01}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q16_Comparing_Floats</RootNamespace>
-    <AssemblyName>Q16_Comparing_Floats</AssemblyName>
+    <AssemblyName>Q16 Comparing Floats</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

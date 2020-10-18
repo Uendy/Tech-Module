@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q14 Int to Bin + Hex", "Q14
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q15 Prime Checker", "Q15 Prime Checker\Q15 Prime Checker.csproj", "{222362A5-9159-40A3-805A-67CCE8ED8F95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q16 Comparing Floats", "Q16 Comparing Floats\Q16 Comparing Floats.csproj", "{E7776731-7479-4792-9B23-548904657C01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{222362A5-9159-40A3-805A-67CCE8ED8F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{222362A5-9159-40A3-805A-67CCE8ED8F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{222362A5-9159-40A3-805A-67CCE8ED8F95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7776731-7479-4792-9B23-548904657C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7776731-7479-4792-9B23-548904657C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7776731-7479-4792-9B23-548904657C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7776731-7479-4792-9B23-548904657C01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
