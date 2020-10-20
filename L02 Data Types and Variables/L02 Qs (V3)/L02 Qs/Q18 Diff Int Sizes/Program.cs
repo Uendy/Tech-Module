@@ -38,13 +38,14 @@ public class Program
 
         if (n <= long.MaxValue)
         {
-            var dataTypes = new List<string> (new string[] { "sbyte", "byte", "short", "ushort", "int", "uint", "long" });
+            var dataTypes = new List<object> (new object[] { sbyte, byte, short, ushort, int, uint, long});
 
             Console.WriteLine($"{n} can fit in:");
 
             foreach (var item in dataTypes)
             {
-                if (n >= item.MinValue && n <= item.MaxValue)
+                Type type = item.GetType();
+                if (n >= type.MinValue && n <= type.MaxValue)
                 {
                     Console.WriteLine($"* {item}");
                 }
