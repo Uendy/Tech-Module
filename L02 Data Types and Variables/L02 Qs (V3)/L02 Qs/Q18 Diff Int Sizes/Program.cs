@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Numerics;
+using System.Collections.Generic;
 public class Program
 {
     public static void Main()
@@ -31,16 +33,26 @@ public class Program
         // 213333333333333333333333333333333333    213333333333333333333333333333333333 can't fit in any type
 
         // Reading input:
-        string input = Console.ReadLine();
+        BigInteger n = BigInteger.Parse(Console.ReadLine());
 
-        try
+
+        if (n <= long.MaxValue)
         {
-            ulong inputParsed = ulong.Parse(input);
+            var dataTypes = new List<string> (new string[] { "sbyte", "byte", "short", "ushort", "int", "uint", "long" });
+
+            Console.WriteLine($"{n} can fit in:");
+
+            foreach (var item in dataTypes)
+            {
+                if (n >= item.MinValue && n <= item.MaxValue)
+                {
+                    Console.WriteLine($"* {item}");
+                }
+            }
         }
-        catch (Exception)
+        else
         {
-            Console.WriteLine($"{input} can't fit in any type");
-            throw;
+            Console.WriteLine("{0} can't fit in any type", n);
         }
     }
 }

@@ -7,7 +7,7 @@
     <ProjectGuid>{549933D3-EF51-4782-B3C5-22E3A029F050}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q18_Diff_Int_Sizes</RootNamespace>
-    <AssemblyName>Q18_Diff_Int_Sizes</AssemblyName>
+    <AssemblyName>Q18 Diff Int Sizes</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
