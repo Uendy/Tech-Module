@@ -38,14 +38,16 @@ public class Program
 
         if (n <= long.MaxValue)
         {
-            var dataTypes = new List<object> (new object[] { sbyte, byte, short, ushort, int, uint, long});
+            var dataTypes = new List<Type> { typeof(sbyte), typeof(byte), typeof(short), typeof(ushort), typeof(int), typeof(uint), typeof(long) };
 
             Console.WriteLine($"{n} can fit in:");
 
             foreach (var item in dataTypes)
             {
-                Type type = item.GetType();
-                if (n >= type.MinValue && n <= type.MaxValue)
+                var minValue = item.GetField("MinValue").GetValue(null);
+                var maxValue = item.GetField("MaxValue").GetValue(null);
+
+                if (n >= BigInteger.Parse(minValue.ToString()) && n <= BigInteger.Parse(maxValue.ToString())) 
                 {
                     Console.WriteLine($"* {item}");
                 }
