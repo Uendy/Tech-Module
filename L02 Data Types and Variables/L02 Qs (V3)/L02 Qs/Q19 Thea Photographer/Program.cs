@@ -45,7 +45,20 @@ public class Program
         //   82
         //   3    
 
+        // Reading input:
+        double N = double.Parse(Console.ReadLine()); // Total pictures
+        int FT = int.Parse(Console.ReadLine()); // Filter Time per photo
+        int FF = int.Parse(Console.ReadLine()); // Filter Factor (percent of photos filtered)
+        int UT = int.Parse(Console.ReadLine()); // Upload Time (Time per photo to upload)
 
+        // Calculation:
+        double qualityPics = Math.Ceiling(N * (FF / 100)); // getting percent of quality pictures
+        int totalFiltered = (int)qualityPics;
+        int timeFiltered = totalFiltered * FT; // getting total time to filter them
+        int uploadTime = timeFiltered * UT; // getting total time to upload
+        long totalTIme = uploadTime + timeFiltered; // getting total time
+
+        // Converting time to d:HH:mm:ss
 
     }
 }
