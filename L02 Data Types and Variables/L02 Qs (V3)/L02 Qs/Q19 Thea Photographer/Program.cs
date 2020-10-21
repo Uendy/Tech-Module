@@ -56,9 +56,20 @@ public class Program
         int totalFiltered = (int)qualityPics;
         int timeFiltered = totalFiltered * FT; // getting total time to filter them
         int uploadTime = timeFiltered * UT; // getting total time to upload
-        long totalTIme = uploadTime + timeFiltered; // getting total time
+        int totalTime = uploadTime + timeFiltered; // getting total time
 
         // Converting time to d:HH:mm:ss
+        var days = totalTime / (24 * 60 * 60);
+        totalTime = totalTime % (24 * 60 * 60);
 
+        int hours = totalTime / (60 * 60);
+        totalTime = totalTime % (60 * 60);
+
+        var minutes = totalTime / 60;
+        var seconds = totalTime % 60;
+
+        // Printing output:
+        var time = new DateTime(hours, minutes, seconds);
+        Console.WriteLine($"{days}:{time.ToString("hh:MM:ss")}"); 
     }
 }

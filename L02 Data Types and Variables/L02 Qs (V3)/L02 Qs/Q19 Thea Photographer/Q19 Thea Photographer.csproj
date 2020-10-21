@@ -7,7 +7,7 @@
     <ProjectGuid>{98289C30-8EC0-420F-BC04-1D2C0620AC1A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q19_Thea_Photographer</RootNamespace>
-    <AssemblyName>Q19_Thea_Photographer</AssemblyName>
+    <AssemblyName>Q19 Thea Photographer</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
