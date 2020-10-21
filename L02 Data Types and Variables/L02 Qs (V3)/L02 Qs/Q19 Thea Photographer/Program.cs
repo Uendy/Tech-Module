@@ -48,7 +48,7 @@ public class Program
         // Reading input:
         double N = double.Parse(Console.ReadLine()); // Total pictures
         int FT = int.Parse(Console.ReadLine()); // Filter Time per photo
-        int FF = int.Parse(Console.ReadLine()); // Filter Factor (percent of photos filtered)
+        double FF = double.Parse(Console.ReadLine()); // Filter Factor (percent of photos filtered)
         int UT = int.Parse(Console.ReadLine()); // Upload Time (Time per photo to upload)
 
         // Calculation:
@@ -69,7 +69,7 @@ public class Program
         var seconds = totalTime % 60;
 
         // Printing output:
-        var time = new DateTime(hours, minutes, seconds);
-        Console.WriteLine($"{days}:{time.ToString("hh:MM:ss")}"); 
+        var time = new TimeSpan(days, hours, minutes, seconds);
+        Console.WriteLine($"{time.ToString("DD HH:MM:SS")}"); 
     }
 }
