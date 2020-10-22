@@ -53,23 +53,12 @@ public class Program
 
         // Calculation:
         double qualityPics = Math.Ceiling(N * (FF / 100)); // getting percent of quality pictures
-        int totalFiltered = (int)qualityPics;
-        int timeFiltered = totalFiltered * FT; // getting total time to filter them
-        int uploadTime = timeFiltered * UT; // getting total time to upload
+        int timeFiltered = (int)N * FT; // getting total time to filter all pictures
+        int uploadTime = (int)qualityPics * UT; // getting total time to upload the good ones
         int totalTime = uploadTime + timeFiltered; // getting total time
 
-        // Converting time to d:HH:mm:ss
-        var days = totalTime / (24 * 60 * 60);
-        totalTime = totalTime % (24 * 60 * 60);
-
-        int hours = totalTime / (60 * 60);
-        totalTime = totalTime % (60 * 60);
-
-        var minutes = totalTime / 60;
-        var seconds = totalTime % 60;
-
         // Printing output:
-        var time = new TimeSpan(days, hours, minutes, seconds);
-        Console.WriteLine($"{time.ToString("DD HH:MM:SS")}"); 
+        var expTime = TimeSpan.FromSeconds(totalTime);
+        Console.WriteLine($"{expTime.ToString(@"d\:hh\:mm\:ss")}");
     }
 }
