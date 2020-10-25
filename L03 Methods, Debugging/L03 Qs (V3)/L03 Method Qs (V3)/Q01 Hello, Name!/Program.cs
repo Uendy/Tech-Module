@@ -1,15 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Q01_Hello__Name_
+public class Program
 {
-    class Program
+    public static void Main()
     {
-        static void Main(string[] args)
-        {
-        }
+        // Instructions: 
+        // Write a method that receives a name as parameter and prints on the console. “Hello, <name>!”
+
+        // Example:
+        // Input    	Output
+        // Peter     Hello, Peter!
+
+        // Reading input:
+        string input = Console.ReadLine();
+        NameReturner(input);
+    }
+    static void NameReturner(string input)
+    {
+        Console.WriteLine($"Hello, {input}");
     }
 }
