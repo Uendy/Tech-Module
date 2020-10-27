@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 public class Program
 {
     public static void Main()
@@ -9,5 +10,20 @@ public class Program
         //  256      652
         //  1.12	 21.1
 
+        // Reading input:
+        string input = Console.ReadLine();
+        double reversedNum = reverseNum(input);
+
+        Console.WriteLine(reversedNum);
+    }
+
+    /// Reverses the num and returns it as a double
+    private static double reverseNum(string input)
+    {
+        var stringAsArray = input.ToCharArray();
+        var stringReversed = stringAsArray.Reverse().ToString();
+        double output = double.Parse(stringReversed);
+
+        return output;
     }
 }
