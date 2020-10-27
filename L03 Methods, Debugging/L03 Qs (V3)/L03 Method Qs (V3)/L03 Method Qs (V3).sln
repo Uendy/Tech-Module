@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Min Meth", "Q02 Min Met
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 Digit", "Q03 Digit\Q03 Digit.csproj", "{1624942C-468B-44AF-8FE9-CD4AF53028DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 Rev Num", "Q04 Rev Num\Q04 Rev Num.csproj", "{F9D8F666-2673-4389-B5D8-F16230801C92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1624942C-468B-44AF-8FE9-CD4AF53028DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1624942C-468B-44AF-8FE9-CD4AF53028DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1624942C-468B-44AF-8FE9-CD4AF53028DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D8F666-2673-4389-B5D8-F16230801C92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D8F666-2673-4389-B5D8-F16230801C92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D8F666-2673-4389-B5D8-F16230801C92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D8F666-2673-4389-B5D8-F16230801C92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

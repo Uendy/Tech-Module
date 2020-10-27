@@ -21,7 +21,7 @@ public class Program
     private static double reverseNum(string input)
     {
         var stringAsArray = input.ToCharArray();
-        var stringReversed = stringAsArray.Reverse().ToString();
+        var stringReversed = string.Concat(stringAsArray.Reverse());
         double output = double.Parse(stringReversed);
 
         return output;
