@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 Rev Num", "Q04 Rev Num\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q05 Fib", "Q05 Fib\Q05 Fib.csproj", "{4DEC326B-3871-45A4-8664-15F6ABE5F528}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q06 Prime", "Q06 Prime\Q06 Prime.csproj", "{74E00229-A7B0-4FBE-8B86-FE09E804D5A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4DEC326B-3871-45A4-8664-15F6ABE5F528}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DEC326B-3871-45A4-8664-15F6ABE5F528}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DEC326B-3871-45A4-8664-15F6ABE5F528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74E00229-A7B0-4FBE-8B86-FE09E804D5A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E00229-A7B0-4FBE-8B86-FE09E804D5A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E00229-A7B0-4FBE-8B86-FE09E804D5A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E00229-A7B0-4FBE-8B86-FE09E804D5A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
