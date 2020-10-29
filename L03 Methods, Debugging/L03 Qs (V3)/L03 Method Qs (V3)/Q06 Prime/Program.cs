@@ -3,6 +3,7 @@ public class Program
 {
     public static void Main()
     {
+        #region
         // Instructions: Write a Boolean method IsPrime(n) that check whether a given integer number n is prime. 
 
         // Example:
@@ -18,6 +19,7 @@ public class Program
         //    337                   true
         //    6737626471            true
         //    117342557809          false
+        #endregion
 
         // Reading input:
         long input = long.Parse(Console.ReadLine());
@@ -30,15 +32,26 @@ public class Program
     /// Method to check if input is prime
     private static bool PrimeChecker(long input)
     {
-        bool isPrime = true;
-        for (int i = 2; i < Math.Sqrt(input); i++) // cycles through 2 -> sqrt(N) (any higher num is not necessary to check)
+        if (input < 2) // need to see if its lower than 2 as {0, 1} are not checkable and not prime
         {
-            if (input % i == 0) // see if the num is divisible
-            {
-                isPrime = false;
-            }
+            return false;
         }
+        else
+        {
+            bool isPrime = true;
+            for (int i = 2; i <= Math.Floor(Math.Sqrt(input)); i++) // cycles through 2 -> sqrt(N) (any higher num is not necessary to check)
+            {
+                if (input % i == 0) // see if the num is divisible
+                {
+                    isPrime = false; // No need to cylce more
+                    if (isPrime == false)
+                    {
+                        return isPrime;
+                    }
+                }
+            }
 
-        return isPrime;
+            return isPrime;
+        }
     }
 }
