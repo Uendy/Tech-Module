@@ -12,5 +12,44 @@ public class Program
         // Input: (Start and End Number)              Output
         //  0 10                                    2, 3, 5, 7
         //  5 11                                     5, 7, 11
+
+        // Reading input:
+        int start = int.Parse(Console.ReadLine());
+        int end = int.Parse(Console.ReadLine());
+
+        // List of output:
+        var primes = new List<int>();
+        if (start < 2) // checking 0 and 1 is pointless
+        {
+            start = 2;
+        }
+
+        // Cycle through range:
+        for (int i = start; i <= end; i++)
+        {
+            bool isPrime = PrimeChecker(i);
+            if (isPrime)
+            {
+                primes.Add(i);
+            }
+        }
+
+        // Printing output:
+        Console.WriteLine(string.Join(", ", primes));
+    }
+
+    /// Checks if the number is prime and returns a bool
+    private static bool PrimeChecker(int num)
+    {
+        bool isPrime = true;
+        for (int i = 2; i <= Math.Sqrt(num); i++)
+        {
+            if (num % i == 0)
+            {
+                return false;
+            }
+        }
+
+        return isPrime;
     }
 }
