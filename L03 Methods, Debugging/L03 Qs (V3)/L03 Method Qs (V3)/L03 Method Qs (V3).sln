@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q05 Fib", "Q05 Fib\Q05 Fib.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q06 Prime", "Q06 Prime\Q06 Prime.csproj", "{74E00229-A7B0-4FBE-8B86-FE09E804D5A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q07 Prime 2", "Q07 Prime 2\Q07 Prime 2.csproj", "{A60ABF5B-18CE-4A70-9275-FDBAEBBD733F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{74E00229-A7B0-4FBE-8B86-FE09E804D5A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74E00229-A7B0-4FBE-8B86-FE09E804D5A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74E00229-A7B0-4FBE-8B86-FE09E804D5A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A60ABF5B-18CE-4A70-9275-FDBAEBBD733F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60ABF5B-18CE-4A70-9275-FDBAEBBD733F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A60ABF5B-18CE-4A70-9275-FDBAEBBD733F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A60ABF5B-18CE-4A70-9275-FDBAEBBD733F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

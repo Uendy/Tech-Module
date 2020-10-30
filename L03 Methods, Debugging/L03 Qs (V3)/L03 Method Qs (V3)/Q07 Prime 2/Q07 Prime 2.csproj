@@ -7,7 +7,7 @@
     <ProjectGuid>{A60ABF5B-18CE-4A70-9275-FDBAEBBD733F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q07_Prime_2</RootNamespace>
-    <AssemblyName>Q07_Prime_2</AssemblyName>
+    <AssemblyName>Q07 Prime 2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
