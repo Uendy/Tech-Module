@@ -7,7 +7,7 @@
     <ProjectGuid>{46A4C35A-EE49-4517-A0F4-2A2CC7D7D1F5}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q08_Centre</RootNamespace>
-    <AssemblyName>Q08_Centre</AssemblyName>
+    <AssemblyName>Q08 Centre</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
