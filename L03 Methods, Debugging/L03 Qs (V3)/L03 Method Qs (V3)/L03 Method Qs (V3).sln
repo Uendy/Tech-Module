@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q08 Centre", "Q08 Centre\Q0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q10 Cube", "Q10 Cube\Q10 Cube.csproj", "{5DFCF40D-AEAD-466D-835E-D3843CA29815}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q11 Geom", "Q11 Geom\Q11 Geom.csproj", "{CF83D7B4-930E-4B2D-9A35-0E4022D56274}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{5DFCF40D-AEAD-466D-835E-D3843CA29815}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DFCF40D-AEAD-466D-835E-D3843CA29815}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DFCF40D-AEAD-466D-835E-D3843CA29815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF83D7B4-930E-4B2D-9A35-0E4022D56274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF83D7B4-930E-4B2D-9A35-0E4022D56274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF83D7B4-930E-4B2D-9A35-0E4022D56274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF83D7B4-930E-4B2D-9A35-0E4022D56274}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

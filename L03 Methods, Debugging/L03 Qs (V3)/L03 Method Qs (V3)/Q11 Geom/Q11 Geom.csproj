@@ -7,7 +7,7 @@
     <ProjectGuid>{CF83D7B4-930E-4B2D-9A35-0E4022D56274}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q11_Geom</RootNamespace>
-    <AssemblyName>Q11_Geom</AssemblyName>
+    <AssemblyName>Q11 Geom</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
