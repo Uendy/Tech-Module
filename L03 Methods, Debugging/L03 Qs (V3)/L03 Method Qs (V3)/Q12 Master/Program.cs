@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 public class Program
 {
     public static void Main()
@@ -34,7 +35,7 @@ public class Program
             }
 
             bool isDivisibleBySeven = CheckDivisibility(i); // Its sum of digits is divisible by 7, e.g. 77, 313, 464, 5225, 37173.
-            if (isDivisible == false)
+            if (isDivisibleBySeven == false)
             {
                 continue;
             }
@@ -53,5 +54,42 @@ public class Program
                 Console.WriteLine(item);
             }
         }
+    }
+
+    public static bool CheckSymmetry(int num)
+    {
+        var numAsArray = num.ToString().ToCharArray().ToList();
+        if (numAsArray.Count % 2 != 0)
+        {
+            numAsArray.RemoveAt(numAsArray.Count / 2 + 1);
+        }
+
+        if (numAsArray.Count == 0)
+        {
+            return true;
+        }
+
+        for (int i = 0; i < numAsArray.Count() - 1; i++) // need to check if last check is spot on
+        {
+            char first = numAsArray[i];
+            char last = numAsArray[numAsArray.Count - i];
+
+            if (first != last)
+            {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    public static bool CheckDivisibility(int i)
+    {
+        throw new NotImplementedException();
+    }
+
+    public static bool CheckForEvenDigit(int i)
+    {
+        throw new NotImplementedException();
     }
 }
