@@ -59,22 +59,16 @@ public class Program
     public static bool CheckSymmetry(int num)
     {
         var numAsArray = num.ToString().ToCharArray().ToList();
-        if (numAsArray.Count % 2 != 0)
+        for (int startIndex = 0; startIndex < numAsArray.Count() - 1; startIndex++)
         {
-            numAsArray.RemoveAt(numAsArray.Count / 2 + 1);
-        }
+            int endIndex = numAsArray.Count() - (1 + startIndex); // cycles from back to front
+            bool endCycle = startIndex > endIndex; // if the front index has passed the back we have gone too far, it hasnt returned false until now => is Symmetric
+            if (endCycle)
+            {
+                return true;
+            }
 
-        if (numAsArray.Count == 0)
-        {
-            return true;
-        }
-
-        for (int i = 0; i < numAsArray.Count() - 1; i++) // need to check if last check is spot on
-        {
-            char first = numAsArray[i];
-            char last = numAsArray[numAsArray.Count - i];
-
-            if (first != last)
+            if (numAsArray[startIndex] != numAsArray[endIndex]) // has found a place where it is not symmetric => not Symmetric
             {
                 return false;
             }
