@@ -28,11 +28,7 @@ public class Program
         // Cycle through 1...finalNum and check if its master num
         for (int i = 1; i <= finalNum; i++)
         {
-            bool isSymmetric = CheckSymmetry(i); // Is symmetric(palindrome), e.g. 5, 77, 282, 14341, 9553559.
-            if (isSymmetric == false)
-            {
-                continue;
-            }
+            
 
             bool isDivisibleBySeven = CheckDivisibility(i); // Its sum of digits is divisible by 7, e.g. 77, 313, 464, 5225, 37173.
             if (isDivisibleBySeven == false)
@@ -40,15 +36,19 @@ public class Program
                 continue;
             }
 
-           // bool hasEvenDigit = CheckForEvenDigit(i); // Holds at least one even digit, e.g. 232, 707, 6886, 87578.
+            bool hasEvenDigit = CheckForEvenDigit(i); // Holds at least one even digit, e.g. 232, 707, 6886, 87578.
+            if (hasEvenDigit == false)
+            {
+                continue;
+            }
 
-            //bool isMasterNum = isSymmetric && isDivisibleBySeven && hasEvenDigit; // If it passes all checks add it to list of master nums
-            //if (isMasterNum)
-            //{
-            //    masterNums.Add(i);
-            //}
+            bool isSymmetric = CheckSymmetry(i); // Is symmetric(palindrome), e.g. 5, 77, 282, 14341, 9553559.
 
-
+            bool isMasterNum = isSymmetric && isDivisibleBySeven && hasEvenDigit; // If it passes all checks add it to list of master nums
+            if (isMasterNum)
+            {
+                masterNums.Add(i);
+            }
         }
         // Printing output:
         foreach (var item in masterNums)
@@ -99,8 +99,19 @@ public class Program
         }
     }
 
-    public static bool CheckForEvenDigit(int i)
+    public static bool CheckForEvenDigit(int i) // check all digits in i for an even digit
     {
-        throw new NotImplementedException();
+        while (i != 0)
+        {
+            int lastDigit = i % 10;
+            if (lastDigit % 2 == 0)
+            {
+                return true;
+            }
+
+            i = i / 10;
+        }
+
+        return false;
     }
 }
