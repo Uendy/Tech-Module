@@ -40,19 +40,20 @@ public class Program
                 continue;
             }
 
-            bool hasEvenDigit = CheckForEvenDigit(i); // Holds at least one even digit, e.g. 232, 707, 6886, 87578.
+           // bool hasEvenDigit = CheckForEvenDigit(i); // Holds at least one even digit, e.g. 232, 707, 6886, 87578.
 
-            bool isMasterNum = isSymmetric && isDivisibleBySeven && hasEvenDigit; // If it passes all checks add it to list of master nums
-            if (isMasterNum)
-            {
-                masterNums.Add(i);
-            }
+            //bool isMasterNum = isSymmetric && isDivisibleBySeven && hasEvenDigit; // If it passes all checks add it to list of master nums
+            //if (isMasterNum)
+            //{
+            //    masterNums.Add(i);
+            //}
 
-            // Printing output:
-            foreach (var item in masterNums)
-            {
-                Console.WriteLine(item);
-            }
+
+        }
+        // Printing output:
+        foreach (var item in masterNums)
+        {
+            Console.WriteLine(item);
         }
     }
 
@@ -77,9 +78,25 @@ public class Program
         return true;
     }
 
+    // Check if sum divisible by seven
     public static bool CheckDivisibility(int i)
     {
-        throw new NotImplementedException();
+        int sum = 0;
+
+        while (i != 0) // add every last digit, then divids i to remove it and move to next last digit
+        {
+            sum += i % 10;
+            i = i / 10;
+        }
+
+        if (sum % 7 == 0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 
     public static bool CheckForEvenDigit(int i)
