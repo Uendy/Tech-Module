@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Numerics;
+using System.Linq;
+
 public class Program
 {
     public static void Main()
@@ -25,13 +27,31 @@ public class Program
             sum = Factorial(sum, i);
         }
 
-        // Printing output:
-        Console.WriteLine(sum);
-    }
+        // Finding zeroes:
+        int zeroes = FindTrailingZeroes(sum);
 
+        // Printing output:
+        Console.WriteLine(zeroes);
+    }
     public static BigInteger Factorial(BigInteger sum, BigInteger i)
     {
         sum = BigInteger.Multiply(sum, i); // Can't just use basic (*) multiplication
         return sum;
+    }
+    public static int FindTrailingZeroes(BigInteger sum)
+    {
+        // Format it to a reversed list<char>
+        string stringFormat = sum.ToString();
+        var charArray = stringFormat.ToCharArray().ToList();
+        charArray.Reverse();
+        
+        // cycle through as many zeroes as there are while the incrament is the amount of zeores
+        int trailingZeroes = 0; 
+        while (charArray[trailingZeroes] == '0' )
+        {
+            trailingZeroes++;
+        }
+
+        return trailingZeroes;
     }
 }

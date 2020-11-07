@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q12 Master", "Q12 Master\Q1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q13 Factoria", "Q13 Factoria\Q13 Factoria.csproj", "{4FA16BC0-AD15-48D0-A319-58431E945071}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q14 Trailing", "Q14 Trailing\Q14 Trailing.csproj", "{7A20CDCF-9544-4F17-9F94-21C6B4D20A6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{4FA16BC0-AD15-48D0-A319-58431E945071}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FA16BC0-AD15-48D0-A319-58431E945071}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FA16BC0-AD15-48D0-A319-58431E945071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A20CDCF-9544-4F17-9F94-21C6B4D20A6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A20CDCF-9544-4F17-9F94-21C6B4D20A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A20CDCF-9544-4F17-9F94-21C6B4D20A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A20CDCF-9544-4F17-9F94-21C6B4D20A6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
