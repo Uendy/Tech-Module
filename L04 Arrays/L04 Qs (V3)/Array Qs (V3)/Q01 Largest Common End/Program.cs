@@ -28,10 +28,24 @@ public class Program
             matchingStartCount = CompareAndIncrament(matchingStartCount, i, firstInput, secondInput);
         }
 
+        // Idea: what if you while them and check their [.length-1] ?
+
+        
         // Cycling beck to front
         int matchingEndCount = 0;
         for (int i = smallerLength - 1; i >= 0; i--)
         {
+            // Finding the smaller array 
+            if (firstInput.Length >= secondInput.Length)
+            {
+                int difference = firstInput.Length - secondInput.Length;
+                secondInput = new string[] (0 * difference, secondInput)
+            }
+            else
+            {
+
+            }
+
             matchingEndCount = CompareAndIncrament(matchingEndCount, i, firstInput, secondInput);
         }
 
