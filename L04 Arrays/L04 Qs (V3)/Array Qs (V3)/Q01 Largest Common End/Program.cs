@@ -18,57 +18,37 @@ public class Program
         var firstInput = Console.ReadLine().Split(' ');
         var secondInput = Console.ReadLine().Split(' ');
 
-        // Finding smaller length
-        int smallerLength = Math.Min(firstInput.Length, secondInput.Length);
-
-        // Cycling front to back
-        int matchingStartCount = 0;
-        for (int i = 0; i < smallerLength; i++)
+        // Cylcing from front to back:
+        int frontCount = 0;
+        for (int i = 0; i < firstInput.Length && i < secondInput.Length; i++)
         {
-            matchingStartCount = CompareAndIncrament(matchingStartCount, i, firstInput, secondInput);
+            string firstString = firstInput[i];
+            string secondString = secondInput[i];
+
+            frontCount = CheckStrings(frontCount, firstString, secondString);
         }
 
-        // Idea: what if you while them and check their [.length-1] ?
-
-        
-        // Cycling beck to front
-        int matchingEndCount = 0;
-        for (int i = smallerLength - 1; i >= 0; i--)
+        // Cycling from back to front:
+        int backwardsCount = 0;
+        for (int j = 0; j < firstInput.Length && j < secondInput.Length; j++) 
         {
-            // Finding the smaller array 
-            if (firstInput.Length >= secondInput.Length)
+            string firstString = firstInput[firstInput.Length - 1 - j]; 
+            string secondString = secondInput[secondInput.Length - 1 - j];
+
+            if (firstString == secondString)
             {
-                int difference = firstInput.Length - secondInput.Length;
-                secondInput = new string[] (0 * difference, secondInput)
+                backwardsCount++;
             }
-            else
-            {
-
-            }
-
-            matchingEndCount = CompareAndIncrament(matchingEndCount, i, firstInput, secondInput);
         }
 
-        // Finding longest count and Printing Output:
-        if (matchingStartCount >= matchingEndCount)
-        {
-            Console.WriteLine(matchingStartCount);
-        }
-        else
-        {
-            Console.WriteLine(matchingEndCount);
-        }
-
+        // Printing output:
+        Console.WriteLine(Math.Max(frontCount, backwardsCount));
     }
 
-    /// Gets the current string from both arrays, then checks to see if they match and incraments count
-    public static int CompareAndIncrament(int count, int i, string[] firstInput, string[] secondInput)
+    /// Checking both string to see if they are equal and incramenting count if needed
+    public static int CheckStrings(int count, string firstString, string secondString)
     {
-        string firstInputString = firstInput[i];
-        string secondInputString = secondInput[i];
-
-        bool isMatch = firstInputString == secondInputString;
-        if (isMatch)
+        if(firstString == secondString)
         {
             count++;
         }
