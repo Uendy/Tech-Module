@@ -24,15 +24,16 @@ public class Program
 
         // Cycling and rotating in one go:
         var sum = new int[arrLength];
-        for (int i = 0; i < rotations; i++)
+        for (int i = 0; i < arrLength; i++)
         {
-            for (int rotatedIndex = i + 1; rotatedIndex <= rotations; rotatedIndex++)
+            for (int rotatedIndex = 0; rotatedIndex < rotations; rotatedIndex++)
             {
-                rotatedIndex = OutOfBoundsCheck(rotatedIndex, arrLength);
+                rotatedIndex = OutOfBoundsCheck(rotatedIndex + 1 + i, arrLength);
                 int currentSum = array[rotatedIndex];
 
-                int sumIndex = i + rotatedIndex;
-                sumIndex = OutOfBoundsCheck(sumIndex, arrLength);
+                // Here is my mistake
+                int indexOfSum = i + rotations + 1;
+                indexOfSum = OutOfBoundsCheck(indexOfSum, arrLength);
                 sum[i] += currentSum;
             }
         }
