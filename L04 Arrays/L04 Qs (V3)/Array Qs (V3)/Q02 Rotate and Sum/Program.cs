@@ -26,15 +26,17 @@ public class Program
         var sum = new int[arrLength];
         for (int i = 0; i < arrLength; i++)
         {
-            for (int rotatedIndex = 0; rotatedIndex < rotations; rotatedIndex++)
+            // Make it so that you rotate rotated index + i 
+            for (int rotatedIndex = 1; rotatedIndex <= rotations; rotatedIndex++)
             {
-                rotatedIndex = OutOfBoundsCheck(rotatedIndex + 1 + i, arrLength);
-                int currentSum = array[rotatedIndex];
+                rotatedIndex = OutOfBoundsCheck(i + rotatedIndex, arrLength);
+                int currentNum = array[rotatedIndex]; // you have the current rotated inedx num
 
+                // just add it to the sum of that [i+rotation]
                 // Here is my mistake
-                int indexOfSum = i + rotations + 1;
-                indexOfSum = OutOfBoundsCheck(indexOfSum, arrLength);
-                sum[i] += currentSum;
+                //int indexOfSum = i + rotations + 1;
+                //indexOfSum = OutOfBoundsCheck(indexOfSum, arrLength);
+                sum[i] += currentNum;
             }
         }
         Console.WriteLine(string.Join(" ", sum));
