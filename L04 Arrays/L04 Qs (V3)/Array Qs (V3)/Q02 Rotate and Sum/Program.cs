@@ -26,23 +26,28 @@ public class Program
         var sum = new int[arrLength];
         for (int i = 0; i < rotations; i++)
         {
-            int currentSum = 0;
-            for (int j = 0; j < rotations; j++)
+            for (int rotatedIndex = i + 1; rotatedIndex <= rotations; rotatedIndex++)
             {
-                int rotatedIndex = j + i + 1;
+                rotatedIndex = OutOfBoundsCheck(rotatedIndex, arrLength);
+                int currentSum = array[rotatedIndex];
 
-                bool checkIfOutOfBounds = rotatedIndex > arrLength - 1;
-                if (checkIfOutOfBounds == true)
-                {
-                    rotatedIndex -= arrLength;
-                }
-
-                currentSum += array[rotatedIndex];
+                int sumIndex = i + rotatedIndex;
+                sumIndex = OutOfBoundsCheck(sumIndex, arrLength);
+                sum[i] += currentSum;
             }
+        }
+        Console.WriteLine(string.Join(" ", sum));
+    }
 
-            sum[i] = currentSum;
+    /// Check for the current index to see if it excedes arrLength and if so to reduce it by the arrLength
+    public static int OutOfBoundsCheck(int index, int arrLength)
+    {
+        bool checkIfOutOfBounds = index > arrLength - 1;
+        if (checkIfOutOfBounds == true)
+        {
+            index -= arrLength - 1;
         }
 
-        Console.WriteLine(string.Join(" ", sum));
+        return index;
     }
 }
