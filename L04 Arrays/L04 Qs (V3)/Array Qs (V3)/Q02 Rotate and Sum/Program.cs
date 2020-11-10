@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 public class Program
 {
     public static void Main()
@@ -13,7 +14,35 @@ public class Program
         //  3 2 4 - 1            3 2 5 6            rotated1[] = -1  3  2  4
         //     2                                    rotated2[] =  4 -1  3  2
         //                                               sum[] =  3  2  5  6
-
         #endregion
+
+        // Reading input:
+        var array = Console.ReadLine().Split(' ').Select(int.Parse).ToArray(); // also parsing to int
+        int rotations = int.Parse(Console.ReadLine());
+
+        int arrLength = array.Length;
+
+        // Cycling and rotating in one go:
+        var sum = new int[arrLength];
+        for (int i = 0; i < rotations; i++)
+        {
+            int currentSum = 0;
+            for (int j = 0; j < rotations; j++)
+            {
+                int rotatedIndex = j + i + 1;
+
+                bool checkIfOutOfBounds = rotatedIndex > arrLength - 1;
+                if (checkIfOutOfBounds == true)
+                {
+                    rotatedIndex -= arrLength;
+                }
+
+                currentSum += array[rotatedIndex];
+            }
+
+            sum[i] = currentSum;
+        }
+
+        Console.WriteLine(string.Join(" ", sum));
     }
 }

@@ -7,7 +7,7 @@
     <ProjectGuid>{87C712C1-5067-4F98-AB36-9EF9DE3C0231}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q02_Rotate_and_Sum</RootNamespace>
-    <AssemblyName>Q02_Rotate_and_Sum</AssemblyName>
+    <AssemblyName>Q02 Rotate and Sum</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
