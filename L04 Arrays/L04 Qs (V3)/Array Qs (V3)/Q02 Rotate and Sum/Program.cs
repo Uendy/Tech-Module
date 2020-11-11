@@ -24,19 +24,14 @@ public class Program
 
         // Cycling and rotating in one go:
         var sum = new int[arrLength];
-        for (int i = 0; i < arrLength; i++)
+        for (int index = 0; index < arrLength; index++)
         {
-            // Make it so that you rotate rotated index + i 
-            for (int rotatedIndex = 1; rotatedIndex <= rotations; rotatedIndex++)
-            {
-                rotatedIndex = OutOfBoundsCheck(i + rotatedIndex, arrLength);
-                int currentNum = array[rotatedIndex]; // you have the current rotated inedx num
+            int currentNum = array[index]; // get the num we will rotate (drop into next indexs)
 
-                // just add it to the sum of that [i+rotation]
-                // Here is my mistake
-                //int indexOfSum = i + rotations + 1;
-                //indexOfSum = OutOfBoundsCheck(indexOfSum, arrLength);
-                sum[i] += currentNum;
+            for (int roatation = 1; roatation <= rotations; roatation++) // rotate the index right 
+            {
+                int rotationIndex = OutOfBoundsCheck(index + roatation, arrLength); // see if the index + rotation needs reducing
+                sum[rotationIndex] += currentNum; 
             }
         }
         Console.WriteLine(string.Join(" ", sum));
@@ -48,7 +43,7 @@ public class Program
         bool checkIfOutOfBounds = index > arrLength - 1;
         if (checkIfOutOfBounds == true)
         {
-            index -= arrLength - 1;
+            index -= arrLength;
         }
 
         return index;
