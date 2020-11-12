@@ -7,7 +7,7 @@
     <ProjectGuid>{0CF70332-A7A9-427E-A019-8906780D6ADE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q03_Fold_and_Sum</RootNamespace>
-    <AssemblyName>Q03_Fold_and_Sum</AssemblyName>
+    <AssemblyName>Q03 Fold and Sum</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

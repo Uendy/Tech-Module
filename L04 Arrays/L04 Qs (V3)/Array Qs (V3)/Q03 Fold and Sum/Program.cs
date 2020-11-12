@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 public class Program
 {
     public static void Main()
@@ -12,6 +13,23 @@ public class Program
         //                                       7  9
         #endregion
 
+        // Reading input:
+        var array = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+        int length = array.Count();
+
+        // Preparing output Array
+        var sumArr = new int[array.Count() / 2];
+
+        // first half of array
+        int middle = length / 4;
+        for (int i = 0; i < middle; i++)
+        {
+            sumArr[i] += array[middle - 1 - i];
+            sumArr[i] += array[middle + i];
+        }
+
+        // Printing string 
+        Console.WriteLine(string.Join(" ", sumArr));
 
     }
 }
