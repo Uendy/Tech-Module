@@ -16,17 +16,21 @@ public class Program
         // Reading input:
         var array = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
         int length = array.Count();
+        //int firstHalf = array.Take(length / 2).ToArray(); split them up and work with halves and put the first half into a method for both
 
         // Preparing output Array
         var sumArr = new int[array.Count() / 2];
 
         // first half of array
-        int middle = length / 4;
-        for (int i = 0; i < middle; i++)
+        int startPoint = length / 4;
+        for (int i = 0; i < startPoint; i++)
         {
-            sumArr[i] += array[middle - 1 - i];
-            sumArr[i] += array[middle + i];
+            sumArr[i] += array[startPoint - 1 - i];
+            sumArr[i] += array[startPoint + i];
         }
+
+        // second half of array
+        int secondStartPoint = length; 
 
         // Printing string 
         Console.WriteLine(string.Join(" ", sumArr));
