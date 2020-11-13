@@ -15,34 +15,34 @@ public class Program
 
         // Reading input:
         var array = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+
+        // Getting needed variables
         int length = array.Count();
         int halfLength = length / 2; // to split the array into equal subarrays
         int startPoint = length / 4; // to then work inside -> out 
 
-        // Preparing output Array
-        var sumArr = new int[array.Count() / 2];
-
         // first half of array, fold and sum
         var firstHalf = array.Take(halfLength).ToArray();
-        sumArr = FoldHalf(firstHalf, startPoint, sumArr);
+        var firstSumFold = FoldHalf(firstHalf, startPoint);
 
         // second half of array, fold and sum
         var secondHalf = array.Skip(halfLength).Take(halfLength).ToArray();
-        sumArr = FoldHalf(secondHalf, startPoint, sumArr); // need to make the sumArr[i] different from the sumArr[i] of the first half
+        var secondSumFold = FoldHalf(secondHalf, startPoint);
 
-        // Printing string 
-        Console.WriteLine(string.Join(" ", sumArr));
+        // Concat both sum array and Printing string 
+        Console.WriteLine(string.Join(" ", firstSumFold.Concat(secondSumFold)));
     }
 
     // Folds and sums the half (inside -> outside)
-    public static int[] FoldHalf(int[] half, int startPoint, int[] sumArr)
+    public static int[] FoldHalf(int[] half, int startPoint)
     {
+        var sum = new int[startPoint];   
         for (int i = 0; i < startPoint; i++)
         {
-            sumArr[i] += half[startPoint - 1 - i];
-            sumArr[i] += half[startPoint + i];
+            sum[i] += half[startPoint - 1 - i];
+            sum[i] += half[startPoint + i];
         }
 
-        return sumArr;
+        return sum;
     }
 }
