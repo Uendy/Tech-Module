@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Q04 4. Sieve of Eratos")]
+[assembly: AssemblyTitle("Q04 Sieve of Erathoston")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Hewlett-Packard")]
-[assembly: AssemblyProduct("Q04 4. Sieve of Eratos")]
+[assembly: AssemblyProduct("Q04 Sieve of Erathoston")]
 [assembly: AssemblyCopyright("Copyright © Hewlett-Packard 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("7974cace-5253-4e20-a2e9-7fa462958ee7")]
+[assembly: Guid("5ede8c0b-701a-4c6b-9a79-0a40f4b580f7")]
 
 // Version information for an assembly consists of the following four values:
 //

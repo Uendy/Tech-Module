@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7974CACE-5253-4E20-A2E9-7FA462958EE7}</ProjectGuid>
+    <ProjectGuid>{5EDE8C0B-701A-4C6B-9A79-0A40F4B580F7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Q04_4.Sieve_of_Eratos</RootNamespace>
-    <AssemblyName>Q04_4.Sieve_of_Eratos</AssemblyName>
+    <RootNamespace>Q04_Sieve_of_Erathoston</RootNamespace>
+    <AssemblyName>Q04 Sieve of Erathoston</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
