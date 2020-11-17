@@ -53,6 +53,8 @@ public class Program
         }
 
         // Formatting and Printing output
-        Console.WriteLine(new string({ element + ' ' }, maxSequence));
+        var formatted = element.ToString() + " ";
+        string output = String.Concat(Enumerable.Repeat(formatted, maxSequence));// cant get it to accept a ' ' after the element
+        Console.WriteLine(output);
     }
 }
