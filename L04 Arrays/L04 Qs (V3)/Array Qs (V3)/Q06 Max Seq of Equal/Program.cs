@@ -22,10 +22,10 @@ public class Program
         // Set up variables
         var maxSequence = 0;
         var element = ' ';
-        var currentSequence = 0;
+        var currentSequence = 1;
 
         // cycle right:
-        for (int index = 0; index < array.Count() - 1; index++)
+        for (int index = 0; index < array.Count() - 1; index++) // need to figure out last one 
         {
             char current = array[index];
             char next = array[index + 1];
@@ -41,7 +41,7 @@ public class Program
                     maxSequence = currentSequence; // updating high score
                     element = current;
                 }
-                currentSequence = 0; // annuling highscore
+                currentSequence = 1; // annuling highscore
             }
         }
 
@@ -52,7 +52,7 @@ public class Program
             element = array[array.Length - 1];
         }
 
-        // Printing output
-        Console.WriteLine(new string(element, maxSequence));
+        // Formatting and Printing output
+        Console.WriteLine(new string({ element + ' ' }, maxSequence));
     }
 }
