@@ -14,21 +14,21 @@ public class Program
         #endregion
 
         // Reading input:
-        var array = Console.ReadLine().Split(' ').Select(char.Parse).ToArray();
+        var array = Console.ReadLine().Split(' ').ToArray();
 
         // basically go from righ to left, and stop when i != i + 1 || i < array.Length - 2(as it goes to +1)
         // if the num is strictly bigger than currentMax then change them and have a var for which num it is, then print it * max
 
         // Set up variables
         var maxSequence = 0;
-        var element = ' ';
+        var element = " ";
         var currentSequence = 1;
 
         // cycle right:
         for (int index = 0; index < array.Count() - 1; index++) // need to figure out last one 
         {
-            char current = array[index];
-            char next = array[index + 1];
+            string current = array[index];
+            string next = array[index + 1];
 
             if (current == next)
             {
@@ -52,9 +52,7 @@ public class Program
             element = array[array.Length - 1];
         }
 
-        // Formatting and Printing output
-        var formatted = element.ToString() + " ";
-        string output = String.Concat(Enumerable.Repeat(formatted, maxSequence));// cant get it to accept a ' ' after the element
+        string output = String.Concat(Enumerable.Repeat($"{element} ", maxSequence));// cant get it to accept a ' ' after the element
         Console.WriteLine(output);
     }
 }
