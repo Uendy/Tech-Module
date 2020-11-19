@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
 public class Program
 {
     public static void Main()
@@ -14,6 +17,43 @@ public class Program
         #endregion
 
         // Reading input:
+        var input = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
 
+        // Setting up needed lists:
+        var outputList = new List<int>();
+        var currentList = new List<int>();
+
+        // Cycling and checking:
+        for (int index = 0; index < input.Length-1; index++)
+        {
+            int currentNum = input[index];
+            int nextNum = input[index + 1];
+
+            bool isBigger = nextNum > currentNum;
+            if (isBigger)
+            {
+                currentList.Add(currentNum);
+            }
+            else
+            {
+                outputList = CompareList(currentList, outputList);
+                currentList.Clear();
+            }
+        }
+
+        outputList = CompareList(currentList, outputList); // final check with last values
+
+        // Format output and print:
+        Console.WriteLine(string.Join(" ", outputList));
+    }
+    public static List<int> CompareList(List<int> currentList, List<int> outputList)
+    {
+        if (currentList.Count() > outputList.Count()) // check if new highscore and reset
+        {
+            outputList.Clear();
+            outputList = currentList;
+        }
+
+        return outputList;
     }
 }

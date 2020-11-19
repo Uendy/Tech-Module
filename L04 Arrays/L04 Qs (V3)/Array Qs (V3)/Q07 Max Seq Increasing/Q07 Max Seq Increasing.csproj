@@ -7,7 +7,7 @@
     <ProjectGuid>{2861BC45-7F40-4A40-B9A6-0160B6B4538B}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q07_Max_Seq_Increasing</RootNamespace>
-    <AssemblyName>Q07_Max_Seq_Increasing</AssemblyName>
+    <AssemblyName>Q07 Max Seq Increasing</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
