@@ -37,12 +37,14 @@ public class Program
             else
             {
                 currentList.Add(currentNum);
-                outputList = CompareList(currentList, outputList);
+                outputList = CompareList(currentList, outputList).ToList();
                 currentList.Clear();
             }
         }
-
-        outputList = CompareList(currentList, outputList); // final check with last values
+        
+        // final check with last values
+        currentList.Add(input[input.Length - 1]);
+        outputList = CompareList(currentList, outputList); 
 
         // Format output and print:
         Console.WriteLine(string.Join(" ", outputList));
@@ -52,7 +54,7 @@ public class Program
         if (currentList.Count() > outputList.Count()) // check if new highscore and reset
         {
             outputList.Clear();
-            outputList = currentList;
+            outputList = currentList.ToList();
         }
 
         return outputList;
