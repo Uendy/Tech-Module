@@ -32,10 +32,11 @@ public class Program
             bool isBigger = nextNum > currentNum;
             if (isBigger)
             {
-                currentList.Add(currentNum);
+                currentList.Add(currentNum); 
             }
             else
             {
+                currentList.Add(currentNum);
                 outputList = CompareList(currentList, outputList);
                 currentList.Clear();
             }
