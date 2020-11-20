@@ -7,7 +7,7 @@
     <ProjectGuid>{820B7992-FF84-4C76-99E9-03AE1C33AE72}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q08_Most_Frequent_Num</RootNamespace>
-    <AssemblyName>Q08_Most_Frequent_Num</AssemblyName>
+    <AssemblyName>Q08 Most Frequent Num</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
