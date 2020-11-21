@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q07 Max Seq Increasing", "Q
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q08 Most Frequent Num", "Q08 Most Frequent Num\Q08 Most Frequent Num.csproj", "{820B7992-FF84-4C76-99E9-03AE1C33AE72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q09 Index of Letters", "Q09 Index of Letters\Q09 Index of Letters.csproj", "{2164CA5C-33B8-4707-82EB-4C36F3411CDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{820B7992-FF84-4C76-99E9-03AE1C33AE72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{820B7992-FF84-4C76-99E9-03AE1C33AE72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{820B7992-FF84-4C76-99E9-03AE1C33AE72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2164CA5C-33B8-4707-82EB-4C36F3411CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2164CA5C-33B8-4707-82EB-4C36F3411CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2164CA5C-33B8-4707-82EB-4C36F3411CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2164CA5C-33B8-4707-82EB-4C36F3411CDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -7,7 +7,7 @@
     <ProjectGuid>{2164CA5C-33B8-4707-82EB-4C36F3411CDB}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q09_Index_of_Letters</RootNamespace>
-    <AssemblyName>Q09_Index_of_Letters</AssemblyName>
+    <AssemblyName>Q09 Index of Letters</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

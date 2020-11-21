@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 public class Program
 {
     public static void Main()
@@ -16,5 +14,16 @@ public class Program
         //              c-> 2
         //              z-> 25
         #endregion
+
+        // Reading input:
+        var input = Console.ReadLine().ToLower().ToCharArray();
+
+        // Cycle, Get number and Print:
+        for (int index = 0; index < input.Length; index++)
+        {
+            char current = input[index];
+            var asNumber = current - 'a';
+            Console.WriteLine($"{current} -> {asNumber}");
+        }
     }
 }
