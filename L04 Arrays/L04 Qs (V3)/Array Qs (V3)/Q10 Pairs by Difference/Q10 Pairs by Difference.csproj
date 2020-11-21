@@ -7,7 +7,7 @@
     <ProjectGuid>{19B9A281-630B-49CF-B309-FFCB3ED01F15}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q10_Pairs_by_Difference</RootNamespace>
-    <AssemblyName>Q10_Pairs_by_Difference</AssemblyName>
+    <AssemblyName>Q10 Pairs by Difference</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
