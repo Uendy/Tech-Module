@@ -13,6 +13,48 @@ public class Program
         //                                a[0] + a[1] = a[3]
         #endregion
 
+        // Reading input:
+        var input = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
 
+        // Cycle through and check left and right sum
+        for (int index = 0; index < input.Length; index++)
+        {
+            int currentNum = input[index];
+
+            int leftSum = CalcLeftSide(input, index);
+            int rightSum = CalcRightSide(input, index);
+
+            bool areEqual = leftSum == rightSum; // heck if sides match and print
+            if (areEqual)
+            {
+                Console.WriteLine(index);
+                Environment.Exit(0);
+            }
+        }
+
+        // If none are equal print output "no"
+        Console.WriteLine("no");
+    }
+    public static int CalcLeftSide(int[] input, int index)
+    {
+        int sum = 0;
+
+        for (int i = 0; i < index; i++)
+        {
+            sum += input[i];
+        }
+
+        return sum;
+    }
+    public static int CalcRightSide(int[] input, int index)
+    {
+        int sum = 0;
+
+        for (int i = index + 1; i < input.Length; i++)
+        {
+            sum += input[i];
+        }
+
+        return sum;
     }
 }
