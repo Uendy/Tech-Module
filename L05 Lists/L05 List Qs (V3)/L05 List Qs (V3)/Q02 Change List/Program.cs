@@ -20,6 +20,31 @@ public class Program
         //  Odd
         #endregion
 
+        // Reading input:
+        var list = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
 
+        // Read instruction:
+        string command = Console.ReadLine();
+        while (command != "Odd" || command != "Even")
+        {
+            // Read Current command and execute:
+            switch (command.Split(' ').ToArray().First())
+            {
+                case "Delete":
+                    //
+                    break;
+
+                case "Insert":
+                    //
+                    break;
+
+                default:
+                    break;
+            }
+
+            command = Console.ReadLine();
+        }
+
+        // Depending on Odd/Even print the remaining elements:
     }
 }
