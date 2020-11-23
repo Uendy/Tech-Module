@@ -26,7 +26,7 @@ public class Program
             int currentNum = input[index];
 
             // Cycle and add all continuous same numbers:
-            for (int j = index+1; j < input.Count(); j++)
+            for (int j = index + 1; j < input.Count(); j++)
             {
                 int nextNum = input[j];
 
@@ -35,6 +35,13 @@ public class Program
                 if (currentNum != nextNum) // break this cycle
                 {
                     break;
+                }
+
+                // Adding last index to currentSeq
+                bool lastIndex = j == input.Count() - 1;
+                if (lastIndex)
+                {
+                    currentSeq.Add(input[index]);
                 }
             }
 
