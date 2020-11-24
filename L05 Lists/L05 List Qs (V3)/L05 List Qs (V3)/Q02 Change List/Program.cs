@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 public class Program
 {
@@ -24,27 +23,43 @@ public class Program
         var list = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
 
         // Read instruction:
-        string command = Console.ReadLine();
-        while (command != "Odd" || command != "Even")
+        var commandLine = Console.ReadLine().Split(' ').ToArray();
+        string command = commandLine[0];
+
+        while (command != "Odd" && command != "Even")
         {
             // Read Current command and execute:
-            switch (command.Split(' ').ToArray().First())
+            switch (command)
             {
                 case "Delete":
-                    //
+                    int numToDelete = int.Parse(commandLine[1]);
+                    list.RemoveAll(x => x == numToDelete);
                     break;
 
                 case "Insert":
-                    //
+                    int numberToInsert = int.Parse(commandLine[1]);
+                    int index = int.Parse(commandLine[2]);
+                    list.Insert(index, numberToInsert);
                     break;
 
                 default:
                     break;
             }
 
-            command = Console.ReadLine();
+            commandLine = Console.ReadLine().Split(' ').ToArray();
+            command = commandLine[0];
         }
 
         // Depending on Odd/Even print the remaining elements:
+        if (command == "Odd")
+        {
+            list = list.Where(x => x % 2 != 0).ToList();
+        }
+        else // even
+        {
+            list = list.Where(x => x % 2 == 0).ToList();
+        }
+
+        Console.WriteLine(string.Join(" ", list));
     }
 }
