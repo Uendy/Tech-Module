@@ -23,6 +23,9 @@ public class Program
         // Preparing output:
         var longestSeq = new List<int>();
 
+
+        //// What if I cycle each num both ways and add the ones before it too ;)
+
         // Cycle and check each incrament with another cycle.
         for (int index = 0; index < list.Count(); index++)
         {
@@ -46,7 +49,7 @@ public class Program
             }
 
             // Check if current seq is longer
-            bool newHighSeq = currentSeq.Count() > longestSeq.Count(); // see if I am adding list[list.Count - 1]
+            bool newHighSeq = currentSeq.Count() > longestSeq.Count(); // see if I am adding list[list.Count - 1] STIL AM NOT !!!
             if (newHighSeq)
             {
                 // check if due to ref type of list they are both cleared
