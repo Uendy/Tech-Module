@@ -16,5 +16,46 @@ public class Program
         //  11 12 13 3 14 4 15 5 6 7 8 7 16 9 8          3 4 5 6 7 8 16
         //  3 14 5 12 15 7 8 9 11 10 1                   3 5 7 8 9 11
         #endregion
+
+        // Reading input:
+        var list = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
+
+        // Preparing output:
+        var longestSeq = new List<int>();
+
+        // Cycle and check each incrament with another cycle.
+        for (int index = 0; index < list.Count(); index++)
+        {
+            int currentNum = list[index];
+            var currentSeq = new List<int>(index);
+            for (int j = index + 1; j < list.Count(); j++)
+            {
+                int nextNum = list[j];
+
+                bool bigger = nextNum > currentSeq.Last();
+                if (bigger)
+                {
+                    currentSeq.Add(nextNum);
+                }
+            }
+
+            bool lastIndexAdded = index == list.Count()-1 && list[index] > currentSeq.Last();
+            if (lastIndexAdded)
+            {
+                currentSeq.Add(list[index]);
+            }
+
+            // Check if current seq is longer
+            bool newHighSeq = currentSeq.Count() > longestSeq.Count(); // see if I am adding list[list.Count - 1]
+            if (newHighSeq)
+            {
+                // check if due to ref type of list they are both cleared
+                longestSeq = currentSeq.ToList();
+                currentSeq.Clear(); 
+            }
+        }
+
+        // Printing output
+        Console.WriteLine(string.Join(" ", longestSeq));
     }
 }

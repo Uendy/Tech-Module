@@ -7,7 +7,7 @@
     <ProjectGuid>{7032208A-165A-4513-95E6-EE153001852F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q04_Long_Inc_Seq</RootNamespace>
-    <AssemblyName>Q04_Long_Inc_Seq</AssemblyName>
+    <AssemblyName>Q04 Long Inc Seq</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
