@@ -27,8 +27,8 @@ public class Program
         for (int index = 0; index < list.Count(); index++)
         {
             int currentNum = list[index];
-            var currentSeq = new List<int>(index);
-            for (int j = index + 1; j < list.Count(); j++)
+            var currentSeq = new List<int> { currentNum };
+            for (int j = index + 1; j < list.Count()-1; j++)
             {
                 int nextNum = list[j];
 
@@ -39,10 +39,10 @@ public class Program
                 }
             }
 
-            bool lastIndexAdded = index == list.Count()-1 && list[index] > currentSeq.Last();
-            if (lastIndexAdded)
+            // adding last num
+            if (index == list.Count() - 1 && list[index] > currentSeq.Last())
             {
-                currentSeq.Add(list[index]);
+                currentSeq.Add(currentNum);
             }
 
             // Check if current seq is longer
