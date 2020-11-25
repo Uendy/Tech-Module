@@ -23,42 +23,33 @@ public class Program
         // Preparing output:
         var longestSeq = new List<int>();
 
-
-        //// What if I cycle each num both ways and add the ones before it too ;)
-
-        // Cycle and check each incrament with another cycle.
         for (int index = 0; index < list.Count(); index++)
         {
             int currentNum = list[index];
+
             var currentSeq = new List<int> { currentNum };
-            for (int j = index + 1; j < list.Count()-1; j++)
-            {
-                int nextNum = list[j];
+            var before = CycleBefore();
+            var after = CycleAfter();
 
-                bool bigger = nextNum > currentSeq.Last();
-                if (bigger)
-                {
-                    currentSeq.Add(nextNum);
-                }
-            }
+            currentSeq.InsertRange(0, before);
+            currentSeq.Concat(after);
 
-            // adding last num
-            if (index == list.Count() - 1 && list[index] > currentSeq.Last())
-            {
-                currentSeq.Add(currentNum);
-            }
-
-            // Check if current seq is longer
-            bool newHighSeq = currentSeq.Count() > longestSeq.Count(); // see if I am adding list[list.Count - 1] STIL AM NOT !!!
-            if (newHighSeq)
-            {
-                // check if due to ref type of list they are both cleared
-                longestSeq = currentSeq.ToList();
-                currentSeq.Clear(); 
-            }
+            longestSeq = compareSeq();
         }
 
         // Printing output
         Console.WriteLine(string.Join(" ", longestSeq));
+    }
+    public static List<int> CycleBefore()
+    {
+        throw new NotImplementedException();
+    }
+    public static List<int> CycleAfter()
+    {
+        throw new NotImplementedException();
+    }
+    public  static List<int> compareSeq()
+    {
+        throw new NotImplementedException();
     }
 }
