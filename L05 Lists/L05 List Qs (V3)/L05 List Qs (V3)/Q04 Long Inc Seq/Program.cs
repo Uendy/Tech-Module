@@ -28,28 +28,59 @@ public class Program
             int currentNum = list[index];
 
             var currentSeq = new List<int> { currentNum };
-            var before = CycleBefore();
-            var after = CycleAfter();
+            var before = CycleBefore(currentNum, index, list);
+            var after = CycleAfter(currentNum, index, list);
 
             currentSeq.InsertRange(0, before);
             currentSeq.Concat(after);
 
-            longestSeq = compareSeq();
+            longestSeq = compareSeq(currentSeq, longestSeq);
         }
 
         // Printing output
         Console.WriteLine(string.Join(" ", longestSeq));
     }
-    public static List<int> CycleBefore()
+    public static List<int> CycleBefore(int currentNum, int index, List<int> list)
     {
-        throw new NotImplementedException();
+        var output = new List<int>();
+        for (int i = index - 1; i >= 0; i--)
+        {
+            int num = list[i];
+
+            bool smaller = num < currentNum;
+            if (smaller)
+            {
+                output.Add(num);
+            }
+        }
+
+        return output;
     }
-    public static List<int> CycleAfter()
+    public static List<int> CycleAfter(int currentNum, int index, List<int> list)
     {
-        throw new NotImplementedException();
+        var output = new List<int>();
+        for (int j = index + 1; j <= list.Count(); j++)
+        {
+            int num = list[j];
+
+            bool bigger = num > currentNum;
+            if (bigger)
+            {
+                output.Add(num);
+            }
+        }
+
+        return output;
     }
-    public  static List<int> compareSeq()
+    public  static List<int> compareSeq(List<int> currentSeq, List<int>longestSeq)
     {
-        throw new NotImplementedException();
+        if (currentSeq.Count() > longestSeq.Count())
+        {
+            return currentSeq;
+        }
+        else
+        {
+            return longestSeq;
+        }
     }
 }
