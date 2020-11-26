@@ -31,6 +31,7 @@ public class Program
             var before = CycleBefore(currentNum, index, list);
             var after = CycleAfter(currentNum, index, list);
 
+            // Combining before, current and after into a single sequence
             currentSeq.InsertRange(0, before);
             currentSeq.Concat(after);
 
@@ -51,6 +52,7 @@ public class Program
             if (smaller)
             {
                 output.Add(num);
+                currentNum = num;
             }
         }
 
@@ -59,7 +61,7 @@ public class Program
     public static List<int> CycleAfter(int currentNum, int index, List<int> list)
     {
         var output = new List<int>();
-        for (int j = index + 1; j <= list.Count(); j++)
+        for (int j = index + 1; j < list.Count(); j++)
         {
             int num = list[j];
 
@@ -67,6 +69,7 @@ public class Program
             if (bigger)
             {
                 output.Add(num);
+                currentNum = num;
             }
         }
 
