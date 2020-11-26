@@ -33,7 +33,7 @@ public class Program
 
             // Combining before, current and after into a single sequence
             currentSeq.InsertRange(0, before);
-            currentSeq.Concat(after).ToList();
+            currentSeq = currentSeq.Concat(after).ToList();
 
             longestSeq = compareSeq(currentSeq, longestSeq);
         }
@@ -56,11 +56,7 @@ public class Program
             }
         }
 
-        // add smallest num if its different to list[index] (= new num, that wasn't added in cycle)
-        //if (currentNum != list[index])
-        //{
-        //    output.Add(currentNum);
-        //}
+        output.Reverse(); // as it will be upside down
 
         return output;
     }
@@ -78,12 +74,6 @@ public class Program
                 currentNum = num;
             }
         }
-
-        // Add new biggest num that wasn't added to seq as it didn't pass a bigger num check
-        //if (currentNum != list[index])
-        //{
-        //    output.Add(currentNum);
-        //}
 
         return output;
     }
