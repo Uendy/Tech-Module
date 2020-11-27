@@ -23,30 +23,19 @@ class Program
         // Prepare outout list
         var longestSeq = new List<int>();
 
-        // Cycle and check
-        for (int index = 0; index < list.Count(); index++)
-        {
-            int num = list[index];
-            var currentSeq = new List<int> { num };
 
-            // Cycle and return each time you get to the end to the index of the newest added num, remove it and skip it, see if new seq is longer and repeat until the end
+        // Or what if I order them and then check which order is closest to list?
+        var ordered = list.OrderBy(x => x).ToList();
 
-            longestSeq = CheckSeq(currentSeq, longestSeq);
-        }
+        // See which the longest seq of ordered fits actual sequence
+        var output = new List<int>();
+        output = FindSequence();
 
-        // Printing output:
-        Console.WriteLine(string.Join(" ", longestSeq));
+        Console.WriteLine(string.Join(" ", output));
     }
-
-    public static List<int> CheckSeq(List<int> currentSeq, List<int> longestSeq)
+    //// Find longest matching sequence
+    public static List<int> FindSequence()
     {
-        if (currentSeq.Count() > longestSeq.Count())
-        {
-            return currentSeq;
-        }
-        else
-        {
-            return longestSeq;
-        }
+        throw new NotImplementedException();
     }
 }
