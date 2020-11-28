@@ -23,49 +23,39 @@ class Program
         // Prepare outout list
         var longestSeq = new List<int>();
 
-
-        // Or what if I order them and then check which order is closest to list?
-        var ordered = list.OrderBy(x => x).ToList();
-
-        // See which the longest seq of ordered fits actual sequence
-        
         for (int index = 0; index < list.Count(); index++)
         {
-            var currentSeq = new List<int>();
-            int num = list[index];
+            int currentNum = list[index];
+            var maxCurrentSeq = new List<int> { currentNum };
+            var currentSeq = new List<int> { currentNum };
 
-            currentSeq = FindSequence(list, ordered, num); // find currentSeq
-            longestSeq = CompareSeq(currentSeq, longestSeq); // CompareSequences and return longer
+            for (int j = index + 1; j < list.Count(); j++)
+            {
+                int num = list[index];
+
+                bool bigger = num > currentNum;
+                if (bigger)
+                {
+                    maxCurrentSeq.Add(num);
+                    currentSeq.Add(num);
+                }
+
+                // check if end and return to index of newest added in list and cycle;
+                bool last = j == list.Count() - 1;
+                if (last)
+                {
+                    int indexOfLast = list.IndexOf(maxCurrentSeq.Last());
+                    currentSeq.Remove(currentSeq.Last());
+                    j = indexOfLast + 1;
+                }
+
+                // find out where and when to compare currentSeq and maxCurrentSeq;
+            }
+
+            // comapre maxCurrentSeq with longestSeq
         }
-        
 
+        // Printing ouput:
         Console.WriteLine(string.Join(" ", longestSeq));
-    }
-    //// Find longest matching sequence
-    public static List<int> FindSequence(List<int> list, List<int> ordered, int num)
-    {
-        int listIndex = list.IndexOf(num);
-        int orderedIndex = ordered.IndexOf(num);
-
-        // find bigger that match in both lists
-            // find numbers bigger in both lists
-            // find the ones that match
-            // find their longest sequence which is basically the whole question
-
-        // find smaller that match in both lists
-
-        var currentList = new List<int>();
-        return currentList;
-    }
-    public static List<int> CompareSeq(List<int> currentSeq, List<int> longestSeq)
-    {
-        if (currentSeq.Count() > longestSeq.Count())
-        {
-            return currentSeq;
-        }
-        else
-        {
-            return longestSeq;
-        }
     }
 }
