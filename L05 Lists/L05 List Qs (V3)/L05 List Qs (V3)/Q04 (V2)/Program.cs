@@ -48,7 +48,9 @@ class Program
         int orderedIndex = ordered.IndexOf(num);
 
         // find bigger that match in both lists
-
+            // find numbers bigger in both lists
+            // find the ones that match
+            // find their longest sequence which is basically the whole question
 
         // find smaller that match in both lists
 
