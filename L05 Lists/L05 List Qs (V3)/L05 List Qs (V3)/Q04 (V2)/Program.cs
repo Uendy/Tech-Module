@@ -28,14 +28,42 @@ class Program
         var ordered = list.OrderBy(x => x).ToList();
 
         // See which the longest seq of ordered fits actual sequence
-        var output = new List<int>();
-        output = FindSequence();
+        
+        for (int index = 0; index < list.Count(); index++)
+        {
+            var currentSeq = new List<int>();
+            int num = list[index];
 
-        Console.WriteLine(string.Join(" ", output));
+            currentSeq = FindSequence(list, ordered, num); // find currentSeq
+            longestSeq = CompareSeq(currentSeq, longestSeq); // CompareSequences and return longer
+        }
+        
+
+        Console.WriteLine(string.Join(" ", longestSeq));
     }
     //// Find longest matching sequence
-    public static List<int> FindSequence()
+    public static List<int> FindSequence(List<int> list, List<int> ordered, int num)
     {
-        throw new NotImplementedException();
+        int listIndex = list.IndexOf(num);
+        int orderedIndex = ordered.IndexOf(num);
+
+        // find bigger that match in both lists
+
+
+        // find smaller that match in both lists
+
+        var currentList = new List<int>();
+        return currentList;
+    }
+    public static List<int> CompareSeq(List<int> currentSeq, List<int> longestSeq)
+    {
+        if (currentSeq.Count() > longestSeq.Count())
+        {
+            return currentSeq;
+        }
+        else
+        {
+            return longestSeq;
+        }
     }
 }
