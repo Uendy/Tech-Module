@@ -31,13 +31,17 @@ class Program
 
             for (int j = index + 1; j < list.Count(); j++)
             {
-                int num = list[index];
+                int num = list[j];
 
                 bool bigger = num > currentNum;
                 if (bigger)
                 {
-                    maxCurrentSeq.Add(num);
+                    if (maxCurrentSeq.Count() == 1)
+                    {
+                        maxCurrentSeq.Add(num);
+                    }
                     currentSeq.Add(num);
+                    currentNum = num;
                 }
 
                 // check if end and return to index of newest added in list and cycle;
@@ -46,7 +50,8 @@ class Program
                 {
                     int indexOfLast = list.IndexOf(maxCurrentSeq.Last());
                     currentSeq.Remove(currentSeq.Last());
-                    j = indexOfLast + 1;
+                    j = indexOfLast;
+                    currentNum = currentSeq.Last();
                 }
 
                 // find out where and when to compare currentSeq and maxCurrentSeq;
