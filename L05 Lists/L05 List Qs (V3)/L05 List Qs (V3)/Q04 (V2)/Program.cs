@@ -36,7 +36,7 @@ class Program
                 bool bigger = num > currentNum;
                 if (bigger)
                 {
-                    if (maxCurrentSeq.Count() == 1)
+                    if (maxCurrentSeq.Count() == 1) // this needs fixing
                     {
                         maxCurrentSeq.Add(num);
                     }
@@ -48,15 +48,25 @@ class Program
                 bool last = j == list.Count() - 1;
                 if (last)
                 {
+                    if (maxCurrentSeq.Count() > longestSeq.Count())
+                    {
+                        longestSeq = maxCurrentSeq.ToList();
+                    }
+                    else if (currentSeq.Count() > maxCurrentSeq.Count())
+                    {
+                        maxCurrentSeq = currentSeq.ToList();
+                    }
+
                     int indexOfLast = list.IndexOf(maxCurrentSeq.Last());
                     currentSeq.Remove(currentSeq.Last());
+                    if (currentSeq.Count() == 0)
+                    {
+                        break;
+                    }
                     j = indexOfLast;
                     currentNum = currentSeq.Last();
                 }
-
-                // find out where and when to compare currentSeq and maxCurrentSeq;
             }
-
             // comapre maxCurrentSeq with longestSeq
         }
 
