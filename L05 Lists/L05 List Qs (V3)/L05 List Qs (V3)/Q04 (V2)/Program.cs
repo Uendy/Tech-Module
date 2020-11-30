@@ -26,7 +26,7 @@ class Program
         for (int index = 0; index < list.Count(); index++)
         {
             int currentNum = list[index];
-            var maxCurrentSeq = new List<int> { currentNum };
+            //var maxCurrentSeq = new List<int> { currentNum };
             var currentSeq = new List<int> { currentNum };
 
             for (int j = index + 1; j < list.Count(); j++)
@@ -36,10 +36,6 @@ class Program
                 bool bigger = num > currentNum;
                 if (bigger)
                 {
-                    if (maxCurrentSeq.Count() == 1) // this needs fixing
-                    {
-                        maxCurrentSeq.Add(num);
-                    }
                     currentSeq.Add(num);
                     currentNum = num;
                 }
@@ -48,16 +44,16 @@ class Program
                 bool last = j == list.Count() - 1;
                 if (last)
                 {
-                    if (maxCurrentSeq.Count() > longestSeq.Count())
+
+                    // compare current and longest
+                    bool newLongest = currentSeq.Count() > longestSeq.Count();
+                    if (newLongest)
                     {
-                        longestSeq = maxCurrentSeq.ToList();
-                    }
-                    else if (currentSeq.Count() > maxCurrentSeq.Count())
-                    {
-                        maxCurrentSeq = currentSeq.ToList();
+                        longestSeq = currentSeq.ToList();
                     }
 
-                    int indexOfLast = list.IndexOf(maxCurrentSeq.Last());
+                    // remove the biggestNum in current and reset the cycle to check all others past that biggest num from the second biggest
+                    int indexOfLast = list.IndexOf(currentSeq.Last());
                     currentSeq.Remove(currentSeq.Last());
                     if (currentSeq.Count() == 0)
                     {
@@ -67,7 +63,6 @@ class Program
                     currentNum = currentSeq.Last();
                 }
             }
-            // comapre maxCurrentSeq with longestSeq
         }
 
         // Printing ouput:
