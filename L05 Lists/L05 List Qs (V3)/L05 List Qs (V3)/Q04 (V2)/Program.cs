@@ -21,12 +21,11 @@ class Program
         var list = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
 
         // Prepare outout list
-        var longestSeq = new List<int>();
+        var longestSeq = new List<int> {list[0]};
 
         for (int index = 0; index < list.Count(); index++)
         {
             int currentNum = list[index];
-            //var maxCurrentSeq = new List<int> { currentNum };
             var currentSeq = new List<int> { currentNum };
 
             for (int j = index + 1; j < list.Count(); j++)
@@ -53,13 +52,20 @@ class Program
                     }
 
                     // remove the biggestNum in current and reset the cycle to check all others past that biggest num from the second biggest
-                    int indexOfLast = list.IndexOf(currentSeq.Last());
+                    j = list.IndexOf(currentSeq.Last());
+
+                    // Instead of removing the last index in list, if its the biggest in currentSeq, just break and begin next cycle, if not then remove the curr.Last()
+                    // Otherwise it would infinately rotate by adding and removing the last index
+                    if (currentSeq.Last() == list.Last())
+                    {
+                        break;
+                    }
                     currentSeq.Remove(currentSeq.Last());
+
                     if (currentSeq.Count() == 0)
                     {
                         break;
                     }
-                    j = indexOfLast;
                     currentNum = currentSeq.Last();
                 }
             }
