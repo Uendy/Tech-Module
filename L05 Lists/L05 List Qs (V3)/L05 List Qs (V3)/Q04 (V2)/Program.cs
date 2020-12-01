@@ -28,8 +28,11 @@ class Program
             int currentNum = list[index];
             var currentSeq = new List<int> { currentNum };
 
+            int cycles = 0;
+
             for (int j = index + 1; j < list.Count(); j++)
             {
+                
                 int num = list[j];
 
                 bool bigger = num > currentNum;
@@ -37,13 +40,18 @@ class Program
                 {
                     currentSeq.Add(num);
                     currentNum = num;
+                    cycles--;
                 }
+                cycles++;
 
                 // check if end and return to index of newest added in list and cycle;
                 bool last = j == list.Count() - 1;
                 if (last)
                 {
-
+                    // if there are two equal numbers in list, it will always give the first and It becomes a never ending cycle.
+                    //j = list.IndexOf(currentSeq.Last());
+                    j -= cycles;
+                    cycles = 0;
                     // compare current and longest
                     bool newLongest = currentSeq.Count() > longestSeq.Count();
                     if (newLongest)
@@ -52,8 +60,8 @@ class Program
                     }
 
                     // remove the biggestNum in current and reset the cycle to check all others past that biggest num from the second biggest
-                    // if there are two equal numbers in list, it will always give the first and It becomes a never ending cycle.
-                    j = list.IndexOf(currentSeq.Last());
+                    
+                    
 
                     // Instead of removing the last index in list, if its the biggest in currentSeq, just break and begin next cycle, if not then remove the curr.Last()
                     // Otherwise it would infinately rotate by adding and removing the last index
