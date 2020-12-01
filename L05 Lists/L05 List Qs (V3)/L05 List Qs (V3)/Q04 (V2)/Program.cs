@@ -49,19 +49,15 @@ class Program
                 if (last)
                 {
                     // if there are two equal numbers in list, it will always give the first and It becomes a never ending cycle.
-                    //j = list.IndexOf(currentSeq.Last());
                     j -= cycles;
                     cycles = 0;
+
                     // compare current and longest
                     bool newLongest = currentSeq.Count() > longestSeq.Count();
                     if (newLongest)
                     {
                         longestSeq = currentSeq.ToList();
                     }
-
-                    // remove the biggestNum in current and reset the cycle to check all others past that biggest num from the second biggest
-                    
-                    
 
                     // Instead of removing the last index in list, if its the biggest in currentSeq, just break and begin next cycle, if not then remove the curr.Last()
                     // Otherwise it would infinately rotate by adding and removing the last index
@@ -79,7 +75,6 @@ class Program
                 }
             }
         }
-
         // Printing ouput:
         Console.WriteLine(string.Join(" ", longestSeq));
     }
