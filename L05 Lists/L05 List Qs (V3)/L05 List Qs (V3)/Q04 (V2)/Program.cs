@@ -52,6 +52,7 @@ class Program
                     }
 
                     // remove the biggestNum in current and reset the cycle to check all others past that biggest num from the second biggest
+                    // if there are two equal numbers in list, it will always give the first and It becomes a never ending cycle.
                     j = list.IndexOf(currentSeq.Last());
 
                     // Instead of removing the last index in list, if its the biggest in currentSeq, just break and begin next cycle, if not then remove the curr.Last()
