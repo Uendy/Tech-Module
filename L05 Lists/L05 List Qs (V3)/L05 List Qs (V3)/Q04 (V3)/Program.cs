@@ -27,7 +27,7 @@ public class Program
         {
             int num = list[index];
 
-            var currentSeq = new List<int> { list[num] };    // 5 10 6 10 1
+            var currentSeq = new List<int> { num };    // 5 10 6 10 1
             int cycles = 0;
 
             for (int j = index + 1; j < list.Count(); j++)
@@ -54,18 +54,19 @@ public class Program
                     {
                         longestSeq = currentSeq.ToList();
                     }
+                    
+                    // Remove highest value until now
+                    currentSeq.Remove(currentSeq.Last());
 
                     // break cycle if needed
-                    if (currentSeq.Last() == list.Last() || currentSeq.Count() == 0) 
+                    if (currentSeq.Count() == 0 || currentSeq.Last() == list.Last() || num == list.Last()) 
                     {
                         break;
                     }
 
-                    // Remove highest value until now
-                    currentSeq.Remove(currentSeq.Last());
-
                     //reset j to continue from where the highest value was added
                     j -= cycles;
+                    num = currentSeq.Last();
                     cycles = 0;
                 }
             }
