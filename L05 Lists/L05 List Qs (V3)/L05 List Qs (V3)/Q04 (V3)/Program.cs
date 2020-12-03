@@ -37,7 +37,6 @@ public class Program
                 bool bigger = next > num;
                 if (bigger)
                 {
-                    cycles = 0;
                     currentSeq.Add(next);
                     num = next;
                 }
@@ -48,8 +47,9 @@ public class Program
 
                 bool finalIndex = j == list.Count() - 1;
                 if (finalIndex)
-                {
-                    bool newHighSeq = currentSeq.Count() > longestSeq.Count(); // reset if new longestSeq
+                {   
+                    // reset if new longestSeq
+                    bool newHighSeq = currentSeq.Count() > longestSeq.Count(); 
                     if (newHighSeq)
                     {
                         longestSeq = currentSeq.ToList();
