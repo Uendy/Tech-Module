@@ -7,7 +7,7 @@
     <ProjectGuid>{B062767A-FAE3-4BC3-9BC9-31E631CCD419}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q04__V4_</RootNamespace>
-    <AssemblyName>Q04__V4_</AssemblyName>
+    <AssemblyName>Q04 %28V4%29</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
