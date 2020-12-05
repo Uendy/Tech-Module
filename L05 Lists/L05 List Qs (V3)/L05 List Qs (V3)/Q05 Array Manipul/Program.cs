@@ -26,5 +26,51 @@ public class Program
         // contains - 3
         // print   0
         #endregion
-}
+
+        // Reading input:
+        var list = new List<int>();
+
+        // Getting commandline and command
+        var commands = Console.ReadLine().Split(' ').ToList();
+
+        // Read commands and execute
+        while (commands[0] != "print")
+        {
+            switch (commands[0])
+            {
+                case "add":
+                    //
+                    break;
+
+                case "addmany":
+                    //
+                    break;
+
+                case "contains":
+                    //
+                    break;
+
+                case "remove":
+                    //
+                    break;
+
+                case "shift":
+                    //
+                    break;
+
+                case "sumPairs":
+                    //
+                    break;
+
+
+                default:
+                    break;
+            }
+            // Read next command
+            commands = Console.ReadLine().Split(' ').ToList();
+        }
+
+        // Printing output
+        Console.WriteLine(string.Join(" ", list));
+    }
 }
