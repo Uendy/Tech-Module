@@ -39,11 +39,15 @@ public class Program
             switch (commands[0])
             {
                 case "add":
-                    //
+                    int i = int.Parse(commands[1]);
+                    int element = int.Parse(commands[2]);
+                    list = AddElement(list, i, element);
                     break;
 
-                case "addmany":
-                    //
+                case "addMany":
+                    int j = int.Parse(commands[1]);
+                    var range = commands.Skip(2).Select(int.Parse).ToList();
+                    list = AddRange(list, j, range);
                     break;
 
                 case "contains":
@@ -72,5 +76,15 @@ public class Program
 
         // Printing output
         Console.WriteLine(string.Join(" ", list));
+    }
+    public static List<int> AddElement(List<int> list, int index, int element)
+    {
+        list.Insert(index, element);
+        return list;
+    }
+    public static List<int> AddRange(List<int> list, int index, List<int> range)
+    {
+        list.InsertRange(index, range);
+        return list;
     }
 }

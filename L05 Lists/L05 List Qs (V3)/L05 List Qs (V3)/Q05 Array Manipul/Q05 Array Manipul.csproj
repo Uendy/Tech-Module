@@ -7,7 +7,7 @@
     <ProjectGuid>{A12E7788-257D-474C-837F-65DCDC3049F3}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q05_Array_Manipul</RootNamespace>
-    <AssemblyName>Q05_Array_Manipul</AssemblyName>
+    <AssemblyName>Q05 Array Manipul</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
