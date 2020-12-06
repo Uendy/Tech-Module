@@ -28,7 +28,7 @@ public class Program
         #endregion
 
         // Reading input:
-        var list = new List<int>();
+        var list = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
 
         // Getting commandline and command
         var commands = Console.ReadLine().Split(' ').ToList();
@@ -39,27 +39,30 @@ public class Program
             switch (commands[0])
             {
                 case "add":
-                    int i = int.Parse(commands[1]);
+                    int addIndex = int.Parse(commands[1]); 
                     int element = int.Parse(commands[2]);
-                    list = AddElement(list, i, element);
+                    list = AddElement(list, addIndex, element);
                     break;
 
                 case "addMany":
-                    int j = int.Parse(commands[1]);
+                    int addManyIndex = int.Parse(commands[1]);
                     var range = commands.Skip(2).Select(int.Parse).ToList();
-                    list = AddRange(list, j, range);
+                    list = AddRange(list, addManyIndex, range);
                     break;
 
                 case "contains":
-                    //
+                    int conatinee = int.Parse(commands[1]);
+                    Console.WriteLine(CheckContains(list, conatinee));
                     break;
 
                 case "remove":
-                    //
+                    int removeIndex = int.Parse(commands[1]);
+                    list = RemoveIndex(list, removeIndex);
                     break;
 
                 case "shift":
-                    //
+                    int rotations = int.Parse(commands[1]);
+                    list = Rotate(list, rotations);
                     break;
 
                 case "sumPairs":
@@ -86,5 +89,36 @@ public class Program
     {
         list.InsertRange(index, range);
         return list;
+    }
+    public static int CheckContains(List<int> list, int conatinee)
+    {
+        int index = list.IndexOf(conatinee);
+        return index;
+    }
+    public static List<int> RemoveIndex(List<int> list, int index)
+    {
+        list.RemoveAt(index);
+        return list;
+    }
+    private static List<int> Rotate(List<int> list, int rotations)
+    {
+        var rotatedList = list.ToList();
+
+        while(rotations >= list.Count()) .// remove any excess rotations
+        {
+            rotations -= list.Count();
+        }
+
+        for (int index = 0; index < list.Count(); index++)
+        {
+            int newIndex = index + rotations;
+            bool overCount = newIndex >= list.Count();
+            if (overCount)
+            {
+                newIndex -= list.Count();
+            }
+            rotatedList[index] = list[newIndex];
+        }
+        return rotatedList;
     }
 }
