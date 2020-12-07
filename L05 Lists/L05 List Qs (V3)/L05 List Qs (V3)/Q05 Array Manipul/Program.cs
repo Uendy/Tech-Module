@@ -104,7 +104,7 @@ public class Program
     {
         var rotatedList = list.ToList();
 
-        while(rotations >= list.Count()) .// remove any excess rotations
+        while(rotations >= list.Count()) // remove any excess rotations
         {
             rotations -= list.Count();
         }
