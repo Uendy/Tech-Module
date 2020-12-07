@@ -66,7 +66,7 @@ public class Program
                     break;
 
                 case "sumPairs":
-                    //
+                    list = SumPairs(list);
                     break;
 
 
@@ -120,5 +120,20 @@ public class Program
             rotatedList[index] = list[newIndex];
         }
         return rotatedList;
+    }
+    public static List<int> SumPairs(List<int> list)
+    {
+        // check if this works for an odd numbered list
+
+        var odds = list.Where((item, index) => index % 2 != 0).ToList();
+        var evens = list.Where((item, index) => index % 2 == 0).ToList();
+
+        var temporary = new List<int> (odds);
+        for (int i = 0; i < odds.Count(); i++)
+        {
+            temporary[i] += evens[i];
+        }
+
+        return temporary
     }
 }
