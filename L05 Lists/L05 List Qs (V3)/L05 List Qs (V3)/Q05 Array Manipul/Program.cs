@@ -78,7 +78,7 @@ public class Program
         }
 
         // Printing output
-        Console.WriteLine(string.Join(" ", list));
+        Console.WriteLine($"[{string.Join(", ", list)}]");
     }
     public static List<int> AddElement(List<int> list, int index, int element)
     {
@@ -123,17 +123,16 @@ public class Program
     }
     public static List<int> SumPairs(List<int> list)
     {
-        // check if this works for an odd numbered list
-
         var odds = list.Where((item, index) => index % 2 != 0).ToList();
         var evens = list.Where((item, index) => index % 2 == 0).ToList();
 
-        var temporary = new List<int> (odds);
+        // this will work if there is an odd amount of elements as it initializes temporary with the last element in tact, while not disturbing evens
+        var temporary = new List<int> (evens);
         for (int i = 0; i < odds.Count(); i++)
         {
-            temporary[i] += evens[i];
+            temporary[i] += odds[i];
         }
 
-        return temporary
+        return temporary;
     }
 }
