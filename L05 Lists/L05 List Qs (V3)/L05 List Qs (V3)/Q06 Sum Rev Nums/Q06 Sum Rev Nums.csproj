@@ -7,7 +7,7 @@
     <ProjectGuid>{DC7CFB5F-2FA5-446B-A009-05B52B0D5B16}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q06_Sum_Rev_Nums</RootNamespace>
-    <AssemblyName>Q06_Sum_Rev_Nums</AssemblyName>
+    <AssemblyName>Q06 Sum Rev Nums</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
