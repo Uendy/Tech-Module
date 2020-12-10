@@ -11,7 +11,20 @@ public class Program
         //     Input             Output                                                             Comment
         // 1 2 2 4 2 2 2 9         12                   Special number is 4 with power 2. After detontaion we left with the sequence [1, 2, 9] with sum 12.
         //     4 2
-
         #endregion
+
+        // Reading and extracting input
+        var list = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
+        
+        var specialNumbers = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
+        int bomb = specialNumbers[0];
+        int power = specialNumbers[1];
+
+        // bomb each occuarnace
+
+
+        // Sum remainder and print
+        var sum = list.Sum();
+        Console.WriteLine(sum);
     }
 }
