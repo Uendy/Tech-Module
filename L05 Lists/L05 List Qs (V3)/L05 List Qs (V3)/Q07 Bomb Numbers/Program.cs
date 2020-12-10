@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 public class Program
 {
@@ -24,8 +23,6 @@ public class Program
         int indexOfBomb = list.IndexOf(bomb);
         while (indexOfBomb != -1)
         {
-            var sequence = 0;
-
             // before
             var before = indexOfBomb - power;
             if (before < 0)
@@ -40,8 +37,8 @@ public class Program
                 after = list.Count() - 1;
             }
 
-            // combine after, bomb and before into seq
-            sequence = (after - before) + 1;
+            // combine after, bomb and before into seq and remove it from list
+            var sequence = (after - before) + 1;
             list.RemoveRange(before, sequence);
 
             indexOfBomb = list.IndexOf(bomb);
