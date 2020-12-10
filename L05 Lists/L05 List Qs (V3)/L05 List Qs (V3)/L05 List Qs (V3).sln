@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q05 Array Manipul", "Q05 Ar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q06 Sum Rev Nums", "Q06 Sum Rev Nums\Q06 Sum Rev Nums.csproj", "{DC7CFB5F-2FA5-446B-A009-05B52B0D5B16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q07 Bomb Numbers", "Q07 Bomb Numbers\Q07 Bomb Numbers.csproj", "{24A8A102-4527-487A-8473-B7DC19120F14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{DC7CFB5F-2FA5-446B-A009-05B52B0D5B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC7CFB5F-2FA5-446B-A009-05B52B0D5B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC7CFB5F-2FA5-446B-A009-05B52B0D5B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24A8A102-4527-487A-8473-B7DC19120F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24A8A102-4527-487A-8473-B7DC19120F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24A8A102-4527-487A-8473-B7DC19120F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24A8A102-4527-487A-8473-B7DC19120F14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

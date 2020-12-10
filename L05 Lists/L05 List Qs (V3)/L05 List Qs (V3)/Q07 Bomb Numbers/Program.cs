@@ -21,7 +21,31 @@ public class Program
         int power = specialNumbers[1];
 
         // bomb each occuarnace
+        int indexOfBomb = list.IndexOf(bomb);
+        while (indexOfBomb != -1)
+        {
+            var sequence = 0;
 
+            // before
+            var before = indexOfBomb - power;
+            if (before < 0)
+            {
+                before = 0;
+            }
+
+            // after
+            var after = indexOfBomb + power;
+            if (after >= list.Count())
+            {
+                after = list.Count() - 1;
+            }
+
+            // combine after, bomb and before into seq
+            sequence = (after - before) + 1;
+            list.RemoveRange(before, sequence);
+
+            indexOfBomb = list.IndexOf(bomb);
+        }
 
         // Sum remainder and print
         var sum = list.Sum();
