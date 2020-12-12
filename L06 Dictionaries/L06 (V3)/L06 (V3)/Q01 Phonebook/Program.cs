@@ -26,13 +26,25 @@ public class Program
             switch (command)
             {
                 case "A":
-                    //
+                    string name = input[1];
+                    string number = input[2];
+
+                    phoneBook[name] = number;
                     break;
 
                 case "S":
-                    // 
-                    break
-    
+                    string searchedName = input[1];
+
+                    bool numberFound = phoneBook.ContainsKey(searchedName);
+                    if (numberFound)
+                    {
+                        Console.WriteLine($"{searchedName} -> {phoneBook[searchedName]}");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Contact {searchedName} does not exist.");
+                    }
+                    break;
             }
             input = Console.ReadLine().Split(' ').ToList();
             command = input[0];
