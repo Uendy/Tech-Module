@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q02 Phonebook Upgrade", "Q0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 A Miner Task", "Q03 A Miner Task\Q03 A Miner Task.csproj", "{2C92018D-4EB2-49A6-82E1-AAE1664E01BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 Fix Emails", "Q04 Fix Emails\Q04 Fix Emails.csproj", "{B1E5910B-BA56-414A-B938-BEBC95CE8A8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2C92018D-4EB2-49A6-82E1-AAE1664E01BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C92018D-4EB2-49A6-82E1-AAE1664E01BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C92018D-4EB2-49A6-82E1-AAE1664E01BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1E5910B-BA56-414A-B938-BEBC95CE8A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1E5910B-BA56-414A-B938-BEBC95CE8A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1E5910B-BA56-414A-B938-BEBC95CE8A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1E5910B-BA56-414A-B938-BEBC95CE8A8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -7,7 +7,7 @@
     <ProjectGuid>{B1E5910B-BA56-414A-B938-BEBC95CE8A8B}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q04_Fix_Emails</RootNamespace>
-    <AssemblyName>Q04_Fix_Emails</AssemblyName>
+    <AssemblyName>Q04 Fix Emails</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
