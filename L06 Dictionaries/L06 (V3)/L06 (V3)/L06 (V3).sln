@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q03 A Miner Task", "Q03 A M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q04 Fix Emails", "Q04 Fix Emails\Q04 Fix Emails.csproj", "{B1E5910B-BA56-414A-B938-BEBC95CE8A8B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q05 Hands of Cards", "Q05 Hands of Cards\Q05 Hands of Cards.csproj", "{90A96978-7E7F-4E3F-88F7-063B28F9F89E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B1E5910B-BA56-414A-B938-BEBC95CE8A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1E5910B-BA56-414A-B938-BEBC95CE8A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1E5910B-BA56-414A-B938-BEBC95CE8A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90A96978-7E7F-4E3F-88F7-063B28F9F89E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A96978-7E7F-4E3F-88F7-063B28F9F89E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A96978-7E7F-4E3F-88F7-063B28F9F89E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A96978-7E7F-4E3F-88F7-063B28F9F89E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

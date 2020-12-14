@@ -7,7 +7,7 @@
     <ProjectGuid>{90A96978-7E7F-4E3F-88F7-063B28F9F89E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q05_Hands_of_Cards</RootNamespace>
-    <AssemblyName>Q05_Hands_of_Cards</AssemblyName>
+    <AssemblyName>Q05 Hands of Cards</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
