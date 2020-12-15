@@ -48,7 +48,7 @@ public class Program
         // remove duplicates and calculate score
         foreach (var kvp in playersAndHands)
         {
-            var uniqueCards = kvp.Value.Distinct();
+            var uniqueCards = kvp.Value.Distinct().ToList();
 
             int score = 0;
             foreach (var card in uniqueCards)
@@ -86,7 +86,7 @@ public class Program
                 break;
 
             case '6':
-                score = '6';
+                score = 6;
                 break;
 
             case '7':
