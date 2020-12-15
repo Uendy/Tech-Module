@@ -28,7 +28,7 @@ public class Program
             var hands = hand[1];
 
             // Get cards
-            var cards = hands.Split(new string[] { ", " }, StringSplitOptions.None).ToList();
+            var cards = hands.Split(new string[] { ", " }, StringSplitOptions.None).Select(s => s.Trim()).ToList();
 
             // Add or Update players with new hands
             bool newPlayer = !playersAndHands.ContainsKey(name);
@@ -56,8 +56,8 @@ public class Program
                 char power = card.First(); // 2 to A
                 char type = card.Last(); //S = 4, H = 3, D = 2, C = 1
 
-                var currentScore = FindScore(power, type);
-                score += currentScore;
+                var cardScore = FindScore(power, type);
+                score += cardScore;
             }
 
             Console.WriteLine($"{kvp.Key}: {score}");
