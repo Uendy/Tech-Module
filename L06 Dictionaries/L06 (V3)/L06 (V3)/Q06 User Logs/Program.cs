@@ -46,5 +46,20 @@ public class Program
         // end
 
         #endregion
+
+        // Initializing dict, key = username, value = logs (Ip's)
+        var usersAndLog = new SortedDictionary<string, List<string>>();
+
+        // Reading input
+        string input = Console.ReadLine();
+        while (input!="end")
+        {
+            // Split the input and update dict
+
+            // Read next input
+            input = Console.ReadLine();
+        }
+
+        // Print output
     }
 }
