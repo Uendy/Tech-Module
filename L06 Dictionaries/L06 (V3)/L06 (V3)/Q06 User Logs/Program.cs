@@ -75,5 +75,18 @@ public class Program
         }
 
         // Print output
+        foreach (var kvp in usersAndLog)
+        {
+            string user = kvp.Key;
+            Console.WriteLine($"{user}:");
+
+            var groupedIps = kvp.Value
+                .GroupBy(s => s)
+                .Select(group => new { ip = group.Key, Count = group.Count() });
+            foreach (var ip in kvp.Value.Distinct())
+            {
+                Console.WriteLine($"{ip} => {ip.Count() - 11}");
+            }
+        }
     }
 }
