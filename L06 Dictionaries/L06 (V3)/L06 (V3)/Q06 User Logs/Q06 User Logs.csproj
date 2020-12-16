@@ -7,7 +7,7 @@
     <ProjectGuid>{D38A61A1-EABB-464A-ADEB-CDF5DF4D7B92}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q06_User_Logs</RootNamespace>
-    <AssemblyName>Q06_User_Logs</AssemblyName>
+    <AssemblyName>Q06 User Logs</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

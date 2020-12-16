@@ -55,6 +55,20 @@ public class Program
         while (input!="end")
         {
             // Split the input and update dict
+            var elements = input.Split(' ').ToList();
+
+            string ip = elements.First().Split('=').Last();
+            string user = elements.Last().Split('=').Last();
+
+            bool newUser = !usersAndLog.ContainsKey(user);
+            if (newUser)
+            {
+                usersAndLog[user] = new List<string>() { ip };
+            }
+            else
+            {
+                usersAndLog[user].Add(ip);
+            }
 
             // Read next input
             input = Console.ReadLine();
