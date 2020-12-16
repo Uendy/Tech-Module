@@ -80,19 +80,11 @@ public class Program
             string user = kvp.Key;
             Console.WriteLine($"{user}:");
 
-            foreach (var item in kvp.Value.Distinct())
+            var groupedIps = kvp.Value.GroupBy(x => x); // groups them together, key = ip address, no value needed and count
+            foreach (var item in groupedIps)
             {
-                Console.WriteLine($"{item} => {item.Count()}");
+                Console.WriteLine($"{item.Key} => {item.Count()}");
             }
-
-            //var groupedIps = kvp.Value
-            //    .GroupBy(s => s)
-            //    .Select(group => new { Count = group.Count(), key = group.Key });
-
-            //foreach (var ip in groupedIps.Distinct())
-            //{
-            //    Console.WriteLine($"{ip} => {ip.Count}");
-            //}
         }
     }
 }
