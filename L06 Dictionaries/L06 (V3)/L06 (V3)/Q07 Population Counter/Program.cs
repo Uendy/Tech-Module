@@ -33,5 +33,20 @@ public class Program
         // Sofia | Bulgaria | 1000000              Bulgaria(total population: 1000000)
         // report                                        =>Sofia: 1000000
         #endregion
+
+        // Initialize nested dict: key = (string)country, value = (Dict<(string)key = town, (int)value = population>)
+        var record = new Dictionary<string, Dictionary<string, int>>();
+
+        // Recieve input and update dict
+        string input = Console.ReadLine();
+        while (input != "report")
+        {
+            // if new country
+            // else
+
+            input = Console.ReadLine();
+        }
+
+        // Sort and print
     }
 }
