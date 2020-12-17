@@ -32,7 +32,6 @@ public class Program
         //          Input	                                   Output
         // Sofia | Bulgaria | 1000000              Bulgaria(total population: 1000000)
         // report                                        =>Sofia: 1000000
-
         #endregion
     }
 }

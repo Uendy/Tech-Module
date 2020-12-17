@@ -7,7 +7,7 @@
     <ProjectGuid>{14C15509-9168-444A-BFE2-96A8539E49F4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Q07_Population_Counter</RootNamespace>
-    <AssemblyName>Q07_Population_Counter</AssemblyName>
+    <AssemblyName>Q07 Population Counter</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
