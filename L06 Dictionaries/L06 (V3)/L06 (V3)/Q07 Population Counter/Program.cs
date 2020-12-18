@@ -41,8 +41,21 @@ public class Program
         string input = Console.ReadLine();
         while (input != "report")
         {
+            // Getting data
+            var elements = input.Split('|').ToArray();
+
+            string city = elements[0];
+            string country = elements[1];
+            int population = int.Parse(elements[2]);
+
             // if new country
-            // else
+            bool newCountry = !record.ContainsKey(country);
+            if (newCountry)
+            {
+                record[country] = new Dictionary<string, int>();
+            }
+
+            record[country][city] = population;
 
             input = Console.ReadLine();
         }
