@@ -61,5 +61,16 @@ public class Program
         }
 
         // Sort and print
+        var ordered = record.OrderBy(x => x.Value).ToDictionary(x => x.Key, x => x.Value);
+
+        foreach (var country in ordered)
+        {
+            int population = country.Value.Values.Sum();
+            Console.WriteLine($"{country.Key} (total population: {population})");
+            foreach (var city in country.Value.OrderByDescending(x => x.Value))
+            {
+                Console.WriteLine($"=>{city.Key}: {city.Value}");
+            }
+        }
     }
 }
