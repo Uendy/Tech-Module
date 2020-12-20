@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q06 User Logs", "Q06 User L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q07 Population Counter", "Q07 Population Counter\Q07 Population Counter.csproj", "{14C15509-9168-444A-BFE2-96A8539E49F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q08 Logs Aggregator", "Q08 Logs Aggregator\Q08 Logs Aggregator.csproj", "{5F6ECDE4-0E07-434A-8A7B-BF4F0C51733F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{14C15509-9168-444A-BFE2-96A8539E49F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14C15509-9168-444A-BFE2-96A8539E49F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14C15509-9168-444A-BFE2-96A8539E49F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F6ECDE4-0E07-434A-8A7B-BF4F0C51733F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F6ECDE4-0E07-434A-8A7B-BF4F0C51733F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F6ECDE4-0E07-434A-8A7B-BF4F0C51733F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F6ECDE4-0E07-434A-8A7B-BF4F0C51733F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

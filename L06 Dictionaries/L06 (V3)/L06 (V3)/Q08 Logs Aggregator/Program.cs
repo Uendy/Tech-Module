@@ -44,5 +44,40 @@ public class Program
         //      212.50.118.81 alex 4
 
         #endregion
+
+        // initialize both dicts
+        var userAndIps = new SortedDictionary<string, List<string>>(); // key = username, value = list of ips
+        var userAndLogTime = new Dictionary<string, int>(); // key = username, value = total log time
+
+        // Reading input:
+        int inputs = int.Parse(Console.ReadLine());
+
+        for (int i = 0; i < inputs; i++)
+        {
+            // reading and splitting input:
+            var inputTokens = Console.ReadLine().Split(' ').ToList();
+            string ip = inputTokens[0];
+            string userName = inputTokens[1];
+            int logTime = int.Parse(inputTokens[2]);
+
+            // initializing (if needed) and updating dicts:
+            bool newUser = !userAndIps.ContainsKey(userName);
+            if (newUser)
+            {
+                userAndIps[userName] = new List<string>();
+                userAndLogTime[userName] = 0;
+            }
+
+            userAndIps[userName].Add(ip);
+            userAndLogTime[userName] += logTime;
+        }
+
+        // Order and Print output:
+        foreach (var kvp in userAndIps)
+        {
+            string user = kvp.Key;
+            var ips = string.Join(", ", userAndIps[user].Distinct().OrderBy(x => x));
+            Console.WriteLine($"{user}: {userAndLogTime[user]} [{ips}]");
+        }
     }
 }

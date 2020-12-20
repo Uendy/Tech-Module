@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5F6ECDE4-0E07-434A-8A7B-BF4F0C51733F}</ProjectGuid>
+    <ProjectGuid>{697977DA-61D9-4373-B5AC-FE93B672A022}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Q08_Logs_Aggregator</RootNamespace>
-    <AssemblyName>Q08 Logs Aggregator</AssemblyName>
+    <RootNamespace>Q09_Legendary_Farming</RootNamespace>
+    <AssemblyName>Q09_Legendary_Farming</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
