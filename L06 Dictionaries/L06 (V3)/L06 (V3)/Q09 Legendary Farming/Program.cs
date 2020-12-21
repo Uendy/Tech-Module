@@ -38,15 +38,16 @@ public class Program
         #endregion
 
         // Initialize dict:
-        var items = new Dictionary<string, int>(); // key = item, value = amount
+        var legendary = new Dictionary<string, int>(); // key = item, value = amount
+        var junk = new SortedDictionary<string, int>();
 
         // Add legendaryTokens:
-        items["shards"] = 0;
-        items["motes"] = 0;
-        items["fragments"] = 0;
+        legendary["shards"] = 0;
+        legendary["motes"] = 0;
+        legendary["fragments"] = 0;
 
         // Reading input:
-        bool legendaryAchieved = items["shards"] > 250 || items["motes"] > 250 || items["fragments"] > 250;
+        bool legendaryAchieved = legendary.Values.Any(x => x > 250);
         while (!legendaryAchieved)
         {
             string input = Console.ReadLine().ToLower();
@@ -58,41 +59,63 @@ public class Program
                 int amount = int.Parse(itemTokens[i]);
                 string item = itemTokens[i + 1];
 
-                bool newItem = !items.ContainsKey(item);
-                if(newItem)
+                // check if item is junk or legendary:
+                bool junkItem = !legendary.ContainsKey(item);
+                if (junkItem)
                 {
-                    items[item] = 0;
+                    bool newJunk = !junk.ContainsKey(item);
+                    if (newJunk)
+                    { 
+                        junk[item] = 0;
+                    }
+                    junk[item] += amount;
                 }
-                items[item] += amount;
+                else
+                {
+                    legendary[item] += amount;
+                    
+                    // Need to stop accepting items after achieving legendary
+                    if(legendary.Values.Any(x => x > 250))
+                    {
+                        break;
+                    }
+                }
 
-                // Need to stop accepting items after achieving legendary
-                if(items["shards"] > 250 || items["motes"] > 250 || items["fragments"] > 250)
-                {
-                    return;
-                }
+                
             }
 
             // Check and see if you need to keep going:
-            legendaryAchieved = items["shards"] > 250 || items["motes"] > 250 || items["fragments"] > 250;
+            legendaryAchieved = legendary.Values.Any(x => x > 250);
         }
 
         // print legendary obtained
-        if (items["shards"] > 250)
+        if (legendary["shards"] > 250)
         {
             Console.WriteLine("Shadowmourne obtained!");
-            items["shards"] -= 250;
+            legendary["shards"] -= 250;
         }
-        else if (items["motes"] > 250)
+        else if (legendary["motes"] > 250)
         {
             Console.WriteLine("Dragonwrath obtained!");
-            items["motes"] -= 250;
+            legendary["motes"] -= 250;
         }
         else // fragments
         {
             Console.WriteLine("Valanyr obtained!");
-            items["fragments"] -= 250;
+            legendary["fragments"] -= 250;
         }
 
         // order remaining items and print
+        legendary = legendary.OrderByDescending(x => x.Value).ThenBy(x => x.Key).ToDictionary(x => x.Key, y => y.Value);
+
+        foreach (var kvp in legendary)
+        {
+            Console.WriteLine($"{kvp.Key}: {kvp.Value}");
+        }
+
+        foreach (var kvp in junk)
+        {
+            Console.WriteLine($"{kvp.Key}: {kvp.Value}");
+        }
     }
 }
