@@ -77,6 +77,21 @@ public class Program
         }
 
         // print legendary obtained
+        if (items["shards"] > 250)
+        {
+            Console.WriteLine("Shadowmourne obtained!");
+            items["shards"] -= 250;
+        }
+        else if (items["motes"] > 250)
+        {
+            Console.WriteLine("Dragonwrath obtained!");
+            items["motes"] -= 250;
+        }
+        else // fragments
+        {
+            Console.WriteLine("Valanyr obtained!");
+            items["fragments"] -= 250;
+        }
 
         // order remaining items and print
     }
