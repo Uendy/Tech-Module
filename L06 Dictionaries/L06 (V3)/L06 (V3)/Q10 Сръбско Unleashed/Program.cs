@@ -33,7 +33,56 @@ public class Program
         // Ceca @Sunny Beach 70 15000                           #  Mile Kitic -> 73500
         // Saban Saolic @Sunny Beach 120 35000
         // End
-
         #endregion
+
+        // Initialize dict: key = venue (string) value = Dict<key = artist (string), value = revenue (long)>
+        var dict = new Dictionary<string, Dictionary<string, long>>();
+
+        // Reading input:
+        string input = Console.ReadLine();
+        while (input != "End")
+        {
+            // Get values 
+            var inputTokens = input.Split(' ').ToList();
+
+            // Check for the '@' before venues
+            bool validFormat = input.IndexOf('@') - 1 == ' ';
+
+            // Get ticket details and check their validity
+            bool validTicketsSold = int.TryParse(inputTokens.Last(), out int ticketsSold);
+            inputTokens.Remove(ticketsSold.ToString());
+            bool validTicketPrice = int.TryParse(inputTokens.Last(), out int ticketPrice);
+            inputTokens.Remove(ticketPrice.ToString());
+
+            bool allValid = validFormat && validTicketsSold && validTicketPrice;
+            if (allValid)
+            {
+                // Get artist and venue info
+                var artistAndVenue = string.Join(" ", inputTokens).Split('@').ToList();
+                string artist = artistAndVenue[0];
+                string venue = $"@{artistAndVenue[1]}";
+
+                // Calculate ticket total;
+                long totalRevenue = ticketsSold * ticketPrice;
+
+                // Begin updating dict
+                bool newVenue = !dict.ContainsKey(venue);
+                if (newVenue)
+                {
+                    dict[venue] = new Dictionary<string, long>();
+                }
+                bool newArtist = !dict[venue].ContainsKey(artist);
+                if (newArtist)
+                {
+                    dict[venue][artist] = 0;
+                }
+                dict[venue][artist] += totalRevenue;
+            }
+
+            // continue reading input:
+            input = Console.ReadLine();
+        }
+
+        // Order and Print
     }
 }
