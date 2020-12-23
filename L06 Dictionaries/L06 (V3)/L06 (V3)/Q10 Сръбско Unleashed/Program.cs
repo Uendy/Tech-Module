@@ -60,7 +60,7 @@ public class Program
                 // Get artist and venue info
                 var artistAndVenue = string.Join(" ", inputTokens).Split('@').ToList();
                 string artist = artistAndVenue[0].Trim();
-                string venue = $"@{artistAndVenue[1]}";
+                string venue = $"{artistAndVenue[1]}";
 
                 // Calculate ticket total;
                 long totalRevenue = ticketsSold * ticketPrice;
@@ -84,12 +84,10 @@ public class Program
         }
 
         // Order and Print
-        dict.Values.OrderByDescending(x => x.Values).ToDictionary(x => x.Keys, y => y.Values);   //Venues should be kept in the same order they were entered; the singers should be sorted by how much money they have made in descending order. If two singers have made the same amount of money, keep them in the order in which they were entered. 
-
         foreach (var kvp in dict)
         {
             Console.WriteLine(kvp.Key);
-            foreach (var artist in kvp.Value)
+            foreach (var artist in kvp.Value.OrderByDescending(x => x.Value)) // Order artists by profit (descending)
             {
                 Console.WriteLine($"#    {artist.Key} -> {artist.Value}");
             }
